@@ -30,9 +30,9 @@
 					    <div class="collapse navbar-collapse" id="navigation">
 					      <ul class="nav navbar-nav navbar-right">
 					        <li><a href="scheme.html">Схемы</a></li>
-									<li><a href="kip.html">Кип</a>
+									<li><a  class="li-a-right" href="kip.html">Кип</a>
 										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+											<a href="#" class="li-a-left dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
 											<ul class="dropdown-menu">
 												<li><a href="kip_metrology.html">Метрология</a></li>
 											</ul>
@@ -51,26 +51,33 @@
 			  <div class="row content">
 			    <aside class="col-md-2 col-sm-2 sidenav">
 						<ul class="nav nav-pills nav-stacked">
-							<li role="presentation"><a href="scheme_in.html">Введение</a></li>
-							<li role="presentation"><a href="scheme_sug.html">СУГ</a></li>
-							<li role="presentation"><a href="scheme_uhb.html">УХБ</a></li>
-							<li role="presentation"><a href="scheme_ith.html">ИТХ</a></li>
-							<li role="presentation"><a href="scheme_ups.html">Причал</a></li>
-							<li role="presentation"><a href="scheme_ahz.html">АХЗ</a></li>
-							<li role="presentation"><a href="scheme_aux.html">Вспомогательная</a></li>
-							<li role="presentation" class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="scheme_ais.html" role="button" aria-haspopup="true" aria-expanded="false">
-									АИС <span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<li role="presentation"><a href="scheme_aov.html">АОВ</a></li>
-									<li role="presentation"><a href="scheme_aseo.html">АСЭО</a></li>
-									<li role="presentation"><a href="scheme_ps.html">ПС</a></li>
-								</ul>
-							</li>
-							<li role="presentation"><a href="scheme_rotork.html">Петли. ROTORK</a></li>
-							<li role="presentation"><a href="scheme_sgoes.html">Петли. СГОЭС</a></li>
+							<li><a href="scheme_in.html">Введение</a></li>
+							<li><a href="scheme_sug.html">СУГ</a></li>
+							<li><a href="scheme_uhb.html">УХБ</a></li>
+							<li><a href="scheme_ith.html">ИТХ</a></li>
+							<li><a href="scheme_ups.html">Причал</a></li>
+							<li><a href="scheme_ahz.html">АХЗ</a></li>
+							<li><a href="scheme_aux.html">Вспомогательная</a></li>
 						</ul>
+						<!-- Тест -->
+						<ul class="nav nav-pills">
+						<li ><a class="li-a-right" href="scheme_ais.html">АИС</span></a></li>
+						<li class="dropdown">
+								<a class="li-a-left dropdown-toggle" data-toggle="dropdown" href="scheme_ais.html" role="button" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								</a>
+							<ul class="dropdown-menu">
+								<li><a href="scheme_aov.html">АОВ</a></li>
+								<li><a href="scheme_aseo.html">АСЭО</a></li>
+								<li><a href="scheme_ps.html">ПС</a></li>
+							</ul>
+						</li>
+						</ul>
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="scheme_rotork.html">Петли. ROTORK</a></li>
+							<li><a href="scheme_sgoes.html">Петли. СГОЭС</a></li>
+						</ul>
+
 			    </aside>
 			    <article class="col-md-7 col-sm-10 text-left">
 						<table class="table table-condensed">
@@ -97,7 +104,7 @@
 					    </tbody>
 					</table>
 			    </article>
-			    <aside class="col-md-3 sidenav hidden-sm">
+			    <aside class="col-md-3 sidenav visible-md visible-lg">
 						<div class="well well-first">
 						<h5>Ключевые правила безопасности:</h5>
 						</div>

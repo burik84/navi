@@ -8178,6 +8178,12 @@ body {
   margin-bottom: 60px;
   padding-top: 60px; }
 
+.li-a-right {
+  padding-right: 0 !important; }
+
+.li-a-left {
+  padding-left: 5px !important; }
+
 header {
   max-width: 1000px; }
   header .navbar {
