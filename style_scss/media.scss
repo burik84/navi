@@ -1,5 +1,30 @@
+@media screen and (max-width: 1224px) {
+  main{
+    .row{
+          aside{
+            .well{
+                padding: 5px !important;
+            }
+          }
+    }
+  }
+}
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1100px){
+  main{
+    .row{
+          aside{
+            .well{
+              p{
+                font-size: 11px !important;
+              }
+            }
+          }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .navbar-header {
     float: none;
   }
@@ -38,11 +63,38 @@
     margin-right: -15px;
     margin-left: -15px;
   }
+  main{
+    .row{
+          padding: 0 10px !important;
+          aside{
+            padding: 0 5px !important;
+            .well{
+                padding: 3px !important;
+            }
+          }
+          article{
+              padding: 0 5px !important;
+          }
+    }
+  }
 }
-@media (max-width: 868px){
+
+@media screen and (max-width: 868px){
   .navbar-brand{
     padding-left: 60px;
     padding-right: 10px;
+  }
+
+  main{
+    .row{
+          aside{
+            .well{
+              p{
+                font-size: 10px !important;
+              }
+            }
+          }
+    }
   }
 }
 

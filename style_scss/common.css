@@ -8121,7 +8121,13 @@ button.close {
   overflow: visible;
   clip: auto; }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
+  main .row aside .well {
+    padding: 5px !important; } }
+@media screen and (max-width: 1100px) {
+  main .row aside .well p {
+    font-size: 11px !important; } }
+@media screen and (max-width: 1024px) {
   .navbar-header {
     float: none; }
 
@@ -8158,11 +8164,23 @@ button.close {
 
   .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     margin-right: -15px;
-    margin-left: -15px; } }
-@media (max-width: 868px) {
+    margin-left: -15px; }
+
+  main .row {
+    padding: 0 10px !important; }
+    main .row aside {
+      padding: 0 5px !important; }
+      main .row aside .well {
+        padding: 3px !important; }
+    main .row article {
+      padding: 0 5px !important; } }
+@media screen and (max-width: 868px) {
   .navbar-brand {
     padding-left: 60px;
-    padding-right: 10px; } }
+    padding-right: 10px; }
+
+  main .row aside .well p {
+    font-size: 10px !important; } }
 @media screen and (max-width: 767px) {
   .sidenav {
     height: auto;
@@ -8177,6 +8195,9 @@ button.close {
 body {
   margin-bottom: 60px;
   padding-top: 60px; }
+
+a {
+  color: #777; }
 
 .li-a-right {
   padding-right: 0 !important; }

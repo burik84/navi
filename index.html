@@ -22,8 +22,8 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					      </button>
-								<a class="navbar-brand" href="index.html"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
-					      <a class="navbar-brand hidden-xs" href="index.html">Навигатор</a>
+								<a class="navbar-brand hidden-xs" href="index.html"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
+					      <a class="navbar-brand" href="index.html">Навигатор</a>
 								<p class="navbar-text text-center hidden-xs">...ваш помощник по КИП и АСУТП</p>
 					    </div><!-- /navbar-header -->
 					    <!-- Соберите навигационные ссылки, формы, и другой контент для переключения -->
@@ -49,8 +49,8 @@
 		<main>
 			<div class="container-fluid">
 			  <div class="row content">
-			    <aside class="col-md-2 col-sm-2 sidenav">
-						<ul class="nav nav-pills nav-stacked">
+			    <aside class="col-xs-12 col-sm-2 sidenav">
+						<ul class="nav nav-pills nav-stacked hidden-xs">
 							<li><a href="scheme_in.html">Введение</a></li>
 							<li><a href="scheme_sug.html">СУГ</a></li>
 							<li><a href="scheme_uhb.html">УХБ</a></li>
@@ -59,8 +59,7 @@
 							<li><a href="scheme_ahz.html">АХЗ</a></li>
 							<li><a href="scheme_aux.html">Вспомогательная</a></li>
 						</ul>
-						<!-- Тест -->
-						<ul class="nav nav-pills">
+						<ul class="nav nav-pills hidden-xs">
 						<li ><a class="li-a-right" href="scheme_ais.html">АИС</span></a></li>
 						<li class="dropdown">
 								<a class="li-a-left dropdown-toggle" data-toggle="dropdown" href="scheme_ais.html" role="button" aria-haspopup="true" aria-expanded="false">
@@ -73,13 +72,38 @@
 							</ul>
 						</li>
 						</ul>
-						<ul class="nav nav-pills nav-stacked">
+						<ul class="nav nav-pills nav-stacked hidden-xs">
 							<li><a href="scheme_rotork.html">Петли. ROTORK</a></li>
 							<li><a href="scheme_sgoes.html">Петли. СГОЭС</a></li>
 						</ul>
 
+						<ul class="col-md-6 nav nav-pills visible-xs">
+							<li><a href="scheme_in.html">Введение</a></li>
+							<li><a href="scheme_sug.html">СУГ</a></li>
+							<li><a href="scheme_uhb.html">УХБ</a></li>
+							<li><a href="scheme_ith.html">ИТХ</a></li>
+							<li><a href="scheme_ups.html">Причал</a></li>
+							<li><a href="scheme_ahz.html">АХЗ</a></li>
+						</ul>
+						<ul class="col-md-6 nav nav-pills visible-xs">
+							<li><a href="scheme_aux.html">Вспомогательная</a></li>
+							<li ><a class="li-a-right" href="scheme_ais.html">АИС</span></a></li>
+							<li class="dropdown">
+									<a class="li-a-left dropdown-toggle" data-toggle="dropdown" href="scheme_ais.html" role="button" aria-haspopup="true" aria-expanded="false">
+									<span class="caret"></span>
+									</a>
+								<ul class="dropdown-menu">
+									<li><a href="scheme_aov.html">АОВ</a></li>
+									<li><a href="scheme_aseo.html">АСЭО</a></li>
+									<li><a href="scheme_ps.html">ПС</a></li>
+								</ul>
+							</li>
+							<li><a href="scheme_rotork.html">Петли. ROTORK</a></li>
+							<li><a href="scheme_sgoes.html">Петли. СГОЭС</a></li>
+						</ul>
 			    </aside>
-			    <article class="col-md-7 col-sm-10 text-left">
+
+			    <article class="col-xs-12 col-sm-7 text-left">
 						<table class="table table-condensed">
 					    <thead>
 					        <tr>
@@ -102,9 +126,9 @@
 										<td>3</td>
 									</tr>
 					    </tbody>
-					</table>
+						</table>
 			    </article>
-			    <aside class="col-md-3 sidenav visible-md visible-lg">
+			    <aside class="col-sm-3 sidenav hidden-xs">
 						<div class="well well-first">
 						<h5>Ключевые правила безопасности:</h5>
 						</div>
@@ -131,7 +155,7 @@
 		<!-- Нижняя часть - подвал -->
 		<footer class="container-fluid text-right navbar-fixed-bottom">
 			<div class="container">
-					<p ><i>Идея и реализация) <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:burikAV@yandex.ru">burikAV@yandex.ru</a> ver 4.00 от <time datetime="2018-07-01">01 июля 2018</time></i></p>
+					<p ><i>Идея и реализация) <i class="hidden-xs fa fa-envelope" aria-hidden="true"></i><a href="mailto:burikAV@yandex.ru">burikAV@yandex.ru</a> ver 4.00 от <time datetime="2018-07-01">01 июля 2018</time></i></p>
 			</div>
 		</footer>
 		<!-- Для Онлайн -->
