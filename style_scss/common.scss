@@ -33,6 +33,20 @@ header{
   }
 }
 // для main
+.sidebar-up{
+  .nav > li {
+      padding: 5px;
+    & > a{
+      padding: 5px;
+    }
+    .dropdown-menu {
+      min-width: auto;
+      &  > li > a {
+        padding: 3px 5px;
+      }
+    }
+  }
+}
 
 .row{
   margin: 0 auto;

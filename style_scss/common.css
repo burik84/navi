@@ -8214,6 +8214,15 @@ header {
   header .row {
     max-width: 900px; }
 
+.sidebar-up .nav > li {
+  padding: 5px; }
+  .sidebar-up .nav > li > a {
+    padding: 5px; }
+  .sidebar-up .nav > li .dropdown-menu {
+    min-width: auto; }
+    .sidebar-up .nav > li .dropdown-menu > li > a {
+      padding: 3px 5px; }
+
 .row {
   margin: 0 auto;
   padding: 0 40px; }
