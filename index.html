@@ -5,164 +5,52 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta content="bur_AV">
-		<link rel='stylesheet' href='style_scss/common.css' type='text/css'>
+		<link rel='stylesheet' href='style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
+		<link rel='stylesheet' href='style_scss/fontawesome-free-5.1.0-web/fontawesome.css' type='text/css'>
+		<link rel='stylesheet' href='style_scss/style.css' type='text/css'>
 
 	</head>
 	<body>
-		<!-- Верхняя часть с меню - шапка-->
 		<header>
-			<nav class="navbar navbar-default navbar-fixed-top">
-				  <div class="container top row">
-							<!-- Brand и toggle сгруппированы для лучшего отображения на мобильных дисплеях -->
-					    <div class="navbar-header">
-					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					      </button>
-								<a class="navbar-brand hidden-xs" href="index.html"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
-					      <a class="navbar-brand" href="index.html">Навигатор</a>
-								<p class="navbar-text text-center hidden-xs">...ваш помощник по КИП и АСУТП</p>
-					    </div><!-- /navbar-header -->
-					    <!-- Соберите навигационные ссылки, формы, и другой контент для переключения -->
-					    <div class="collapse navbar-collapse" id="navigation">
-					      <ul class="nav navbar-nav navbar-right">
-					        <li><a href="scheme.html">Схемы</a></li>
-									<li><a  class="li-a-right" href="kip.html">Кип</a>
-										<li class="dropdown">
-											<a href="#" class="li-a-left dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="kip_metrology.html">Метрология</a></li>
-											</ul>
-										</li>
-									</li>
-									<li><a href="asutp.html">Асутп</a></li>
-									<li><a href="info.html">Информация</a></li>
-					      </ul>
-					    </div><!-- /.navbar-collapse -->
-				  </div><!-- /.container -->
-				</nav>
-		</header>
-		<!-- Основная часть -->
-		<main>
-			<div class="container sidebar-up">
-				<ul class="nav nav-pills visible-xs">
-					<li class="col-xs-5"><a href="scheme_in.html">Введение</a></li>
-					<li class="col-xs-3"><a href="scheme_sug.html">СУГ</a></li>
-					<li class="col-xs-3"><a href="scheme_uhb.html">УХБ</a></li>
-					<li class="col-xs-4"><a href="scheme_ith.html">ИТХ</a></li>
-					<li class="col-xs-4"><a href="scheme_ups.html">Причал</a></li>
-					<li class="col-xs-3"><a href="scheme_ahz.html">АХЗ</a></li>
-					<li class="col-xs-7"><a href="scheme_aux.html">Вспомогательная</a></li>
-					<li class="col-xs-2" ><a class="li-a-right" href="scheme_ais.html">АИС</span></a></li>
-					<li class="dropdown">
-							<a class="li-a-left dropdown-toggle" data-toggle="dropdown" href="scheme_ais.html" role="button" aria-haspopup="true" aria-expanded="false">
-							<span class="caret"></span>
-							</a>
-						<ul class="dropdown-menu">
-							<li><a href="scheme_aov.html">АОВ</a></li>
-							<li><a href="scheme_aseo.html">АСЭО</a></li>
-							<li><a href="scheme_ps.html">ПС</a></li>
-						</ul>
-					</li>
-					<li class="col-xs-5"><a href="scheme_rotork.html">Петли. ROTORK</a></li>
-					<li class="col-xs-5"><a href="scheme_sgoes.html">Петли. СГОЭС</a></li>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-				</ul>
-			</div>
-
-			<div class="container-fluid">
-			  <div class="row content">
-			    <aside class="col-xs-12 col-sm-2 sidenav">
-						<ul class="nav nav-pills nav-stacked hidden-xs">
-							<li><a href="scheme_in.html">Введение</a></li>
-							<li><a href="scheme_sug.html">СУГ</a></li>
-							<li><a href="scheme_uhb.html">УХБ</a></li>
-							<li><a href="scheme_ith.html">ИТХ</a></li>
-							<li><a href="scheme_ups.html">Причал</a></li>
-							<li><a href="scheme_ahz.html">АХЗ</a></li>
-							<li><a href="scheme_aux.html">Вспомогательная</a></li>
-
-						</ul>
-						<ul class="nav nav-pills hidden-xs">
-						<li ><a class="li-a-right" href="scheme_ais.html">АИС</span></a></li>
-						<li class="dropdown">
-								<a class="li-a-left dropdown-toggle" data-toggle="dropdown" href="scheme_ais.html" role="button" aria-haspopup="true" aria-expanded="false">
-								<span class="caret"></span>
-								</a>
-							<ul class="dropdown-menu">
-								<li><a href="scheme_aov.html">АОВ</a></li>
-								<li><a href="scheme_aseo.html">АСЭО</a></li>
-								<li><a href="scheme_ps.html">ПС</a></li>
-							</ul>
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 						</li>
-						</ul>
-						<ul class="nav nav-pills nav-stacked hidden-xs">
-							<li><a href="scheme_rotork.html">Петли. ROTORK</a></li>
-							<li><a href="scheme_sgoes.html">Петли. СГОЭС</a></li>
-						</ul>
-			    </aside>
-
-			    <article class="col-xs-12 col-sm-7 text-left">
-						<table class="table table-condensed">
-					    <thead>
-					        <tr>
-					            <th colspan="3"><h3>О главном...</h3></th>
-					        </tr>
-					    </thead>
-					    <tbody>
-					        <tr>
-					            <td colspan="3">Представляю Вам обновленный навигатор где собрана информация по оборудованию КИП и АСУТП, схемам и т.д. Основное обновление относится к дизайну страниц, т.к. основная цель создание адаптивного дизайна страниц.</td>
-					        </tr>
-									<tr>
-										<td colspan="3">По функционалу в сравнении с предыдущей версии будет отказ от части схем и документации, т.к. первоначальная цель это создание нового дизайна для мобильных устройств и минимизация места. То что не используется или не относится к работе попадет или попадает под удаление)</td>
-									</tr>
-									<tr>
-										<td colspan="3">Стурктура сайта схематично - раздел в разработке)</td>
-									</tr>
-									<tr>
-										<td>1</td>
-										<td>2</td>
-										<td>3</td>
-									</tr>
-					    </tbody>
-						</table>
-			    </article>
-			    <aside class="col-sm-3 sidenav hidden-xs">
-						<div class="well well-first">
-						<h5>Ключевые правила безопасности:</h5>
-						</div>
-			      <div class="well">
-			        <p><mark>Сокрытие информации</mark> об авариях, пожарах, инцидентах, фактах производственного травматизма, потенциально опасных происшествиях</p>
-			      </div>
-			      <div class="well">
-			        <p>Проведение работ повышенной опасности <mark>без наряда-допуска</mark>, а также нарушение его требований</p>
-			      </div>
-			      <div class="well">
-			        <p><mark>Отключение или нарушение целостности блокировок</mark>, противоаварийной автоматической защиты и устройств обеспечения безопасности на действующем оборудовании <mark>без соответствующего письменного разрешения</mark></p>
-			      </div>
-			      <div class="well">
-			        <p>Появление на территории предприятия <mark>в состоянии алкогольного</mark>, наркотического или иного токсического опьянения</p>
-			      </div>
-			      <div class="well well-last">
-			        <p><mark>Курение</mark> на территории предприятия вне специально отведенных для этой цели мест или <mark>использование открытого огня без специального разрешения</mark></p>
-			      </div>
-			    </aside>
-			  </div> <!-- /.row content -->
-			</div><!-- /.container-fluid -->
-		</main>
-
-		<!-- Нижняя часть - подвал -->
-		<footer class="container-fluid text-right navbar-fixed-bottom">
-			<div class="container">
-					<p ><i>Идея и реализация) <i class="hidden-xs fa fa-envelope" aria-hidden="true"></i>burikAV. ver 4.00 от <time datetime="2018-07-01">01 июля 2018</time></i></p>
-			</div>
-		</footer>
-		<!-- Для Онлайн -->
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-		<!-- Для оффлайн -->
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+		</header>
+		<script src="js/popper.js" type="text/javascript"></script>
 		<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.js" type="text/javascript"></script>
+
 	</body>
 </html>
