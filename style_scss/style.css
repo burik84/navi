@@ -10,4 +10,11 @@ header .navbar-text {
 header .collapse {
   text-transform: uppercase; }
 
+.main {
+  padding-top: 5px;
+  max-width: 1200px; }
+  .main .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+
 /*# sourceMappingURL=style.css.map */
