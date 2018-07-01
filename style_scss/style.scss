@@ -1,3 +1,8 @@
-// Импортирование новых стилей
-// bootstrap v4.1
-// fontawesome v5.1.0
+// header стили
+.fab{
+    &.fa-bandcamp{
+        float: left;
+        margin-right: 5px;
+        padding-top: 5px;
+    }
+}
