@@ -3,4 +3,11 @@
   margin-right: 5px;
   padding-top: 5px; }
 
+header .container {
+  max-width: 1200px; }
+header .navbar-text {
+  color: #fff !important; }
+header .collapse {
+  text-transform: uppercase; }
+
 /*# sourceMappingURL=style.css.map */
