@@ -1,10 +1,15 @@
+body {
+  margin-bottom: 60px;
+  padding-top: 60px; }
+
 .fab.fa-bandcamp {
   float: left;
   margin-right: 5px;
   padding-top: 5px; }
 
-header .container {
-  max-width: 1200px; }
+header nav.navbar {
+  max-width: 1200px;
+  margin: auto; }
 header .navbar-text {
   color: #fff !important; }
 header .collapse {
@@ -16,5 +21,13 @@ header .collapse {
   .main .row {
     margin-left: 0 !important;
     margin-right: 0 !important; }
+    .main .row .row-img {
+      padding-left: 1px;
+      padding-right: 1px; }
+  .main article h5 {
+    text-align: center; }
+  .main.container-fluid {
+    padding-left: 5px !important;
+    padding-right: 5px !important; }
 
 /*# sourceMappingURL=style.css.map */

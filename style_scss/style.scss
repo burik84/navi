@@ -1,6 +1,10 @@
 // variable
 $color-test:red;
 
+body {
+  margin-bottom: 60px;
+  padding-top: 60px;
+}
 // header стили
 .fab{
     &.fa-bandcamp{
@@ -10,9 +14,12 @@ $color-test:red;
     }
 }
 header{
-    .container{
-        max-width: 1200px;
+  nav{
+    &.navbar{
+    max-width: 1200px;
+    margin: auto;
     }
+  }
     .navbar-text{
         color:#fff !important;
     }
@@ -28,5 +35,19 @@ header{
     .row{
         margin-left: 0 !important;
         margin-right: 0 !important;
+        .row-img{
+          padding-left: 1px;
+          padding-right: 1px;
+        }
     }
+    article{
+      h5{
+        text-align: center;
+      }
+    }
+
+  &.container-fluid{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
 }

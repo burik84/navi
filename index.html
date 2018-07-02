@@ -9,12 +9,15 @@
 		<link rel='stylesheet' href='style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
 		<link rel='stylesheet' href='style_scss/style.css' type='text/css'>
 
+		<!--[if lt IE 9]>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 		<!-- Верхняя часть с меню - шапка-->
 		<header>
 			<div class="container mx-auto">
-				<nav class="navbar navbar-expand-md navbar-dark bg-success">
+				<nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
 					<a class="navbar-brand mb-0 h1" href="index.html"><i class="fab fa-bandcamp d-none d-sm-block"></i>Нави</a>
 					<span class="navbar-text d-none d-sm-block">...ваш помощник по КИП и АСУТП</span>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,12 +53,74 @@
 			    <nav class="col-xs col-sm-4 col-md-3 col-lg-2">
 			      Одна из трёх колонок
 			  	</nav>
-			    <article class="col-xs col-sm-8 col-md-6 col-lg-8">
-			      Одна из трёх колонок
-			    </article>
-				<div class="clearfix visible-sm-block"></div>
-			    <aside class="col-xs col-sm-12 col-md-3 col-lg-2">
-			      Одна из трёх колонок
+			    <section class="col-xs col-sm-8 col-md-9 col-lg-7">
+			      <h3>О главном...</h3>
+						<p class="lead">Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д.</p>
+						<h4>Как установить на ...</h4>
+						<article>
+							<h5>Windows <i class="fab fa-windows"></i></h5>
+							<ol>
+								<li>Скачать папку navi на собственный носитель с этого ПК.</li>
+								<li>Скопировать на свой ПК папку navi. <strong>Важно!</strong> Изменять название папок или перемещать файлы между папками - , т.к. используются относительные ссылки на файлы</li>
+								<li>В папке navi открыть файл index.html. Для удобства можно добавить ярлык index.html на рабочий стол или добавить в избранное в браузере. </li>
+								<li>Пользоваться.</li>
+							</ol>
+						</article>
+						<article>
+								<h5>Android <i class="fab fa-android"></i></h5>
+								<p>Подготовка к использованию. Для работы необходимо сервер и браузер. Тестирование проводилось на приложениях - сервер Tiny Web Server Free и браузер Chrome, поэтому рекомендую установить данные приложение <i class="fab fa-google-play"></i> или использовать другие (в помощь <i class="fab fa-yandex"></i> и <i class="fab fa-google"></i>).</p>
+								<p>Для уменьшения места перед копированием на мобильное устройство рекомендую заранее сделать копию navi и в ней удалить ненужную информацию из папки source - файлы и папки. <strong>Важно!</strong> Изменять название папок или перемещать файлы между папками - нельзя, т.к. используются относительные ссылки на файлы.</p>
+								<ol>
+									<li>Скачать подготовленную папку navi на мобильное устройство - планшет или телефон на карту памяти в любое место.</li>
+									<li>Открыть приложение Tiny Web Server Free, настроить и запустить.</li>
+									<li>Открыть браузер, ввести в строку адреса наш ipaddress:port из настроек приложения Tiny Web Server Free.</li>
+									<li>Пользоваться.</li>
+									<li><strong>Важно!</strong> При перезапуске сервера может поменяться ip address если используете разные точки выхода в интернет - мобильные сети <i class="fas fa-arrows-alt-h"></i> сети wi/fi <i class="fas fa-wifi"></i>.</li>
+								</ol>
+								<figure class="figure d-none d-md-block">
+									<div class="row">
+										<div class="row-img col-sm-4 col-md-4">
+											<img src="images/Screenshot_2018-06-29-10-48-11_web.png" class="figure-img img-fluid rounded" alt="step1">
+											<figcaption class="figure-caption">Проверяем настройки.</figcaption>
+										</div>
+										<div class="row-img col-sm-4 col-md-4 ">
+											<img src="images/Screenshot_2018-06-29-10-48-18_web.png" class="figure-img img-fluid rounded" alt="step2">
+											<figcaption class="figure-caption">Запоминаем server ip и server port.</figcaption>
+										</div>
+										<div class="row-img col-sm-4 col-md-4 ">
+											<img src="images/Screenshot_2018-06-29-10-51-55_web.png" class="figure-img img-fluid rounded" alt="step3">
+											<figcaption class="figure-caption">указываем наши ip и port.</figcaption>
+										</div>
+									</div>
+								</figure>
+						</article>
+			    </section>
+					<div class="clearfix visible-md-block"></div>
+			    <aside class="col-xs col-sm-12 col-md-12 col-lg-3">
+						<div class="card text-white bg-primary">
+							<div class="card-header"><h4 class="card-title">Ключевые правила безопасности:</h4></div>
+							<div class="card-body">
+								<h5 class="card-title">Сокрытие</h5>
+								<p class="card-text">Сокрытие информации об авариях, пожарах, инцидентах, фактах производственного травматизма, потенциально опасных происшествиях</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Наряд-допуск</h5>
+								<p class="card-text">Проведение работ повышенной опасности без наряда-допуска, а также нарушение его требований</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Блокировки</h5>
+								<p class="card-text">Отключение или нарушение целостности блокировок, противоаварийной автоматической защиты и устройств обеспечения безопасности на действующем оборудовании без соответствующего письменного разрешения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Алкоголь</h5>
+								<p class="card-text">Появление на территории предприятия в состоянии алкогольного, наркотического или иного токсического опьянения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Курение и огонь</h5>
+								<p class="card-text">Курение на территории предприятия вне специально отведенных для этой цели мест или использование открытого огня без специального разрешения</p>
+							</div>
+
+						</div>
 			  	</aside>
 		    </div>
 		</div> <!--/.main-->
