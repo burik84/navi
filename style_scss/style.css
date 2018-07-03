@@ -1,3 +1,6 @@
+@media (max-width: 767.98px) {
+  header li.nav-item.dropdown {
+    padding-left: 5px; } }
 @media (max-width: 575.98px) {
   .card h4.card-title {
     font-size: 1rem; }
@@ -6,7 +9,6 @@
   .card p.card-text {
     font-size: 0.7rem; } }
 body {
-  margin-bottom: 60px;
   padding-top: 60px; }
 
 .fab.fa-bandcamp {
@@ -17,6 +19,15 @@ body {
 header nav.navbar {
   max-width: 1200px;
   margin: auto; }
+header nav .nav-group {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle; }
+header nav .nav-padding-right {
+  padding-right: 2px !important; }
+header nav .nav-padding-left {
+  padding-left: 2px !important; }
 header .navbar-text {
   color: #fff !important; }
 header .collapse {

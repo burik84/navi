@@ -4,7 +4,7 @@
 $color-test:red;
 
 body {
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
   padding-top: 60px;
 }
 // header стили
@@ -20,6 +20,18 @@ header{
     &.navbar{
     max-width: 1200px;
     margin: auto;
+    }
+    .nav-group{
+        position: relative;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        vertical-align: middle;
+    }
+    .nav-padding-right{
+      padding-right: 2px !important;
+    }
+    .nav-padding-left{
+      padding-left: 2px !important;
     }
   }
     .navbar-text{
