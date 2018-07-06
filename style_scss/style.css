@@ -46,6 +46,8 @@ header .collapse {
     .main .row .row-img {
       padding-left: 1px;
       padding-right: 1px; }
+    .main .row .nav {
+      border-radius: 0.5rem; }
   .main article h5 {
     text-align: center; }
   .main.container-fluid {
