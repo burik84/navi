@@ -8,6 +8,28 @@
       }
     }
   }
+  .main{
+      h3{
+          font-size: 1.25rem;
+          margin-bottom: 0.25rem;
+      }
+      h4, h5{
+          font-size: 1rem;
+          margin-bottom: 0.25rem;
+      }
+      ol{
+          font-size: 0.85rem;
+          margin-bottom: 0.25rem;
+          }
+      p{
+          font-size: 0.85rem;
+          margin-bottom: 0.75rem;
+          &.lead{
+              font-size: 1rem;
+              margin-bottom: 0.75rem;
+          }
+      }
+  }
 }
 
 @media (max-width: 575.98px) {

@@ -1,6 +1,22 @@
 @media (max-width: 767.98px) {
   header li.nav-item.dropdown {
-    padding-left: 5px; } }
+    padding-left: 5px; }
+
+  .main h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem; }
+  .main h4, .main h5 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem; }
+  .main ol {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem; }
+  .main p {
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem; }
+    .main p.lead {
+      font-size: 1rem;
+      margin-bottom: 0.75rem; } }
 @media (max-width: 575.98px) {
   .card h4.card-title {
     font-size: 1rem; }
@@ -26,6 +42,7 @@ header nav.navbar {
 header nav .nav-group {
   position: relative;
   display: -ms-inline-flexbox;
+  display: -webkit-inline-box;
   display: inline-flex;
   vertical-align: middle; }
 header nav .nav-padding-right {
