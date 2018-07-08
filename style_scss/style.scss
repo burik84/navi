@@ -3,9 +3,15 @@
 
 $color-test:red;
 
+html{
+    height: 100%;
+}
+
 body {
-  // margin-bottom: 60px;
-  padding-top: 60px;
+    min-height:100%;
+    position:relative;
+    padding-top: 60px;
+    // padding-bottom: 60px;
 }
 // header стили
 .fab{
@@ -100,4 +106,30 @@ header{
       font-size: 0.8rem;
     }
   }
+}
+
+// footer стили
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 1200px;
+    margin: auto;
+    &_menu{
+        padding: 0.5rem 1rem;
+    }
+    &_text{
+        color:#fff;
+        padding: 0.5rem 1rem;
+    }
+    .nav-link{
+        color: rgba(255, 255, 255, 0.5);
+        &:focus{
+            color: rgba(255, 255, 255, 0.75);
+        }
+        &:hover{
+            color: rgba(255, 255, 255, 0.75);            
+        }
+    }
 }

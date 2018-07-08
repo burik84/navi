@@ -2,19 +2,22 @@
   header li.nav-item.dropdown {
     padding-left: 5px; }
 
-  .main h3 {
+  h3 {
     font-size: 1.25rem;
     margin-bottom: 0.25rem; }
-  .main h4, .main h5 {
+
+  h4, h5 {
     font-size: 1rem;
     margin-bottom: 0.25rem; }
-  .main ol {
+
+  ol {
     font-size: 0.85rem;
     margin-bottom: 0.25rem; }
-  .main p {
+
+  p {
     font-size: 0.85rem;
     margin-bottom: 0.75rem; }
-    .main p.lead {
+    p.lead {
       font-size: 1rem;
       margin-bottom: 0.75rem; } }
 @media (max-width: 575.98px) {
@@ -28,7 +31,12 @@
   article .carousel-inner img.w-100 {
     width: 60% !important;
     margin: auto !important; } }
+html {
+  height: 100%; }
+
 body {
+  min-height: 100%;
+  position: relative;
   padding-top: 60px; }
 
 .fab.fa-bandcamp {
@@ -88,5 +96,23 @@ header .collapse {
   font-size: 0.9rem; }
 .card p.card-text {
   font-size: 0.8rem; }
+
+.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 1200px;
+  margin: auto; }
+  .footer_menu {
+    padding: 0.5rem 1rem; }
+  .footer_text {
+    color: #fff;
+    padding: 0.5rem 1rem; }
+  .footer .nav-link {
+    color: rgba(255, 255, 255, 0.5); }
+    .footer .nav-link:focus {
+      color: rgba(255, 255, 255, 0.75); }
+    .footer .nav-link:hover {
+      color: rgba(255, 255, 255, 0.75); }
 
 /*# sourceMappingURL=style.css.map */
