@@ -73,6 +73,11 @@ header{
     padding-left: 5px !important;
     padding-right: 5px !important;
   }
+  .section{
+      &-p{
+          margin-bottom: 0;
+      }
+  }
 }
 
 
@@ -122,6 +127,9 @@ header{
     &_text{
         color:#fff;
         padding: 0.5rem 1rem;
+        p{
+            font-size: 0.85rem;
+        }
     }
     .nav-link{
         color: rgba(255, 255, 255, 0.5);
@@ -129,7 +137,7 @@ header{
             color: rgba(255, 255, 255, 0.75);
         }
         &:hover{
-            color: rgba(255, 255, 255, 0.75);            
+            color: rgba(255, 255, 255, 0.75);
         }
     }
 }

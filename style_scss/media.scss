@@ -29,7 +29,14 @@
               margin-bottom: 0.75rem;
           }
       }
-  
+      .footer{
+          &_text{
+              p{
+                  font-size: 0.75rem;
+              }
+          }
+      }
+
 }
 
 @media (max-width: 575.98px) {
@@ -55,9 +62,16 @@
       img{
         &.w-100{
           width: 60% !important;
-          margin: auto !important
+          margin: auto !important;
         }
       }
     }
+  }
+  .footer{
+      &_text{
+          p{
+              font-size: 0.7rem!important;
+          }
+      }
   }
 }
