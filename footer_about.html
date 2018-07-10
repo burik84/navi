@@ -1,1 +1,157 @@
-В разработке!
+<!doctype html>
+<html lang="ru">
+	<head>
+	<title>Навигатор</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta content="bur_AV">
+		<link rel='stylesheet' href='style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
+		<link rel='stylesheet' href='style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
+		<link rel='stylesheet' href='style_scss/style.css' type='text/css'>
+
+		<!--[if lt IE 9]>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Верхняя часть с меню - шапка-->
+		<header>
+			<div class="container mx-auto">
+				<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+					<a class="navbar-brand mb-0 h1" href="index.html"><i class="fab fa-bandcamp"></i>Нави</a>
+					<span class="navbar-text d-none d-sm-block">...ваш помощник по КИП и АСУТП</span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="scheme.html">Схемы</a>
+							</li>
+							<div class="nav-group">
+								<li class="nav-item">
+									<a class="nav-link nav-padding-right" href="kip.html">Кип</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle dropdown-toggle-split nav-padding-left" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="kip_metrology.html">Метрология</a>
+									</div>
+								</li>
+							</div>
+
+							<li class="nav-item">
+								<a class="nav-link" href="asutp.html">Асутп</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="info.html">Информация</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<div class="main container-fluid">
+			<div class="row">
+			    <div class="col-xs col-sm-12 col-md-3 col-lg-2 ">
+						<nav class="nav nav-pills flex-row flex-md-column bg-light">
+							<a class="flex-fill nav-link" href="scheme_in.html">Введение</a>
+							<a class="flex-fill nav-link" href="scheme_sug.html">СУГ</a>
+							<a class="flex-fill nav-link" href="scheme_uhb.html">УХБ</a>
+							<a class="flex-fill nav-link" href="scheme_ith.html">ИТХ</a>
+							<a class="flex-fill nav-link" href="scheme_ups.html">Причал</a>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Проекты</a>
+								<div class="dropdown-menu">
+								<a class="dropdown-item" href="scheme_ahz.html">АХЗ</a>
+								<a class="dropdown-item" href="scheme_aux.html">Вспомогательная</a>
+								<a class="dropdown-item" href="scheme_ais.html">АИС</a>
+								<a class="dropdown-item" href="scheme_aov.html">АОВ</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Петли</a>
+								<div class="dropdown-menu">
+								<a class="dropdown-item" href="scheme_rotork.html">Петли. ROTORK</a>
+								<a class="dropdown-item" href="scheme_sgoes.html">Петли. СГОЭС</a>
+								</div>
+							</li>
+						</nav>
+			  	</div>
+			    <section class="col-xs col-sm-12 col-md-9 col-lg-7">
+			      <h3>О Проекте.</h3>
+						<p class="lead">Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д.</p>
+						<article>
+							<p class="section-p">Версия проекта 4.18 и если предыдущие версии назывались навигатор, то сейчас будем называть данный проект -  нави) и ориентирована на использование в мобильных устройствах - смартфоны и планшеты, и конечно удобства использования на ПК. Поэтому после небольшого опыта эксплуатации предыдущей версии отказался от части материалов. По желанию можно и самому пользователю удалить лишнюю информацию для уменьшения места.</p>
+						</article>
+						<article>
+								<h5>О версии</h5>
+								<p>в данной версии использовал:
+                /Основной язык разметки страниц html5;
+                /стили выполнены с помощью css3 & bootstrap v4.1.1;
+                /в качестве иконок с картинками - FontAwesome 5.1.</p>
+
+						</article>
+			    </section>
+					<div class="clearfix visible-md-block"></div>
+			    <aside class="col-xs col-sm-12 col-md-12 col-lg-3">
+						<div class="card text-white bg-info">
+							<div class="card-header"><h4 class="card-title">Ключевые правила безопасности:</h4></div>
+							<div class="card-body">
+								<h5 class="card-title">Сокрытие информации</h5>
+								<p class="card-text">Сокрытие информации об авариях, пожарах, инцидентах, фактах производственного травматизма, потенциально опасных происшествиях</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Наряд-допуск</h5>
+								<p class="card-text">Проведение работ повышенной опасности без наряда-допуска, а также нарушение его требований</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Блокировки без разрешения</h5>
+								<p class="card-text">Отключение или нарушение целостности блокировок, противоаварийной автоматической защиты и устройств обеспечения безопасности на действующем оборудовании без соответствующего письменного разрешения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Алкоголь</h5>
+								<p class="card-text">Появление на территории предприятия в состоянии алкогольного, наркотического или иного токсического опьянения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Курение и огонь</h5>
+								<p class="card-text">Курение на территории предприятия вне специально отведенных для этой цели мест или использование открытого огня без специального разрешения</p>
+							</div>
+
+						</div>
+			  	</aside>
+		    </div>
+		</div> <!--/.main-->
+		<footer class="footer fixed-bottom">
+			<div class="container-fluid bg-info">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 footer_menu">
+						<nav class="nav">
+							<a class="flex-fill nav-item nav-link" href="index.html"><i class="fab fa-bandcamp"></i> Главная</a>
+							<a class="flex-fill nav-item nav-link" href="footer_about.html">О проекте</a>
+							<a class="flex-fill nav-item nav-link" href="footer_map.html">Карта сайта</a>
+						</nav>
+					</div>
+					<div class="col-sm-12 col-md-8">
+						<div class="row">
+								<div class="col-sm-8 col-md-8 footer_text">
+									<p>Надеюсь вы нашли здесь необходимую информацию, если нет <a href="https://ya.ru/" class="nav-link"><i class="fas fa-search"></i> Yandex</a> в помощь). Подскажите мне о найденной информации и я добавлю в проект <i class="far fa-smile-wink"></i></p>
+								</div>
+								<div class="col-sm-4 col-md-4 footer_text">
+									<p class="footer_text_p">Идея проекта и реализация принадлежит <i class="far fa-copyright"></i> burikAV.</p>
+									<p>Версия 4.18 от 23 июля 2018.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/popper.js" type="text/javascript"></script>
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.js" type="text/javascript"></script>
+
+	</body>
+</html>

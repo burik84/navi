@@ -1,4 +1,11 @@
+@charset "UTF-8";
+@media (max-width: 991px) {
+  body {
+    padding-bottom: 150px !important; } }
 @media (max-width: 767.98px) {
+  body {
+    padding-bottom: 160px !important; }
+
   header li.nav-item.dropdown {
     padding-left: 5px; }
 
@@ -24,6 +31,9 @@
   .footer_text p {
     font-size: 0.75rem !important; } }
 @media (max-width: 575.98px) {
+  body {
+    padding-bottom: 200px !important; }
+
   .card h4.card-title {
     font-size: 1rem; }
   .card h5.card-title {
@@ -37,13 +47,16 @@
 
   .footer_text p {
     font-size: 0.7rem !important; } }
+@media (max-width: 471px) {
+  body {
+    padding-bottom: 230px !important; } }
 html {
-  height: 100%; }
+  position: relative;
+  min-height: 100%; }
 
 body {
-  min-height: 100%;
-  position: relative;
-  padding-top: 60px; }
+  padding-top: 60px;
+  padding-bottom: 90px; }
 
 a {
   color: #17a2b8; }
@@ -140,5 +153,31 @@ header .navbar-dark .navbar-nav .nav-link {
       color: rgba(255, 255, 255, 0.9); }
     .footer .nav-link:focus {
       color: rgba(255, 255, 255, 0.9); }
+  .footer .scrollup {
+    color: #fff;
+    /* цвет текста */
+    background-color: #286090;
+    /* цвет заднего фона */
+    right: 20px;
+    /* расстояние от правого края */
+    bottom: 0px;
+    /* расстояние от нижнего края */
+    padding: 4px 10px;
+    /* отступы до содержимого блока */
+    font-size: 20px;
+    /* размер шрифта (иконки) */
+    border-top-left-radius: 4px;
+    /* скругление верхнего левого угла */
+    border-top-right-radius: 4px;
+    /* скругление верхнего правого угла */
+    cursor: pointer;
+    /* форма курсора */
+    display: none;
+    /* не отображать элемент */
+    text-align: center;
+    /*выравнивание содержимого элемента по центру */ }
+    .footer .scrollup:hover {
+      background-color: #000;
+      /* цвет заднего фона при наведении */ }
 
 /*# sourceMappingURL=style.css.map */
