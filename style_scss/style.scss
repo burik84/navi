@@ -6,11 +6,11 @@ $color-test:red;
 html{
     position: relative;
     min-height: 100%;
+    width: 100%;
 }
 
 body {
     padding-top: 60px;
-    padding-bottom: 90px;
 }
 a {
   color: #17a2b8;
@@ -29,6 +29,8 @@ a {
     }
 }
 header{
+    max-width: 1200px;
+    padding-left: 5px!important;
   nav{
     &.navbar{
     max-width: 1200px;
@@ -136,17 +138,15 @@ header{
 // footer стили
 
 .footer {
-    left: 0;
-    right: 0;
-    bottom: 0;
     max-width: 1200px;
     margin: auto;
+    padding-top: 5px;
     &_menu{
         padding: 0.5rem 1rem;
     }
     &_text{
         color:#fff;
-        padding: 0.5rem 1rem;
+        padding: 0.1rem 0.2rem;
         p{
             font-size: 0.85rem;
         }
@@ -168,21 +168,31 @@ header{
       &:focus{
         color: rgba(255, 255, 255, 0.9);
       }
+      &.active{
+          color: #fff;
+      }
     }
     .scrollup {
-      color: #fff; /* цвет текста */
-      background-color: #286090; /* цвет заднего фона */
-      right: 20px; /* расстояние от правого края */
-      bottom: 0px; /* расстояние от нижнего края */
-      padding: 4px 10px; /* отступы до содержимого блока */
-      font-size: 20px; /* размер шрифта (иконки) */
-      border-top-left-radius: 4px; /* скругление верхнего левого угла */
-      border-top-right-radius: 4px; /* скругление верхнего правого угла */
-      cursor: pointer; /* форма курсора */
-      display: none; /* не отображать элемент */
-      text-align: center; /*выравнивание содержимого элемента по центру */
+        position: fixed;
+        color: #fff; /* цвет текста */
+        background-color: #286090; /* цвет заднего фона */
+        right: 10px; /* расстояние от правого края */
+        bottom: 10px; /* расстояние от нижнего края */
+        padding: 2px 4px; /* отступы до содержимого блока */
+        font-size: 16px; /* размер шрифта (иконки) */
+        border-radius: 4px;
+        cursor: pointer; /* форма курсора */
+        display: none; /* не отображать элемент */
+        text-align: center; /*выравнивание содержимого элемента по центру */
+        z-index: 10;
+        opacity: .75;
         &:hover {
-          background-color: #000; /* цвет заднего фона при наведении */
+          background-color: #3aa111; /* цвет заднего фона при наведении */
+        }
+        p{
+            font-size: 8px; /* размер шрифта (иконки) */
+            margin-bottom: 0;
+            text-transform: uppercase;
         }
     }
 }

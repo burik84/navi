@@ -1,11 +1,15 @@
 @charset "UTF-8";
-@media (max-width: 991px) {
+@media (min-width: 991px) {
   body {
-    padding-bottom: 150px !important; } }
-@media (max-width: 767.98px) {
-  body {
-    padding-bottom: 160px !important; }
+    padding-bottom: 90px !important; }
 
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030; } }
+@media (max-width: 767.98px) {
   header li.nav-item.dropdown {
     padding-left: 5px; }
 
@@ -31,9 +35,6 @@
   .footer_text p {
     font-size: 0.75rem !important; } }
 @media (max-width: 575.98px) {
-  body {
-    padding-bottom: 200px !important; }
-
   .card h4.card-title {
     font-size: 1rem; }
   .card h5.card-title {
@@ -47,16 +48,13 @@
 
   .footer_text p {
     font-size: 0.7rem !important; } }
-@media (max-width: 471px) {
-  body {
-    padding-bottom: 230px !important; } }
 html {
   position: relative;
-  min-height: 100%; }
+  min-height: 100%;
+  width: 100%; }
 
 body {
-  padding-top: 60px;
-  padding-bottom: 90px; }
+  padding-top: 60px; }
 
 a {
   color: #17a2b8; }
@@ -69,28 +67,32 @@ a {
   margin-right: 5px;
   padding-top: 5px; }
 
-header nav.navbar {
+header {
   max-width: 1200px;
-  margin: auto; }
-header nav .nav-group {
-  position: relative;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  vertical-align: middle; }
-header nav .nav-padding-right {
-  padding-right: 2px !important; }
-header nav .nav-padding-left {
-  padding-left: 2px !important; }
-header .navbar-text {
-  color: #fff !important; }
-header .collapse {
-  text-transform: uppercase; }
-header .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.7); }
-  header .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.9); }
-  header .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.9); }
+  padding-left: 5px !important; }
+  header nav.navbar {
+    max-width: 1200px;
+    margin: auto; }
+  header nav .nav-group {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    vertical-align: middle; }
+  header nav .nav-padding-right {
+    padding-right: 2px !important; }
+  header nav .nav-padding-left {
+    padding-left: 2px !important; }
+  header .navbar-text {
+    color: #fff !important; }
+  header .collapse {
+    text-transform: uppercase; }
+  header .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7); }
+    header .navbar-dark .navbar-nav .nav-link:hover {
+      color: rgba(255, 255, 255, 0.9); }
+    header .navbar-dark .navbar-nav .nav-link:focus {
+      color: rgba(255, 255, 255, 0.9); }
 
 .main {
   padding-top: 5px;
@@ -130,16 +132,14 @@ header .navbar-dark .navbar-nav .nav-link {
   font-size: 0.8rem; }
 
 .footer {
-  left: 0;
-  right: 0;
-  bottom: 0;
   max-width: 1200px;
-  margin: auto; }
+  margin: auto;
+  padding-top: 5px; }
   .footer_menu {
     padding: 0.5rem 1rem; }
   .footer_text {
     color: #fff;
-    padding: 0.5rem 1rem; }
+    padding: 0.1rem 0.2rem; }
     .footer_text p {
       font-size: 0.85rem; }
     .footer_text_p {
@@ -153,31 +153,38 @@ header .navbar-dark .navbar-nav .nav-link {
       color: rgba(255, 255, 255, 0.9); }
     .footer .nav-link:focus {
       color: rgba(255, 255, 255, 0.9); }
+    .footer .nav-link.active {
+      color: #fff; }
   .footer .scrollup {
+    position: fixed;
     color: #fff;
     /* цвет текста */
     background-color: #286090;
     /* цвет заднего фона */
-    right: 20px;
+    right: 10px;
     /* расстояние от правого края */
-    bottom: 0px;
+    bottom: 10px;
     /* расстояние от нижнего края */
-    padding: 4px 10px;
+    padding: 2px 4px;
     /* отступы до содержимого блока */
-    font-size: 20px;
+    font-size: 16px;
     /* размер шрифта (иконки) */
-    border-top-left-radius: 4px;
-    /* скругление верхнего левого угла */
-    border-top-right-radius: 4px;
-    /* скругление верхнего правого угла */
+    border-radius: 4px;
     cursor: pointer;
     /* форма курсора */
     display: none;
     /* не отображать элемент */
     text-align: center;
-    /*выравнивание содержимого элемента по центру */ }
+    /*выравнивание содержимого элемента по центру */
+    z-index: 10;
+    opacity: .75; }
     .footer .scrollup:hover {
-      background-color: #000;
+      background-color: #3aa111;
       /* цвет заднего фона при наведении */ }
+    .footer .scrollup p {
+      font-size: 8px;
+      /* размер шрифта (иконки) */
+      margin-bottom: 0;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

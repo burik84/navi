@@ -3,11 +3,12 @@
 	<head>
 	<title>Навигатор</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta content="bur_AV">
-		<link rel='stylesheet' href='style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
-		<link rel='stylesheet' href='style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
-		<link rel='stylesheet' href='style_scss/style.css' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="bur_AV">
+	<link rel='stylesheet' href='style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
+	<link rel='stylesheet' href='style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
+	<link rel='stylesheet' href='style_scss/style.css' type='text/css'>
 
 		<!--[if lt IE 9]>
 		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -15,8 +16,7 @@
 	</head>
 	<body>
 		<!-- Верхняя часть с меню - шапка-->
-		<header>
-			<div class="container mx-auto">
+		<header class="container-fluid">
 				<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
 					<a class="navbar-brand mb-0 h1" href="index.html"><i class="fab fa-bandcamp"></i>Нави</a>
 					<span class="navbar-text d-none d-sm-block">...ваш помощник по КИП и АСУТП</span>
@@ -43,7 +43,6 @@
 						</ul>
 					</div>
 				</nav>
-			</div>
 		</header>
 		<div class="main container-fluid">
 			<div class="row">
@@ -73,8 +72,9 @@
 						</nav>
 			  	</div>
 			    <section class="col-xs col-sm-12 col-md-9 col-lg-7">
+					<!-- Основной контент -->
 			      <h3>О главном...</h3>
-						<p class="lead">Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д.</p>
+						<p class="lead">Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д. Вы находитесь на главной странице. Ниже дана инструкция по использованию нави на ПК и мобильных устройствах. Пожалуйста ознакомтесь с ней, прежде чем задавать вопросы)</p>
 						<h4>Важно!</h4>
 						<p class="section-p">Внутри папки navi, в связи с тем что используются относительные ссылки на название файлов, запрещается</p>
 						<ul>
@@ -133,6 +133,7 @@
 									</div>
 								</div>
 						</article>
+					<!--/ Основной контент-->
 			    </section>
 					<div class="clearfix visible-md-block"></div>
 			    <aside class="col-xs col-sm-12 col-md-12 col-lg-3">
@@ -163,14 +164,15 @@
 			  	</aside>
 		    </div>
 		</div> <!--/.main-->
-		<footer class="footer fixed-bottom">
+		<footer class="footer">
 			<div class="container-fluid bg-info">
 				<div class="row">
 					<div class="col-sm-12 col-md-4 footer_menu">
 						<nav class="nav">
 							<a class="flex-fill nav-item nav-link" href="index.html"><i class="fab fa-bandcamp"></i> Главная</a>
+							<!-- Кнопка наверх -->
 							<div class="scrollup">
-							<i class="fas fa-chevron-up"></i>
+								<i class="fas fa-chevron-up"></i><p>наверх</p>
 							</div>
 							<a class="flex-fill nav-item nav-link" href="footer_about.html">О проекте</a>
 							<a class="flex-fill nav-item nav-link" href="footer_map.html">Карта сайта</a>
@@ -182,7 +184,7 @@
 									<p>Надеюсь вы нашли здесь необходимую информацию, если нет <a href="https://ya.ru/" class="nav-link"><i class="fas fa-search"></i> Yandex</a> в помощь). Подскажите мне о найденной информации и я добавлю в проект <i class="far fa-smile-wink"></i></p>
 								</div>
 								<div class="col-sm-4 col-md-4 footer_text">
-									<p class="footer_text_p">Идея проекта и реализация принадлежит <i class="far fa-copyright"></i> burikAV.</p>
+									<p class="footer_text_p">Идея проекта и реализация burikAV. <i class="far fa-copyright"></i>Оформление сайта burikAV 2014-2018.</p>
 									<p>Версия 4.18 от 23 июля 2018.</p>
 								</div>
 						</div>
@@ -190,6 +192,7 @@
 				</div>
 			</div>
 		</footer>
+
 
 		<script src="js/popper.js" type="text/javascript"></script>
 		<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>

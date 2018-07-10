@@ -1,14 +1,18 @@
-@media (max-width: 991px){
+@media (min-width: 991px){
   body {
-      padding-bottom: 150px !important;
+      padding-bottom: 90px !important;
+  }
+  .footer{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1030;
   }
 }
 
 
 @media (max-width: 767.98px) {
-  body {
-      padding-bottom: 160px !important;
-  }
   header{
     li{
       &.nav-item{
@@ -50,9 +54,6 @@
 }
 
 @media (max-width: 575.98px) {
-  body {
-      padding-bottom: 200px !important;
-  }
   .card{
     h4{
       &.card-title{
@@ -86,10 +87,5 @@
               font-size: 0.7rem!important;
           }
       }
-  }
-}
-@media (max-width: 471.0px) {
-  body {
-      padding-bottom: 230px !important;
   }
 }
