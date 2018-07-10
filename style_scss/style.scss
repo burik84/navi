@@ -13,6 +13,14 @@ body {
     padding-top: 60px;
     // padding-bottom: 60px;
 }
+a {
+  color: #17a2b8;
+}
+.nav-pills{
+  .show > .nav-link{
+    background-color: #17a2b8;
+  }
+}
 // header стили
 .fab{
     &.fa-bandcamp{
@@ -45,6 +53,19 @@ header{
     }
     .collapse{
         text-transform: uppercase;
+    }
+    .navbar-dark{
+      .navbar-nav{
+        .nav-link{
+          color: rgba(255, 255, 255, 0.7);
+          &:hover{
+            color: rgba(255, 255, 255, 0.9);
+          }
+          &:focus{
+            color: rgba(255, 255, 255, 0.9);
+          }
+        }
+      }
     }
 }
 
@@ -130,14 +151,23 @@ header{
         p{
             font-size: 0.85rem;
         }
+        &_p{
+          margin-bottom: 0;
+        }
+        a{
+          &.nav-link{
+            display: inline;
+            padding: 0;
+          }
+        }
     }
     .nav-link{
-        color: rgba(255, 255, 255, 0.5);
-        &:focus{
-            color: rgba(255, 255, 255, 0.75);
-        }
-        &:hover{
-            color: rgba(255, 255, 255, 0.75);
-        }
+      color: rgba(255, 255, 255, 0.7);
+      &:hover{
+        color: rgba(255, 255, 255, 0.9);
+      }
+      &:focus{
+        color: rgba(255, 255, 255, 0.9);
+      }
     }
 }
