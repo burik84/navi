@@ -89,4 +89,17 @@
           }
       }
   }
+
+  .map{
+      .nav-link{
+          padding: 0.2rem 0.4rem!important;
+          font-size: 0.7rem!important;
+          &:first-child{
+              font-size: 1rem!important;
+          }
+          &:last-child{
+              margin-bottom: 0.4rem!important;
+          }
+      }
+  }
 }

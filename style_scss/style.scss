@@ -83,6 +83,7 @@ header{
         }
         .nav{
           border-radius: 0.5rem;
+          text-transform: uppercase;
         }
     }
     article{
@@ -134,12 +135,27 @@ header{
     }
   }
 }
-
+.map{
+    .nav-link{
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+        &:first-child{
+            font-size: 1.1rem;
+        }
+        &.map-secondary{
+            margin-left: 8px;
+        }
+        &.map-tertiary{
+            margin-left: 16px;
+        }
+        &:last-child{
+            margin-bottom: 0.5rem;
+        }
+    }
+}
 // footer стили
 
 .footer {
-    // max-width: 1200px;
-    // margin: auto;
     padding-top: 5px;
     &_menu{
         padding: 0.5rem 1rem;
