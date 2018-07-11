@@ -29,12 +29,12 @@ a {
     }
 }
 header{
-    max-width: 1200px;
+    // max-width: 1200px;
     padding-left: 5px!important;
   nav{
     &.navbar{
-    max-width: 1200px;
-    margin: auto;
+    // max-width: 1200px;
+    // margin: auto;
     }
     .nav-group{
         position: relative;
@@ -138,8 +138,8 @@ header{
 // footer стили
 
 .footer {
-    max-width: 1200px;
-    margin: auto;
+    // max-width: 1200px;
+    // margin: auto;
     padding-top: 5px;
     &_menu{
         padding: 0.5rem 1rem;
@@ -151,7 +151,7 @@ header{
             font-size: 0.85rem;
         }
         &_p{
-          margin-bottom: 0;
+          margin-bottom: 0.1rem;
         }
         a{
           &.nav-link{
@@ -170,6 +170,7 @@ header{
       }
       &.active{
           color: #fff;
+          border-bottom: 1px solid #fff;
       }
     }
     .scrollup {
