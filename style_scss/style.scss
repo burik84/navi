@@ -20,6 +20,7 @@ a {
     background-color: #17a2b8;
   }
 }
+
 // header стили
 .fab{
     &.fa-bandcamp{
@@ -212,4 +213,25 @@ header{
             text-transform: uppercase;
         }
     }
+}
+
+// Стили для подсказки
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: #286090; /* цвет стрелочки (по умолчанию #000)*/
+}
+.bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+    border-right-color: #286090; /* цвет стрелочки (по умолчанию #000)*/
+}
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: #286090; /* цвет стрелочки (по умолчанию #000) */
+}
+.bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+    border-left-color: #286090; /* цвет стрелочки (по умолчанию #000) */
+}
+.tooltip-inner {
+    max-width: 250px; /* максимальная ширина подсказки (по умолчанию 200px) */
+    color: #fff; /* цвет шрифта */
+    background-color: #286090; /* цвет фона (по умолчанию #000) */
+    border-radius: 0.25rem; /* радиус скругдения углов */
+    opacity: 0.95;
 }

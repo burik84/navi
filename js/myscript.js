@@ -19,3 +19,9 @@ $(window).scroll(function() {
     $('.scrollup').fadeOut();
   }
 });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip({
+      placement: "bottom",
+      delay: { show: 300, hide: 300 }
+  });
+});
