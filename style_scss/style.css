@@ -76,7 +76,6 @@ header {
   header nav .nav-group {
     position: relative;
     display: -ms-inline-flexbox;
-    display: -webkit-inline-box;
     display: inline-flex;
     vertical-align: middle; }
   header nav .nav-padding-right {
