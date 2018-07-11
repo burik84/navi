@@ -43,12 +43,6 @@ header{
         display: inline-flex;
         vertical-align: middle;
     }
-    .nav-padding-right{
-      padding-right: 2px !important;
-    }
-    .nav-padding-left{
-      padding-left: 2px !important;
-    }
   }
     .navbar-text{
         color:#fff !important;
@@ -229,7 +223,6 @@ header{
     border-left-color: #286090; /* цвет стрелочки (по умолчанию #000) */
 }
 .tooltip-inner {
-    max-width: 250px; /* максимальная ширина подсказки (по умолчанию 200px) */
     color: #fff; /* цвет шрифта */
     background-color: #286090; /* цвет фона (по умолчанию #000) */
     border-radius: 0.25rem; /* радиус скругдения углов */

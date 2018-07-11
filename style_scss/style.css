@@ -84,10 +84,6 @@ header {
     display: -webkit-inline-box;
     display: inline-flex;
     vertical-align: middle; }
-  header nav .nav-padding-right {
-    padding-right: 2px !important; }
-  header nav .nav-padding-left {
-    padding-left: 2px !important; }
   header .navbar-text {
     color: #fff !important; }
   header .collapse {
@@ -221,8 +217,6 @@ header {
   /* цвет стрелочки (по умолчанию #000) */ }
 
 .tooltip-inner {
-  max-width: 250px;
-  /* максимальная ширина подсказки (по умолчанию 200px) */
   color: #fff;
   /* цвет шрифта */
   background-color: #286090;
