@@ -81,7 +81,6 @@ header {
   header nav .nav-group {
     position: relative;
     display: -ms-inline-flexbox;
-    display: -webkit-inline-box;
     display: inline-flex;
     vertical-align: middle; }
   header .navbar-text {
@@ -107,6 +106,8 @@ header {
     .main .row .nav {
       border-radius: 0.5rem;
       text-transform: uppercase; }
+  .main section h3 {
+    text-align: center; }
   .main article h5 {
     text-align: center; }
   .main.container-fluid {
