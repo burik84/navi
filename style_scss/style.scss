@@ -21,6 +21,7 @@ a {
   }
 }
 
+
 // header стили
 .fab{
     &.fa-bandcamp{
@@ -83,7 +84,7 @@ header{
     }
     section{
       h3{
-        text-align: center;        
+        text-align: center;
       }
     }
     article{
@@ -189,28 +190,28 @@ header{
           border-bottom: 1px solid #fff;
       }
     }
-    .scrollup {
-        position: fixed;
-        color: #fff; /* цвет текста */
-        background-color: #286090; /* цвет заднего фона */
-        right: 10px; /* расстояние от правого края */
-        bottom: 10px; /* расстояние от нижнего края */
-        padding: 2px 4px; /* отступы до содержимого блока */
-        font-size: 16px; /* размер шрифта (иконки) */
-        border-radius: 4px;
-        cursor: pointer; /* форма курсора */
-        display: none; /* не отображать элемент */
-        text-align: center; /*выравнивание содержимого элемента по центру */
-        z-index: 10;
-        opacity: .75;
-        &:hover {
-          background-color: #3aa111; /* цвет заднего фона при наведении */
-        }
-        p{
-            font-size: 8px; /* размер шрифта (иконки) */
-            margin-bottom: 0;
-            text-transform: uppercase;
-        }
+  }
+.scrollup {
+    position: fixed;
+    color: #fff; /* цвет текста */
+    background-color: #286090; /* цвет заднего фона */
+    right: 10px; /* расстояние от правого края */
+    bottom: 10px; /* расстояние от нижнего края */
+    padding: 2px 4px; /* отступы до содержимого блока */
+    font-size: 16px; /* размер шрифта (иконки) */
+    border-radius: 4px;
+    cursor: pointer; /* форма курсора */
+    display: none; /* не отображать элемент */
+    text-align: center; /*выравнивание содержимого элемента по центру */
+    z-index: 10;
+    opacity: .75;
+    &:hover {
+      background-color: #3aa111; /* цвет заднего фона при наведении */
+    }
+    p{
+        font-size: 8px; /* размер шрифта (иконки) */
+        margin-bottom: 0;
+        text-transform: uppercase;
     }
 }
 
@@ -232,4 +233,11 @@ header{
     background-color: #286090; /* цвет фона (по умолчанию #000) */
     border-radius: 0.25rem; /* радиус скругдения углов */
     opacity: 0.95;
+}
+// Стили для иконок
+.img_css{
+  // border: 0;
+  height: 31px;
+  margin-right: 20px;
+  margin-left: 5px;
 }

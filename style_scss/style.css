@@ -169,37 +169,38 @@ header {
     .footer .nav-link.active {
       color: #fff;
       border-bottom: 1px solid #fff; }
-  .footer .scrollup {
-    position: fixed;
-    color: #fff;
-    /* цвет текста */
-    background-color: #286090;
-    /* цвет заднего фона */
-    right: 10px;
-    /* расстояние от правого края */
-    bottom: 10px;
-    /* расстояние от нижнего края */
-    padding: 2px 4px;
-    /* отступы до содержимого блока */
-    font-size: 16px;
+
+.scrollup {
+  position: fixed;
+  color: #fff;
+  /* цвет текста */
+  background-color: #286090;
+  /* цвет заднего фона */
+  right: 10px;
+  /* расстояние от правого края */
+  bottom: 10px;
+  /* расстояние от нижнего края */
+  padding: 2px 4px;
+  /* отступы до содержимого блока */
+  font-size: 16px;
+  /* размер шрифта (иконки) */
+  border-radius: 4px;
+  cursor: pointer;
+  /* форма курсора */
+  display: none;
+  /* не отображать элемент */
+  text-align: center;
+  /*выравнивание содержимого элемента по центру */
+  z-index: 10;
+  opacity: .75; }
+  .scrollup:hover {
+    background-color: #3aa111;
+    /* цвет заднего фона при наведении */ }
+  .scrollup p {
+    font-size: 8px;
     /* размер шрифта (иконки) */
-    border-radius: 4px;
-    cursor: pointer;
-    /* форма курсора */
-    display: none;
-    /* не отображать элемент */
-    text-align: center;
-    /*выравнивание содержимого элемента по центру */
-    z-index: 10;
-    opacity: .75; }
-    .footer .scrollup:hover {
-      background-color: #3aa111;
-      /* цвет заднего фона при наведении */ }
-    .footer .scrollup p {
-      font-size: 8px;
-      /* размер шрифта (иконки) */
-      margin-bottom: 0;
-      text-transform: uppercase; }
+    margin-bottom: 0;
+    text-transform: uppercase; }
 
 .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
   border-top-color: #286090;
@@ -225,5 +226,10 @@ header {
   border-radius: 0.25rem;
   /* радиус скругдения углов */
   opacity: 0.95; }
+
+.img_css {
+  height: 31px;
+  margin-right: 20px;
+  margin-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */
