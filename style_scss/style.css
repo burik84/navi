@@ -101,9 +101,9 @@ header {
   .main .row {
     margin-left: 0 !important;
     margin-right: 0 !important; }
-    .main .row .row-img {
-      padding-left: 1px;
-      padding-right: 1px; }
+    .main .row .carousel img.img-fluid {
+      max-height: 270px;
+      max-width: 215px; }
     .main .row .nav {
       border-radius: 0.5rem;
       text-transform: uppercase; }
@@ -234,4 +234,5 @@ header {
   margin-right: 20px;
   margin-left: 5px;
   margin-top: 5px; }
+
 /*# sourceMappingURL=style.css.map */

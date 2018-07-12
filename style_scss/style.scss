@@ -73,9 +73,13 @@ header{
     .row{
         margin-left: 0 !important;
         margin-right: 0 !important;
-        .row-img{
-          padding-left: 1px;
-          padding-right: 1px;
+        .carousel{
+            img{
+                &.img-fluid{
+                    max-height: 270px;
+                    max-width: 215px
+                }
+            }
         }
         .nav{
           border-radius: 0.5rem;
