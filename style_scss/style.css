@@ -81,6 +81,7 @@ header {
   header nav .nav-group {
     position: relative;
     display: -ms-inline-flexbox;
+    display: -webkit-inline-box;
     display: inline-flex;
     vertical-align: middle; }
   header .navbar-text {
@@ -228,9 +229,9 @@ header {
   opacity: 0.95; }
 
 .img_css {
-  border-radius: 4px;
-  height: 31px;
+  border-radius: 5px;
+  height: 32px;
   margin-right: 20px;
-  margin-left: 5px; }
-
+  margin-left: 5px;
+  margin-top: 5px; }
 /*# sourceMappingURL=style.css.map */
