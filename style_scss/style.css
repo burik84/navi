@@ -228,6 +228,7 @@ header {
   opacity: 0.95; }
 
 .img_css {
+  border-radius: 4px;
   height: 31px;
   margin-right: 20px;
   margin-left: 5px; }
