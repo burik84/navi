@@ -158,6 +158,19 @@ header{
         }
     }
 }
+.tab-content{
+    a{
+        &.nav-link{
+            text-transform: none;
+        }
+    }
+    li{
+        p{
+            padding-top: 8px;
+            margin-bottom: 0;
+        }
+    }
+}
 // footer стили
 
 .footer {

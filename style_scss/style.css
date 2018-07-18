@@ -147,6 +147,12 @@ header {
   .map .nav-link:last-child {
     margin-bottom: 0.5rem; }
 
+.tab-content a.nav-link {
+  text-transform: none; }
+.tab-content li p {
+  padding-top: 8px;
+  margin-bottom: 0; }
+
 .footer {
   padding-top: 5px; }
   .footer_menu {
