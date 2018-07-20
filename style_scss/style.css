@@ -151,6 +151,9 @@ header {
 .tab-content li p {
   padding-top: 8px;
   margin-bottom: 0; }
+.tab-content article h6 {
+  padding-top: 8px;
+  margin-bottom: 0; }
 
 .footer {
   padding-top: 5px; }
