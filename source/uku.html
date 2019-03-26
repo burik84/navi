@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+	<title>Нави</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д.">
+	<meta name="autor" content="bur_AV">
+	<link rel='stylesheet' href='../style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/style.css' type='text/css'>
+
+		<!--[if lt IE 9]>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Верхняя часть с меню - шапка-->
+		<header class="container-fluid">
+				<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+					<a class="navbar-brand mb-0 h1" href="../index.html"><i class="fab fa-bandcamp"></i>Нави</a>
+					<span class="navbar-text d-none d-sm-block">...ваш помощник по КИП и АСУТП</span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="scheme.html">Схемы</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="uku.html">уку</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="kip.html">Кип</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="asutp.html">Асутп</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="info.html">Информация</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+		</header>
+		<div class="main container-fluid">
+			<div class="row">
+				<nav class="col-xs col-sm-12 col-md-3 col-lg-2">
+					<div class="nav nav-pills flex-row flex-md-column bg-light" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="flex-fill nav-link active" id="v-pills-441-tab" data-toggle="pill" href="#v-pills-441" role="tab" aria-controls="v-pills-441" aria-selected="true">44.1</a>
+						<a class="flex-fill nav-link" id="v-pills-442-tab" data-toggle="pill" href="#v-pills-442" role="tab" aria-controls="v-pills-442" aria-selected="false">44.2</a>
+						<a class="flex-fill nav-link" id="v-pills-443-tab" data-toggle="pill" href="#v-pills-443" role="tab" aria-controls="v-pills-443" aria-selected="false">44.3</a>
+						<a class="flex-fill nav-link" id="v-pills-ppu-tab" data-toggle="pill" href="#v-pills-ppu" role="tab" aria-controls="v-pills-ppu" aria-selected="false">ППУ</a>
+						<a class="flex-fill nav-link" id="v-pills-info-tab" data-toggle="pill" href="#v-pills-info" role="tab" aria-controls="v-pills-info" aria-selected="false">Инструкции и методики поверки</a>
+					</div>
+				</nav>
+			    <section class="col-xs col-sm-12 col-md-9 col-lg-7 bg-light">
+						<h3>Узлы коммерческого учета</h3>
+						<p class="lead">Здесь собрана информация по узлам коммерческого учета</p>
+					<div class="tab-content" id="v-pills-tabContent">
+						<div class="tab-pane fade show active" id="v-pills-441" role="tabpanel" aria-labelledby="v-pills-441-tab">
+								<article>
+									<h5>тит. 44.1 Узел коммерческого учета СУГ под давлением. Жидкая и паро-газовая фаза. Инструкции, описание, схемы.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p data-toggle="tooltip" title="Участок погрузки судов">Схемы щитов.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н7-12.pdf" target="_blank">Шкаф коммуникационного оборудования</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н2-3.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 49">Щит питания №1.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н4-5.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 49">Щит контроля и управления №1.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ.Н2-3.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 35">Щит питания №2.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ.Н4-5.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 35">Щит контроля и управления №2.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н6.pdf" target="_blank">Шкаф управления нагревателями (ШУН). Общий вид.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов, аппаратная тит. 49">Схемы СИК ПГФ СУГ под давлением тит. 44.1.1.</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-ТК.pdf" target="_blank">Схема технологическая.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ-2.pdf" target="_blank">Схема автоматизации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ-3.pdf" target="_blank">Схема электрическая принципиальная питания.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ-4.pdf" target="_blank">Схема электрическая принципиальная подключения приборов.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ-5.pdf" target="_blank">Схема электрическая принципиальная сигнализации загазованности и пожара.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ-6.pdf" target="_blank">Схема соединений внешних проводок.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ-8.pdf" target="_blank">План расположения оборудования.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов, аппаратная тит. 35">Схемы СИК ЖФ СУГ под давлением тит. 44.1.2.</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-ТК.pdf" target="_blank">Схема технологическая.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ-2.pdf" target="_blank">Схема автоматизации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ-3.pdf" target="_blank">Схема электрическая принципиальная питания.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ-4.pdf" target="_blank">Схема электрическая принципиальная подключения приборов.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ-5.pdf" target="_blank">Схема электрическая принципиальная сигнализации загазованности и пожара.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ-6.pdf" target="_blank">Схема соединений внешних проводок.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ-8.pdf" target="_blank">План расположения оборудования.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов">Документация</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/ИЭ22-01.pdf" target="_blank">Инструкция по эксплуатации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/55-2010-452-44.1-ИЗ.pdf" target="_blank">Руководство пользователя.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/55-2010-452-44.1-П2.pdf" target="_blank">Пояснительная записка.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/55-2010-452-44.1-П5.pdf" target="_blank">Описание информационного обеспечения.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/55-2010-452-44.1-П9.pdf" target="_blank">Описание комплекса технических средств.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/55-2010-452-44.1-ПБ.pdf" target="_blank">Описание алгоритмов.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-442" role="tabpanel" aria-labelledby="v-pills-442-tab">
+								<article>
+									<h5>тит. 44.2 Узел коммерческого учета СУГ охлажденных. Жидкая и паро-газовая фаза. Инструкция, описание, схемы.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p data-toggle="tooltip" title="Участок погрузки судов">Схемы щитов.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н7-12.pdf" target="_blank">Шкаф коммуникационного оборудования</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н2-3.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 49">Щит питания №1.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н4-5.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 49">Щит контроля и управления №1.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ.Н2-3.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 35">Щит питания №2.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.2/55-2010-452-44.1.2-АТ.Н4-5.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 35">Щит контроля и управления №2.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов, аппаратная тит. 49">Схемы СИК ПГФ СУГ охлажденных тит. 44.2.1.</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.1/55-2010-453-44.2.1-ТК.pdf" target="_blank">Схема технологическая.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.1/55-2010-453-44.2.1-AT-2.pdf" target="_blank">Схема автоматизации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.1/55-2010-453-44.2.1-АТ-3.pdf" target="_blank">Схема электрическая принципиальная сигнализации загазованности и пожара.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.1/55-2010-453-44.2.1-АТ-4.pdf" target="_blank">Схема соединений внешних проводок.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.1/55-2010-453-44.2.1-АТ-6.pdf" target="_blank">План расположения оборудования.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов, аппаратная тит. 35">Схемы СИК ЖФ СУГ охлажденных тит. 44.2.2.</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.2/55-2010-453-44.2.2-ТК.pdf" target="_blank">Схема технологическая.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.2/55-2010-453-44.2.2-AT-2.pdf" target="_blank">Схема автоматизации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.2/55-2010-453-44.2.2-АТ-3.pdf" target="_blank">Схема электрическая принципиальная сигнализации загазованности и пожара.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.2/55-2010-453-44.2.2-АТ-4.pdf" target="_blank">Схема соединений внешних проводок.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/44.2.2/55-2010-453-44.2.2-АТ-6.pdf" target="_blank">План расположения оборудования.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов">Документация</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/ИЭ22-02.pdf" target="_blank">Инструкция по эксплуатации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/55-2010-453-44.2-ИЗ.pdf" target="_blank">Руководство пользователя.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/55-2010-453-44.2-П2.pdf" target="_blank">Пояснительная записка.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/55-2010-453-44.2-П5.pdf" target="_blank">Описание информационного обеспечения.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/55-2010-453-44.2-П9.pdf" target="_blank">Описание комплекса технических средств.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.2/55-2010-453-44.2-ПБ.pdf" target="_blank">Описание алгоритмов.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-443" role="tabpanel" aria-labelledby="v-pills-443-tab">
+								<article>
+									<h5>тит. 44.3 Узел коммерческого учета бензинов. Инструкция, описание, схемы.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p data-toggle="tooltip" title="Участок погрузки судов">Схемы щитов.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.1/44.1.1/55-2010-452-44.1.1-АТ.Н7-12.pdf" target="_blank">Шкаф коммуникационного оборудования</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ.Н2-3.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 49">Щит питания №3.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ.Н4-5.pdf" target="_blank" data-toggle="tooltip" title="Аппаратная тит. 49">Щит контроля и управления №3.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов, аппаратная тит. 49">Схемы СИК бензинов тит. 44.3.</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-ТК.pdf" target="_blank">Схема технологическая.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ-2.pdf" target="_blank">Схема автоматизации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ-3.pdf" target="_blank">Схема электрическая принципиальная питания.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ-4.pdf" target="_blank">Схема электрическая принципиальная подключения приборов.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ-5.pdf" target="_blank">Схема электрическая принципиальная управление пробоотбором.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ-6.pdf" target="_blank">Схема электрическая принципиальная управления прувером.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ-7.pdf" target="_blank">Схема электрическая принципиальная сигнализации загазованности и пожара.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-АТ-8.pdf" target="_blank">Схема соединений внешних проводок.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6 data-toggle="tooltip" title="Участок погрузки судов">Документация</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/ИЭ22-03.pdf" target="_blank">Инструкция по эксплуатации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-ИЗ.pdf" target="_blank">Руководство пользователя.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-П2.pdf" target="_blank">Пояснительная записка.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-П5.pdf" target="_blank">Описание информационного обеспечения.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-П9.pdf" target="_blank">Описание комплекса технических средств.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/44.3/55-2010-454-44.3-ПБ.pdf" target="_blank">Описание алгоритмов.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-ppu" role="tabpanel" aria-labelledby="v-pills-ppu-tab">
+								<article>
+									<h5>Передвижная поверочная установка. Инструкция, схемы, описание</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/Прувер_управление.pdf" target="_blank">Новая схема управления прувером.</a>
+										</li>
+										<li class="nav-item">
+											<p>Схемы</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-ТК.pdf" target="_blank">Схема технологическая.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-АТ-2.pdf" target="_blank">Схема автоматизации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-АТ-3.pdf" target="_blank">Схема электрическая принципиальная питания.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-АТ-4.pdf" target="_blank">Схема электрическая принципиальная подключения приборов.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-АТ-5.pdf" target="_blank">Схема соединений внешних проводок.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-АТ-7.pdf" target="_blank">План расположения оборудования.</a>
+										</li>
+										<li class="nav-item">
+											<p>Документация</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-ИЗ.pdf" target="_blank">Руководство пользователя</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-П2.pdf" target="_blank">Пояснительная записка.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-П9.pdf" target="_blank">Описание комплекса технических средств.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-ПБ.pdf" target="_blank">Описание алгоритмов.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/ppu/55-2010-455-ВО.pdf" target="_blank">Общий вид.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-info" role="tabpanel" aria-labelledby="v-pills-info-tab">
+								<article>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/СИК_Расход.pdf" target="_blank">Информация по расходам для узлов учета.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/promass83f_настройка.pdf" target="_blank">Информация по массомерам Promass 83F. Настройка</a>
+										</li>
+									</ul>
+									<h6>АРМ Инкомсистем. Инструкции...</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/СИК_Инструкция_программиста.pdf" target="_blank">Инструкция программиста.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/СИК_Инструкция_по_основным_отчётам.pdf" target="_blank">Инструкция по основным отчётам.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/СИК_Инструкция_по_текущим_отчётам.pdf" target="_blank">Инструкция по текущим отчётам.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/СИК_Инструкция_по_отчётам_КМХ.pdf" target="_blank">Инструкция по отчётам КМХ.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/кмхил.pdf" target="_blank">Инструкция проведения КМХ.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h6> Методики поверки</h6>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_3081-2007.pdf" target="_blank">Методика измерений системой измерений количества на комплексе по перегрузке СУГ. МИ 3081-2007. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/Stardom_МП.pdf" target="_blank">STARDOM. Методика поверки.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/63-221.pdf" target="_blank">Причал № 1. Методика измерений системой измерений количества на комплексе по перегрузке СУГ. № 63-221. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/175-221.pdf" target="_blank">Причал № 2. Методика измерений системой измерений количества парогазовой и жидкой фазы СУГ охлажденных. № 175-221. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/499-221.pdf" target="_blank">Методика измерений системой измерений количества светлых нефтепродуктов в составе комплекса СУГ.№ 499-221.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_2974-2006.pdf" target="_blank">Поверка передвижной поверочной установки. МИ 2974-2006. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_2816-2011.pdf" target="_blank">Преобразователи плотности поточные. ФГУП "ВНИИМ им. Д.И.Менделеева". И 2816-2011. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/OMNI_методика_поверки.pdf" target="_blank">OMNI. Измерительно-вычислительные контроллеры.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МП_49021-12_Calibron.pdf" target="_blank">Установки поверочные CALIBRON серий S и O фирмы Honeywell Enraf. МП 49021-12. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_3272-2010.pdf" target="_blank">Счетчики-расходомеры массовые. МИ 3272-2010 </a>
+										</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+			    </section>
+				<div class="clearfix visible-md-block"></div>
+			    <aside class="col-xs col-sm-12 col-md-12 col-lg-3">
+						<div class="card text-white bg-info">
+							<div class="card-header"><h4 class="card-title">Ключевые правила безопасности:</h4></div>
+							<div class="card-body">
+								<h5 class="card-title">Сокрытие информации</h5>
+								<p class="card-text">Сокрытие информации об авариях, пожарах, инцидентах, фактах производственного травматизма, потенциально опасных происшествиях</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Наряд-допуск</h5>
+								<p class="card-text">Проведение работ повышенной опасности без наряда-допуска, а также нарушение его требований</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Блокировки без разрешения</h5>
+								<p class="card-text">Отключение или нарушение целостности блокировок, противоаварийной автоматической защиты и устройств обеспечения безопасности на действующем оборудовании без соответствующего письменного разрешения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Алкоголь</h5>
+								<p class="card-text">Появление на территории предприятия в состоянии алкогольного, наркотического или иного токсического опьянения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Курение и огонь</h5>
+								<p class="card-text">Курение на территории предприятия вне специально отведенных для этой цели мест или использование открытого огня без специального разрешения</p>
+							</div>
+
+						</div>
+			  	</aside>
+		    </div>
+		</div> <!--/.main-->
+		<footer class="footer">
+			<div class="container-fluid bg-info">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 footer_menu">
+						<nav class="nav">
+							<a class="flex-fill nav-item nav-link" href="../index.html"><i class="fab fa-bandcamp"></i> Главная</a>
+							<!-- Кнопка наверх -->
+							<div class="scrollup">
+								<i class="fas fa-chevron-up"></i><p>наверх</p>
+							</div>
+							<a class="flex-fill nav-item nav-link" href="../footer_about.html">О проекте</a>
+							<a class="flex-fill nav-item nav-link" href="../footer_map.html">Карта сайта</a>
+						</nav>
+					</div>
+					<div class="col-sm-12 col-md-8">
+						<div class="row">
+								<div class="col-sm-8 col-md-8 footer_text">
+									<p class="footer_text_p">Надеюсь вы нашли здесь необходимую информацию, если нет <a href="https://ya.ru/" class="nav-link"><i class="fas fa-search"></i> Yandex</a> в помощь). Подскажите мне о найденной информации и я добавлю в проект <i class="far fa-smile-wink"></i></p>
+									<p class="mt-2">
+										<img class="img_css" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!">
+										<img class="img_css" src="../images/bootstrap-32px.png" alt="Bootstrap">
+										<img class="img_css bg-light" src="../images/font-awesome-24px.png" alt="Font-awesome">
+										<a href="https://github.com/burik84/navi"><img class="img_css" src="../images/GitHub-Mark-Light-32px.png" alt="GitHub"></a>
+									</p>
+								</div>
+								<div class="col-sm-4 col-md-4 footer_text">
+									<p class="footer_text_p">Идея проекта и реализация burikAV. <i class="far fa-copyright"></i>Оформление сайта burikAV 2014-2018.</p>
+									<p class="footer_text_p">Версия 4.18.02 от 01 октября 2018.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../js/popper.js"></script>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/myscript.js"></script>
+	</body>
+</html>

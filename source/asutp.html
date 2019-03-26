@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+	<title>Нави</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д.">
+	<meta name="autor" content="bur_AV">
+	<link rel='stylesheet' href='../style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/style.css' type='text/css'>
+
+		<!--[if lt IE 9]>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Верхняя часть с меню - шапка-->
+		<header class="container-fluid">
+				<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+					<a class="navbar-brand mb-0 h1" href="../index.html"><i class="fab fa-bandcamp"></i>Нави</a>
+					<span class="navbar-text d-none d-sm-block">...ваш помощник по КИП и АСУТП</span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="scheme.html">Схемы</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="uku.html">уку</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="kip.html">Кип</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="asutp.html">Асутп</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="info.html">Информация</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+		</header>
+		<div class="main container-fluid">
+			<div class="row">
+				<nav class="col-xs col-sm-12 col-md-3 col-lg-2">
+					<div class="nav nav-pills flex-row flex-md-column bg-light" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="flex-fill nav-link active" id="v-pills-re-tab" data-toggle="pill" href="#v-pills-re" role="tab" aria-controls="v-pills-re" aria-selected="true">Инструкции</a>
+						<a class="flex-fill nav-link" id="v-pills-centum-tab" data-toggle="pill" href="#v-pills-centum" role="tab" aria-controls="v-pills-centum" aria-selected="false">Centum VP</a>
+						<a class="flex-fill nav-link" id="v-pills-prosafe-tab" data-toggle="pill" href="#v-pills-prosafe" role="tab" aria-controls="v-pills-prosafe" aria-selected="false">Prosafe RS</a>
+						<a class="flex-fill nav-link" id="v-pills-server-tab" data-toggle="pill" href="#v-pills-server" role="tab" aria-controls="v-pills-server" aria-selected="false">Server's</a>
+						<a class="flex-fill nav-link" id="v-pills-siemens-tab" data-toggle="pill" href="#v-pills-siemens" role="tab" aria-controls="v-pills-siemens" aria-selected="false">Siemens</a>
+						<a class="flex-fill nav-link" id="v-pills-stardom-tab" data-toggle="pill" href="#v-pills-stardom" role="tab" aria-controls="v-pills-stardom" aria-selected="false">Stardom</a>
+						<a class="flex-fill nav-link" id="v-pills-hart-tab" data-toggle="pill" href="#v-pills-hart" role="tab" aria-controls="v-pills-hart" aria-selected="false">Hart Modbus RS</a>
+					</div>
+				</nav>
+			    <section class="col-xs col-sm-12 col-md-9 col-lg-7 bg-light">
+							<h3>АСУТП</h3>
+							<p class="lead">Здесь собрана полезная информация по АСУТП.</p>
+					<div class="tab-content" id="v-pills-tabContent">
+						<div class="tab-pane fade show active" id="v-pills-re" role="tabpanel" aria-labelledby="v-pills-re-tab">
+								<article>
+									<h5>СМИС.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/smis/RU.58666525.425520-03_32_01.pdf" target="_blank">Сервер мониторинга. Руководство системного программиста.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/smis/RU.58666525.425520-03_33_01.pdf" target="_blank">Сервер мониторинга. Руководство программиста.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/smis/RU.58666525.425520-03_34_01.pdf" target="_blank">АРМ мониторинга. Руководство оператора</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/smis/Программа_bcp.pdf" target="_blank">Программа bcp.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>OMNI. Контроллер для измерения потока</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/Omni_manual.pdf" target="_blank">Том 1. Руководство пользователя.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/OMNI_Volume2RUS.pdf" target="_blank">Том 2. Основные операции.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/Omni_3000_6000_конфиг.pdf" target="_blank">Том 3. Конфигурирование и работа с данными.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Siemens</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/Siemens_OP_177B.pdf" target="_blank">Панель управления компрессорами HAFI. OP 177B</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/Siemens_lmv.pdf" target="_blank">Менеджер горения. LMV 51/52. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/Siemens_N7550ru_LMV5.pdf" target="_blank">Менеджер горения. LMV 51/52. Полная версия (плохие картинки).</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>ENRAF.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/И-10-С-003-2010ЭНРАФ.pdf" target="_blank">Инструкция по эксплуатации системы учета и контроля резервуарных запасов. Entis PRO</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/527_IM_Modbus_v20.pdf" target="_blank">Инструкция по эксплуатации на протокол Modbus.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/555_IM_HIMS_v10.pdf" target="_blank">HIMS. Гибридная система измерения. Инструкция.</a>
+										</li>
+										<li class="nav-item">
+											<p>880 CIU Prime/CIU Plus.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/524_IG_880_CIU_Prime_Plus_v13.pdf" target="_blank">Руководство по установке 880CIU prime/CIU plus.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/525_IM_880_CIU_Prime_v11.pdf" target="_blank">Инструкция по эксплуатации.</a>
+										</li>
+										<li class="nav-item">
+											<p>Entis Pro Система учета в резервуарах.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/876_Entis_Pro/520_UG_ENTIS_PRO_2.30х_v50.pdf" target="_blank">Руководство пользователя.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/876_Entis_Pro/521_CM_Entis_Pro_v11.pdf" target="_blank">Инструкция по конфигурации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/876_Entis_Pro/522_IG_Entis_Pro_v11.pdf" target="_blank">Руководство по установке.</a>
+										</li>
+										<li class="nav-item">
+											<p>Ensite Pro. Конфигурационный инструмент для 880 CIU Prime/Plus</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/593_IM_Ensite_Pro_Configuration_Tool_rev2.pdf" target="_blank">Инструкция по эксплуатации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/enraf/594_IG_Ensite_Pro_v10.pdf" target="_blank">Руководство по установке.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Принтеры.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/ML11uRU2_tcm3-45885.pdf" target="_blank">OKI ML1100. Принадлежит системе СИК УКУ (отсутствует, т.к. не используется).</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/LASERJET_PRO_CP1520.pdf" target="_blank">HP LASERJET PRO CP1520. Принадлежит системе СИК УКУ</a>
+										</li>
+										<li class="nav-item">
+											<p>HP CP5520. Принадлежит системе АСУТП</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/HP_CP5520_Руководство_пользователя.pdf" target="_blank">Руководство пользователя</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/HP_CP5520HP_CP5520_LaserJet_sm.pdf" target="_blank">Service Manual.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/HP_CP5520_CE977A_CE978A.pdf" target="_blank">Набор термоэлемента</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/instruction/HP_CP5520_CE980A.pdf" target="_blank">Модуль сбора тонера.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-stardom" role="tabpanel" aria-labelledby="v-pills-stardom-tab">
+								<article>
+									<h5>Stardom. Руководство пользователя, техническая информация</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/stardom/Yokogawa_Stardom-flow_О.pdf" target="_blank">Обзор Stardom-Flow</a>
+										</li>
+										<li class="nav-item">
+											<p>Stardom. Обзор контроллера.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/stardom/S1-Stardom_Overview.pdf" target="_blank">Обзор системы.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/stardom/S2-Stardom_FCX_Functions_NPAS.pdf" target="_blank">Функции FCX.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/stardom/S3-Stardom_VDS_Functions.pdf" target="_blank">Функции VDS.</a>
+										</li>
+										<li class="nav-item">
+											<p>Stardom. Обзор контроллера.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/stardom/TI_34P02A03-01R(1)_TG.pdf" target="_blank">Техническое руководство по STARDOM.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/stardom/IM_34P02Q01-01R(8)_FCN-FCJ.pdf" target="_blank">Руководство по FCN/FCJ STARDOM.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/stardom/IM_34P02P25-01R(3)_NPAS_POU.pdf" target="_blank">NPAS POU - Общая информация.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-siemens" role="tabpanel" aria-labelledby="v-pills-siemens-tab">
+								<article>
+									<h5>Siemens. Все о контроллере S7-400, Win CC. Руководстов пользователя</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/siemens/Siemens_s7-400_S7-400H.pdf" target="_blank">Светодиоды состояния и ошибок</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/siemens/S7_300_400_function_r.pdf" target="_blank">Системные и стандартные функции для S7-300 и S7-400</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/siemens/S7-400_Install_r.pdf" target="_blank">Программируемые контроллеры S7–400, M7–400. Руководство пользователя.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/siemens/STEP7_V53_Programming_r.pdf" target="_blank">Программирование с помощью STEP 7 V5.3. Руководство</a>
+										</li>
+										<li class="nav-item">
+											<p>WinCC.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/siemens/Win_CC_Configuration_Manual-1_r.pdf" target="_blank">Win CC Руководство по конфигурации. Том 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/siemens/Win_CC_Configuration_Manual-2_r.pdf" target="_blank">Win CC Руководство по конфигурации. Том 2</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-centum" role="tabpanel" aria-labelledby="v-pills-centum-tab">
+								<article>
+									<h5>Centum VP. Контроллеры РСУ. Руководство пользователя</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/Учебник_Centum_TE_33K80N10-00RU(5)_GTC.pdf" target="_blank">Учебник по инжинирингу Centum VP.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/Методическое_пособие_VP.pdf" target="_blank">Методическое пособие VP.</a>
+										</li>
+										<li class="nav-item">
+											<p>Руководство пользователя</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/IM_33M05D10-40R(1)_HIS.pdf" target="_blank">Станция оператора.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/IM_33M05D20-40R(1)_Mess.pdf" target="_blank">Рабочие сообщения.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/IM_33M50E40-40R(1)_FCS.pdf" target="_blank">Станции управления.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/IM_33M50G10-40R(1)_IOM.pdf" target="_blank">Mодули входов-выходов.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_A_Станция_управления_обзор_функций.pdf" target="_blank">A Станция управления, обзор функций.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_B_Надежность_станции_управления.pdf" target="_blank">B Надежность станции управления.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_C_Функциональные_блоки_Общие_сведения.pdf" target="_blank">C Функциональные блоки. Общие сведения</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_D_Функциональные_блоки_Детали.pdf" target="_blank">D  Функциональные блоки. Детали</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_E_Станция_оператора_Настройка.pdf" target="_blank">E Станция оператора. Настройка</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_F_Основные_сведения_по_инжинирингу.pdf" target="_blank">F Основные сведения по инжинирингу</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_H_SEBOL.pdf" target="_blank">H SEBOL</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_J_Связь_с_подсистемами_RIO.pdf" target="_blank">J Связь с подсистемами RIO</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_K_Связь_с_подсистемами_FIO.pdf" target="_blank">K  Связь с подсистемами FIO</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_L_Устройства_связи.pdf" target="_blank">L Устройства связи</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_M_Опции.pdf" target="_blank">M Опции</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_P_Администратор_доступа.pdf" target="_blank">P Администратор доступа</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/centumvp/PART_R_Станция_системной_интеграции_OPC.pdf" target="_blank">R Станция системной интеграции OPC</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-prosafe" role="tabpanel" aria-labelledby="v-pills-prosafe-tab">
+								<article>
+									<h5>Prosafe RS. Контроллеры ПАЗ. Руководство пользователя</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/prosafe/Учебник_Prosafe.Практика.pdf" target="_blank">Учебник Prosafe. Практика.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/prosafe/IM_32S01C10-21R(2)_EG.pdf" target="_blank">Руководоство по инжинирингу</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/prosafe/IM_32S02B10-21R(2)_Mess.pdf" target="_blank">Сообщения</a>
+										</li>
+										<li class="nav-item">
+											<p>Руководство пользователя</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/prosafe/IM_32S03B10-21R(2)_SCS_Ref.pdf" target="_blank">Справочное руководство по контроллерам системы безопасности</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/prosafe/IM_32S04B10-21R(2)_ERM.pdf" target="_blank">Справочное руководство по инжинирингу.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/prosafe/IM_32S06С10-01R(3)_SCS_HW.pdf" target="_blank">Контроллеры системы безопасности (аппаратные средства).</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-server" role="tabpanel" aria-labelledby="v-pills-server-tab">
+								<article>
+									<h5>PRM server</h5>
+									<p>Менеджер ресурсов КИП PRM server. Инструкции</p>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/server/TI_33Y05Q32-32E(1)_Ovr.pdf" target="_blank">Обзор пакета.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/server/IM_33Y05Q10-11R(2)_Ref.pdf" target="_blank">Справочное руководство.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/server/IM_33Y05Q12-11R(2)_Inst.pdf" target="_blank">Инсталляция ПО.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/server/IM_33Y05Q23-11R(2)_ADA.pdf" target="_blank">Руководство по инжинирингу для приложения расширенной диагностики PRM.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>EXA OPC</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/server/2A1101.pdf" target="_blank">OPC Interface Package.Guide Manual.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/server/2A1201.pdf" target="_blank">OPC Interface Package. Installation Manual.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Stardom</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/server/GS_34P02Q61-01R(8).pdf" target="_blank">OPC сервер FCN/FCJ для Windows.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-hart" role="tabpanel" aria-labelledby="v-pills-hart-tab">
+								<article>
+									<h3>Информация о протоколах связи и интерфейсе</h3>
+									<p class="lead">Здесь представлена общая информация по HART, Modbus, RS-485</p>
+								</article>
+								<article>
+									<h5>Протоколы связи</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p>HART</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/hart/HART_обзор.pdf" target="_blank">Технический обзор.</a>
+										</li>
+										<li class="nav-item">
+											<p>Modbus</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/hart/modbus.pdf" target="_blank">Краткий обзор.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Интерфейс связи</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p>RS-485</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="asutp/hart/RS485.pdf" target="_blank">Описание стандарта.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+			    </section>
+				<div class="clearfix visible-md-block"></div>
+			    <aside class="col-xs col-sm-12 col-md-12 col-lg-3">
+						<div class="card text-white bg-info">
+							<div class="card-header"><h4 class="card-title">Ключевые правила безопасности:</h4></div>
+							<div class="card-body">
+								<h5 class="card-title">Сокрытие информации</h5>
+								<p class="card-text">Сокрытие информации об авариях, пожарах, инцидентах, фактах производственного травматизма, потенциально опасных происшествиях</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Наряд-допуск</h5>
+								<p class="card-text">Проведение работ повышенной опасности без наряда-допуска, а также нарушение его требований</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Блокировки без разрешения</h5>
+								<p class="card-text">Отключение или нарушение целостности блокировок, противоаварийной автоматической защиты и устройств обеспечения безопасности на действующем оборудовании без соответствующего письменного разрешения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Алкоголь</h5>
+								<p class="card-text">Появление на территории предприятия в состоянии алкогольного, наркотического или иного токсического опьянения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Курение и огонь</h5>
+								<p class="card-text">Курение на территории предприятия вне специально отведенных для этой цели мест или использование открытого огня без специального разрешения</p>
+							</div>
+
+						</div>
+			  	</aside>
+		    </div>
+		</div> <!--/.main-->
+		<footer class="footer">
+			<div class="container-fluid bg-info">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 footer_menu">
+						<nav class="nav">
+							<a class="flex-fill nav-item nav-link" href="../index.html"><i class="fab fa-bandcamp"></i> Главная</a>
+							<!-- Кнопка наверх -->
+							<div class="scrollup">
+								<i class="fas fa-chevron-up"></i><p>наверх</p>
+							</div>
+							<a class="flex-fill nav-item nav-link" href="../footer_about.html">О проекте</a>
+							<a class="flex-fill nav-item nav-link" href="../footer_map.html">Карта сайта</a>
+						</nav>
+					</div>
+					<div class="col-sm-12 col-md-8">
+						<div class="row">
+								<div class="col-sm-8 col-md-8 footer_text">
+									<p class="footer_text_p">Надеюсь вы нашли здесь необходимую информацию, если нет <a href="https://ya.ru/" class="nav-link"><i class="fas fa-search"></i> Yandex</a> в помощь). Подскажите мне о найденной информации и я добавлю в проект <i class="far fa-smile-wink"></i></p>
+									<p class="mt-2">
+										<img class="img_css" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!">
+										<img class="img_css" src="../images/bootstrap-32px.png" alt="Bootstrap">
+										<img class="img_css bg-light" src="../images/font-awesome-24px.png" alt="Font-awesome">
+										<a href="https://github.com/burik84/navi"><img class="img_css" src="../images/GitHub-Mark-Light-32px.png" alt="GitHub"></a>
+									</p>
+								</div>
+								<div class="col-sm-4 col-md-4 footer_text">
+									<p class="footer_text_p">Идея проекта и реализация burikAV. <i class="far fa-copyright"></i>Оформление сайта burikAV 2014-2018.</p>
+									<p class="footer_text_p">Версия 4.18.02 от 01 октября 2018.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../js/popper.js"></script>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/myscript.js"></script>
+	</body>
+</html>

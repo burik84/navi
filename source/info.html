@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+	<title>Нави</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д.">
+	<meta name="autor" content="bur_AV">
+	<link rel='stylesheet' href='../style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/style.css' type='text/css'>
+
+		<!--[if lt IE 9]>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Верхняя часть с меню - шапка-->
+		<header class="container-fluid">
+				<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+					<a class="navbar-brand mb-0 h1" href="../index.html"><i class="fab fa-bandcamp"></i>Нави</a>
+					<span class="navbar-text d-none d-sm-block">...ваш помощник по КИП и АСУТП</span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="scheme.html">Схемы</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="uku.html">уку</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="kip.html">Кип</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="asutp.html">Асутп</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="info.html">Информация</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+		</header>
+		<div class="main container-fluid">
+			<div class="row">
+				<nav class="col-xs col-sm-12 col-md-3 col-lg-2">
+					<div class="nav nav-pills flex-row flex-md-column bg-light" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="flex-fill nav-link active" id="v-pills-otpb-tab" data-toggle="pill" href="#v-pills-otpb" role="tab" aria-controls="v-pills-otpb" aria-selected="true">ОТ, ПБ</a>
+						<a class="flex-fill nav-link" id="v-pills-eqiup-tab" data-toggle="pill" href="#v-pills-eqiup" role="tab" aria-controls="v-pills-eqiup" aria-selected="false">Технологическое оборудование. Инструкции</a>
+						<a class="flex-fill nav-link" id="v-pills-methodologies-tab" data-toggle="pill" href="#v-pills-methodologies" role="tab" aria-controls="v-pills-methodologies" aria-selected="false">Методики поверки</a>
+						<a class="flex-fill nav-link" id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="false">Схемы технологические, карта площадки</a>
+						<a class="flex-fill nav-link" id="v-pills-artic-tab" data-toggle="pill" href="#v-pills-artic" role="tab" aria-controls="v-pills-artic" aria-selected="false">Статьи</a>
+					</div>
+				</nav>
+			    <section class="col-xs col-sm-12 col-md-9 col-lg-7 bg-light">
+						<h3>Информация</h3>
+						<p class="lead">Здесь собрана полезная информация по работе</p>
+					<div class="tab-content" id="v-pills-tabContent">
+						<div class="tab-pane fade show active" id="v-pills-otpb" role="tabpanel" aria-labelledby="v-pills-otpb-tab">
+								<article>
+									<h5>Инструкции по охране труда, промышленной безопасноти и т.д.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/22-06.pdf" target="_blank">Инструкция по эксплуатации, обслуживанию и ремонту систем ПАЗ</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-33.pdf" target="_blank">Инструкция по оказанию первой медицинской доврачебной помощи при несчастных случаях на производстве.</a>
+										</li>
+										<li class="nav-item">
+											<p>План мероприятий по локализации и ликвидации последствий аварий на опасном производственном объекте</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/ПМЛА_часть_1_Начало.pdf" target="_blank">Часть 1. План мероприятий по локализации и ликвидации последствий аварий на опасном производственном объекте.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/ПМЛА_часть_2_Мероприятия.pdf" target="_blank">Часть 2. Мероприятия при угрозе и возникновении крупных производственных аварий, катастроф и стихийных бедствий.</a>
+										</li>
+										<li class="nav-item">
+											<p>Инструкции по охране труда при проведение работ</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-1.pdf" target="_blank">Инструкция по охране труда при выполнении работ на оргтехнике (АРМ, копир, сканер).</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-7.pdf" target="_blank">Инструкция по организации безопасного проведения работ на высоте.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-38.pdf" target="_blank">Инструкция о порядке безопасного проведения ремонтных работ.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-24.pdf" target="_blank">Инструкция по охране труда при работе в колодцах (газовых, нефтепроводных, водопроводных, канализационных).</a>
+										</li>
+
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-5.pdf" target="_blank">Инструкция по охране труда общая для всех работников.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-3.pdf" target="_blank">Инструкция по охране труда общая для всех работников.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/СИБУР_порядок_выдачи_нарядов-допусков.pdf" target="_blank">Подготовка, оформление и проведение наряд-допусков</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/instruction/10-24.pdf" target="_blank">Инструкция по охране труда при работе в колодцах (газовых, нефтепроводных, водопроводных, канализационных).</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-eqiup" role="tabpanel" aria-labelledby="v-pills-eqiup-tab">
+								<article>
+									<h5>Технологическое оборудование. Инструкции</h5>
+									<nav class="nav flex-column">
+										<a class="nav-link" href="info/equipment/23-9.pdf" target="_blank">Инструкция по эксплуатации насосов Н181-182</a>
+										<a class="nav-link" href="info/equipment/23-10.pdf" target="_blank">Инструкция по эксплуатации насосов Н281-282</a>
+										<a class="nav-link" href="info/equipment/23-17.pdf" target="_blank">Инструкция по эксплуатации насосов Н381-382</a>
+										<a class="nav-link" href="info/equipment/33-23.pdf" target="_blank">Инструкция по эксплуатации стендеров.</a>
+										<a class="nav-link" href="info/equipment/33-24.pdf" target="_blank">Инструкция по эксплуатации газодувки ГД-281/ГД-282.</a>
+										<a class="nav-link" href="info/equipment/GP200M-700M-II_RU_Manual.pdf" target="_blank">Oilon GP200M-700M. Горелка газовая</a>
+										<a class="nav-link" href="info/equipment/GKP200M-700M-II_RU_Manual.pdf" target="_blank">Oilon GKP200M-700M. Горелка комбинированная (газ/дизельное топливо)</a>
+									</nav>
+								</article>
+								<article>
+									<h5>Установка рекуперации паров (УРП)</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/equipment/IN-01-v01-OMru.pdf" target="_blank">Руководство по эксплуатации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/equipment/IN-02-v01-SupVisMan_ru.pdf" target="_blank">Руководство по пользованию программы АРМ супервизора.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Компакт-прувер</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/Honeywell_Enraf_SYNCROTRAK.pdf" target="_blank">SYNCROTRAK Прувер модель 35, 50, 85, 120. Operation & Service Manual</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/SyncrotrakOperationManual_Jan2008.pdf" target="_blank">SYNCROTRAK Прувер модель 05, 15, 25, 35, 50, 85, 120. Operation Manual</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Азотная станция</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/equipment/AtlasCopco_BD100-300_ИЭ.pdf" target="_blank">Atlas Copco BD100-300. Осушитель воздуха</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="scheme/208/элсхема_BD100+300+.pdf" target="_blank">Atlas Copco BD100-300. Электрическая схема</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/equipment/Ingersoll_Rand_UP5_4-11_ИЭ.pdf" target="_blank">Ingersoll Rand UP5 4-11. Компрессор</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/equipment/Электросхема_компрессора_КАЙЗЕР.pdf" target="_blank">KAESER. Электросхема компрессора</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Проведение КМХ</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/кмхил.pdf" target="_blank" data-toggle="tooltip" title="Презентация. Краткая инструкция">Инструкция проведения КМХ краткая.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="uku/instruction/КМХподробно.pdf" target="_blank" data-toggle="tooltip" title="Инструкция с маршрутом">Инструкция проведения КМХ подробная.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Дополнительные</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/equipment/Гамма100калибровка.pdf" target="_blank" data-toggle="tooltip" title="Инструкция по калибровке">Гамма-100. Калибровка.</a>
+										</li>
+											<li class="nav-item">
+												<a class="nav-link" href="info/equipment/ENRAF.pdf" target="_blank" data-toggle="tooltip" title="Краткое описание запуска системы и подключение списка резервуаров">АРМ Enraf. Запуск системы.</a>
+											</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-methodologies" role="tabpanel" aria-labelledby="v-pills-methodologies-tab">
+								<article>
+									<h5> Технологическое оборудование. Инструкции </h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_3081-2007.pdf" target="_blank">Методика измерений системой измерений количества на комплексе по перегрузке СУГ. МИ 3081-2007. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/Stardom_МП.pdf" target="_blank">STARDOM. Методика поверки.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/63-221.pdf" target="_blank">Причал № 1. Методика измерений системой измерений количества на комплексе по перегрузке СУГ. № 63-221. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/175-221.pdf" target="_blank">Причал № 2. Методика измерений системой измерений количества парогазовой и жидкой фазы СУГ охлажденных. № 175-221. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/499-221.pdf" target="_blank">Методика измерений системой измерений количества светлых нефтепродуктов в составе комплекса СУГ.№ 499-221.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/63-865.pdf" target="_blank">Методика измерений массы СУГ и светлых нефтепродуктов в ж/д цистерных на ж/д весах. №63-865.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_2974-2006.pdf" target="_blank">Поверка передвижной поверочной установки. МИ 2974-2006. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_2816-2011.pdf" target="_blank">Преобразователи плотности поточные. ФГУП "ВНИИМ им. Д.И.Менделеева". И 2816-2011. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/OMNI_методика_поверки.pdf" target="_blank">OMNI. Измерительно-вычислительные контроллеры.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МП_49021-12_Calibron.pdf" target="_blank">Установки поверочные CALIBRON серий S и O фирмы Honeywell Enraf. МП 49021-12. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_3272-2010.pdf" target="_blank">Счетчики-расходомеры массовые. МИ 3272-2010 </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/Sensepoint_МП.pdf" target="_blank">Sensepoint. Датчики горючих и токсичных газов стационарные</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/Polytron_2_IR_МП.pdf" target="_blank">Polytron. Датчики оптические.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/Entis_МП.pdf" target="_blank">Entis. Системы учета и контроля резервуарных запасов. МП 48875-12. </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/methodologies/МИ_2539-99.pdf" target="_blank">Измерительные каналы контроллеров, измерительно-вычислительных комплексов... МИ 2539-99.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-map" role="tabpanel" aria-labelledby="v-pills-map-tab">
+								<article>
+									<p class="lead">Раздел в стадии наполнения</p>
+									<h5>Расшифровка к схемам</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/Сокращения.pdf" target="_blank">Обозначение комплектов рабочих чертежей</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/Условные_обозначения.pdf" target="_blank">Условные обозначения</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Схемы технологические</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/47.01.3.626.08-182.5-I,II,III-6-АСУ.С1.pdf" target="_blank">Схема структурная АСУ ТП, ПАЗ и АСОДУ ИС.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/ТС_Парк_ИТХ.pdf" target="_blank">Технологическая схема. Парк ИТХ.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/ТС_59.1_48_44.1.1_44.1.2.pdf" target="_blank">Технологическая схема. Причал №1.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/Блок-схема_перевалки_СУГ.vsd" target="_blank">Блок-схема перевалки СУГ</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/Блок-схема_перевалки_бензинов.vsd" target="_blank">Блок-схема перевалки бензинов</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Карта по комплексу</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/pe_prichal.pdf" target="_blank">Причальная зона.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/pe_prom.pdf" target="_blank">Промышленная зона.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/map/pe_zona.pdf" target="_blank">Экспликация зданий и сооружений к схемам.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-artic" role="tabpanel" aria-labelledby="v-pills-artic-tab">
+								<article>
+									<p class="lead">Раздел в стадии наполнения</p>
+									<h5>Статьи.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="info/artic/вид_взрывозащиты_искробезопасная_электрическая_цепь.pdf" target="_blank">Вид взрывозащиты - искробезопасная электрическая цепь</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/artic/Барьеры_искрозащиты.pdf" target="_blank">Барьеры искрозащиты</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="info/artic/Приказ96.pdf" target="_blank">Приказ 96. Общие правила взрывобезопасности для взрывопожароопасных ... производств</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+			    </section>
+				<div class="clearfix visible-md-block"></div>
+			    <aside class="col-xs col-sm-12 col-md-12 col-lg-3">
+						<div class="card text-white bg-info">
+							<div class="card-header"><h4 class="card-title">Ключевые правила безопасности:</h4></div>
+							<div class="card-body">
+								<h5 class="card-title">Сокрытие информации</h5>
+								<p class="card-text">Сокрытие информации об авариях, пожарах, инцидентах, фактах производственного травматизма, потенциально опасных происшествиях</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Наряд-допуск</h5>
+								<p class="card-text">Проведение работ повышенной опасности без наряда-допуска, а также нарушение его требований</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Блокировки без разрешения</h5>
+								<p class="card-text">Отключение или нарушение целостности блокировок, противоаварийной автоматической защиты и устройств обеспечения безопасности на действующем оборудовании без соответствующего письменного разрешения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Алкоголь</h5>
+								<p class="card-text">Появление на территории предприятия в состоянии алкогольного, наркотического или иного токсического опьянения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Курение и огонь</h5>
+								<p class="card-text">Курение на территории предприятия вне специально отведенных для этой цели мест или использование открытого огня без специального разрешения</p>
+							</div>
+
+						</div>
+			  	</aside>
+		    </div>
+		</div> <!--/.main-->
+		<footer class="footer">
+			<div class="container-fluid bg-info">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 footer_menu">
+						<nav class="nav">
+							<a class="flex-fill nav-item nav-link" href="../index.html"><i class="fab fa-bandcamp"></i> Главная</a>
+							<!-- Кнопка наверх -->
+							<div class="scrollup">
+								<i class="fas fa-chevron-up"></i><p>наверх</p>
+							</div>
+							<a class="flex-fill nav-item nav-link" href="../footer_about.html">О проекте</a>
+							<a class="flex-fill nav-item nav-link" href="../footer_map.html">Карта сайта</a>
+						</nav>
+					</div>
+					<div class="col-sm-12 col-md-8">
+						<div class="row">
+								<div class="col-sm-8 col-md-8 footer_text">
+									<p class="footer_text_p">Надеюсь вы нашли здесь необходимую информацию, если нет <a href="https://ya.ru/" class="nav-link"><i class="fas fa-search"></i> Yandex</a> в помощь). Подскажите мне о найденной информации и я добавлю в проект <i class="far fa-smile-wink"></i></p>
+									<p class="mt-2">
+										<img class="img_css" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!">
+										<img class="img_css" src="../images/bootstrap-32px.png" alt="Bootstrap">
+										<img class="img_css bg-light" src="../images/font-awesome-24px.png" alt="Font-awesome">
+										<a href="https://github.com/burik84/navi"><img class="img_css" src="../images/GitHub-Mark-Light-32px.png" alt="GitHub"></a>
+									</p>
+								</div>
+								<div class="col-sm-4 col-md-4 footer_text">
+									<p class="footer_text_p">Идея проекта и реализация burikAV. <i class="far fa-copyright"></i>Оформление сайта burikAV 2014-2018.</p>
+									<p class="footer_text_p">Версия 4.18.02 от 01 октября 2018.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../js/popper.js"></script>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/myscript.js"></script>
+	</body>
+</html>

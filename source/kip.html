@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+	<title>Нави</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Нави - это проект, где собрана информация по оборудованию КИП, АСУТП, схемам, инструкциям и т.д.">
+	<meta name="autor" content="bur_AV">
+	<link rel='stylesheet' href='../style_scss/bootstrap-4.1.1/bootstrap.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/fontawesome-free-5.1.0-web/css/all.css' type='text/css'>
+	<link rel='stylesheet' href='../style_scss/style.css' type='text/css'>
+
+		<!--[if lt IE 9]>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Верхняя часть с меню - шапка-->
+		<header class="container-fluid">
+				<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+					<a class="navbar-brand mb-0 h1" href="../index.html"><i class="fab fa-bandcamp"></i>Нави</a>
+					<span class="navbar-text d-none d-sm-block">...ваш помощник по КИП и АСУТП</span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="scheme.html">Схемы</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="uku.html">уку</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="kip.html">Кип</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="asutp.html">Асутп</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="info.html">Информация</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+		</header>
+		<div class="main container-fluid">
+			<div class="row">
+				<nav class="col-xs col-sm-12 col-md-3 col-lg-2">
+					<div class="nav nav-pills flex-row flex-md-column bg-light" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="flex-fill nav-link active" id="v-pills-analyzer-tab" data-toggle="pill" href="#v-pills-analyzer" role="tab" aria-controls="v-pills-analyzer" aria-selected="true">Анализаторы</a>
+						<a class="flex-fill nav-link" id="v-pills-pressure-tab" data-toggle="pill" href="#v-pills-pressure" role="tab" aria-controls="v-pills-pressure" aria-selected="false">Давление</a>
+						<a class="flex-fill nav-link" id="v-pills-temp-tab" data-toggle="pill" href="#v-pills-temp" role="tab" aria-controls="v-pills-temp" aria-selected="false">Температура</a>
+						<a class="flex-fill nav-link" id="v-pills-rashod-tab" data-toggle="pill" href="#v-pills-rashod" role="tab" aria-controls="v-pills-rashod" aria-selected="false">Расход</a>
+						<a class="flex-fill nav-link" id="v-pills-level-tab" data-toggle="pill" href="#v-pills-level" role="tab" aria-controls="v-pills-level" aria-selected="false">Уровень</a>
+						<a class="flex-fill nav-link" id="v-pills-mod-tab" data-toggle="pill" href="#v-pills-mod" role="tab" aria-controls="v-pills-mod" aria-selected="false">Барьеры Модули AI/DI/DO</a>
+						<a class="flex-fill nav-link" id="v-pills-ups-tab" data-toggle="pill" href="#v-pills-ups" role="tab" aria-controls="v-pills-ups" aria-selected="false">ИБП</a>
+						<a class="flex-fill nav-link" id="v-pills-drive-tab" data-toggle="pill" href="#v-pills-drive" role="tab" aria-controls="v-pills-drive" aria-selected="false">Привода, клапаны</a>
+						<a class="flex-fill nav-link" id="v-pills-enraf-tab" data-toggle="pill" href="#v-pills-enraf" role="tab" aria-controls="v-pills-enraf" aria-selected="false">Enraf</a>
+						<a class="flex-fill nav-link" id="v-pills-equip-tab" data-toggle="pill" href="#v-pills-equip" role="tab" aria-controls="v-pills-equip" aria-selected="false">Диагностика</a>
+						<a class="flex-fill nav-link" id="v-pills-other-tab" data-toggle="pill" href="#v-pills-other" role="tab" aria-controls="v-pills-other" aria-selected="false">Разное</a>
+					</div>
+				</nav>
+			    <section class="col-xs col-sm-12 col-md-9 col-lg-7 bg-light">
+						<h3>Инструкции на приборы КИП</h3>
+						<p class="lead">Здесь собрана информация по оборудованию КИП</p>
+						<div class="tab-content" id="v-pills-tabContent">
+							<div class="tab-pane fade show active" id="v-pills-analyzer" role="tabpanel" aria-labelledby="v-pills-analyzer-tab">
+								<article>
+									<h5>Анализатор влажности</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/3050-OLV_РЭ_RUS_VerY2.pdf" target="_blank">3050-OLV</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/3050-OLV_Дополнение_RUS.pdf" target="_blank">3050-OLV. Дополнение.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Гигрометр</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/Паспорт_ИВА-8_2010.pdf" target="_blank">ИВА-8. Установлен на КМУ</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Газоанализаторы</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/DRAGER_Polytron_IR_334&340.pdf" target="_blank">DRAGER Polytron IR</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/гамма-100.pdf" target="_blank">Гамма-100</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/PKG-4-K-MK-C.pdf" target="_blank">ПКГ-4</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/pkg-4_1_2_4-C-K.pdf" target="_blank">ПКГ-4/х-С</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/СГОЭС_РЭ.pdf" target="_blank">СГОЭС</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/ЭССА-СО_исполнение_БС_Р_РЭ.pdf" target="_blank">ЭССА-СО исполнение БС</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Газосигнализаторы</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/SP_secure.pdf" target="_blank">SP secure</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/SensepointXCD.pdf" target="_blank">Sensepoint XCD</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/ИГС-98_re.pdf" target="_blank">ИГС-98</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/СОУ-1_РЭ.pdf" target="_blank">СОУ 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/analyzer/СТМ_10_РЭ.pdf" target="_blank">СТМ 10</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-pressure" role="tabpanel" aria-labelledby="v-pills-pressure-tab">
+								<article>
+									<h5>Измерение давления.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/НМП-52_РЭ.pdf" target="_blank">ТмМП-52 Тягомер <br> НМП-52 Напоромер <br> ТНМП-52 Тягонапоромер мембранные показывающие</a>
+										</li>
+										<li class="nav-item">
+											<p>Манометры</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/Wika_манометры_РЭ.pdf" target="_blank">Wika. Манометры</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/Wika_232.50_РЭ.pdf" target="_blank">Wika серии 2. Манометры</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/электроконтакты.pdf" target="_blank">Электроконтакты WIKA<br>тип. 821 контакты с магнитным поджатием <br>тип. 830Е электронные контакты<br>тип. 831 индуктивные контакты</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/МДМ_описание.pdf" target="_blank">МДМ. Манометры дифференциальные мембранные</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/МП-У_РЭ.pdf" target="_blank">МП-У Манометры избыточного давления <br> ВП-У Вакуумметры <br> МВП-У Мановакуумметры показывающие</a>
+										</li>
+										<li class="nav-item">
+											<p>Преобразователи давления</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/Cerebar_S_РМР71_РЭ.pdf" target="_blank">Cerebar S РМР71, PMP71/72/75. Преобразователь давления</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/Rosemount_2088_Р.pdf" target="_blank">Rosemount 2088, 2090Р, 2090F.Датчики давления</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/Honeywell_ST3000_РП.pdf" target="_blank">Honeywell ST3000. Интеллектуальный преобразователь</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/Ф1791_РЭ.pdf" target="_blank" data-toggle="tooltip" title="Используется в системе вентиляции">Ф1791. Прибор для измерений давления воздуха</a>
+										</li>
+										<li class="nav-item">
+											<p>Датчики, реле-давления</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/DPS-N_ТИ.pdf" target="_blank" data-toggle="tooltip" title="Используется в системе вентиляции">DPS-N. Дифференциальное реле давления</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/DUNGS-GW_A5.pdf" target="_blank" data-toggle="tooltip" title="Используется на котельной">DUNGS GW A5. Реле давления газа и воздуха.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/DUNGS-LGW-3-A2.pdf" target="_blank" data-toggle="tooltip" title="Используется на котельной">DUNGS LGW...A2, LGW...A2. Реле давления дифференциальное для воздуха</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/DRD_2015_12_21_РЭ.pdf" target="_blank" data-toggle="tooltip" title="Используется на котельной">ДР-Дххх. Датчик-реле избыточного давления</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/pressure/rd-rrd_паспорт.pdf" target="_blank" data-toggle="tooltip" title="Используется на котельной">РД Реле-давления <br> РРД Реле разности давления.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-temp" role="tabpanel" aria-labelledby="v-pills-temp-tab">
+								<article>
+									<h5>Измерение температуры.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p>Датчики</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/ДТК2000_РЭ.pdf" target="_blank" data-toggle="tooltip" title="Используются на котельной">ДТК2000 Термостат капиллярный.</a>
+										</li>
+										<li class="nav-item">
+											<p>Термометры</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Omnigrad_M_TR_13_ТИ.pdf" target="_blank" >Omnigrad M TR 13. Термометр сопротивления</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Omnigrad_S_TС65_ТО.pdf" target="_blank" >Omnigrad S TС65. Термопарный датчик температуры</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Omnigrad_S_TR_61_ТО.pdf" target="_blank" >Omnigrad S TR61.Термометр сопротивления.<br>
+											Omnigrad S TC61. Термопара.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Omnigrad_S_tr88_ТИ.pdf" target="_blank" >Omnigrad S TR88.Техническая инструкция.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Omnigrad_TST_434.pdf" target="_blank" >Omnigrad TST434. Термометр сопротивления.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/WIKA_S5550_РЭ_АТЕХ.pdf" target="_blank" >WIKA модели 53, 54, 55. Биметаллический термометр</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/WIKA_S73.100_О.pdf" target="_blank" >WIKA модель 73. Манометрические термометры</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/электроконтакты.pdf" target="_blank">Электроконтакты WIKA<br>тип. 821 контакты с магнитным поджатием <br>тип. 830Е электронные контакты<br>тип. 831 индуктивные контакты</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/REGIN_TG-R4_PT1000.pdf" target="_blank" >REGIN TG-R4PT1000. Описание. (eng)</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/REGIN_TG-K3.pdf" target="_blank" >REGIN TG-K3 Датчик температуры.(eng)</a>
+										</li>
+										<li class="nav-item">
+											<p>Преобразователи температуры</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/iTEMP_TMT82.pdf" target="_blank" >iTEMP TMT-82. Преобразователь температуры.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/iTEMP_TMT-122_eng.pdf" target="_blank" >iTEMP TMT-122.Измерительный преобразователь температуры (eng).</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/iTEMP_TMT-180_РЭ.pdf" target="_blank" >iTEMP TMT-180.Измерительный преобразователь температуры.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Omnigrad_TR_10_ТИ.pdf" target="_blank" >Omnigrad M TR10. Термопреобразователь сопротивления</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Omnigrad_s-tmt142r-ti.pdf" target="_blank" >Omnigrad S TMT 142R. Компактный преобразователь температуры.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Rosemount_0065_ТО.pdf" target="_blank" >Rosemount 0065.Термопреобразователи сопротивления.<br>
+											Rosemount 0185. Термоэлектрические преобразователи.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Rosemount_3144P.pdf" target="_blank" >Rosemount 3144Р. Измерительный преобразователь температуры.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/temp/Элемер_ТСПУ-205Ех_П.pdf" target="_blank" >Элемер ТСМУ-205 ТСПУ-205. Термопреобразователи с унифицированным выходным сигналом.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-rashod" role="tabpanel" aria-labelledby="v-pills-rashod-tab">
+								<article>
+									<h5>Преобразователи расхода.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/deltatopd061w_ИЭ.pdf" target="_blank">Deltatop D06x. Диафрагмы для измерения расхода по перепаду давления.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/Deltabars-fmd76-78-pmd70-75-rpe.pdf" target="_blank">Deltabar S FMD76/77/78, PMD70/75. Измерение дифференциального давления.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/DeltabarSPMD75_РЭ.pdf" target="_blank">Deltabar S PMD70, PMD75, FMD76/77/78. Измерение перепада давления.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/Cerebar_M_PMP51_РЭ.PDF" target="_blank">Сerabar M PMC51, PMP51, PMP55.<br>
+											Deltabar M PMD55<br>
+											Deltapilot M FMB50/51/52/53</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/yokogawa_eja210_345.pdf" target="_blank">Yokogawa EJA210,EJA220. Датчик дифференциального давления. Монтаж датчика.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/yokogawa_eja210_6.pdf" target="_blank">Yokogawa EJA210,EJA220. Датчик дифференциального давления. Монтаж проводки.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ЭМИС-Вихрь.pdf" target="_blank">ЭМИС-Вихрь 200. Преобразователи расхода вихревые.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Расходомеры.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/H250_РЭ.pdf" target="_blank">KROHNE H250. Поплавковый расходомер.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/promag50_РЭ.pdf" target="_blank">Promag 50. Электромагнитный расходомер.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/t-mass65I_О.pdf" target="_blank">Proline t-mass 65.Термальная система измерения массового расхода</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ev200_manual_rus.pdf" target="_blank">Расходомер вихревой ЭМИС-ВИХРЬ 200</a>
+										</li>
+										<li class="nav-item">
+											<p>Proline Prowirl</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/Prowirl72_РЭ.pdf" target="_blank">Prowirl 72. Вихревая система измерения расхода.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/BA094DRU.pdf" target="_blank">Prowirl 73 HART. Вихревая система измерения расхода.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/Prowirl_F_200_HART.pdf" target="_blank">Prowirl F 200 HART. Вихревой расходомер.</a>
+										</li>
+										<li class="nav-item">
+											<p>Proline Promass 83. Кориолисовая система измерения массового расхода.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/Promass83F_РЭ.pdf" target="_blank">Инструкция по эксплуатации</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/PromassBA060DRU.pdf" target="_blank">Описание функций прибора</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/promass8083fm.pdf" target="_blank">Техническая информация.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/promass83f_настройка.pdf" target="_blank">Краткая инструкция по настройкам.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Счетчики-расходомеры.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/KURZ_454FTB_О.pdf" target="_blank">KURZ 454FTB. Однозонный вставной счетчик-расходомер газа массовый.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ЭМИСС_МАСС_260.pdf" target="_blank">ЭМИСС-МАСС 260 Счетчик-расходомер массовый</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/Тепловычислитель_СТП962.pdf" target="_blank">Тепловычислители СТП962.</a>
+										</li>
+										<li class="nav-item">
+											<p>Взлет</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ВЗЛЕТ_re1_tsrv024.pdf" target="_blank">ТСРВ-024. Тепловычислитель. Часть I.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ВЗЛЕТ_re2_tsrv024.pdf" target="_blank">ТСРВ-024. Тепловычислитель. Часть II.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ВЗЛЕТ_re1_ter68.pdf" target="_blank">ТЭР. Расходомер-счетчик электромагнитный. Часть I.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ВЗЛЕТ_re2_ter68.pdf" target="_blank">ТЭР. Расходомер-счетчик электромагнитный. Часть II.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ВЗЛЕТ522Ц_re1_mr5xxc.pdf" target="_blank">УРСВ-5хх. Расходомер-счетчик узльтразвуковой многоканальный Часть I.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ВЗЛЕТ522Ц_re2_mr5xxc.pdf" target="_blank">УРСВ-5хх. Расходомер-счетчик узльтразвуковой многоканальный Часть II.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/rashod/ВЗЛЕТ_ЭРСВ-420_РЭ.pdf" target="_blank">ЭРСВ-420. Расходомер-счетчик электромагнитный.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-level" role="tabpanel" aria-labelledby="v-pills-level-tab">
+								<article>
+									<h5>Измерение уровня</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p>Преобразователи уровня</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/AT200_ИЭ.pdf" target="_blank">AT200 Магнитострикционный преобразователь</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/Levelflex_FMP40.pdf" target="_blank">Levelflex FMP40. Микроимпульсный уровнемер</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/Levelflex_FMP51_ИЭ.pdf" target="_blank">Levelflex FMP51, FMP52, FMP54. Микроимпульсный радарный уровнемер</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/Waterpilot_FMX_167_ТО.pdf" target="_blank">Waterpilot FMX 167. Гидростатический измеритель уровня</a>
+										</li>
+										<li class="nav-item">
+											<p>Датчики уровня</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/Nivotester_FTL325N.pdf" target="_blank" data-toggle="tooltip" title="Используются с сигназаторами уровня ПАЗ на бензинах">Nivotester FTL325N. Детектор уровня с входом NAMUR</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/ECHOTEL961_О.pdf" target="_blank">ECHOTEL961. Ультразвуковые сигнализаторы уровня</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/KROHNE_BM26A_ИЭ.pdf" target="_blank">KROHNE BM26A. Байпасный индикатор уровня.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/LiquicapMFTI51_ТО.pdf" target="_blank">Liquicap M FTI51. Емкостной датчик предельного уровня</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/Vegaswing_61_РЭ.pdf" target="_blank">Liquiphant M FТL 51. Вибродатчик предельного уровня</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/Rosemount_2120_РП.pdf" target="_blank">Rosemount 2120.Вибрационный сигнализатор уровня</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/Vegaswing_61_РЭ.pdf" target="_blank">Vegaswing 61/63. Вибрационный выключатель уровня</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/ОВЕН_ДУ.3_РЭ.pdf" target="_blank">Овен ДУ.3. Кондуктометрические датчики уровня</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/level/ОВЕН_САУ-М6_РЭ.pdf" target="_blank">Овен САУ-М6. Устройство контроля уровня трехканальное</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-mod" role="tabpanel" aria-labelledby="v-pills-mod-tab">
+								<article>
+									<h5>Барьеры защитные</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/KFD2-STV4-Ex1-x.pdf" target="_blank">KFD2-STV4-Ex1-x (используются на УКУ)</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/tdoct1895b_eng.pdf" target="_blank">KFD2-xxx.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/228736_rus.pdf" target="_blank">KFD2-STС4-1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/MTL_7700.pdf" target="_blank">MTL 7700</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Модули входные/выходные</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p>DI</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/MRI-32-24VDC_ПАСПОРТ_280708.pdf" target="_blank">MRI-32-24VDC</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/MRI-32-230VAC_ПАСПОРТ_280708.pdf" target="_blank">MRI-32-230VAC</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/SMRI-16_24VDC_РЭ_100412_RU_Final.pdf" target="_blank">SMRI-16 24VDC. ПАЗ</a>
+										</li>
+										<li class="nav-item">
+											<p>DO</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/mro-32-24vdc-220vac_паспорт_201010.pdf" target="_blank">MRO-32 24vdc 220vac</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/SMRO16_24V_230V_РЭ_100412_Final_RU.pdf" target="_blank">SMRO-16 24V 230V. ПАЗ</a>
+										</li>
+										<li class="nav-item">
+											<p>AI</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/mod/X20AI4622_ENG.pdf" target="_blank">X20AI4622. Установлены на КМУ</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-ups" role="tabpanel" aria-labelledby="v-pills-ups-tab">
+								<article>
+									<h5>Источники бесперебойного питания.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/Инструкция_перевод_в_BYPASS.pdf" target="_blank">ВАЖНО! Инструкция по переводу в BYPASS.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/Smart_UPS_SURT8000XL_SURT10000XL.pdf" target="_blank">APC Smart UPS RT 8000/10000ВА.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/APC_back-ups_SE_525.pdf" target="_blank">APC back-ups SE 525.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/APC_back-ups_650.pdf" target="_blank">APC back-ups 650</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/apc_back-ups_es_700.pdf" target="_blank">APC back-ups es 700</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/eaton_9130.pdf" target="_blank">Eaton 9130 700-3000ВА.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/PSI_User_Manual_RU.pdf" target="_blank">Libert PSI XR</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/Manual_Liebert_GXT3_700-3000VA.pdf" target="_blank">Liebert GXT3 700-3000VA</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Обходные панели электропитания.</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/SBP16KRMI4U.pdf" target="_blank">Инструкция.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/MCRN-8VPRNG_R0_EN.pdf" target="_blank">Схема.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Аккумуляторные батареи</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/ups/delta_HR.pdf" target="_blank">DELTA BATTERY серии HR.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-drive" role="tabpanel" aria-labelledby="v-pills-drive-tab">
+								<article>
+									<h5>Оборудование фирмы Rotork</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<p>Привода Rotork</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_IQ.pdf" target="_blank">Серия IQ.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_IQT.pdf" target="_blank">Серия IQT.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_SIPro.pdf" target="_blank">Серия SIPro.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/pub094-009-08_0717.pdf" target="_blank">Серия CMA.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_SIPro.pdf" target="_blank">Серия SIPro.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_pub021-008-00_1109.pdf" target="_blank">Skilmatic Range EH</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_pub091-003-00_0704.pdf" target="_blank">Modbus RTU Actuator Control MFU Option Card Installation Manual </a>
+										</li>
+										<li class="nav-item">
+											<p>Мастер-станция Pakscan</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/Paksan.pdf" target="_blank">P3 - Pakscan Сетевое управление. Описание системы</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_Pakscan.pdf" target="_blank">P3 - Pakscan Сетевое управление. Техническое руководство.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_pub059-002-00_1211.pdf" target="_blank">P3 - Pakscan Master Station Technical Manual.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/pub059-002-00_0715.pdf" target="_blank">P3 - Pakscan Master Station Technical Manual.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_pub059-003-00_0115.pdf" target="_blank">P3 - Pakscan. Modbus RTU Serial and TCP/IP Communication Specification </a>
+										</li>
+										<li class="nav-item">
+											<p>Схемы</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_3000-400-07.pdf" target="_blank">3000-400-07 IQ + MODBUS MODUL</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_6000-400-04.pdf" target="_blank">6000-400-04 IQT + MODBUS MODUL</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_6050-200-02.pdf" target="_blank">6050-200-02 IQT + PAKSCAN + AUX POWERED</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_WD.pdf" target="_blank">EH1.1(PRO)-DUAL POWER. MOTOR THERMOSTATS-PAKSCAN</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/ROTORK_HS.pdf" target="_blank">EH. Гидравлика.</a>
+										</li>
+									</ul>
+								</article>
+								<article>
+									<h5>Оборудование фирмы AUMA</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/AUMA_SAE_AUMATIC_ИЭ.pdf" target="_blank">AUMATIC</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/AUMA_SAE_AUMAMATIC_ИЭ.pdf" target="_blank">AUMA MATIC</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/AUMA_AUMATIC_КИ.pdf" target="_blank">AUMATIC. Средства управления приводами</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/drive/AUMA_sp_acexc2_en.pdf" target="_blank">AUMATIC ACExC 01.1 схема</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-enraf" role="tabpanel" aria-labelledby="v-pills-enraf-tab">
+								<article>
+									<h5>Оборудование Enraf</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/Краткая.pdf" target="_blank">Краткая инструкция по программированию уровнемера.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/И-10-С-003-2010ЭНРАФ.pdf" target="_blank">Инструкция по эксплуатации системы учета и контроля резервуарных запасов.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/210_IM_847_PET_v20.pdf" target="_blank">Терминал интеллектуальный портативный. Серия 847.</a>
+										</li>
+										<li class="nav-item">
+											<p>Многоточечный селектор температуры</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/862_863_864_MT/231_IM_862_MIR_v20.pdf" target="_blank">Инструкция на устройство серии 862 MIR.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/862_863_864_MT/560_IM_862_MIT_v20.pdf" target="_blank">Инструкция на устройство серии 862 MIT.</a>
+										</li>
+										<li class="nav-item">
+											<p>Серия 854. Серво уровнемеры.</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/854_ATG_XTG_Servo/Команды_854.pdf" target="_blank">Команды для работы</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/854_ATG_XTG_Servo/220_IM_854_ATG_v21.pdf" target="_blank">Инструкция на измеритель уровня серии 854 ATG.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/854_ATG_XTG_Servo/225_IG_ATG_v34.pdf" target="_blank">Руководство по установке сервоуровнемера 854 ATG.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/854_ATG_XTG_Servo/221_IM_Сервоплотность_854_v01_rus.pdf" target="_blank">Руководство по установке программного обеспечения для измерения плотности 854 ATG.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/854_ATG_XTG_Servo/276_IG_854_XTG_v12.pdf" target="_blank">Руководство по установке сервоуровнемера 854 XTG.</a>
+										</li>
+										<li class="nav-item">
+											<p>VITO Термометр многозонный</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/Термометр_многозонный/655_IM_VITO_R2_rus.pdf" target="_blank">Инструкция по эксплуатации на VITO.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/Термометр_многозонный/Installation_guide_762_VITO_Interface1_rus.pdf" target="_blank">Инструкция по установке интерфейса 762 VITO и датчиков VITO, MTT, LT, MRT.</a>
+										</li>
+										<li class="nav-item">
+											<p>SmartRadar. Измерение уровня в резервуарах</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/873_970_971_973_975_Radar/566_IM_873_SmartRadar_v10.pdf" target="_blank">Инструкция на интеллектуальный радар серии 873</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/873_970_971_973_975_Radar/717_IG_970_Rev2_rus.pdf" target="_blank">970 SmartRadar ATI. Инструкция по установке.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/enraf/873_970_971_973_975_Radar/718_IM_970_Rev2_rus.pdf" target="_blank">970 SmartRadar ATI. Инструкция по эксплуатации.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-equip" role="tabpanel" aria-labelledby="v-pills-equip-tab">
+								<article>
+									<h5>Оборудование</h5>
+									<p class="lead">Здесь представлена информация по оборудованию для диагностики КИП и другое</p>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/equip/HART_475.pdf" target="_blank">HART_475. Полевой коммуникатор.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/equip/MARTEL_MC1210.pdf" target="_blank">MARTEL MC1210. Калибратор (eng).</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/equip/TI00404FRU_1311.pdf" target="_blank">Commubox FXA195. Искробезопасный интерфейс для преобразования сигналов протокола HART для USB-порта.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/equip/BA00067DRU.pdf" target="_blank">Proline Fieldcheck. Симулятор расхода.</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+							<div class="tab-pane fade" id="v-pills-other" role="tabpanel" aria-labelledby="v-pills-other-tab">
+								<article>
+									<h5>Инструкции по оборудованию, которые не входят в основные разделы</h5>
+									<ul class="nav flex-column">
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/REGIN_TTC25_О.pdf" target="_blank" data-toggle="tooltip" title="Используется в шкафах управления вентиляцией">REGIN TTC25.Симисторный регулятор мощности для электрических обогревателей.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/ОВЕН_ТРМ-12Б_РЭ.pdf" target="_blank">ОВЕН ТРМ-12Б. Измеритель ПИД-регулятор микропроцессорный одноканальный.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/Manual_Position_Sensor_RUS.pdf" target="_blank">Датчик положения SA96DX, SLCD-M1(eng).</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/CEMB_TR26_ТО.pdf" target="_blank">CEMB TR26. Датчик вибрации.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/1125-1129.pdf" target="_blank" data-toggle="tooltip" title="Установлена на КМУ">Сигнальная колонна на светодиодах. Rittal</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/Mobrey_7835,45,47_7826,28.pdf" target="_blank" data-toggle="tooltip" title="Установлен на компакт-прувере">7835. Измерение плотности жидкости.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/SET-61.pdf" target="_blank" >SET-61. Испольуется с датчиком сухого хода на котлах.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/DYTRAN_3190A6.pdf" target="_blank" title="Установлены на насосах ИТХ Н7 и Н8">DYTRAN 3190A6. Акселерометр - измерение ускорения (виброускорение)</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/SWA70_adapter.pdf" target="_blank" title="Устанавливается на преобразователи давления. Место установки - участок погрузки судов, причал 1 и 2">SWA70. Адаптер. Интеллектуальный беспроводной модем с возможностью подачи питания на полевые приборы.</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/SWG70_gateway.pdf" target="_blank" title="Установлен на участке погрузке судов, для связи с адаптером SWA70">SWG70. Шлюз. Интеллектуальный шлюз для беспроводных сетей.</a>
+										</li>
+										<li class="nav-item">
+											<p>Тензодатчик цифровой C16i. Установлены на ж/д весах</p>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/весоизмерительный_датчик_С16.pdf" target="_blank" >C16i. Описание</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="kip/other/C16i-M.pdf" target="_blank" >С16i. Инструкция по установке (deu.).</a>
+										</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+			    </section>
+				<div class="clearfix visible-md-block"></div>
+			    <aside class="col-xs col-sm-12 col-md-12 col-lg-3">
+						<div class="card text-white bg-info">
+							<div class="card-header"><h4 class="card-title">Ключевые правила безопасности:</h4></div>
+							<div class="card-body">
+								<h5 class="card-title">Сокрытие информации</h5>
+								<p class="card-text">Сокрытие информации об авариях, пожарах, инцидентах, фактах производственного травматизма, потенциально опасных происшествиях</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Наряд-допуск</h5>
+								<p class="card-text">Проведение работ повышенной опасности без наряда-допуска, а также нарушение его требований</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Блокировки без разрешения</h5>
+								<p class="card-text">Отключение или нарушение целостности блокировок, противоаварийной автоматической защиты и устройств обеспечения безопасности на действующем оборудовании без соответствующего письменного разрешения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Алкоголь</h5>
+								<p class="card-text">Появление на территории предприятия в состоянии алкогольного, наркотического или иного токсического опьянения</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Курение и огонь</h5>
+								<p class="card-text">Курение на территории предприятия вне специально отведенных для этой цели мест или использование открытого огня без специального разрешения</p>
+							</div>
+
+						</div>
+			  	</aside>
+		    </div>
+		</div> <!--/.main-->
+		<footer class="footer">
+			<div class="container-fluid bg-info">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 footer_menu">
+						<nav class="nav">
+							<a class="flex-fill nav-item nav-link" href="../index.html"><i class="fab fa-bandcamp"></i> Главная</a>
+							<!-- Кнопка наверх -->
+							<div class="scrollup">
+								<i class="fas fa-chevron-up"></i><p>наверх</p>
+							</div>
+							<a class="flex-fill nav-item nav-link" href="../footer_about.html">О проекте</a>
+							<a class="flex-fill nav-item nav-link" href="../footer_map.html">Карта сайта</a>
+						</nav>
+					</div>
+					<div class="col-sm-12 col-md-8">
+						<div class="row">
+								<div class="col-sm-8 col-md-8 footer_text">
+									<p class="footer_text_p">Надеюсь вы нашли здесь необходимую информацию, если нет <a href="https://ya.ru/" class="nav-link"><i class="fas fa-search"></i> Yandex</a> в помощь). Подскажите мне о найденной информации и я добавлю в проект <i class="far fa-smile-wink"></i></p>
+									<p class="mt-2">
+										<img class="img_css" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!">
+										<img class="img_css" src="../images/bootstrap-32px.png" alt="Bootstrap">
+										<img class="img_css bg-light" src="../images/font-awesome-24px.png" alt="Font-awesome">
+										<a href="https://github.com/burik84/navi"><img class="img_css" src="../images/GitHub-Mark-Light-32px.png" alt="GitHub"></a>
+									</p>
+								</div>
+								<div class="col-sm-4 col-md-4 footer_text">
+									<p class="footer_text_p">Идея проекта и реализация burikAV. <i class="far fa-copyright"></i>Оформление сайта burikAV 2014-2018.</p>
+									<p class="footer_text_p">Версия 4.18.02 от 01 октября 2018.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../js/popper.js"></script>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/myscript.js"></script>
+	</body>
+</html>
