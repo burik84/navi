@@ -29,5 +29,5 @@
       "lib": ["dom", "ESNext"]
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules/**/*", "publick/**/*", "dist/**/*"]
+  "exclude": ["node_modules", "publick", "dist"]
 }
