@@ -1,0 +1,19 @@
+{
+  "name": "navi",
+  "version": "1.0.0",
+  "description": "project navi storage for all information ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burik84/navi.git"
+  },
+  "author": "burik84",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burik84/navi/issues"
+  },
+  "homepage": "https://github.com/burik84/navi#readme"
+}
