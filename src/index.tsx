@@ -9,6 +9,6 @@ ReactDOM.render(
   // <BrowserRouter>
   //   <App />
   // </BrowserRouter>,
-  <App/>,
-  document.getElementById('root')
+  <App />,
+  document.getElementById('root'),
 );
