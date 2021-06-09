@@ -1,12 +1,16 @@
-*,
-*:hover,
-*:active {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import './utils/constants';
+@import './utils/reset';
+@import './utils/placeholder';
+@import './utils/mixin';
 
-body {
-  background-color: darkgrey;
-  color: aliceblue;
-}
+@import './fonts/fonts';
+
+@import './base/base';
+
+@import './components/navigation';
+
+@import './layouts/wrapper';
+@import './layouts/aside';
+@import './layouts/header';
+@import './layouts/main';
+@import './layouts/footer';

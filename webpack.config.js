@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -20,14 +21,23 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
-      },{
+      },
+      {
         test: /\.(?:png|jpg|jpeg)$/i,
         type: 'asset/resource',
-      },{
+      },
+      {
         test: /\.(woff(2)?|eot|ttf|otf)$/i,
         type: 'asset/resource',
         generator: {
           filename: 'assets/fonts/[name][ext]',
+        },
+      },
+      {
+        test: /\.svg$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/svg/[name][ext]',
         },
       },
     ],
@@ -42,7 +52,6 @@ module.exports = {
   },
   devServer: {
     contentBase: STATIC_PATH,
-    // publicPath: BUILD_PATH,
     compress: true,
     port: 8000,
     historyApiFallback: true,
