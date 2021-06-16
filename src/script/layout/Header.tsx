@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from '../../assets/icons/bandcamp-brands.svg';
+// import logo from '../../assets/icons/bandcamp-brands.svg';
+import { LogoElement } from '../shared/svgElements';
 
 export const Header: React.FC = () => {
   return (
     <div className="header">
       <h1>Navi</h1>
-      <img src={logo} />
+      <LogoElement color="white" />
     </div>
   );
 };
