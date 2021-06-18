@@ -4,6 +4,7 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const STATIC_PATH = path.resolve(__dirname, 'public');
 const BUILD_PATH = path.resolve(__dirname, 'dist');
@@ -61,7 +62,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
-      // favicon: './src/assets/favicon/favicon.ico',
+      favicon: './src/assets/favicons/favicon.ico',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -70,6 +71,9 @@ module.exports = {
       },
     }),
     new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
+    new CopyPlugin({
+      patterns: [{ from: './src/assets/favicons', to: './assets/favicons/' }],
+    }),
     new webpack.HotModuleReplacementPlugin(), // used for hot reloading when developing
     new CleanWebpackPlugin(),
   ],
