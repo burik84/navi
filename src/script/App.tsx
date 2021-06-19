@@ -11,6 +11,7 @@ import { Aside } from './layout/Aside';
 
 import { ButtonUp } from './components/ButtonUp';
 import { Menu } from './components/Menu';
+import { Search } from './components/Search';
 
 export function App(): JSX.Element {
   return (
@@ -18,13 +19,14 @@ export function App(): JSX.Element {
       <div className="container">
         <BrowserRouter>
           <Header />
+          <Search />
           <main className="main">
             <div className="container">
               <Menu />
               <Main />
               <About />
               <Map />
-          <Aside />
+              <Aside />
             </div>
           </main>
           <Footer />
