@@ -4,8 +4,8 @@ import { Link } from '../shared/htmlElements';
 
 export const Footer: React.FC = () => {
   return (
-    <div className="footer">
-      <ul className="menu">
+    <footer className="footer">
+      <ul className="list">
         <li>
           <a href="#">
             <LogoElement color="white" />
@@ -27,6 +27,6 @@ export const Footer: React.FC = () => {
         <LogoGithub color="white" />
         Проект
       </a>
-    </div>
+    </footer>
   );
 };
