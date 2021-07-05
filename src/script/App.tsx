@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Link, Redirect } from 'react-router-dom';
 
 import { Main } from './pages/Main';
 import { About } from './pages/About';
@@ -22,10 +22,14 @@ export function App(): JSX.Element {
           <Search />
           <main className="main">
             <div className="container">
+              <Switch>
+                <Redirect exact from="/" to="/main" />
+                <Route path="/main" component={Main} />
+                <Route path="/about" component={About} />
+                <Route path="/map" component={Map} />
+                <Route path="*">Sorry, This page not found</Route>
+              </Switch>
               <Menu />
-              <Main />
-              <About />
-              <Map />
               <Aside />
             </div>
           </main>

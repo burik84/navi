@@ -7,7 +7,7 @@ type TProps = {
 };
 
 // Written as a function expression
-export const Link: React.FC<TProps> = ({ href, name }: TProps): ReactElement => {
+export const LinkElement: React.FC<TProps> = ({ href, name }: TProps): ReactElement => {
   return (
     <li className="item">
       <a className="link" href={href}>

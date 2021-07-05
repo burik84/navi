@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import logo from '../../assets/icons/bandcamp-brands.svg';
 import { Navigation } from '../components/Navigation';
 import { LogoElement } from '../shared/svgElements';
@@ -6,10 +7,10 @@ import { LogoElement } from '../shared/svgElements';
 export const Header: React.FC = () => {
   return (
     <div className="header">
-      <a href="./">
+      <Link className="link" to="/main">
         <LogoElement color="white" />
         <h1>Navi</h1>
-      </a>
+      </Link>
       <span>... ваш помощник по КИП и АСУТП</span>
       <Navigation />
     </div>
