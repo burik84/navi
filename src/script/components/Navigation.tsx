@@ -1,38 +1,37 @@
 import React from 'react';
 import { ReactElement } from 'react';
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link, NavLink, useRouteMatch } from 'react-router-dom';
 
 export const Navigation: React.FC = (): ReactElement => {
-  const { path, url } = useRouteMatch();
+  const { url } = useRouteMatch();
+
   return (
     <nav className="navigation">
-      path - {path}
-      url - {url}
       <ul>
         <li className="item">
-          <Link className="link" to="/scheme">
+          <NavLink className="link" to="/scheme" activeClassName="active">
             Схемы
-          </Link>
+          </NavLink>
         </li>
         <li className="item">
-          <Link className="link" to="/uku">
+          <NavLink className="link" to="/uku" activeClassName="active">
             УКУ
-          </Link>
+          </NavLink>
         </li>
         <li className="item">
-          <Link className="link" to="/kip">
+          <NavLink className="link" to="/kip" activeClassName="active">
             КИП
-          </Link>
+          </NavLink>
         </li>
         <li className="item">
-          <Link className="link" to="/asutp">
+          <NavLink className="link" to="/asutp" activeClassName="active">
             АСУТП
-          </Link>
+          </NavLink>
         </li>
         <li className="item">
-          <Link className="link" to="/info">
+          <NavLink className="link" to="/info" activeClassName="active">
             Информация
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
