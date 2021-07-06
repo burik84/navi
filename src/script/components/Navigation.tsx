@@ -1,10 +1,13 @@
 import React from 'react';
 import { ReactElement } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useRouteMatch } from 'react-router-dom';
 
 export const Navigation: React.FC = (): ReactElement => {
+  const { path, url } = useRouteMatch();
   return (
     <nav className="navigation">
+      path - {path}
+      url - {url}
       <ul>
         <li className="item">
           <Link className="link" to="/scheme">

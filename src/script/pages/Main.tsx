@@ -1,10 +1,12 @@
 import React from 'react';
+import { Header } from '../layout/Header';
 import logoWindows from '../../assets/icons/windows-brands.svg';
 
 export const Main: React.FC = () => {
   return (
-    <main>
-      <div className="main">
+    <>
+      <Header />
+      <main>
         <h2>О Главном</h2>
         <h3>В общем...</h3>
         <p>
@@ -29,7 +31,7 @@ export const Main: React.FC = () => {
           <ol>В папке navi открыть файл index.html.</ol>
           <ol>Пользоваться.</ol>
         </ul>
-      </div>
-    </main>
+      </main>
+    </>
   );
 };
