@@ -8,7 +8,7 @@ import { Asutp } from './pages/Asutp';
 import { Info } from './pages/Info';
 import { Scheme } from './pages/Scheme';
 import { Uku } from './pages/Uku';
-import { Kip } from './pages/kip';
+import { Kip } from './pages/Kip';
 
 // import { Header } from './layout/Header';
 import { Footer } from './layout/Footer';
