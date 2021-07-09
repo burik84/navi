@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, useRouteMatch } from 'react-router-dom';
 
+import { printText } from '../services/print';
+
 const shemes = [
   ['/scheme/sug', 'СУГ'],
   ['/scheme/us', 'УС'],
@@ -55,16 +57,68 @@ const info = [
   ['/info/artic', 'Статьи'],
 ];
 
+const getCurrentRoute = () => {
+  const { path, url } = useRouteMatch();
+  printText(path);
+  printText(url);
+  const names = ['sheme', 'uku', 'kip', 'asutp', 'info'];
+  let result = names[0];
+  names.forEach((item) => {
+    if (url.search(item) !== -1) {
+      result = item;
+    }
+  });
+  return result;
+};
+
+const listItems = (name: string) => {
+  let lists;
+  switch (name) {
+    case 'uku':
+      lists = uku.map((item) => (
+        <li key={item[0]}>
+          <Link to={item[0]}>{item[1]}</Link>
+        </li>
+      ));
+      break;
+    case 'kip':
+      lists = kip.map((item) => (
+        <li key={item[0]}>
+          <Link to={item[0]}>{item[1]}</Link>
+        </li>
+      ));
+      break;
+    case 'asutp':
+      lists = asutp.map((item) => (
+        <li key={item[0]}>
+          <Link to={item[0]}>{item[1]}</Link>
+        </li>
+      ));
+      break;
+    case 'info':
+      lists = info.map((item) => (
+        <li key={item[0]}>
+          <Link to={item[0]}>{item[1]}</Link>
+        </li>
+      ));
+      break;
+    default:
+      lists = shemes.map((item) => (
+        <li key={item[0]}>
+          <Link to={item[0]}>{item[1]}</Link>
+        </li>
+      ));
+      break;
+  }
+  return lists;
+};
+
 export const Menu: React.FC = () => {
-  // const { path, url } = useRouteMatch();
-  const listItems = shemes.map((item) => (
-    <li key={item[0]}>
-      <Link to={item[0]}>{item[1]}</Link>
-    </li>
-  ));
+  const getNameList = getCurrentRoute();
+  const listMenu = listItems(getNameList);
   return (
     <div className="menu">
-      <ul>{listItems}</ul>
+      <ul>{listMenu}</ul>
     </div>
   );
 };

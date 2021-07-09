@@ -1,14 +1,8 @@
 import React from 'react';
 import { ReactElement } from 'react';
-import { NavLink, useRouteMatch } from 'react-router-dom';
-
-import { printText } from '../services/print';
+import { NavLink } from 'react-router-dom';
 
 export const Navigation: React.FC = (): ReactElement => {
-  const { path, url } = useRouteMatch();
-  printText(path);
-  printText(url);
-
   return (
     <nav className="navigation">
       <ul>

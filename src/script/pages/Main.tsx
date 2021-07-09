@@ -1,11 +1,15 @@
 import React from 'react';
+
 import { Header } from '../layout/Header';
+import { Menu } from '../components/Menu';
+
 import logoWindows from '../../assets/icons/windows-brands.svg';
 
 export const Main: React.FC = () => {
   return (
     <>
       <Header />
+      <Menu />
       <main>
         <h2>О Главном</h2>
         <h3>В общем...</h3>

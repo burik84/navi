@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import { Header } from '../layout/Header';
+import { Menu } from '../components/Menu';
 
 export const Map: React.FC = () => {
   return (
     <>
       <Header />
+      <Menu />
       <main className="map">
         <h2>Карта сайта</h2>
         <p>В данном разделе схематично представлены разделы сайта.</p>

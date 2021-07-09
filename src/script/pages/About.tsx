@@ -1,10 +1,13 @@
 import React from 'react';
+
 import { Header } from '../layout/Header';
+import { Menu } from '../components/Menu';
 
 export const About: React.FC = () => {
   return (
     <>
       <Header />
+      <Menu />
       <main className="about">
         <h2>О проекте</h2>
         <p className="lead">
