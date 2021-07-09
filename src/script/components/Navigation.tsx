@@ -1,9 +1,13 @@
 import React from 'react';
 import { ReactElement } from 'react';
-import { Link, NavLink, useRouteMatch } from 'react-router-dom';
+import { NavLink, useRouteMatch } from 'react-router-dom';
+
+import { printText } from '../services/print';
 
 export const Navigation: React.FC = (): ReactElement => {
-  const { url } = useRouteMatch();
+  const { path, url } = useRouteMatch();
+  printText(path);
+  printText(url);
 
   return (
     <nav className="navigation">
@@ -31,6 +35,11 @@ export const Navigation: React.FC = (): ReactElement => {
         <li className="item">
           <NavLink className="link" to="/info" activeClassName="active">
             Информация
+          </NavLink>
+        </li>
+        <li className="item">
+          <NavLink className="link" to="/search" activeClassName="active">
+            !Поиск
           </NavLink>
         </li>
       </ul>
