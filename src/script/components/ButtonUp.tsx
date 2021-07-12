@@ -8,7 +8,6 @@ import { useWindowDimensions, useHandleScroll } from '../services/WindowDimensio
 export const ButtonUp: React.FC = () => {
   const { height } = useWindowDimensions();
   const scrollY = useHandleScroll();
-  console.log(height, scrollY);
 
   const handleUp = () => {
     window.scrollTo(0, 0);
