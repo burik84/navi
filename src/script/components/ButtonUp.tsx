@@ -1,11 +1,28 @@
 import React from 'react';
-import { UpElement } from '../shared/svgElements';
+
+import { IconButton } from '@material-ui/core';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+
+import { useWindowDimensions, useHandleScroll } from '../services/WindowDimensions';
 
 export const ButtonUp: React.FC = () => {
+  const { height } = useWindowDimensions();
+  const scrollY = useHandleScroll();
+  console.log(height, scrollY);
+
+  const handleUp = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <button className="button button__up">
-      <UpElement />
-      Наверх
-    </button>
+    <IconButton
+      className={scrollY.height >= 10 ? 'button button__up active' : 'button button__up'}
+      aria-label="наверх"
+      onClick={handleUp}
+    >
+      <KeyboardArrowUpIcon />
+    </IconButton>
   );
 };
+
+('button button__up');
