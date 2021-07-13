@@ -9,4 +9,8 @@
   &.active{
     display: block;
   }
+  &:hover{
+    background-color: darken($color-primary-button, 20);
+    transform: scale(1.1);
+  }
 }
