@@ -117,8 +117,8 @@ export const Menu: React.FC = () => {
   const getNameList = getCurrentRoute();
   const listMenu = listItems(getNameList);
   return (
-    <div className="menu">
+    <nav className="menu">
       <ul>{listMenu}</ul>
-    </div>
+    </nav>
   );
 };

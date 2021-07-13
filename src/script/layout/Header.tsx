@@ -6,13 +6,13 @@ import { LogoElement } from '../shared/svgElements';
 
 export const Header: React.FC = () => {
   return (
-    <div className="header">
+    <header className="header">
       <Link className="link" to="/main">
         <LogoElement color="white" />
         <h1>Navi</h1>
       </Link>
       <span>... ваш помощник по КИП и АСУТП</span>
       <Navigation />
-    </div>
+    </header>
   );
 };
