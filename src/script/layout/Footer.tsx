@@ -23,18 +23,19 @@ export const Footer: React.FC = () => {
           </Link>
         </li>
       </ul>
-      <p className="footer_description">
+      <p className="footer__description">
         Надеюсь вы нашли здесь необходимую информацию, если нет{' '}
         <a href="https://yandex.ru/" target="_blank" rel="noreferrer">
-          Yandex{' '}
+          Yandex
         </a>{' '}
         в помощь. Подскажите мне о найденной информации и я добавлю в проект
       </p>
-      <div>
-        <p>Идея проекта и реализация burikAV. Оформление сайта burikAV 2014-2021. </p>
+      <div className="footer__author">
+        <p>Идея проекта и реализация burikAV.</p>
+        <p>Оформление сайта burikAV 2014-2021. </p>
         <p>Версия 5.01.01 от 01 июля 2021.</p>
       </div>
-      <a href="https://github.com/burik84/navi/tree/navi" target="_blank" rel="noreferrer">
+      <a className="footer__link" href="https://github.com/burik84/navi/tree/navi" target="_blank" rel="noreferrer">
         <LogoGithub color="white" />
         Проект
       </a>
