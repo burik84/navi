@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 export const Navigation: React.FC = (): ReactElement => {
   return (
     <nav className="navigation">
-      <ul>
+      <ul className="navigation__menu">
         <li className="item">
           <NavLink className="link" to="/scheme" activeClassName="active">
             Схемы

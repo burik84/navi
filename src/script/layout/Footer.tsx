@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <ul className="list">
-        <li>
+        <li className="item">
           <Link className="link" to="/main">
             <LogoElement color="white" />
             Главная

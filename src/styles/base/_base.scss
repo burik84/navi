@@ -1,58 +1,72 @@
-
 html {
-    font-size: 10px;
-    scroll-behavior: smooth;
+  font-size: 10px;
+  scroll-behavior: smooth;
 }
-
 
 body {
   background-color: darkgrey;
   color: aliceblue;
-    @extend %font-prim;
-    @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+  @extend %font-prim;
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
 }
 h1 {
-    @extend %font-add;
-    @include font($height: 5.4rem, $size: 4.4rem);
-    @include media-mobile {
-        @include font($height: 4.2rem, $size: 3.2rem);
-    }
+  @extend %font-add;
+  @include font($height: 5.4rem, $size: 4.4rem);
+  @include media-mobile {
+    @include font($height: 4.2rem, $size: 3.2rem);
+  }
 }
 
 h2 {
-    @include font($size: 3.4rem, $height: 4.6rem);
-    @include media-mobile {
-        @include font($height: 3.3rem, $size: 2.4rem);
-    }
+  @include font($size: 3.4rem, $height: 4.6rem);
+  @include media-mobile {
+    @include font($height: 3.3rem, $size: 2.4rem);
+  }
 }
 
 h3 {
-    @include font($size: 2.4rem, $height: 3.4rem);
-    @include media-mobile {
-        @include font($height: 3.1rem, $size: 2.1rem);
-    }
+  @include font($size: 2.4rem, $height: 3.4rem);
+  @include media-mobile {
+    @include font($height: 3.1rem, $size: 2.1rem);
+  }
 }
 
 h4 {
-    @include font($size: 2.2rem, $height: 3.0rem, $weight: 600);
-    @include media-tablet {
-        @include font($height: 3.0rem, $size: 2.0rem);
-    }
+  @include font($size: 2.2rem, $height: 3rem, $weight: 600);
+  @include media-tablet {
+    @include font($height: 3rem, $size: 2rem);
+  }
 }
 
 h5 {
-    @include font($size: 1.6rem, $height: 2.6rem);
+  @include font($size: 1.6rem, $height: 2.6rem);
 }
 
 .block-shadowed {
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
-    &:hover{
-        cursor: pointer;
-    }
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.list {
+  list-style-type: none;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+}
+.logo {
+  margin-right: 10px;
 }
