@@ -1,3 +1,13 @@
-.aside{
+.aside {
   grid-area: aside;
+}
+
+.aside__title {
+  padding: 8px 14px 0;
+  font-size: 1.6rem;
+  background-color: $color-primary;
+  color: $color-background;
+  font-weight: normal;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
