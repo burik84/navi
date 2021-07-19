@@ -18,6 +18,13 @@ I see the further development of the project -
 - use React+Typescript
 - open source project
 
+Before using
+
+- create folder with any name (etc. Navi)
+- copy folder public and dist in new folder (Navi)
+- open folder dist
+- run index.html
+
 ## Support
 
 - dist // files and folder for production
