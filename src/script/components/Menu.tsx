@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link, useRouteMatch, NavLink } from 'react-router-dom';
 
 import { printText } from '../services/print';
 
@@ -105,7 +105,9 @@ const listItems = (name: string) => {
     default:
       lists = shemes.map((item) => (
         <li key={item[0]}>
-          <Link to={item[0]}>{item[1]}</Link>
+          <NavLink to={item[0]} className="menu__link" activeClassName="active">
+            {item[1]}
+          </NavLink>
         </li>
       ));
       break;

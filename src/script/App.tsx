@@ -26,7 +26,8 @@ export function App(): JSX.Element {
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/map" component={Map} />
-          <Route path="/scheme" component={Scheme} />
+          <Route path="/scheme/:section" component={Scheme} />
+          <Route path="/scheme/" component={Scheme} />
           <Route path="/uku" component={Uku} />
           <Route path="/kip" component={Kip} />
           <Route path="/asutp" component={Asutp} />
