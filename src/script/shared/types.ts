@@ -1,4 +1,8 @@
 // Examples from https://github.com/PostHog/posthog.com/blob/master/src/types.ts
+
+export interface PageData {
+  section: string;
+}
 export interface FeaturesPageData {
   key: string;
   title: string;

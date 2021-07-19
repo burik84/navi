@@ -28,9 +28,13 @@ export function App(): JSX.Element {
           <Route path="/map" component={Map} />
           <Route path="/scheme/:section" component={Scheme} />
           <Route path="/scheme/" component={Scheme} />
+          <Route path="/uku/:section" component={Uku} />
           <Route path="/uku" component={Uku} />
+          <Route path="/kip/:section" component={Kip} />
           <Route path="/kip" component={Kip} />
+          <Route path="/asutp/:section" component={Asutp} />
           <Route path="/asutp" component={Asutp} />
+          <Route path="/info/:section" component={Info} />
           <Route path="/info" component={Info} />
           <Route path="/search" component={Search} />
           <Route path="/main" component={Main} />

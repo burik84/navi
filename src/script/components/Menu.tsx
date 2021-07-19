@@ -77,28 +77,36 @@ const listItems = (name: string) => {
     case 'uku':
       lists = uku.map((item) => (
         <li key={item[0]}>
-          <Link to={item[0]}>{item[1]}</Link>
+          <NavLink to={item[0]} className="menu__link" activeClassName="active">
+            {item[1]}
+          </NavLink>
         </li>
       ));
       break;
     case 'kip':
       lists = kip.map((item) => (
         <li key={item[0]}>
-          <Link to={item[0]}>{item[1]}</Link>
+          <NavLink to={item[0]} className="menu__link" activeClassName="active">
+            {item[1]}
+          </NavLink>
         </li>
       ));
       break;
     case 'asutp':
       lists = asutp.map((item) => (
         <li key={item[0]}>
-          <Link to={item[0]}>{item[1]}</Link>
+          <NavLink to={item[0]} className="menu__link" activeClassName="active">
+            {item[1]}
+          </NavLink>
         </li>
       ));
       break;
     case 'info':
       lists = info.map((item) => (
         <li key={item[0]}>
-          <Link to={item[0]}>{item[1]}</Link>
+          <NavLink to={item[0]} className="menu__link" activeClassName="active">
+            {item[1]}
+          </NavLink>
         </li>
       ));
       break;
