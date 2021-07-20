@@ -1,6 +1,6 @@
 // Examples from https://github.com/PostHog/posthog.com/blob/master/src/types.ts
 
-export interface PageData {
+export interface IPageData {
   section: string;
 }
 export interface FeaturesPageData {

@@ -6,13 +6,14 @@ import { Header } from '../layout/Header';
 import { Menu } from '../components/Menu';
 
 import { getTitlePage } from '../shared/getTitlePage';
+import { IPageData } from '../shared/types';
 
 type key = {
   section: string;
 };
 
 export const Scheme: React.FC = () => {
-  const key: key = useParams();
+  const key: IPageData = useParams();
   const section: string = key.section || 'sug';
   const title = getTitlePage(section, 'shemes');
   return (

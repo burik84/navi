@@ -5,10 +5,10 @@ import { Header } from '../layout/Header';
 import { Menu } from '../components/Menu';
 
 import { getTitlePage } from '../shared/getTitlePage';
-import { PageData } from '../shared/types';
+import { IPageData } from '../shared/types';
 
 export const Info: React.FC = () => {
-  const key: PageData = useParams();
+  const key: IPageData = useParams();
   const section: string = key.section || 'otpb';
   const title = getTitlePage(section, 'info');
   return (
