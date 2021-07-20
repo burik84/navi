@@ -13,8 +13,10 @@
 @import './components/menu';
 
 @import './layouts/container';
-@import './layouts/aside';
 @import './layouts/header';
-@import './layouts/main';
+@import './layouts/aside';
 @import './layouts/menu';
 @import './layouts/footer';
+
+@import './pages/main';
+@import './pages/about';

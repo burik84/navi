@@ -3,27 +3,7 @@
 | Comment | Date |ver. |
 | ------ | ------ |------ |
 | current | 01.10.2018 | v4.18.12 |
-| update | 01.06.2021 | v5.00.01 |
-
-## Use
-
-Use the web-browser as a navigator for documentation, instructions and diagrams.
-All information used in the project must be decomposed into folders and grouped.
-Further use suggests adding new files to the appropriate category and updating links in the project.
-
-I see the further development of the project -
-
-- study and use ui/ux for convenient use
-- adaptive view
-- use React+Typescript
-- open source project
-
-Before using
-
-- create folder with any name (etc. Navi)
-- copy folder public and dist in new folder (Navi)
-- open folder dist
-- run index.html
+| update | 01.08.2021 | v5.00.01 |
 
 ## Support
 
@@ -83,3 +63,23 @@ Check and Write file Prettier in folder src before running app
 ```cmd
 npm run prettier
 ```
+
+## Use
+
+Use the web-browser as a navigator for documentation, instructions and diagrams.
+All information used in the project must be decomposed into folders and grouped.
+Further use suggests adding new files to the appropriate category and updating links in the project.
+
+I see the further development of the project -
+
+- study and use ui/ux for convenient use
+- adaptive view
+- use React+Typescript
+- open source project
+
+Before using
+
+- create folder with any name (etc. Navi)
+- copy folder public and dist in new folder (Navi), but first use mode production (Running application)
+- open folder dist
+- run index.html

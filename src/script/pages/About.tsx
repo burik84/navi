@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@material-ui/core';
 
 import { Header } from '../layout/Header';
 import { Menu } from '../components/Menu';
@@ -40,7 +41,7 @@ export const About: React.FC = () => {
         <h4>И немного об использование</h4>
         <p>
           Запрещено использовать данный проект в коммерческих целях (т.е. получение прибыли) без письменного разрешения
-          правообладателя - burikAV.
+          правообладателя - <Link href="mailto:burikAV@yandex.ru">burikAV</Link>.
         </p>
       </main>
     </>
