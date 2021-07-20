@@ -41,7 +41,14 @@ export const About: React.FC = () => {
         <h4>И немного об использование</h4>
         <p>
           Запрещено использовать данный проект в коммерческих целях (т.е. получение прибыли) без письменного разрешения
-          правообладателя - <Link href="mailto:burikAV@yandex.ru">burikAV</Link>.
+          правообладателя - <Link href="mailto:burikAV@yandex.ru">burikAV</Link>
+        </p>
+        <p className="about__description">
+          Надеюсь вы нашли здесь необходимую информацию, если нет{' '}
+          <a href="https://yandex.ru/" target="_blank" rel="noreferrer">
+            Yandex
+          </a>{' '}
+          в помощь. Подскажите мне о найденной информации и я добавлю в проект
         </p>
       </main>
     </>
