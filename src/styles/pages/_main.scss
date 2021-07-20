@@ -1,10 +1,15 @@
-main{
+main {
   grid-area: main;
-  h3,h4{
+  padding: 1rem 2rem;
+  background-color: $color-background-block;
+  border-radius: 5px;
+  color: $color-text;
+  h3,
+  h4 {
     margin-top: 1rem;
   }
 }
 
-main .logo{
+main .logo {
   margin-left: 1rem;
 }

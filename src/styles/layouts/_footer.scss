@@ -1,11 +1,13 @@
 .footer {
   grid-area: footer;
   display: flex;
-  padding: 0 20px;
+  padding: 0.5rem 2rem;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
+  background-color: $color-primary;
+  border-radius: 5px;
   @include media-tablet {
     flex-direction: column;
     align-items: center;

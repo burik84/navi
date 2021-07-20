@@ -4,6 +4,8 @@
   flex-direction: row;
   align-items: center;
   grid-area: header;
+  background-color: $color-primary;
+  border-radius: 5px;
 }
 
 .header .link{

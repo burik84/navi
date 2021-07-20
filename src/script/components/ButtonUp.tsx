@@ -14,14 +14,14 @@ export const ButtonUp: React.FC = () => {
   };
 
   return (
-    <IconButton
-      className={scrollY.height >= 10 ? 'button button__up active' : 'button button__up'}
-      aria-label="наверх"
-      onClick={handleUp}
-    >
-      <KeyboardArrowUpIcon />
-    </IconButton>
+    <div className="absolute">
+      <IconButton
+        className={scrollY.height >= 10 ? 'button button__up active' : 'button button__up'}
+        aria-label="наверх"
+        onClick={handleUp}
+      >
+        <KeyboardArrowUpIcon />
+      </IconButton>
+    </div>
   );
 };
-
-('button button__up');
