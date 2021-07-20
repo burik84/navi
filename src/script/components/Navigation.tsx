@@ -7,27 +7,27 @@ export const Navigation: React.FC = (): ReactElement => {
     <nav className="navigation">
       <ul className="navigation__menu">
         <li className="item">
-          <NavLink className="link" to="/scheme" activeClassName="active">
+          <NavLink className="link" to="/scheme/sug" activeClassName="active">
             Схемы
           </NavLink>
         </li>
         <li className="item">
-          <NavLink className="link" to="/uku" activeClassName="active">
+          <NavLink className="link" to="/uku/44_1" activeClassName="active">
             УКУ
           </NavLink>
         </li>
         <li className="item">
-          <NavLink className="link" to="/kip" activeClassName="active">
+          <NavLink className="link" to="/kip/analyzer" activeClassName="active">
             КИП
           </NavLink>
         </li>
         <li className="item">
-          <NavLink className="link" to="/asutp" activeClassName="active">
+          <NavLink className="link" to="/asutp/re" activeClassName="active">
             АСУТП
           </NavLink>
         </li>
         <li className="item">
-          <NavLink className="link" to="/info" activeClassName="active">
+          <NavLink className="link" to="/info/otpb" activeClassName="active">
             Информация
           </NavLink>
         </li>
