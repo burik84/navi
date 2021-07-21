@@ -3,6 +3,7 @@ import React from 'react';
 import { createStyles, Theme, makeStyles } from '@material-ui/core/styles';
 import { List, ListItem, ListItemText, ListItemIcon } from '@material-ui/core';
 import WarningIcon from '@material-ui/icons/Warning';
+import AndroidIcon from '@material-ui/icons/Android';
 
 import { Header } from '../layout/Header';
 import { Menu } from '../components/Menu';
@@ -70,7 +71,7 @@ export const Main: React.FC = () => {
             </ListItem>
           </List>
         </p>
-        <h3>Как установить на ...</h3>
+        <h3>Как пользоваться на ...</h3>
         <h4>
           Windows
           <span className="logo">
@@ -82,6 +83,10 @@ export const Main: React.FC = () => {
           <li>В папке navi/dist для файла index.html создать ярлык в любое удобное место, например, на рабочий стол</li>
           <li>Пользоваться ярлыком</li>
         </ol>
+        <h4>
+          Android <AndroidIcon color="primary" />
+        </h4>
+        <p>В стадии разработки</p>
       </main>
     </>
   );
