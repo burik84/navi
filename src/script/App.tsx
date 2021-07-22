@@ -1,8 +1,7 @@
-// TODO: разобраться с локальной работой страницы без запуска сервера
-// TODO: проблема в Route
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
+
+import { getData as getDataJSON } from './services/fetchDataJSON';
 
 import { Main } from './pages/Main';
 import { About } from './pages/About';
@@ -20,6 +19,24 @@ import { Aside } from './layout/Aside';
 import { ButtonUp } from './components/ButtonUp';
 
 export function App(): JSX.Element {
+  const [source, getSource] = useState([]);
+  const [isLoadingSource, setLoadingSOurce] = useState(true);
+
+  useEffect(() => {
+    getData();
+  }),
+    [];
+  const getData = async () => {
+    await getDataJSON()
+      .then((res) => {
+        // console.log(res);
+        setLoadingSOurce(false);
+      })
+      .catch((error) => {
+        console.log('Something went wrong', error.message);
+      });
+  };
+
   return (
     <div className="App">
       <div className="container">
