@@ -22,21 +22,6 @@ export function App(): JSX.Element {
   const [source, getSource] = useState([]);
   const [isLoadingSource, setLoadingSOurce] = useState(true);
 
-  useEffect(() => {
-    getData();
-  }),
-    [];
-  const getData = async () => {
-    await getDataJSON()
-      .then((res) => {
-        // console.log(res);
-        setLoadingSOurce(false);
-      })
-      .catch((error) => {
-        console.log('Something went wrong', error.message);
-      });
-  };
-
   return (
     <div className="App">
       <div className="container">

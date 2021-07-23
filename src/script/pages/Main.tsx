@@ -44,33 +44,31 @@ export const Main: React.FC = () => {
           ознакомтесь с ней, прежде чем задавать вопросы.
         </p>
         <h3>Важно!</h3>
-        <p>
-          Внутри папки navi, в связи с тем что используются относительные ссылки на название файлов, запрещается:
-          <List className={classes.root}>
-            <ListItem className={classes.list}>
-              <ListItemText
-                classes={{
-                  primary: classes.primary,
-                }}
-                primary="переносить папки и файлы"
-              />
-              <ListItemIcon>
-                <WarningIcon color="error" />
-              </ListItemIcon>
-            </ListItem>
-            <ListItem className={classes.list}>
-              <ListItemText
-                classes={{
-                  primary: classes.primary,
-                }}
-                primary="переименовывать папки и файлы"
-              />
-              <ListItemIcon>
-                <WarningIcon color="error" />
-              </ListItemIcon>
-            </ListItem>
-          </List>
-        </p>
+        <p>Внутри папки navi, в связи с тем что используются относительные ссылки на название файлов, запрещается:</p>
+        <List className={classes.root}>
+          <ListItem className={classes.list}>
+            <ListItemText
+              classes={{
+                primary: classes.primary,
+              }}
+              primary="переносить папки и файлы"
+            />
+            <ListItemIcon>
+              <WarningIcon color="error" />
+            </ListItemIcon>
+          </ListItem>
+          <ListItem className={classes.list}>
+            <ListItemText
+              classes={{
+                primary: classes.primary,
+              }}
+              primary="переименовывать папки и файлы"
+            />
+            <ListItemIcon>
+              <WarningIcon color="error" />
+            </ListItemIcon>
+          </ListItem>
+        </List>
         <h3>Как пользоваться на ...</h3>
         <h4>
           Windows

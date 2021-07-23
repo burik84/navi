@@ -1,3 +1,4 @@
+//TODO: this block dosen't use beacuse CORS
 export const getData = async () => {
   const rawResponse = await fetch('../public/source.json', {
     method: 'GET',
