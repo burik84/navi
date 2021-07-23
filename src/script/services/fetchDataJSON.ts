@@ -20,6 +20,12 @@ function arrayBufferToString(arrayBuffer: any, decoderType = 'utf-8') {
   return decoder.decode(arrayBuffer);
 }
 
+const getObj = (str: string | ArrayBuffer) => {
+  const data = JSON.parse(JSON.stringify(str.slice(1, -1)));
+
+  return data;
+};
+
 export const getDataFromFile = async (event: any) => {
   // const pathFile = event.target.value;
   const file = event.target.files[0];
@@ -27,9 +33,10 @@ export const getDataFromFile = async (event: any) => {
   reader.readAsText(file);
   const result = await new Promise((res, rej) => {
     reader.onload = function (event) {
-      if (event.target) {
+      if (event.target && file.name === 'source.json') {
         const content = event.target.result || '';
-        res(content);
+        const data = getObj(content);
+        res(data);
       }
     };
     reader.onerror = function () {
