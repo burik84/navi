@@ -7,7 +7,7 @@ import { colorPrimary, colorSecondary } from '../shared/constants';
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
-    maxWidth: 360,
+    // maxWidth: 360,
     paddingTop: '0px',
     backgroundColor: colorPrimary,
     borderBottomLeftRadius: '5px',
