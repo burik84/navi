@@ -21,8 +21,9 @@ function arrayBufferToString(arrayBuffer: any, decoderType = 'utf-8') {
 }
 
 const getObj = (str: string | ArrayBuffer) => {
-  const data = JSON.parse(JSON.stringify(str.slice(1, -1)));
+  const strNew = String(str).replace(/\s+/g, ' ');
 
+  const data = JSON.parse(strNew);
   return data;
 };
 

@@ -15,7 +15,6 @@ export const Navigation: React.FC = (): ReactElement => {
         setSource(data);
         setIsLoad(true);
       }
-      console.log(data);
     } catch (err) {
       console.error(err);
     }

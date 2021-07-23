@@ -15,7 +15,7 @@ export const Info: React.FC = () => {
   const section: string = key.section || 'otpb';
   const title = getTitlePage(section, 'info');
   const sourceInfo = () => {
-    return source;
+    console.log(source);
   };
   return (
     <>
@@ -25,7 +25,8 @@ export const Info: React.FC = () => {
         <h2>Информация</h2>
         <p>Здесь собрана полезная информация по работе</p>
         <p>{title}</p>
-        <p>{sourceInfo()}</p>
+        {/* <p>{sourceInfo()}</p> */}
+        {sourceInfo()}
       </main>
     </>
   );
