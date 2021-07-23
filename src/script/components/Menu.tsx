@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link, useRouteMatch, NavLink } from 'react-router-dom';
 
-import { printText } from '../services/print';
-
 const shemes = [
   ['/scheme/sug', 'СУГ'],
   ['/scheme/us', 'УС'],
@@ -59,8 +57,6 @@ const info = [
 
 const getCurrentRoute = () => {
   const { path, url } = useRouteMatch();
-  printText(path);
-  printText(url);
   const names = ['sheme', 'uku', 'kip', 'asutp', 'info'];
   let result = names[0];
   names.forEach((item) => {
