@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
-
-import { getData as getDataJSON } from './services/fetchDataJSON';
 
 import { Main } from './pages/Main';
 import { About } from './pages/About';
@@ -18,6 +16,8 @@ import { Aside } from './layout/Aside';
 
 import { ButtonUp } from './components/ButtonUp';
 
+import { AppContextProvider } from './services/AppContext';
+
 export function App(): JSX.Element {
   const [source, getSource] = useState([]);
   const [isLoadingSource, setLoadingSOurce] = useState(true);
@@ -25,24 +25,26 @@ export function App(): JSX.Element {
   return (
     <div className="App">
       <div className="container">
-        <Switch>
-          <Route path="/about" component={About} />
-          <Route path="/map" component={Map} />
-          <Route path="/scheme/:section" component={Scheme} />
-          <Route path="/scheme/" component={Scheme} />
-          <Route path="/uku/:section" component={Uku} />
-          <Route path="/uku" component={Uku} />
-          <Route path="/kip/:section" component={Kip} />
-          <Route path="/kip" component={Kip} />
-          <Route path="/asutp/:section" component={Asutp} />
-          <Route path="/asutp" component={Asutp} />
-          <Route path="/info/:section" component={Info} />
-          <Route path="/info" component={Info} />
-          <Route path="/search" component={Search} />
-          <Route path="/main" component={Main} />
-          <Route path="/" component={Main} />
-          <Route path="*">Sorry, This page not found</Route>
-        </Switch>
+        <AppContextProvider>
+          <Switch>
+            <Route path="/about" component={About} />
+            <Route path="/map" component={Map} />
+            <Route path="/scheme/:section" component={Scheme} />
+            <Route path="/scheme/" component={Scheme} />
+            <Route path="/uku/:section" component={Uku} />
+            <Route path="/uku" component={Uku} />
+            <Route path="/kip/:section" component={Kip} />
+            <Route path="/kip" component={Kip} />
+            <Route path="/asutp/:section" component={Asutp} />
+            <Route path="/asutp" component={Asutp} />
+            <Route path="/info/:section" component={Info} />
+            <Route path="/info" component={Info} />
+            <Route path="/search" component={Search} />
+            <Route path="/main" component={Main} />
+            <Route path="/" component={Main} />
+            <Route path="*">Sorry, This page not found</Route>
+          </Switch>
+        </AppContextProvider>
         <Aside />
         <Footer />
         <ButtonUp />

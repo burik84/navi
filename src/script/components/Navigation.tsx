@@ -2,7 +2,30 @@ import React from 'react';
 import { ReactElement } from 'react';
 import { NavLink } from 'react-router-dom';
 
+import { AppContextSource } from '../services/AppContext';
+import { getDataFromFile } from '../services/fetchDataJSON';
+
 export const Navigation: React.FC = (): ReactElement => {
+  const { isLoad, setIsLoad, setSource } = AppContextSource();
+  const change = () => setIsLoad(true);
+  const handleChange = async (event: any) => {
+    try {
+      const data = await getDataFromFile(event);
+      if (data) {
+        setSource(data);
+        setIsLoad(true);
+      }
+      console.log(data);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+  const inputButton = () => (
+    <li className="item">
+      <input name="myFile" type="file" onChange={handleChange} />
+    </li>
+  );
+
   return (
     <nav className="navigation">
       <ul className="navigation__menu">
@@ -36,6 +59,7 @@ export const Navigation: React.FC = (): ReactElement => {
             !Поиск
           </NavLink>
         </li>
+        {!isLoad && inputButton()}
       </ul>
     </nav>
   );

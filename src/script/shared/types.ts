@@ -3,6 +3,15 @@
 export interface IPageData {
   section: string;
 }
+
+export interface IAppContext {
+  theme?: string;
+  source?: [];
+  isLoad?: boolean;
+  setSource: any;
+  setTheme: any;
+  setIsLoad: any;
+}
 export interface FeaturesPageData {
   key: string;
   title: string;
