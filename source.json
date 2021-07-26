@@ -2,7 +2,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "23-9.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Инструкция по эксплуатации насосов Н181-182",
@@ -12,7 +12,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "23-10.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Инструкция по эксплуатации насосов Н281-282",
@@ -22,7 +22,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "33-23.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Инструкция по эксплуатации стендеров.",
@@ -32,7 +32,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "33-24.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Инструкция по эксплуатации газодувки ГД-281/ГД-282.",
@@ -42,7 +42,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "23-17.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Инструкция по эксплуатации насосов Н381-382",
@@ -52,15 +52,16 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "Азотная станция",
+    "title": "Технологическое оборудование. Инструкции",
     "description": "Atlas Copco BD100-300. Осушитель воздуха",
     "titul": ["208"]
   },
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "ENRAF.pdf",
     "title": "Дополнительные",
     "description": "АРМ Enraf. Запуск системы.",
@@ -70,7 +71,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "GP200M-700M-II_RU_Manual.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Oilon GP200M-700M. Горелка газовая",
@@ -80,7 +81,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "GKP200M-700M-II_RU_Manual.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Oilon GKP200M-700M. Горелка комбинированная (газ/дизельное топливо)",
@@ -90,7 +91,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "IN-01-v01-OMru.pdf",
     "title": "Установка рекуперации паров (УРП)",
     "description": "Руководство по эксплуатации.",
@@ -100,7 +101,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "IN-02-v01-SupVisMan_ru.pdf",
     "title": "Установка рекуперации паров (УРП)",
     "description": "Руководство по пользованию программы АРМ супервизора.",
@@ -110,7 +111,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "Ingersoll_Rand_UP5_4-11_ИЭ.pdf",
     "title": "Азотная станция",
     "description": "Ingersoll Rand UP5 4-11. Компрессор",
@@ -120,7 +121,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "MAN-07-007_MC-3_Series_Instruction_Manual.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "MC-3 CAVOTEC. Инструкция по эксплуатации радио пульта стендера.",
@@ -130,7 +131,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "Гамма100калибровка.pdf",
     "title": "Азотная станция",
     "description": "Гамма-100. Калибровка.",
@@ -140,7 +141,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "Методика_расчета_эленергии.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Методика расчета норм расхода электрической энергии на технологические процессы",
@@ -150,7 +151,7 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/info/equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "Электросхема_компрессора_КАЙЗЕР.pdf",
     "title": "Азотная станция",
     "description": "KAESER. Электросхема компрессора",
@@ -160,7 +161,7 @@
   {
     "name": "info",
     "folder": "artic",
-    "urlBase": "../public/info/artic",
+    "urlBase": "../public/info/artic/",
     "file": "Барьеры_искрозащиты.pdf",
     "title": "Статьи",
     "description": "Барьеры искрозащиты",
@@ -170,7 +171,7 @@
   {
     "name": "info",
     "folder": "artic",
-    "urlBase": "../public/info/artic",
+    "urlBase": "../public/info/artic/",
     "file": "вид_взрывозащиты_искробезопасная_электрическая_цепь.pdf",
     "title": "Статьи",
     "description": "Вид взрывозащиты - искробезопасная электрическая цепь",
@@ -180,7 +181,7 @@
   {
     "name": "info",
     "folder": "artic",
-    "urlBase": "../public/info/artic",
+    "urlBase": "../public/info/artic/",
     "file": "Приказ96.pdf",
     "title": "Статьи",
     "description": "Приказ 96. Общие правила взрывобезопасности для взрывопожароопасных ... производств",
@@ -190,7 +191,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "ПМЛА_часть_2_Мероприятия.pdf",
     "title": "ПЛАН МЕРОПРИЯТИЙ ПО ЛОКАЛИЗАЦИИ И ЛИКВИДАЦИИ ПОСЛЕДСТВИЙ АВАРИЙ НА ОПАСНОМ ПРОИЗВОДСТВЕННОМ ОБЪЕКТЕ",
     "description": "Часть 2. Мероприятия при угрозе и возникновении крупных производственных аварий, катастроф и стихийных бедствий.",
@@ -200,7 +201,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "ПМЛА_часть_1_Начало.pdf",
     "title": "ПЛАН МЕРОПРИЯТИЙ ПО ЛОКАЛИЗАЦИИ И ЛИКВИДАЦИИ ПОСЛЕДСТВИЙ АВАРИЙ НА ОПАСНОМ ПРОИЗВОДСТВЕННОМ ОБЪЕКТЕ",
     "description": "Часть 1. План мероприятий по локализации и ликвидации последствий аварий на опасном производственном объекте.",
@@ -210,7 +211,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "ИПБ.10.28.ПСПТ(275592 v1).pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по эксплуатации, техническому обслуживанию и правилам исопльзования первичных средств пожаротушения. ИПБ.10.28.",
@@ -220,7 +221,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "СИБУР_порядок_выдачи_нарядов-допусков.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Подготовка, оформление и проведение наряд-допусков",
@@ -230,7 +231,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "10-1.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по охране труда при выполнении работ на оргтехнике (АРМ, копир, сканер).",
@@ -240,7 +241,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "10-3.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по охране труда для работников сторонних организаций.",
@@ -250,7 +251,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "10-5.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по охране труда общая для всех работников.",
@@ -260,7 +261,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "10-7.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по организации безопасного проведения работ на высоте.",
@@ -270,7 +271,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "10-24.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по охране труда при работе в колодцах (газовых, нефтепроводных, водопроводных, канализационных).",
@@ -280,7 +281,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "10-33.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по оказанию первой медицинской доврачебной помощи при несчастных случаях на производстве.",
@@ -290,7 +291,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "10-38.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция о порядке безопасного проведения ремонтных работ.",
@@ -300,7 +301,7 @@
   {
     "name": "info",
     "folder": "instruction",
-    "urlBase": "../public/info/instruction",
+    "urlBase": "../public/info/instruction/",
     "file": "22-06.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по эксплуатации, обслуживанию и ремонту систем ПАЗ",
@@ -310,7 +311,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "Сокращения.pdf",
     "title": "Расшифровка к схемам",
     "description": "Обозначение комплектов рабочих чертежей",
@@ -320,7 +321,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "Условные_обозначения.pdf",
     "title": "Расшифровка к схемам",
     "description": "Условные обозначения",
@@ -330,7 +331,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "47.01.3.626.08-182.5-I,II,III-6-АСУ.С1.pdf",
     "title": "Схемы технологические",
     "description": "Схема структурная АСУ ТП, ПАЗ и АСОДУ ИС.",
@@ -340,7 +341,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "Блок-схема_перевалки_бензинов.vsd",
     "title": "Схемы технологические",
     "description": "Блок-схема перевалки бензинов",
@@ -350,7 +351,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "Блок-схема_перевалки_СУГ.vsd",
     "title": "Схемы технологические",
     "description": "Блок-схема перевалки СУГ",
@@ -360,7 +361,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "ТС_59.1_48_44.1.1_44.1.2.pdf",
     "title": "Схемы технологические",
     "description": "Технологическая схема. Причал №1.",
@@ -370,7 +371,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "ТС_Парк_ИТХ.pdf",
     "title": "Схемы технологические",
     "description": "Технологическая схема. Парк ИТХ.",
@@ -380,7 +381,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "pe_prichal.pdf",
     "title": "Карта по комплексу",
     "description": "Причальная зона.",
@@ -390,7 +391,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "pe_prom.pdf",
     "title": "Карта по комплексу",
     "description": "Промышленная зона.",
@@ -400,7 +401,7 @@
   {
     "name": "info",
     "folder": "map",
-    "urlBase": "../public/info/map",
+    "urlBase": "../public/info/map/",
     "file": "pe_zona.pdf",
     "title": "Карта по комплексу",
     "description": "Экспликация зданий и сооружений к схемам.",
@@ -410,7 +411,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "63-221.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Причал № 1. Методика измерений системой измерений количества на комплексе по перегрузке СУГ. № 63-221.",
@@ -420,7 +421,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "63-865.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Методика измерений массы СУГ и светлых нефтепродуктов в ж/д цистерных на ж/д весах. №63-865.",
@@ -430,7 +431,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "175-221.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Причал № 2. Методика измерений системой измерений количества парогазовой и жидкой фазы СУГ охлажденных. № 175-221.",
@@ -440,7 +441,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "499-221.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Методика измерений системой измерений количества светлых нефтепродуктов в составе комплекса СУГ. № 499-221.",
@@ -450,7 +451,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "Entis_МП.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Entis. Системы учета и контроля резервуарных запасов. МП 48875-12.",
@@ -460,7 +461,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "OMNI_методика_поверки.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "OMNI. Измерительно-вычислительные контроллеры.",
@@ -470,7 +471,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "Polytron_2_IR_МП.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Polytron. Датчики оптические.",
@@ -480,7 +481,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "Sensepoint_МП.PDF",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Sensepoint. Датчики горючих и токсичных газов стационарные",
@@ -490,7 +491,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "Stardom_МП.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "STARDOM. Методика поверки.",
@@ -500,7 +501,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "МИ_2539-99.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Измерительные каналы контроллеров, измерительно-вычислительных комплексов... МИ 2539-99.",
@@ -510,7 +511,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "МИ_2816-2011.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Преобразователи плотности поточные. ФГУП \"ВНИИМ им. Д.И.Менделеева\". И 2816-2011.",
@@ -520,7 +521,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "МИ_2974-2006.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Поверка передвижной поверочной установки. МИ 2974-2006.",
@@ -530,7 +531,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "МИ_3081-2007.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Методика измерений системой измерений количества на комплексе по перегрузке СУГ. МИ 3081-2007.",
@@ -540,7 +541,7 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "МИ_3272-2010.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Счетчики-расходомеры массовые. МИ 3272-2010",
@@ -550,11 +551,791 @@
   {
     "name": "info",
     "folder": "methodologies",
-    "urlBase": "../public/info/methodologies",
+    "urlBase": "../public/info/methodologies/",
     "file": "МП_49021-12_Calibron.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Установки поверочные CALIBRON серий S и O фирмы Honeywell Enraf. МП 49021-12.",
     "titul": [""],
     "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ.Н7-12.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Шкаф коммуникационного оборудования",
+    "titul": ["44.1.1","44.2.1", "49", "44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ.Н2-3.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Щит питания №1.",
+    "titul": ["44.1.1","44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ.Н4-5.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Щит контроля и управления №1",
+    "titul": ["44.1.1","44.2.1", "49"],
+    "isShow": true
+  },{
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ.Н6.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Шкаф управления нагревателями (ШУН). Общий вид.",
+    "titul": ["44.1.1","44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ.Н2-3.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Щит питания №2.",
+    "titul": ["44.1.2","44.2.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ.Н4-5.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Щит контроля и управления №2.",
+    "titul": ["44.1.2","44.2.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-ТК.pdf",
+    "title": "Схемы СИК ПГФ СУГ под давлением тит. 44.1.1",
+    "description": "Схема технологическая.",
+    "titul": ["44.1.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ-2.pdf",
+    "title": "Схемы СИК ПГФ СУГ под давлением тит. 44.1.1",
+    "description": "Схема автоматизации.",
+    "titul": ["44.1.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ-3.pdf",
+    "title": "Схемы СИК ПГФ СУГ под давлением тит. 44.1.1",
+    "description": "Схема электрическая принципиальная питания.",
+    "titul": ["44.1.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ-4.pdf",
+    "title": "Схемы СИК ПГФ СУГ под давлением тит. 44.1.1",
+    "description": "Схема электрическая принципиальная подключения приборов.",
+    "titul": ["44.1.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ-5.pdf",
+    "title": "Схемы СИК ПГФ СУГ под давлением тит. 44.1.1",
+    "description": "Схема электрическая принципиальная сигнализации загазованности и пожара.",
+    "titul": ["44.1.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ-6.pdf",
+    "title": "Схемы СИК ПГФ СУГ под давлением тит. 44.1.1",
+    "description": "Схема соединений внешних проводок.",
+    "titul": ["44.1.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.1/",
+    "file": "55-2010-452-44.1.1-АТ-8.pdf",
+    "title": "Схемы СИК ПГФ СУГ под давлением тит. 44.1.1",
+    "description": "План расположения оборудования.",
+    "titul": ["44.1.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-ТК.pdf",
+    "title": "Схемы СИК ЖФ СУГ под давлением тит. 44.1.2",
+    "description": "Схема технологическая.",
+    "titul": ["44.1.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ-2.pdf",
+    "title": "Схемы СИК ЖФ СУГ под давлением тит. 44.1.2",
+    "description": "Схема автоматизации.",
+    "titul": ["44.1.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ-3.pdf",
+    "title": "Схемы СИК ЖФ СУГ под давлением тит. 44.1.2",
+    "description": "Схема электрическая принципиальная питания.",
+    "titul": ["44.1.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ-4.pdf",
+    "title": "Схемы СИК ЖФ СУГ под давлением тит. 44.1.2",
+    "description": "Схема электрическая принципиальная подключения приборов.",
+    "titul": ["44.1.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ-6.pdf",
+    "title": "Схемы СИК ЖФ СУГ под давлением тит. 44.1.2",
+    "description": "Схема электрическая принципиальная сигнализации загазованности и пожара.",
+    "titul": ["44.1.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ-6.pdf",
+    "title": "Схемы СИК ЖФ СУГ под давлением тит. 44.1.2",
+    "description": "Схема соединений внешних проводок.",
+    "titul": ["44.1.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/44.1.2/",
+    "file": "55-2010-452-44.1.2-АТ-8.pdf",
+    "title": "Схемы СИК ЖФ СУГ под давлением тит. 44.1.2",
+    "description": "План расположения оборудования.",
+    "titul": ["44.1.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/",
+    "file": "ИЭ22-01.pdf",
+    "title": "Документация",
+    "description": "Инструкция по эксплуатации.",
+    "titul": ["44.1.1", "44.1.2"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/",
+    "file": "55-2010-452-44.1-ИЗ.pdf",
+    "title": "Документация",
+    "description": "Руководство пользователя",
+    "titul": ["44.1.1", "44.1.2"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/",
+    "file": "55-2010-452-44.1-П2.pdf",
+    "title": "Документация",
+    "description": "Пояснительная записка.",
+    "titul": ["44.1.1", "44.1.2"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/",
+    "file": "55-2010-452-44.1-П5.pdf",
+    "title": "Документация",
+    "description": "Описание информационного обеспечения.",
+    "titul": ["44.1.1", "44.1.2"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/",
+    "file": "55-2010-452-44.1-П9.pdf",
+    "title": "Документация",
+    "description": "Описание комплекса технических средств.",
+    "titul": ["44.1.1", "44.1.2"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.1",
+    "urlBase": "../public/uku/44.1/",
+    "file": "55-2010-452-44.1-ПБ.pdf",
+    "title": "Документация",
+    "description": "Описание алгоритмов.",
+    "titul": ["44.1.1", "44.1.2"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.1/",
+    "file": "55-2010-453-44.2.1-ТК.pdf",
+    "title": "Схемы СИК ПГФ СУГ охлажденных тит. 44.2.1",
+    "description": "Схема технологическая.",
+    "titul": ["44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.1/",
+    "file": "55-2010-453-44.2.1-AT-2.pdf",
+    "title": "Схемы СИК ПГФ СУГ охлажденных тит. 44.2.1",
+    "description": "Схема автоматизации.",
+    "titul": ["44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.1/",
+    "file": "55-2010-453-44.2.1-AT-3.pdf",
+    "title": "Схемы СИК ПГФ СУГ охлажденных тит. 44.2.1",
+    "description": "Схема электрическая принципиальная сигнализации загазованности и пожара.",
+    "titul": ["44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.1/",
+    "file": "55-2010-453-44.2.1-AT-4.pdf",
+    "title": "Схемы СИК ПГФ СУГ охлажденных тит. 44.2.1",
+    "description": "Схема соединений внешних проводок.",
+    "titul": ["44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.1/",
+    "file": "55-2010-453-44.2.1-AT-5.pdf",
+    "title": "Схемы СИК ПГФ СУГ охлажденных тит. 44.2.1",
+    "description": "Схема подключения внешних проводок",
+    "titul": ["44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.1/",
+    "file": "55-2010-453-44.2.1-AT-6.pdf",
+    "title": "Схемы СИК ПГФ СУГ охлажденных тит. 44.2.1",
+    "description": "План расположения оборудования.",
+    "titul": ["44.2.1", "49"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.2/",
+    "file": "55-2010-453-44.2.2-АТ-6.pdf",
+    "title": "Схемы СИК ЖФ СУГ охлажденных тит. 44.2.2.",
+    "description": "План расположения оборудования.",
+    "titul": ["44.2.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.2/",
+    "file": "55-2010-453-44.2.2-AT-2.pdf",
+    "title": "Схемы СИК ЖФ СУГ охлажденных тит. 44.2.2.",
+    "description": "Схема автоматизации",
+    "titul": ["44.2.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.2/",
+    "file": "55-2010-453-44.2.2-AT-3.pdf",
+    "title": "Схемы СИК ЖФ СУГ охлажденных тит. 44.2.2.",
+    "description": "Схема электрическая принципиальная сигнализации загазованности и пожара",
+    "titul": ["44.2.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.2/",
+    "file": "55-2010-453-44.2.2-АТ-4.pdf",
+    "title": "Схемы СИК ЖФ СУГ охлажденных тит. 44.2.2.",
+    "description": "Схема соединений внешних проводок.",
+    "titul": ["44.2.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/44.2.2/",
+    "file": "55-2010-453-44.2.2-ТК.pdf",
+    "title": "Схемы СИК ЖФ СУГ охлажденных тит. 44.2.2.",
+    "description": "Схема технологическая.",
+    "titul": ["44.2.2", "35"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/",
+    "file": "ИЭ22-02.pdf",
+    "title": "Документация",
+    "description": "Инструкция по эксплуатации.",
+    "titul": ["44.2.2", "44.2.1"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/",
+    "file": "55-2010-453-44.2-ИЗ.pdf",
+    "title": "Документация",
+    "description": "Руководство пользователя.",
+    "titul": ["44.2.2", "44.2.1"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/",
+    "file": "55-2010-453-44.2-П2.pdf",
+    "title": "Документация",
+    "description": "Пояснительная записка.",
+    "titul": ["44.2.2", "44.2.1"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/",
+    "file": "55-2010-453-44.2-П5.pdf",
+    "title": "Документация",
+    "description": "Описание информационного обеспечения.",
+    "titul": ["44.2.2", "44.2.1"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/",
+    "file": "55-2010-453-44.2-П9.pdf",
+    "title": "Документация",
+    "description": "Описание комплекса технических средств.",
+    "titul": ["44.2.2", "44.2.1"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.2",
+    "urlBase": "../public/uku/44.2/",
+    "file": "55-2010-453-44.2-ПБ.pdf",
+    "title": "Документация",
+    "description": "Описание алгоритмов.",
+    "titul": ["44.2.2", "44.2.1"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "Прувер_управление.pdf",
+    "title": "СХЕМЫ",
+    "description": "ППУ. Новая схема управления прувером.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-ТК.pdf",
+    "title": "СХЕМЫ",
+    "description": "ППУ. Схема технологическая.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-ВО.pdf",
+    "title": "ДОКУМЕНТАЦИЯ",
+    "description": "ППУ. Общий вид.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-ИЗ.pdf",
+    "title": "ДОКУМЕНТАЦИЯ",
+    "description": "ППУ. Руководство пользователя",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-П2.pdf",
+    "title": "ДОКУМЕНТАЦИЯ",
+    "description": "ППУ. Пояснительная записка.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-П9.pdf",
+    "title": "ДОКУМЕНТАЦИЯ",
+    "description": "ППУ. Описание комплекса технических средств.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-ПБ.pdf",
+    "title": "ДОКУМЕНТАЦИЯ",
+    "description": "ППУ. Описание алгоритмов.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-АТ-2.pdf",
+    "title": "СХЕМЫ",
+    "description": "ППУ. Схема автоматизации.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-АТ-3.pdf",
+    "title": "СХЕМЫ",
+    "description": "ППУ. Схема электрическая принципиальная питания.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-АТ-4.pdf",
+    "title": "СХЕМЫ",
+    "description": "ППУ. Схема электрическая принципиальная подключения приборов.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-АТ-5.pdf",
+    "title": "СХЕМЫ",
+    "description": "ППУ. Схема соединений внешних проводок.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "ppu",
+    "urlBase": "../public/uku/ppu/",
+    "file": "55-2010-455-АТ-7.pdf",
+    "title": "СХЕМЫ",
+    "description": "ППУ. План расположения оборудования.",
+    "titul": ["44.2.2", "44.1.2","44.3"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ.Н2-3.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Щит питания №3.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ.Н4-5.pdf",
+    "title": "СХЕМЫ ЩИТОВ.",
+    "description": "Щит контроля и управления №3.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-ТК.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема технологическая.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ-2.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема автоматизации",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ-3.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема электрическая принципиальная питания.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ-4.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема электрическая принципиальная подключения приборов.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ-5.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема электрическая принципиальная управление пробоотбором.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ-6.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема электрическая принципиальная управления прувером.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ-7.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема электрическая принципиальная сигнализации загазованности и пожара.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-АТ-8.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Схема соединений внешних проводок.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "ИЭ22-03.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Инструкция по эксплуатации.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-ИЗ.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Руководство пользователя.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-П2.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Пояснительная записка.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-П5.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Описание информационного обеспечения.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-П9.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Описание комплекса технических средств.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "44.3",
+    "urlBase": "../public/uku/44.3/",
+    "file": "55-2010-454-44.3-ПБ.pdf",
+    "title": "Схемы СИК бензинов тит. 44.3.",
+    "description": "Описание алгоритмов.",
+    "titul": ["44.3", "44.9"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "instruction",
+    "urlBase": "../public/uku/instruction/",
+    "file": "СИК_Расход.pdf",
+    "title": "",
+    "description": "Информация по расходам для узлов учета.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "instruction",
+    "urlBase": "../public/uku/instruction/",
+    "file": "promass83f_настройка.pdf",
+    "title": "",
+    "description": "Информация по массомерам Promass 83F. Настройка",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "instruction",
+    "urlBase": "../public/uku/instruction/",
+    "file": "кмхил.pdf",
+    "title": "АРМ Инкомсистем. Инструкции",
+    "description": "Инструкция проведения КМХ.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "instruction",
+    "urlBase": "../public/uku/instruction/",
+    "file": "СИК_Инструкция_программиста.pdf",
+    "title": "АРМ Инкомсистем. Инструкции",
+    "description": "Инструкция программиста",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "instruction",
+    "urlBase": "../public/uku/instruction/",
+    "file": "СИК_Инструкция_по_основным_отчётам.pdf",
+    "title": "АРМ Инкомсистем. Инструкции",
+    "description": "Инструкция по основным отчётам",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "instruction",
+    "urlBase": "../public/uku/instruction/",
+    "file": "СИК_Инструкция_по_текущим_отчётам.pdf",
+    "title": "АРМ Инкомсистем. Инструкции",
+    "description": "Инструкция по текущим отчётам",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "uku",
+    "folder": "instruction",
+    "urlBase": "../public/uku/instruction/",
+    "file": "СИК_Инструкция_по_отчётам_КМХ.pdf",
+    "title": "АРМ Инкомсистем. Инструкции",
+    "description": "Инструкция по отчётам КМХ",
+    "titul": ["6"],
+    "isShow": true
   }
 ]
+

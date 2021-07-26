@@ -3,7 +3,16 @@
 export interface IPageData {
   section: string;
 }
-
+export interface IData {
+  name: string;
+  folder: string;
+  urlBase: string;
+  file: string;
+  title: string;
+  description: string;
+  titul: string[];
+  isShow: boolean;
+}
 export interface IAppContext {
   theme?: string;
   source?: [];
