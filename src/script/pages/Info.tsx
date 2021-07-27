@@ -9,10 +9,19 @@ import { Menu } from '../components/Menu';
 import { Lists } from '../components/Lists';
 
 import { getTitlePage } from '../shared/getTitlePage';
-import { IPageData } from '../shared/types';
+import { IPageData, IData } from '../shared/types';
+
+const info: { [char: string]: string } = {
+  otpb: 'instruction',
+  equip: 'equipment',
+  methodologies: 'methodologies',
+  map: 'map',
+  artic: 'artic',
+};
 
 export const Info: React.FC = () => {
-  const [listDataAll, setListDataEll] = useState([]);
+  const [listDataSection, setListDataSection] = useState<IData[] | []>([]);
+  const [listDataTitle, setListDataTitle] = useState<string[] | []>([]);
 
   const key: IPageData = useParams();
   const section: string = key.section || 'otpb';
@@ -21,7 +30,16 @@ export const Info: React.FC = () => {
   const { source = [] } = AppContextSource();
   useEffect(() => {
     const data = getData('info', source);
-    setListDataEll(data);
+    const dataSection = data.filter((item: IData) => item.folder === info[section]);
+
+    setListDataSection(dataSection);
+    const titleArray: string[] = [];
+    dataSection.forEach((item: IData) => {
+      if (!titleArray.includes(item.title)) {
+        titleArray.push(item.title);
+      }
+    });
+    setListDataTitle(titleArray);
   }, [section]);
 
   // const sourceInfo = () => {
@@ -37,7 +55,7 @@ export const Info: React.FC = () => {
         <h2>Информация</h2>
         <p>Здесь собрана полезная информация по работе</p>
         <p>{title}</p>
-        <Lists section={section} data={listDataAll} />
+        <Lists title={listDataTitle} data={listDataSection} />
       </main>
     </>
   );

@@ -1,36 +1,70 @@
 import React from 'react';
 import { IData } from '../shared/types';
 
-type TProps = {
-  section: string;
+interface ILists {
+  title: string[];
   data: IData[];
-};
+}
+interface IList {
+  description: string;
+  url: string;
+  index: number;
+}
 
-const info = {
-  otpb: 'instruction',
-  equip: 'equipment',
-  methodologies: 'methodologies',
-  map: 'map',
-  artic: 'artic',
-};
+// const List: React.FC<IList> = ({ description, url, index }: IList) => {
+//   console.log(description, url, index);
+//   return (
+//     <li key={index}>
+//       <a className="link" href={url} target="_blank" rel="noreferrer">
+//         {description}
+//       </a>
+//     </li>
+//   );
+// };
 
-export const Lists: React.FC<TProps> = ({ section = 'otpb', data = [] }) => {
+export const Lists: React.FC<ILists> = ({ title, data = [] }: ILists) => {
   console.log(data);
+  console.log(title);
+
   return (
     <div>
-      <p>{section}</p>
-      <ul>
+      {title.map((titles, index) => {
+        return (
+          <>
+            <h3 key={index}>{titles}</h3>
+            <ul>
+              {data
+                .filter((el) => el.title === titles)
+                .map((item, index) => {
+                  const url = `${item.urlBase}${item.file}`;
+                  const description: string = item.description;
+                  return (
+                    <li key={index}>
+                      <a className="link" href={url} target="_blank" rel="noreferrer">
+                        {description}
+                      </a>
+                    </li>
+                  );
+                  // <List description={item.description} url={url} index={index} />;
+                })}
+            </ul>
+          </>
+        );
+      })}
+      {/* <ul>
         {data.map((item, index) => {
-          const l = `${item.urlBase}${item.file}`;
+          const url = `${item.urlBase}${item.file}`;
+          const description: string = item.description;
           return (
             <li key={index}>
-              <a className="link" href={l} target="_blank" rel="noreferrer">
-                {item.description}
+              <a className="link" href={url} target="_blank" rel="noreferrer">
+                {description}
               </a>
             </li>
           );
+          // <List description={item.description} url={url} index={index} />;
         })}
-      </ul>
+      </ul> */}
     </div>
   );
 };
