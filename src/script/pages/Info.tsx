@@ -41,12 +41,6 @@ export const Info: React.FC = () => {
     });
     setListDataTitle(titleArray);
   }, [section]);
-
-  // const sourceInfo = () => {
-  //   const data = getData('info', source);
-  //   console.log(data);
-  //   return data;
-  // };
   return (
     <>
       <Header />
