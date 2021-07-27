@@ -1,5 +1,15 @@
 [
   {
+    "name": "наименование раздела",
+    "folder": "наименование папки",
+    "urlBase": "путь до папки в котором содержатся файл",
+    "file": "наименование файла",
+    "title": "Раздела в котором будет располагаться",
+    "description": "название ссылки на файл",
+    "titul": "титула, к которому пррименяется",
+    "isShow": "показывать или нет"
+  },
+  {
     "name": "info",
     "folder": "equipment",
     "urlBase": "../public/info/equipment/",
@@ -565,7 +575,7 @@
     "file": "55-2010-452-44.1.1-АТ.Н7-12.pdf",
     "title": "Схемы щитов",
     "description": "Шкаф коммуникационного оборудования",
-    "titul": ["44.1.1","44.2.1", "49", "44.3"],
+    "titul": ["44.1.1", "44.2.1", "49", "44.3"],
     "isShow": true
   },
   {
@@ -575,7 +585,7 @@
     "file": "55-2010-452-44.1.1-АТ.Н2-3.pdf",
     "title": "Схемы щитов",
     "description": "Щит питания №1.",
-    "titul": ["44.1.1","44.2.1", "49"],
+    "titul": ["44.1.1", "44.2.1", "49"],
     "isShow": true
   },
   {
@@ -585,16 +595,17 @@
     "file": "55-2010-452-44.1.1-АТ.Н4-5.pdf",
     "title": "Схемы щитов",
     "description": "Щит контроля и управления №1",
-    "titul": ["44.1.1","44.2.1", "49"],
+    "titul": ["44.1.1", "44.2.1", "49"],
     "isShow": true
-  },{
+  },
+  {
     "name": "uku",
     "folder": "44.1",
     "urlBase": "../public/uku/44.1/44.1.1/",
     "file": "55-2010-452-44.1.1-АТ.Н6.pdf",
     "title": "Схемы щитов",
     "description": "Шкаф управления нагревателями (ШУН). Общий вид.",
-    "titul": ["44.1.1","44.2.1", "49"],
+    "titul": ["44.1.1", "44.2.1", "49"],
     "isShow": true
   },
   {
@@ -604,7 +615,7 @@
     "file": "55-2010-452-44.1.2-АТ.Н2-3.pdf",
     "title": "Схемы щитов",
     "description": "Щит питания №2.",
-    "titul": ["44.1.2","44.2.2", "35"],
+    "titul": ["44.1.2", "44.2.2", "35"],
     "isShow": true
   },
   {
@@ -614,7 +625,7 @@
     "file": "55-2010-452-44.1.2-АТ.Н4-5.pdf",
     "title": "Схемы щитов",
     "description": "Щит контроля и управления №2.",
-    "titul": ["44.1.2","44.2.2", "35"],
+    "titul": ["44.1.2", "44.2.2", "35"],
     "isShow": true
   },
   {
@@ -994,7 +1005,7 @@
     "file": "Прувер_управление.pdf",
     "title": "Схемы",
     "description": "ППУ. Новая схема управления прувером.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1004,7 +1015,7 @@
     "file": "55-2010-455-ТК.pdf",
     "title": "Схемы",
     "description": "ППУ. Схема технологическая.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1014,7 +1025,7 @@
     "file": "55-2010-455-ВО.pdf",
     "title": "Документация",
     "description": "ППУ. Общий вид.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1024,7 +1035,7 @@
     "file": "55-2010-455-ИЗ.pdf",
     "title": "Документация",
     "description": "ППУ. Руководство пользователя",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1034,7 +1045,7 @@
     "file": "55-2010-455-П2.pdf",
     "title": "Документация",
     "description": "ППУ. Пояснительная записка.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1044,7 +1055,7 @@
     "file": "55-2010-455-П9.pdf",
     "title": "Документация",
     "description": "ППУ. Описание комплекса технических средств.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1054,7 +1065,7 @@
     "file": "55-2010-455-ПБ.pdf",
     "title": "Документация",
     "description": "ППУ. Описание алгоритмов.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1064,7 +1075,7 @@
     "file": "55-2010-455-АТ-2.pdf",
     "title": "Схемы",
     "description": "ППУ. Схема автоматизации.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1074,7 +1085,7 @@
     "file": "55-2010-455-АТ-3.pdf",
     "title": "Схемы",
     "description": "ППУ. Схема электрическая принципиальная питания.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1084,7 +1095,7 @@
     "file": "55-2010-455-АТ-4.pdf",
     "title": "Схемы",
     "description": "ППУ. Схема электрическая принципиальная подключения приборов.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1094,7 +1105,7 @@
     "file": "55-2010-455-АТ-5.pdf",
     "title": "Схемы",
     "description": "ППУ. Схема соединений внешних проводок.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1104,7 +1115,7 @@
     "file": "55-2010-455-АТ-7.pdf",
     "title": "Схемы",
     "description": "ППУ. План расположения оборудования.",
-    "titul": ["44.2.2", "44.1.2","44.3"],
+    "titul": ["44.2.2", "44.1.2", "44.3"],
     "isShow": true
   },
   {
@@ -1336,6 +1347,245 @@
     "description": "Инструкция по отчётам КМХ",
     "titul": ["6"],
     "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "stardom",
+    "urlBase": "../public/asutp/stardom/",
+    "file": "Yokogawa_Stardom-flow_О.pdf",
+    "title": "STARDOM. ОБЗОР КОНТРОЛЛЕРА",
+    "description": "Обзор Stardom-Flow",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "stardom",
+    "urlBase": "../public/asutp/stardom/",
+    "file": "S1-Stardom_Overview.pdf",
+    "title": "STARDOM. ОБЗОР КОНТРОЛЛЕРА",
+    "description": "Обзор системы.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "stardom",
+    "urlBase": "../public/asutp/stardom/",
+    "file": "S2-Stardom_FCX_Functions_NPAS.pdf",
+    "title": "STARDOM. ОБЗОР КОНТРОЛЛЕРА",
+    "description": "Функции FCX.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "stardom",
+    "urlBase": "../public/asutp/stardom/",
+    "file": "S3-Stardom_VDS_Functions.pdf",
+    "title": "STARDOM. ОБЗОР КОНТРОЛЛЕРА",
+    "description": "Функции VDS.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "stardom",
+    "urlBase": "../public/asutp/stardom/",
+    "file": "TI_34P02A03-01R(1)_TG.pdf",
+    "title": "STARDOM. ОБЗОР КОНТРОЛЛЕРА",
+    "description": "Техническое руководство по STARDOM.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "stardom",
+    "urlBase": "../public/asutp/stardom/",
+    "file": "IM_34P02P25-01R(3)_NPAS_POU.pdf",
+    "title": "STARDOM. ОБЗОР КОНТРОЛЛЕРА",
+    "description": "NPAS POU - Общая информация.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "stardom",
+    "urlBase": "../public/asutp/stardom/",
+    "file": "IM_34P02Q01-01R(8)_FCN-FCJ.pdf",
+    "title": "STARDOM. ОБЗОР КОНТРОЛЛЕРА",
+    "description": "Руководство по FCN/FCJ STARDOM",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "hart",
+    "urlBase": "../public/asutp/hart/",
+    "file": "HART_обзор.pdf",
+    "title": "Протоколы связи",
+    "description": "HART. Технический обзор.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "hart",
+    "urlBase": "../public/asutp/hart/",
+    "file": "modbus.pdf",
+    "title": "Протоколы связи",
+    "description": "ModBus. Краткий обзор.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "hart",
+    "urlBase": "../public/asutp/hart/",
+    "file": "RS485.pdf",
+    "title": "Интерфейс связи",
+    "description": "RS-485. Описание стандарта",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "scada",
+    "urlBase": "../public/asutp/scada/",
+    "file": "Understanding_iFIX_R.pdf",
+    "title": "IFIX PROFICY",
+    "description": "Proficy HMI/SCADA - iFIX. Understanding iFIX",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "Siemens_s7-400_S7-400H.pdf",
+    "title": "Контроллеры",
+    "description": "Светодиоды состояния и ошибок",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "S7_300_400_function_r.pdf",
+    "title": "Контроллеры",
+    "description": "Системные и стандартные функции для S7-300 и S7-400",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "S7-400_Install_r.pdf",
+    "title": "Контроллеры",
+    "description": "Программируемые контроллеры S7–400, M7–400. Руководство пользователя.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "STEP7_V53_Programming_r.pdf",
+    "title": "Контроллеры",
+    "description": "Программирование с помощью STEP 7 V5.3. Руководство",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "Win_CC_Configuration_Manual-1_r.pdf",
+    "title": "WinCC",
+    "description": "Win CC Руководство по конфигурации. Том 1",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "Win_CC_Configuration_Manual-2_r.pdf",
+    "title": "WinCC",
+    "description": "Win CC Руководство по конфигурации. Том 2",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "TI_33Y05Q32-32E(1)_Ovr.pdf",
+    "title": "Менеджер ресурсов КИП PRM server. Инструкции",
+    "description": "Обзор пакета",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "IM_33Y05Q10-11R(2)_Ref.pdf",
+    "title": "Менеджер ресурсов КИП PRM server. Инструкции",
+    "description": "Справочное руководство",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "IM_33Y05Q12-11R(2)_Inst.pdf",
+    "title": "Менеджер ресурсов КИП PRM server. Инструкции",
+    "description": "Инсталляция ПО",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "IM_33Y05Q23-11R(2)_ADA.pdf",
+    "title": "Менеджер ресурсов КИП PRM server. Инструкции",
+    "description": "Руководство по инжинирингу для приложения расширенной диагностики PRM",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "2A1101.pdf",
+    "title": "EXA OPC",
+    "description": "OPC Interface Package.Guide Manual.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "2A1201.pdf",
+    "title": "EXA OPC",
+    "description": "OPC Interface Package. Installation Manual",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "GS_34P02Q61-01R(8).pdf",
+    "title": "Stardom",
+    "description": "OPC сервер FCN/FCJ для Windows",
+    "titul": [""],
+    "isShow": true
   }
 ]
-
