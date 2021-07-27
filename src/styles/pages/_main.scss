@@ -4,6 +4,7 @@ main {
   background-color: $color-background-block;
   border-radius: 5px;
   color: $color-text;
+
   h3,
   h4 {
     margin-top: 1rem;
@@ -12,4 +13,17 @@ main {
 
 main .logo {
   margin-left: 1rem;
+}
+
+main ul {
+  list-style: none;
+}
+
+main .link {
+  text-decoration: underline;
+  color: $color-link;
+
+  &:hover {
+    color: $color-violet;
+  }
 }

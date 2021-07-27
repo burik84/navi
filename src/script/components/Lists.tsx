@@ -15,7 +15,7 @@ export const Lists: React.FC<ILists> = ({ title, data = [] }: ILists) => {
       {title.map((titles, index) => {
         return (
           <>
-            <h3 key={index}>{titles}</h3>
+            <h4 key={index}>{titles}</h4>
             <ul>
               {data
                 .filter((el) => el.title === titles)
