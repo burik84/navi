@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       width: '100%',
-      maxWidth: 420,
+      maxWidth: 520,
     },
     list: {
       paddingTop: '0px',
@@ -51,18 +51,7 @@ export const Main: React.FC = () => {
               classes={{
                 primary: classes.primary,
               }}
-              primary="переносить папки и файлы"
-            />
-            <ListItemIcon>
-              <WarningIcon color="error" />
-            </ListItemIcon>
-          </ListItem>
-          <ListItem className={classes.list}>
-            <ListItemText
-              classes={{
-                primary: classes.primary,
-              }}
-              primary="переименовывать папки и файлы"
+              primary="переносить/переименовывать папки и файлы"
             />
             <ListItemIcon>
               <WarningIcon color="error" />
@@ -78,8 +67,18 @@ export const Main: React.FC = () => {
         </h4>
         <ol>
           <li>Скопировать папку navi на свой ПК в любое удобное место.</li>
-          <li>В папке navi/dist для файла index.html создать ярлык в любое удобное место, например, на рабочий стол</li>
-          <li>Пользоваться ярлыком</li>
+          <li>В папке navi/dist расположен файл index.html </li>
+          <li>
+            Для удобства пользования предлагаю создать ярлык - для этого на файле index.html открыть контекстное меню
+            (правая клавиша мыши) и выбрать пункт меню Отправить и далее Рабочий стол создать ярлык
+          </li>
+          <li>Нажать на ярлык или октрыть файл index.html</li>
+          <li>
+            Открывается главная страница на которой необходимо нажать кнопку &quot;Выберите файл&quot;. Вся информация
+            содержится в этом файле
+          </li>
+          <li>Выбрать файл source.json (располагается в корне папки navi)</li>
+          <li>Можно пользоваться.</li>
         </ol>
         <h4>
           Android <AndroidIcon color="primary" />
