@@ -1587,5 +1587,546 @@
     "description": "OPC сервер FCN/FCJ для Windows",
     "titul": [""],
     "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "prosafe",
+    "urlBase": "../public/asutp/prosafe/",
+    "file": "Учебник_Prosafe.Практика.pdf",
+    "title": "Обучение",
+    "description": "Учебник Prosafe. Практика.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "prosafe",
+    "urlBase": "../public/asutp/prosafe/",
+    "file": "IM_32S01C10-21R(2)_EG.pdf",
+    "title": "Руководство пользователя",
+    "description": "Руководоство по инжинирингу",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "prosafe",
+    "urlBase": "../public/asutp/prosafe/",
+    "file": "IM_32Q01C50-31E.pdf",
+    "title": "Руководство пользователя",
+    "description": "Installation",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "prosafe",
+    "urlBase": "../public/asutp/prosafe/",
+    "file": "IM_32S02B10-21R(2)_Mess.pdf",
+    "title": "Руководство пользователя",
+    "description": "Сообщения",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "prosafe",
+    "urlBase": "../public/asutp/prosafe/",
+    "file": "IM_32S03B10-21R(2)_SCS_Ref.pdf",
+    "title": "Руководство пользователя",
+    "description": "Справочное руководство по контроллерам системы безопасности",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "prosafe",
+    "urlBase": "../public/asutp/prosafe/",
+    "file": "IM_32S04B10-21R(2)_ERM.pdf",
+    "title": "Руководство пользователя",
+    "description": "Справочное руководство по инжинирингу.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "prosafe",
+    "urlBase": "../public/asutp/prosafe/",
+    "file": "IM_32S06С10-01R(3)_SCS_HW.pdf",
+    "title": "Руководство пользователя",
+    "description": "Контроллеры системы безопасности (аппаратные средства)",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "ML11uRU2_tcm3-45885.pdf",
+    "title": "Принтеры.",
+    "description": "OKI ML1100. Принадлежит системе СИК УКУ (отсутствует, т.к. не используется).",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "LASERJET_PRO_CP1520.pdf",
+    "title": "Принтеры.",
+    "description": "HP LASERJET PRO CP1520. Принадлежит системе СИК УКУ",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "HP_CP5520_Руководство пользователя.pdf",
+    "title": "Принтеры.",
+    "description": "HP CP5520. Руководство пользователя. Принадлежит системе АСУТП",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "HP_CP5520_LaserJet_sm.pdf",
+    "title": "Принтеры.",
+    "description": "HP CP5520. Service Manual. Принадлежит системе АСУТП",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "HP_CP5520_CE977A_CE978A.pdf",
+    "title": "Принтеры.",
+    "description": "HP CP5520. Набор термоэлемента. Принадлежит системе АСУТП",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "HP_CP5520_CE980A.pdf",
+    "title": "Принтеры.",
+    "description": "HP CP5520. Модуль сбора тонера. Принадлежит системе АСУТП",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Siemens_OP_177B.pdf",
+    "title": "Siemens.",
+    "description": "Панель управления компрессорами HAFI. OP 177B",
+    "titul": ["403","404"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Siemens_lmv.pdf",
+    "title": "Siemens.",
+    "description": "Менеджер горения. LMV 51/52",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Siemens_N7550ru_LMV5.pdf",
+    "title": "Siemens.",
+    "description": "Менеджер горения. LMV 51/52. Полная версия (плохие картинки)",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Omni_manual.pdf",
+    "title": "OMNI. Контроллер для измерения потока",
+    "description": "OMNI. Том 1. Руководство пользователя.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "OMNI_Volume2RUS.pdf",
+    "title": "OMNI. Контроллер для измерения потока",
+    "description": "OMNI. Том 2. Основные операции",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Omni_3000_6000_конфиг.pdf",
+    "title": "OMNI. Контроллер для измерения потока",
+    "description": "OMNI. Том 3. Конфигурирование и работа с данными",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_32_01.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Сервер мониторинга. Руководство системного программиста.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_33_01.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Сервер мониторинга. Руководство программиста",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_34_01.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "АРМ мониторинга. Руководство оператора",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "Программа_bcp.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Программа bcp",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "Сигналы_СМИС_КПСУГ_Утвержденный.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Перечень сигналов СМИС, утвержденные ГИ",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/",
+    "file": "527_IM_Modbus_v20.pdf",
+    "title": "Enraf.",
+    "description": "Инструкция по эксплуатации на протокол Modbus",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/",
+    "file": "555_IM_HIMS_v10.pdf",
+    "title": "Enraf.",
+    "description": "HIMS. Гибридная система измерения. Инструкция",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/",
+    "file": "524_IG_880_CIU_Prime_Plus_v13.pdf",
+    "title": "Enraf. 880 CIU PRIME/CIU PLUS.",
+    "description": "Руководство по установке 880 CIU prime/CIU plus",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/",
+    "file": "525_IM_880_CIU_Prime_v11.pdf",
+    "title": "Enraf. 880 CIU PRIME/CIU PLUS.",
+    "description": "Инструкция по эксплуатации 880 CIU Prime",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/",
+    "file": "593_IM_Ensite_Pro_Configuration_Tool_rev2.pdf",
+    "title": "Enraf. Ensite PRO. Конфигурационный инструмент для 880 CIU PRIME/PLUS",
+    "description": "Ensite PRO. Инструкция по эксплуатации",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/",
+    "file": "594_IG_Ensite_Pro_v10.pdf",
+    "title": "Enraf. Ensite PRO. Конфигурационный инструмент для 880 CIU PRIME/PLUS",
+    "description": "Ensite PRO. Руководство по установке",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/",
+    "file": "И-10-С-003-2010ЭНРАФ.pdf",
+    "title": "Enraf. Entis PRO система учета в резервуарах.",
+    "description": "Инструкция по эксплуатации системы учета и контроля резервуарных запасов. Entis PRO",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/876_Entis_Pro/",
+    "file": "520_UG_ENTIS_PRO_2.30х_v50.pdf",
+    "title": "Enraf. Entis PRO система учета в резервуарах.",
+    "description": "Entis PRO. Руководство пользователя.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/876_Entis_Pro/",
+    "file": "521_CM_Entis_Pro_v11.pdf",
+    "title": "Enraf. Entis PRO система учета в резервуарах.",
+    "description": "Entis PRO. Инструкция по конфигурации",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "enraf",
+    "urlBase": "../public/asutp/enraf/876_Entis_Pro/",
+    "file": "522_IG_Entis_Pro_v11.pdf",
+    "title": "Enraf. Entis PRO система учета в резервуарах.",
+    "description": "Entis PRO. Руководство по установке",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "Учебник_Centum_TE_33K80N10-00RU(5)_GTC.pdf",
+    "title": "Centum VP",
+    "description": "Учебник по инжинирингу Centum VP.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "Методическое_пособие_VP.pdf",
+    "title": "Centum VP",
+    "description": "Методическое пособие VP",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "centum-vp-installation-gneral-guide.pdf",
+    "title": "Centum VP",
+    "description": "Installation",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "IM_33M05D10-40R(1)_HIS.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "Станция оператора",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "IM_33M05D20-40R(1)_Mess.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "Рабочие сообщения",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "IM_33M50E40-40R(1)_FCS.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "Станции управления",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "IM_33M50G10-40R(1)_IOM.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "Mодули входов-выходов",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_A_Станция_управления_обзор_функций.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "A Станция управления, обзор функций.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_B_Надежность_станции_управления.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "B Надежность станции управления.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_C_Функциональные_блоки_Общие_сведения.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "C Функциональные блоки. Общие сведения",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_D_Функциональные_блоки_Детали.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "D Функциональные блоки. Детали",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_E_Станция_оператора_Настройка.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "E Станция оператора. Настройка",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_F_Основные_сведения_по_инжинирингу.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "F Основные сведения по инжинирингу",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_H_SEBOL.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "H SEBOL",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_J_Связь_с_подсистемами_RIO.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "J Связь с подсистемами RIO",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_K_Связь_с_подсистемами_FIO.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "K Связь с подсистемами FIO",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_L_Устройства_связи.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "L Устройства связи",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_M_Опции.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "M Опции",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_P_Администратор_доступа.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "P Администратор доступа",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "centumvp",
+    "urlBase": "../public/asutp/centumvp/",
+    "file": "PART_R_Станция_системной_интеграции_OPC.pdf",
+    "title": "Centum VP. Руководтсва пользователя",
+    "description": "R Станция системной интеграции OPC",
+    "titul": ["6"],
+    "isShow": true
   }
 ]
+
