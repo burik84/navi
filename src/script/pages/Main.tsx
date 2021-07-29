@@ -8,6 +8,7 @@ import AndroidIcon from '@material-ui/icons/Android';
 import { Header } from '../layout/Header';
 import { Menu } from '../components/Menu';
 import { colorAdditional } from '../shared/constants';
+import { ButtonInput } from '../components/ButtonInput';
 
 import logoWindows from '../../assets/icons/windows-brands.svg';
 
@@ -74,10 +75,10 @@ export const Main: React.FC = () => {
           </li>
           <li>Нажать на ярлык или октрыть файл index.html</li>
           <li>
-            Открывается главная страница на которой необходимо нажать кнопку &quot;Выберите файл&quot;. Вся информация
-            содержится в этом файле
+            Открывается главная страница на которой необходимо нажать кнопку
+            <ButtonInput />
           </li>
-          <li>Выбрать файл source.json (располагается в корне папки navi)</li>
+          <li>Выбрать файл source.json (располагается в корне папки navi). Вся информация содержится в этом файле</li>
           <li>Можно пользоваться.</li>
         </ol>
         <h4>

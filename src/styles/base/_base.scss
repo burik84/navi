@@ -152,3 +152,8 @@ a {
 .hidden {
   display: none;
 }
+.highlight{
+  background-color: $color-primary-MUI;
+  color:$color-light;
+  padding: 2px 5px;
+}

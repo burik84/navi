@@ -3,7 +3,7 @@ import { ReactElement } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { AppContextSource } from '../services/AppContext';
-import { getDataFromFile } from '../services/fetchDataJSON';
+import { ButtonInput } from '../components/ButtonInput';
 
 const Lists: React.FC = (): ReactElement => {
   return (
@@ -43,28 +43,12 @@ const Lists: React.FC = (): ReactElement => {
 };
 
 export const Navigation: React.FC = (): ReactElement => {
-  const { isLoad, setIsLoad, setSource } = AppContextSource();
-  const handleChange = async (event: any) => {
-    try {
-      const data = await getDataFromFile(event);
-      if (data) {
-        setSource(data);
-        setIsLoad(true);
-      }
-    } catch (err) {
-      console.error(err);
-    }
-  };
-  const inputButton = () => (
-    <li className="item">
-      <input name="myFile" type="file" onChange={handleChange} />
-    </li>
-  );
+  const { isLoad } = AppContextSource();
 
   return (
     <nav className="navigation">
       {isLoad && <Lists />}
-      {!isLoad && inputButton()}
+      {!isLoad && <ButtonInput />}
     </nav>
   );
 };

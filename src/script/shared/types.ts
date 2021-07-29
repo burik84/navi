@@ -1,5 +1,7 @@
 // Examples from https://github.com/PostHog/posthog.com/blob/master/src/types.ts
-
+export interface IHandle {
+  handleChange: (event: any) => Promise<void>;
+}
 export interface IPageData {
   section: string;
 }
