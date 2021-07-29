@@ -4,9 +4,9 @@
     "folder": "наименование папки",
     "urlBase": "путь до папки в котором содержатся файл",
     "file": "наименование файла",
-    "title": "Раздела в котором будет располагаться",
+    "title": "Раздел в котором будет располагаться",
     "description": "название ссылки на файл",
-    "titul": "титула, к которому пррименяется",
+    "titul": "титула, к которому применяется",
     "isShow": "показывать или нет"
   },
   {
@@ -2125,6 +2125,206 @@
     "file": "PART_R_Станция_системной_интеграции_OPC.pdf",
     "title": "Centum VP. Руководства пользователя",
     "description": "R Станция системной интеграции OPC",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "HART_475.pdf",
+    "title": "Диагностика КИП",
+    "description": "HART_475. Полевой коммуникатор.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "MARTEL_MC1210.pdf",
+    "title": "Диагностика КИП",
+    "description": "MARTEL MC1210. Калибратор (eng)",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "BA00067DRU.pdf",
+    "title": "Диагностика КИП",
+    "description": "Proline Fieldcheck. Симулятор расхода.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "TI00404FRU_1311.pdf",
+    "title": "Диагностика КИП",
+    "description": "Commubox FXA195. Искробезопасный интерфейс для преобразования сигналов протокола HART для USB-порта.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "REGIN_TTC25_О.pdf",
+    "title": "Не разобрано",
+    "description": "REGIN TTC25. Симисторный регулятор мощности для электрических обогревателей.",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "ОВЕН_ТРМ-12Б_РЭ.pdf",
+    "title": "Не разобрано",
+    "description": "ОВЕН ТРМ-12Б. Измеритель ПИД-регулятор микропроцессорный одноканальный.",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "Manual_Position_Sensor_RUS.pdf",
+    "title": "Не разобрано",
+    "description": "Датчик положения SA96DX, SLCD-M1(eng).",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "CEMB_TR26_ТО.pdf",
+    "title": "Не разобрано",
+    "description": "CEMB TR26. Датчик вибрации",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "1125-1129.pdf",
+    "title": "Не разобрано",
+    "description": "Сигнальная колонна на светодиодах. Rittal",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "Mobrey_7835,45,47_7826,28.pdf",
+    "title": "Оборудование, установленное на компакт-прувере",
+    "description": "7835. Измерение плотности жидкости",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "SET-61pdf",
+    "title": "Не разобрано",
+    "description": "SET-61. Используется с датчиком сухого хода на котлах",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "DYTRAN_3190A6.pdf",
+    "title": "Не разобрано",
+    "description": "DYTRAN 3190A6. Акселерометр - измерение ускорения (виброускорение)",
+    "titul": ["202.1","202.2"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "SWA70_adapter.pdf",
+    "title": "Беспроводные датчики",
+    "description": "SWA70. Адаптер. Интеллектуальный беспроводной модем с возможностью подачи питания на полевые приборы.",
+    "titul": ["59.1","60.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "SWG70_gateway.pdf",
+    "title": " ",
+    "description": "SWG70. Шлюз. Интеллектуальный шлюз для беспроводных сетей.",
+    "titul": ["59.1","60.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "optical_switch_h21lti.pdf",
+    "title": "Оборудование, установленное на компакт-прувере",
+    "description": "H21LT. Оптический датчик.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "VIJMY250_Instr_PCM_MM.pdf",
+    "title": "Не разобрано",
+    "description": "Модуль мониторинга РСМ ММ. Danfoss",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "весоизмерительный_датчик_С16.pdf",
+    "title": "Тензодатчик цифровой C16I. Установлены на ж/д весах",
+    "description": "C16i. Описание",
+    "titul": ["503"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "C16i-M.pdf",
+    "title": "Тензодатчик цифровой C16I. Установлены на ж/д весах",
+    "description": "С16i. Инструкция по установке (deu.).",
+    "titul": ["503"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "rvo-15.pdf",
+    "title": "Оборудование, установленное на компакт-прувере",
+    "description": "Реле времени РВО-15",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "rie_trm501_557.pdf",
+    "title": "реле",
+    "description": "ТРМ501. Реле регулятор с таймером",
     "titul": [""],
     "isShow": true
   }
