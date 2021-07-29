@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import { AppContextSource } from '../services/AppContext';
+
+import { IData } from '../shared/types';
 
 import { TextField, createStyles, makeStyles, Theme, Button } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 
 import { Header } from '../layout/Header';
+import { Lists } from '../components/Lists';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -26,9 +30,28 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
+const getDataSearch = (text: string, data: []) => {
+  const result: IData[] = [];
+  data.forEach((item: IData) => {
+    if (item.title.toLowerCase().includes(text)) {
+      result.push(item);
+    } else if (item.description.toLowerCase().includes(text)) {
+      result.push(item);
+    } else if (item.titul.includes(text)) {
+      result.push(item);
+    }
+  });
+  return result;
+};
+
 export const Search: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [search, setSearch] = useState('');
+
+  const [listDataSearch, setListDataSearch] = useState<IData[] | []>([]);
+  const [listDataSearchTitle, setListDataSearchTitle] = useState<string[] | []>([]);
+
+  const { source = [] } = AppContextSource();
 
   const handleOnInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const searchValue = event.target.value;
@@ -40,6 +63,18 @@ export const Search: React.FC = () => {
     const str = searchTerm.toLowerCase();
     setSearch(str);
     setSearchTerm('');
+
+    const getSearch = getDataSearch(str, source);
+
+    const titleArray: string[] = [];
+    getSearch.forEach((item: IData) => {
+      if (!titleArray.includes(item.title)) {
+        titleArray.push(item.title);
+      }
+    });
+    setListDataSearchTitle(titleArray);
+
+    setListDataSearch(getSearch);
   };
 
   const classes = useStyles();
@@ -74,6 +109,7 @@ export const Search: React.FC = () => {
         <div className="results">
           <h4>
             Результаты запросы <span>{search}</span>
+            <Lists title={listDataSearchTitle} data={listDataSearch} />
           </h4>
         </div>
       </main>

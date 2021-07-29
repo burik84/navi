@@ -130,6 +130,12 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 1.6rem;
+  font-weight: normal;
+
+  @include media-laptop {
+    font-size: 1.4rem;
+  }
 
   h1 {
     font-size: 2rem;

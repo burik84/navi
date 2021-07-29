@@ -7,32 +7,28 @@ interface ILists {
 }
 
 export const Lists: React.FC<ILists> = ({ title, data = [] }: ILists) => {
-  console.log(data);
-  console.log(title);
-
   return (
     <div>
       {title.map((titles, index) => {
         return (
-          <>
-            <h4 key={index}>{titles}</h4>
+          <div key={index}>
+            <h4>{titles}</h4>
             <ul>
               {data
                 .filter((el) => el.title === titles)
-                .map((item, index) => {
+                .map((item, ind) => {
                   const url = `${item.urlBase}${item.file}`;
                   const description: string = item.description;
                   return (
-                    <li key={index}>
+                    <li key={ind}>
                       <a className="link" href={url} target="_blank" rel="noreferrer">
                         {description}
                       </a>
                     </li>
                   );
-                  // <List description={item.description} url={url} index={index} />;
                 })}
             </ul>
-          </>
+          </div>
         );
       })}
     </div>
