@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, useRouteMatch, NavLink } from 'react-router-dom';
+import { useRouteMatch, NavLink } from 'react-router-dom';
+import { AppContextSource } from '../services/AppContext';
 
 const shemes = [
   ['/scheme/sug', 'СУГ'],
@@ -120,11 +121,12 @@ const listItems = (name: string) => {
 };
 
 export const Menu: React.FC = () => {
+  const { isLoad } = AppContextSource();
   const getNameList = getCurrentRoute();
   const listMenu = listItems(getNameList);
   return (
     <nav className="menu">
-      <ul>{listMenu}</ul>
+      <ul>{isLoad && listMenu}</ul>
     </nav>
   );
 };
