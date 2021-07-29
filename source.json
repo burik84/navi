@@ -1835,7 +1835,7 @@
     "file": "527_IM_Modbus_v20.pdf",
     "title": "Enraf.",
     "description": "Инструкция по эксплуатации на протокол Modbus",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1845,7 +1845,7 @@
     "file": "555_IM_HIMS_v10.pdf",
     "title": "Enraf.",
     "description": "HIMS. Гибридная система измерения. Инструкция",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1855,7 +1855,7 @@
     "file": "524_IG_880_CIU_Prime_Plus_v13.pdf",
     "title": "Enraf. 880 CIU PRIME/CIU PLUS.",
     "description": "Руководство по установке 880 CIU prime/CIU plus",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1865,7 +1865,7 @@
     "file": "525_IM_880_CIU_Prime_v11.pdf",
     "title": "Enraf. 880 CIU PRIME/CIU PLUS.",
     "description": "Инструкция по эксплуатации 880 CIU Prime",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1875,7 +1875,7 @@
     "file": "593_IM_Ensite_Pro_Configuration_Tool_rev2.pdf",
     "title": "Enraf. Ensite PRO. Конфигурационный инструмент для 880 CIU PRIME/PLUS",
     "description": "Ensite PRO. Инструкция по эксплуатации",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1885,7 +1885,7 @@
     "file": "594_IG_Ensite_Pro_v10.pdf",
     "title": "Enraf. Ensite PRO. Конфигурационный инструмент для 880 CIU PRIME/PLUS",
     "description": "Ensite PRO. Руководство по установке",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1895,7 +1895,7 @@
     "file": "И-10-С-003-2010ЭНРАФ.pdf",
     "title": "Enraf. Entis PRO система учета в резервуарах.",
     "description": "Инструкция по эксплуатации системы учета и контроля резервуарных запасов. Entis PRO",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1905,7 +1905,7 @@
     "file": "520_UG_ENTIS_PRO_2.30х_v50.pdf",
     "title": "Enraf. Entis PRO система учета в резервуарах.",
     "description": "Entis PRO. Руководство пользователя.",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1915,7 +1915,7 @@
     "file": "521_CM_Entis_Pro_v11.pdf",
     "title": "Enraf. Entis PRO система учета в резервуарах.",
     "description": "Entis PRO. Инструкция по конфигурации",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1925,7 +1925,7 @@
     "file": "522_IG_Entis_Pro_v11.pdf",
     "title": "Enraf. Entis PRO система учета в резервуарах.",
     "description": "Entis PRO. Руководство по установке",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1935,7 +1935,7 @@
     "file": "Учебник_Centum_TE_33K80N10-00RU(5)_GTC.pdf",
     "title": "Centum VP",
     "description": "Учебник по инжинирингу Centum VP.",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1945,7 +1945,7 @@
     "file": "Методическое_пособие_VP.pdf",
     "title": "Centum VP",
     "description": "Методическое пособие VP",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1955,7 +1955,7 @@
     "file": "centum-vp-installation-gneral-guide.pdf",
     "title": "Centum VP",
     "description": "Installation",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1963,9 +1963,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "IM_33M05D10-40R(1)_HIS.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "Станция оператора",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1973,9 +1973,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "IM_33M05D20-40R(1)_Mess.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "Рабочие сообщения",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1983,9 +1983,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "IM_33M50E40-40R(1)_FCS.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "Станции управления",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -1993,9 +1993,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "IM_33M50G10-40R(1)_IOM.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "Mодули входов-выходов",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2003,9 +2003,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_A_Станция_управления_обзор_функций.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "A Станция управления, обзор функций.",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2013,9 +2013,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_B_Надежность_станции_управления.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "B Надежность станции управления.",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2023,9 +2023,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_C_Функциональные_блоки_Общие_сведения.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "C Функциональные блоки. Общие сведения",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2033,9 +2033,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_D_Функциональные_блоки_Детали.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "D Функциональные блоки. Детали",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2043,9 +2043,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_E_Станция_оператора_Настройка.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "E Станция оператора. Настройка",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2053,9 +2053,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_F_Основные_сведения_по_инжинирингу.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "F Основные сведения по инжинирингу",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2063,9 +2063,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_H_SEBOL.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "H SEBOL",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2073,9 +2073,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_J_Связь_с_подсистемами_RIO.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "J Связь с подсистемами RIO",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2083,9 +2083,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_K_Связь_с_подсистемами_FIO.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "K Связь с подсистемами FIO",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2093,9 +2093,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_L_Устройства_связи.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "L Устройства связи",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2103,9 +2103,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_M_Опции.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "M Опции",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2113,9 +2113,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_P_Администратор_доступа.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "P Администратор доступа",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2123,9 +2123,9 @@
     "folder": "centumvp",
     "urlBase": "../public/asutp/centumvp/",
     "file": "PART_R_Станция_системной_интеграции_OPC.pdf",
-    "title": "Centum VP. Руководтсва пользователя",
+    "title": "Centum VP. Руководства пользователя",
     "description": "R Станция системной интеграции OPC",
-    "titul": ["6"],
+    "titul": [""],
     "isShow": true
   }
 ]
