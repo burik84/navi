@@ -2327,6 +2327,406 @@
     "description": "ТРМ501. Реле регулятор с таймером",
     "titul": [""],
     "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "KFD2-STV4-Ex1-x.pdf",
+    "title": "Барьеры защитные",
+    "description": "KFD2-STV4-Ex1-x (используются на УКУ)",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "tdoct1895b_eng.pdf",
+    "title": "Барьеры защитные",
+    "description": "KFD2-xxx.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "228736_rus.pdf",
+    "title": "Барьеры защитные",
+    "description": "KFD2-STС4-1",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "MTL_7700.pdf",
+    "title": "Барьеры защитные",
+    "description": "MTL 7700",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "STAHL9195_Yokogawa_Centum.pdf",
+    "title": "Барьеры защитные",
+    "description": "STAHL 9195. Yokogawa Centum VP",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "MTL4500.pdf",
+    "title": "Барьеры защитные",
+    "description": "MTL4500. Искробезопасные интерфейсы",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "HID_2031.pdf",
+    "title": "Барьеры защитные",
+    "description": "HID 2031",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "MRI-32-24VDC_ПАСПОРТ_280708.pdf",
+    "title": "Модули DI",
+    "description": "MRI-32-24VDC",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "MRI-32-230VAC_ПАСПОРТ_280708.pdf",
+    "title": "Модули DI",
+    "description": "MRI-32-230VAC",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "SMRI-16_24VDC_РЭ_100412_RU_Final.pdf",
+    "title": "Модули DI",
+    "description": "SMRI-16 24VDC. ПАЗ",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "mro-32-24vdc-220vac_паспорт_201010.pdf",
+    "title": "Модули DO",
+    "description": "MRO-32 24vdc 220vac",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "SMRO16_24V_230V_РЭ_100412_Final_RU.pdf",
+    "title": "Модули DO",
+    "description": "SMRO-16 24V 230V. ПАЗ",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "X20AI4622_ENG.pdf",
+    "title": "Модули AI",
+    "description": "X20AI4622. Установлены на КМУ",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "Инструкция_перевод_в_BYPASS.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "ВАЖНО! Инструкция по переводу в BYPASS.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "Smart_UPS_SURT8000XL_SURT10000XL.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "APC Smart UPS RT 8000/10000ВА.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "APC_back-ups_SE_525.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "APC back-ups SE 525",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "APC_back-ups_650.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "APC back-ups 650",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "apc_back-ups_es_700.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "APC back-ups es 700",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "eaton_9130.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "Eaton 9130 700-3000ВА",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "PSI_User_Manual_RU.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "Libert PSI XR",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "Manual_Liebert_GXT3_700-3000VA.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "Liebert GXT3 700-3000VA",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "SBP16KRMI4U.pdf",
+    "title": "Обходные панели электропитания.",
+    "description": "APC SBP. Инструкция.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "MCRN-8VPRNG_R0_EN.pdf",
+    "title": "Обходные панели электропитания.",
+    "description": "APC SBP. Схема.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "delta_HR.pdf",
+    "title": "Аккумуляторные батареи",
+    "description": "DELTA BATTERY серии HR",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "LS14500_ru.pdf",
+    "title": "Аккумуляторные батареи",
+    "description": "LS14500 используются в Siemens",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "3050-OLV_РЭ_RUS_VerY2.pdf",
+    "title": "Анализатор влажности",
+    "description": "3050-OLV",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "3050-OLV_Дополнение_RUS.pdf",
+    "title": "Анализатор влажности",
+    "description": "3050-OLV. Дополнение.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "Паспорт_ИВА-8_2010.pdf",
+    "title": "Гигрометр",
+    "description": "ИВА-8. Установлен на КМУ",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "DRAGER_Polytron_IR_334&340.pdf",
+    "title": "Газоанализаторы",
+    "description": "DRAGER Polytron IR",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "гамма-100.pdf",
+    "title": "Газоанализаторы",
+    "description": "Гамма-100",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "PKG-4-K-MK-C.pdf",
+    "title": "Газоанализаторы",
+    "description": "ПКГ-4",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "pkg-4_1_2_4-C-K.pdf",
+    "title": "Газоанализаторы",
+    "description": "ПКГ-4/х-С",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "СГОЭС_РЭ.pdf",
+    "title": "Газоанализаторы",
+    "description": "СГОЭС",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "ЭССА-СО_исполнение_БС_Р_РЭ.pdf",
+    "title": "Газоанализаторы",
+    "description": "ЭССА-СО исполнение БС",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "a-4m-8m-re.pdf",
+    "title": "Газоанализаторы",
+    "description": "А-4М, А-8М Измерительная система контроля концентрации газов.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "SP_secure.pdf",
+    "title": "Газосигнализаторы",
+    "description": "SP secure",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "SensepointXCD.pdf",
+    "title": "Газосигнализаторы",
+    "description": "Sensepoint XCD",
+    "titul": ["204.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "ИГС-98_re.pdf",
+    "title": "Газосигнализаторы",
+    "description": "ИГС-98",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "СОУ-1_РЭ.pdf",
+    "title": "Газосигнализаторы",
+    "description": "СОУ 1",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "СТМ_10_РЭ.pdf",
+    "title": "Газосигнализаторы",
+    "description": "СТМ 10.",
+    "titul": [""],
+    "isShow": true
   }
 ]
 
