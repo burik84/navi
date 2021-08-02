@@ -2727,6 +2727,505 @@
     "description": "СТМ 10.",
     "titul": [""],
     "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_IQ.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Серия IQ.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_IQTpdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Серия IQT.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_SIPro.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Серия SIPro.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "pub094-009-08_0717.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Серия CMA.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "cvq_instr.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Серия CVQ.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_pub021-008-00_1109.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Skilmatic Range EH",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_pub091-003-00_0704.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Modbus RTU Actuator Control MFU Option Card Installation Manual",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "pub095-001-08_0317.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Пульт настройки Rotork Pro c bluetooth",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "Paksan.pdf",
+    "title": "Оборудование фирмы Rotork. Мастер станция Pakscan",
+    "description": "P3 - Pakscan Сетевое управление. Техническое руководство.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_Pakscan.pdf",
+    "title": "Оборудование фирмы Rotork. Мастер станция Pakscan",
+    "description": "P3 - Pakscan Сетевое управление. Описание системы",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "pub059-002-00_0715.pdf",
+    "title": "Оборудование фирмы Rotork. Мастер станция Pakscan",
+    "description": "P3 - Pakscan Master Station Technical Manual.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_pub059-003-00_0115.pdf",
+    "title": "Оборудование фирмы Rotork. Мастер станция Pakscan",
+    "description": "P3 - Pakscan. Modbus RTU Serial and TCP/IP Communication Specification",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_3000-400-07.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "3000-400-07 IQ + MODBUS MODUL",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_6000-400-04.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "6000-400-04 IQT + MODBUS MODUL",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_6050-200-02.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "6050-200-02 IQT + PAKSCAN + AUX POWERED",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_WD.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "EH1.1(PRO)-DUAL POWER. MOTOR THERMOSTATS-PAKSCAN",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_HS.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "EH. Гидравлика.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "AUMA_SAE_AUMATIC_ИЭ.pdf",
+    "title": "Оборудование фирмы AUMA",
+    "description": "AUMATIC",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "AUMA_SAE_AUMAMATIC_ИЭ.pdf",
+    "title": "Оборудование фирмы AUMA",
+    "description": "AUMA MATIC",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "AUMA_AUMATIC_КИpdf",
+    "title": "Оборудование фирмы AUMA",
+    "description": "AUMATIC. Средства управления приводами",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "AUMA_sp_acexc2_en.pdf",
+    "title": "Оборудование фирмы AUMA",
+    "description": "AUMATIC ACExC 01.1 схема",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "НМП-52_РЭ.pdf",
+    "title": "Тягомер. Напоромеры",
+    "description": "ТмМП-52 Тягомер. НМП-52 Напоромер. ТНМП-52 Тягонапоромер мембранные показывающие",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "Wika_манометры_РЭ.pdf",
+    "title": "Манометры",
+    "description": "Wika. Манометры",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "Wika_232.50_РЭ.pdf",
+    "title": "Манометры",
+    "description": "Wika серии 2. Манометры",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/temp/",
+    "file": "электроконтакты.pdf",
+    "title": "Манометры",
+    "description": "Электроконтакты WIKA - тип. 821 контакты с магнитным поджатием, тип. 830Е электронные контакты, тип. 831 индуктивные контакты",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "МДМ_описание.pdf",
+    "title": "Манометры",
+    "description": "МДМ. Манометры дифференциальные мембранные",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "МП-У_РЭ.pdf",
+    "title": "Манометры",
+    "description": "МП-У Манометры избыточного давления. ВП-У Вакуумметры. МВП-У Мановакуумметры показывающие",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "Cerebar_S_РМР71_РЭ.pdf",
+    "title": "Преобразователи давления",
+    "description": "Cerebar S РМР71, PMP71/72/75. Преобразователь давления",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "Rosemount_2088_Р.pdf",
+    "title": "Преобразователи давления",
+    "description": "Rosemount 2088, 2090Р, 2090F.Датчики давления",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "Honeywell_ST3000_РП.pdf",
+    "title": "Преобразователи давления",
+    "description": "Honeywell ST3000. Интеллектуальный преобразователь",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "Ф1791_РЭ.pdf",
+    "title": "Преобразователи давления",
+    "description": "Ф1791. Прибор для измерений давления воздуха",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "DPS-N_ТИ.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "DPS-N. Дифференциальное реле давления",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "DUNGS-GW_NB_A4.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "DUNGS GW A4. Реле давления газа и воздуха.",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "DUNGS-GW_A5.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "DUNGS GW A5. Реле давления газа и воздуха.",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "DUNGS-LGW-3-A2.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "DUNGS LGW...A2, LGW...A2. Реле давления дифференциальное для воздуха",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "DRD_2015_12_21_РЭ.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "ДР-Дххх. Датчик-реле избыточного давления",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "rd-rrd_паспорт.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "РД Реле-давления. РРД Реле разности давления.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "AT200_ИЭ.pdf",
+    "title": "Преобразователи уровня",
+    "description": "AT200 Магнитострикционный преобразователь",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "Levelflex_FMP40.pdf",
+    "title": "Преобразователи уровня",
+    "description": "Levelflex FMP40. Микроимпульсный уровнемер",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "Levelflex_FMP51_ИЭ.pdf",
+    "title": "Преобразователи уровня",
+    "description": "Levelflex FMP51, FMP52, FMP54. Микроимпульсный радарный уровнемер",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "Waterpilot_FMX_167_ТО.pdf",
+    "title": "Преобразователи уровня",
+    "description": "Waterpilot FMX 167. Гидростатический измеритель уровня",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "Nivotester_FTL325N.pdf",
+    "title": "Датчики уровня",
+    "description": "Nivotester FTL325N. Детектор уровня с входом NAMUR",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "ECHOTEL961_О.pdf",
+    "title": "Датчики уровня",
+    "description": "ECHOTEL961. Ультразвуковые сигнализаторы уровня",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "KROHNE_BM26A_ИЭ.pdf",
+    "title": "Датчики уровня",
+    "description": "KROHNE BM26A. Байпасный индикатор уровня.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "LiquicapMFTI51_ТО.pdf",
+    "title": "Датчики уровня",
+    "description": "Liquicap M FTI51. Емкостной датчик предельного уровня",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "LiquiphantMFТL51 _ТИ.pdf",
+    "title": "Датчики уровня",
+    "description": "Liquiphant M FТL 51. Вибродатчик предельного уровня ",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "Rosemount_2120_РП.pdf",
+    "title": "Датчики уровня",
+    "description": "Rosemount 2120. Вибрационный сигнализатор уровня",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "Vegaswing_61_РЭ.pdf",
+    "title": "Датчики уровня",
+    "description": "Vegaswing 61/63. Вибрационный выключатель уровня",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "ОВЕН_ДУ.3_РЭ.pdf",
+    "title": "Датчики уровня",
+    "description": "Овен ДУ.3. Кондуктометрические датчики уровня",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "ОВЕН_САУ-М6_РЭ.pdf",
+    "title": "Датчики уровня",
+    "description": "Овен САУ-М6. Устройство контроля уровня трехканальное",
+    "titul": [""],
+    "isShow": true
   }
 ]
-
