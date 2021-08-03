@@ -3951,7 +3951,7 @@
   {
     "name": "scheme",
     "folder": "other",
-    "urlBase": "../public/scheme/5.1/",
+    "urlBase": "../public/scheme/5.2/",
     "file": "4_02_YRU_C132660_138880_С1.pdf",
     "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
     "description": "Схема структурная комплекса технических средств.",
@@ -3961,7 +3961,7 @@
   {
     "name": "scheme",
     "folder": "other",
-    "urlBase": "../public/scheme/5.1/",
+    "urlBase": "../public/scheme/5.2/",
     "file": "4_08_YRU_C132660_138880_С6.pdf",
     "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
     "description": "Таблица соединений и подключений.",
@@ -3971,7 +3971,7 @@
   {
     "name": "scheme",
     "folder": "other",
-    "urlBase": "../public/scheme/5.1/",
+    "urlBase": "../public/scheme/5.2/",
     "file": "5_01_YRU_C132660_138880_ПБ.pdf",
     "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
     "description": "Описание алгоритмов.",
@@ -3983,7 +3983,7 @@
     "folder": "other",
     "urlBase": "../public/scheme/5.5/",
     "file": "108.2-I-5.5-АКН.pdf",
-    "title": "Очистный сооружения",
+    "title": "Очистные сооружения",
     "description": "Тит. 5.5 Насосная солевых стоков",
     "titul": ["5.5"],
     "isShow": true
@@ -4013,7 +4013,7 @@
     "folder": "other",
     "urlBase": "../public/scheme/15/",
     "file": "108.2-I-15.1-АКН.pdf",
-    "title": "Очистный сооружения",
+    "title": "Очистные сооружения",
     "description": "Тит. 15.1 Очистные сооружения хозяйственно-бытовых сточных вод",
     "titul": ["15.1"],
     "isShow": true
@@ -4023,7 +4023,7 @@
     "folder": "other",
     "urlBase": "../public/scheme/15/",
     "file": "108.2-I-15.2-АКН.pdf",
-    "title": "Очистный сооружения",
+    "title": "Очистные сооружения",
     "description": "Тит. 15.2 Очистные сооружения производственно-дождевых сточных вод",
     "titul": ["15.2"],
     "isShow": true
@@ -4184,7 +4184,7 @@
     "urlBase": "../public/scheme/ais/",
     "file": "47.01.3.626.08-108.5-III-403-АИС.С4.pdf",
     "title": "Производственная зона .аис",
-    "description": "Тит. 403",
+    "description": "Тит. 403 РТП-4 и аппаратная",
     "titul": ["403"],
     "isShow": true
   },
@@ -4194,7 +4194,7 @@
     "urlBase": "../public/scheme/ais/",
     "file": "47.01.3.626.08-182.1-2-404-АИС.pdf",
     "title": "Производственная зона .аис",
-    "description": "Тит. 404",
+    "description": "Тит. 404 РТП-2 и аппаратная",
     "titul": ["404"],
     "isShow": true
   },
@@ -4204,7 +4204,7 @@
     "urlBase": "../public/scheme/ais/",
     "file": "47.01.3.626.08-108.5-III-407-АИС.С4.pdf",
     "title": "Производственная зона .аис",
-    "description": "Тит. 407",
+    "description": "Тит. 407 РТП-3 и аппаратная",
     "titul": ["407"],
     "isShow": true
   },
@@ -4236,6 +4236,166 @@
     "title": "Участок погрузки судов .аис",
     "description": "Тит. 49",
     "titul": ["49"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22521.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 35 Электрощитовая №1 с аппаратной",
+    "titul": ["35"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22265.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 36 Станция морского водозабора",
+    "titul": ["36"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22721_изм2.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 37 КПП режимной зоны",
+    "titul": ["37"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22542.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 38 ТП-1 с электрощитовой №2",
+    "titul": ["38"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22541.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 39 ТП-2",
+    "titul": ["39"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22626_без_смет.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 41 Электрощитовая №4 с аппаратной",
+    "titul": ["41"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22540.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 42 ТП-3 с электрощитовй №5",
+    "titul": ["42"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22160_изм1.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 47 Пункт хранения и дозирования пенообразователя №2",
+    "titul": ["47"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22539.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 49 Электрощитовая №3 с аппаратной",
+    "titul": ["49"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "Том_АОВ_Инв_22222_изм.1.pdf",
+    "title": "Участок погрузки судов .аов",
+    "description": "Тит. 51 Пункт хранения и дозирования пенообразователя №1",
+    "titul": ["51"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "108.2-I-5.1-Р-ОВ.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 5.1 Котельная с водоподготовительной установкой",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "4701362608-1821-2-206-АОВ.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "108.2-I-207.1-АОВ.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 207.1 Здание весовой",
+    "titul": ["207.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "108.2-I-403-АОВ.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 403 РТП-4 и аппаратная",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "4701362608-1821-2-404-ОВКАОВ.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 404 РТП-2 и аппаратная",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "108.3-III-407-АОВ.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 407 РТП-3 и аппаратная",
+    "titul": ["407"],
     "isShow": true
   }
 ]
