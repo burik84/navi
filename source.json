@@ -3227,5 +3227,1016 @@
     "description": "Овен САУ-М6. Устройство контроля уровня трехканальное",
     "titul": [""],
     "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "ДТК2000_РЭ.pdf",
+    "title": "Датчики",
+    "description": "ДТК2000 Термостат капиллярный.",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Omnigrad_S_TС65_ТО.pdf",
+    "title": "Термометры",
+    "description": "Omnigrad S TС65. Термопарный датчик температуры",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Omnigrad_M_TR_13_ТИ.pdf",
+    "title": "Термометры",
+    "description": "Omnigrad M TR 13. Термометр сопротивления",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Omnigrad_S_TR_61_ТО.pdf",
+    "title": "Термометры",
+    "description": "Omnigrad S TR61.Термометр сопротивления. Omnigrad S TC61. Термопара.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Omnigrad_S_tr88_ТИ.pdf",
+    "title": "Термометры",
+    "description": "Omnigrad S TR88.Техническая инструкция.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Omnigrad_TST_434.pdf",
+    "title": "Термометры",
+    "description": "Omnigrad TST434. Термометр сопротивления.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "WIKA_S5550_РЭ_АТЕХ.pdf",
+    "title": "Термометры",
+    "description": "WIKA модели 53, 54, 55. Биметаллический термометр",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "WIKA_S73.100_О.pdf",
+    "title": "Термометры",
+    "description": "WIKA модель 73. Манометрические термометры",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "электроконтакты.pdf",
+    "title": "Термометры",
+    "description": "Электроконтакты WIKA - тип. 821 контакты с магнитным поджатием, тип. 830Е электронные контакты, тип. 831 индуктивные контакты",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "REGIN_TG-R4_PT1000.pdf",
+    "title": "Термометры",
+    "description": "REGIN TG-R4PT1000. Описание. (eng)",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "REGIN_TG-K3.pdf",
+    "title": "Термометры",
+    "description": "REGIN TG-K3 Датчик температуры.(eng)",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "iTEMP_TMT82.pdf",
+    "title": "Преобразователи температуры",
+    "description": "iTEMP TMT-82. Преобразователь температуры.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "iTEMP_TMT-122_eng.pdf",
+    "title": "Преобразователи температуры",
+    "description": "iTEMP TMT-122.Измерительный преобразователь температуры (eng).",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "iTEMP_TMT-180_РЭ.pdf",
+    "title": "Преобразователи температуры",
+    "description": "iTEMP TMT-180.Измерительный преобразователь температуры.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Omnigrad_TR_10_ТИ.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Omnigrad M TR10. Термопреобразователь сопротивления",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Omnigrad_s-tmt142r-ti.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Omnigrad S TMT 142R. Компактный преобразователь температуры.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Rosemount_0065_ТО.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Rosemount 0065.Термопреобразователи сопротивления. Rosemount 0185. Термоэлектрические преобразователи.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Rosemount_3144P.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Rosemount 3144Р. Измерительный преобразователь температуры.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Элемер_ТСПУ-205Ех_П.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Элемер ТСМУ-205 ТСПУ-205. Термопреобразователи с унифицированным выходным сигналом.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/",
+    "file": "Краткая.pdf",
+    "title": "Оборудование Enraf",
+    "description": "Краткая инструкция по программированию уровнемера.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/",
+    "file": "И-10-С-003-2010ЭНРАФ.pdf",
+    "title": "Оборудование Enraf",
+    "description": "Инструкция по эксплуатации системы учета и контроля резервуарных запасов.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/",
+    "file": "210_IM_847_PET_v20.pdf",
+    "title": "Оборудование Enraf",
+    "description": "Терминал интеллектуальный портативный. Серия 847.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/862_863_864_MT/",
+    "file": "231_IM_862_MIR_v20.pdf",
+    "title": "Оборудование Enraf. Многоточечный селектор температуры",
+    "description": "Инструкция на устройство серии 862 MIR.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/862_863_864_MT/",
+    "file": "560_IM_862_MIT_v20.pdf",
+    "title": "Оборудование Enraf. Многоточечный селектор температуры",
+    "description": "Инструкция на устройство серии 862 MIT.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/854_ATG_XTG_Servo/",
+    "file": "Команды_854.pdf",
+    "title": "Оборудование Enraf. Серия 854 сервоуровнемеры",
+    "description": "Команды для работы",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/854_ATG_XTG_Servo/",
+    "file": "220_IM_854_ATG_v21.pdf",
+    "title": "Оборудование Enraf. Серия 854 сервоуровнемеры",
+    "description": "Инструкция на измеритель уровня серии 854 ATG.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/854_ATG_XTG_Servo/",
+    "file": "225_IG_ATG_v34.pdf",
+    "title": "Оборудование Enraf. Серия 854 сервоуровнемеры",
+    "description": "Руководство по установке сервоуровнемера 854 ATG.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/854_ATG_XTG_Servo/",
+    "file": "221_IM_Сервоплотность_854_v01_rus.pdf",
+    "title": "Оборудование Enraf. Серия 854 сервоуровнемеры",
+    "description": "Руководство по установке программного обеспечения для измерения плотности 854 ATG.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/854_ATG_XTG_Servo/",
+    "file": "276_IG_854_XTG_v12.pdf",
+    "title": "Оборудование Enraf. Серия 854 сервоуровнемеры",
+    "description": "Руководство по установке сервоуровнемера 854 XTG.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/Термометр_многозонный/",
+    "file": "655_IM_VITO_R2_rus.pdf",
+    "title": "Оборудование Enraf. VITO Термометр многозонный",
+    "description": "Инструкция по эксплуатации на VITO.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/Термометр_многозонный/",
+    "file": "Installation_guide_762_VITO_Interface1_rus.pdf",
+    "title": "Оборудование Enraf. VITO Термометр многозонный",
+    "description": "Инструкция по установке интерфейса 762 VITO и датчиков VITO, MTT, LT, MRT.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/873_970_971_973_975_Radar/",
+    "file": "566_IM_873_SmartRadar_v10.pdf",
+    "title": "Оборудование Enraf. SMARTRADAR измерение уровня в резервуарах",
+    "description": "Инструкция на интеллектуальный радар серии 873",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/873_970_971_973_975_Radar/",
+    "file": "717_IG_970_Rev2_rus.pdf",
+    "title": "Оборудование Enraf. SMARTRADAR измерение уровня в резервуарах",
+    "description": "970 SmartRadar ATI. Инструкция по установке.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "enraf",
+    "urlBase": "../public/kip/enraf/873_970_971_973_975_Radar/",
+    "file": "718_IM_970_Rev2_rus.pdf",
+    "title": "Оборудование Enraf. SMARTRADAR измерение уровня в резервуарах",
+    "description": "970 SmartRadar ATI. Инструкция по эксплуатации.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "deltatopd061w_ИЭ.pdf",
+    "title": "Преобразователи расхода.",
+    "description": "Deltatop D06x. Диафрагмы для измерения расхода по перепаду давления",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "Deltabars-fmd76-78-pmd70-75-rpe.pdf",
+    "title": "Преобразователи расхода.",
+    "description": "Deltabar S FMD76/77/78, PMD70/75. Измерение дифференциального давления.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "DeltabarSPMD75_РЭ.pdf",
+    "title": "Преобразователи расхода.",
+    "description": "Deltabar S PMD70, PMD75, FMD76/77/78. Измерение перепада давления.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "Cerebar_M_PMP51_РЭ.pdf",
+    "title": "Преобразователи расхода.",
+    "description": "Сerabar M PMC51, PMP51, PMP55. Deltabar M PMD55. Deltapilot M FMB50/51/52/53",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "yokogawa_eja210_345.pdf",
+    "title": "Преобразователи расхода.",
+    "description": "Yokogawa EJA210,EJA220. Датчик дифференциального давления. Монтаж датчика.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "yokogawa_eja210_6.pdf",
+    "title": "Преобразователи расхода.",
+    "description": "Yokogawa EJA210,EJA220. Датчик дифференциального давления. Монтаж проводки.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ЭМИС-Вихрь.pdf",
+    "title": "Преобразователи расхода.",
+    "description": "ЭМИС-Вихрь 200. Преобразователи расхода вихревые.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "H250_РЭ.pdf",
+    "title": "Расходомеры.",
+    "description": "KROHNE H250. Поплавковый расходомер.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "promag50_РЭ.pdf",
+    "title": "Расходомеры.",
+    "description": "Promag 50. Электромагнитный расходомер.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "t-mass65I_О.pdf",
+    "title": "Расходомеры.",
+    "description": "Proline t-mass 65.Термальная система измерения массового расхода",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ev200_manual_rus.pdf",
+    "title": "Расходомеры.",
+    "description": "Расходомер вихревой ЭМИС-ВИХРЬ 200",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "Prowirl72_РЭ.pdf",
+    "title": "Расходомеры. PROLINE PROWIRL",
+    "description": "Prowirl 72. Вихревая система измерения расхода.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "BA094DRU.pdf",
+    "title": "Расходомеры. PROLINE PROWIRL",
+    "description": "Prowirl 73 HART. Вихревая система измерения расхода.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "Prowirl_F_200_HART.pdf",
+    "title": "Расходомеры. PROLINE PROWIRL",
+    "description": "Prowirl F 200 HART. Вихревой расходомер.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "Promass83F_РЭ.pdf",
+    "title": "Массомеры. PROLINE PROMASS 83. Кориолисовая система измерения массового расхода",
+    "description": "Инструкция по эксплуатации",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "PromassBA060DRU.pdf",
+    "title": "Массомеры. PROLINE PROMASS 83. Кориолисовая система измерения массового расхода",
+    "description": "Описание функций прибора",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "promass8083fm.pdf",
+    "title": "Массомеры. PROLINE PROMASS 83. Кориолисовая система измерения массового расхода",
+    "description": "Техническая информация.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "promass83f_настройка.pdf",
+    "title": "Массомеры. PROLINE PROMASS 83. Кориолисовая система измерения массового расхода",
+    "description": "Краткая инструкция по настройкам.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "KURZ_454FTB_О.pdf",
+    "title": "Счетчики-расходомеры.",
+    "description": "KURZ 454FTB. Однозонный вставной счетчик-расходомер газа массовый.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ЭМИСС_МАСС_260.pdf",
+    "title": "Счетчики-расходомеры.",
+    "description": "ЭМИСС-МАСС 260 Счетчик-расходомер массовый",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "Тепловычислитель_СТП962.pdf",
+    "title": "Счетчики-расходомеры.",
+    "description": "Тепловычислители СТП962.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ВЗЛЕТ_re1_tsrv024.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "ТСРВ-024. Тепловычислитель. Часть I.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ВЗЛЕТ_re2_tsrv024.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "ТСРВ-024. Тепловычислитель. Часть II.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ВЗЛЕТ_re1_ter68.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "ТЭР. Расходомер-счетчик электромагнитный. Часть I.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ВЗЛЕТ_re2_ter68.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "ТЭР. Расходомер-счетчик электромагнитный. Часть II.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ВЗЛЕТ522Ц_re1_mr5xxc.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "УРСВ-5хх. Расходомер-счетчик узльтразвуковой многоканальный Часть I.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ВЗЛЕТ522Ц_re2_mr5xxc.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "УРСВ-5хх. Расходомер-счетчик узльтразвуковой многоканальный Часть II.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "ВЗЛЕТ_ЭРСВ-420_РЭ.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "ЭРСВ-420. Расходомер-счетчик электромагнитный.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ahz",
+    "urlBase": "../public/scheme/6/",
+    "file": "47.01.3.626.08-182.5-I,II,III-6-АСУ.ИЭ.pdf",
+    "title": "Тит. 6 Центральный пункт управления (ЦПУ)",
+    "description": "Инструкция по эксплуатации. КТС",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ahz",
+    "urlBase": "../public/scheme/6/",
+    "file": "47.01.3.626.08-182.5-I,II,III-6-АСУ.ПД.pdf",
+    "title": "Тит. 6 Центральный пункт управления (ЦПУ)",
+    "description": "Общее описание системы",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ahz",
+    "urlBase": "../public/scheme/6/",
+    "file": "47.01.3.626.08-182.5-I,III-6-АСУ.ИЗ1.pdf",
+    "title": "Тит. 6 Центральный пункт управления (ЦПУ)",
+    "description": "Руководство пользователя",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ahz",
+    "urlBase": "../public/scheme/6/",
+    "file": "47.01.3.626.08-182.5-I,II,III-6-АСУ.СБ.pdf",
+    "title": "Тит. 6 Центральный пункт управления (ЦПУ)",
+    "description": "Схемы электрические принципиальные.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ahz",
+    "urlBase": "../public/scheme/6/",
+    "file": "47.01.3.626.08-108.5-I,II,III-6-АСУ.С4.pdf",
+    "title": "Тит. 6 Центральный пункт управления (ЦПУ)",
+    "description": "Схемы внешних соединений и подключений.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ahz",
+    "urlBase": "../public/scheme/6/",
+    "file": "47.01.3.626.08-108.2-I-6-АК.pdf",
+    "title": "Тит. 6 Центральный пункт управления (ЦПУ)",
+    "description": "Автоматизация комплексная. Часть АК.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "47.01.3.626.08-108.5-I-5.1АИС.СБ-К1.pdf",
+    "title": "Тит 5.1 Котельная с водоподготовительной установкой",
+    "description": "Шкаф 5.1ШК-01. Схема электическая принципиальная.",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "47.01.3.626.08-108.5-I-5.1-АСУ.С4.pdf",
+    "title": "Тит 5.1 Котельная с водоподготовительной установкой",
+    "description": "Схема внешних соединений и подключений.",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "108.2-I-5.1-Р-АГСВ.pdf",
+    "title": "Тит 5.1 Котельная с водоподготовительной установкой",
+    "description": "Автоматизация газоснабжения внутреннего. Сигнализация загазованности.",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "котельная_схемы_перевод.pdf",
+    "title": "Тит 5.1 Котельная с водоподготовительной установкой",
+    "description": "Схемы по котлам (с переводом).",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "4_02_YRU_C132660_138880_С1.pdf",
+    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
+    "description": "Схема структурная комплекса технических средств.",
+    "titul": ["5.2", "5.3", "5.4"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "4_08_YRU_C132660_138880_С6.pdf",
+    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
+    "description": "Таблица соединений и подключений.",
+    "titul": ["5.2", "5.3", "5.4"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "5_01_YRU_C132660_138880_ПБ.pdf",
+    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
+    "description": "Описание алгоритмов.",
+    "titul": ["5.2", "5.3", "5.4"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.5/",
+    "file": "108.2-I-5.5-АКН.pdf",
+    "title": "Очистный сооружения",
+    "description": "Тит. 5.5 Насосная солевых стоков",
+    "titul": ["5.5"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "АЭП40-010-54К-22УС_R1.02_01.10.12_УХЛ1.pdf",
+    "title": "КНС производственно - дождевых стоков. Шкафы управления",
+    "description": "Тит. 5.1, 15.1, 603.2",
+    "titul": ["5.1", "15.1", "603.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "АЭП40-072-54КП-22УC_R1.01_21.11.12_УХЛ1.pdf",
+    "title": "КНС производственно - дождевых стоков. Шкафы управления",
+    "description": "Тит. 15.2",
+    "titul": ["15.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/15/",
+    "file": "108.2-I-15.1-АКН.pdf",
+    "title": "Очистный сооружения",
+    "description": "Тит. 15.1 Очистные сооружения хозяйственно-бытовых сточных вод",
+    "titul": ["15.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/15/",
+    "file": "108.2-I-15.2-АКН.pdf",
+    "title": "Очистный сооружения",
+    "description": "Тит. 15.2 Очистные сооружения производственно-дождевых сточных вод",
+    "titul": ["15.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "АЭП40-025-54К-22УС_R1.01_01.10.12_УХЛ1_исправлено.pdf",
+    "title": "КНС производственно - дождевых стоков. Шкафы управления",
+    "description": "Тит. 602.1, 602.7, 602.8",
+    "titul": ["602.1","602.7","602.8"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "АЭП40-020-54К-22УС_R1.01_01.10.12_УХЛ1_исправлено.pdf",
+    "title": "КНС производственно - дождевых стоков. Шкафы управления",
+    "description": "Тит. 602.2, 602.3,  602.4, 602.5, 602.6",
+    "titul": ["602.2", "602.3", "602.4", "602.5", "602.6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "АЭП40-010-54К-11УС_R1.01_01.10.12_УХЛ1.pdf",
+    "title": "КНС производственно - дождевых стоков. Шкафы управления",
+    "description": "Тит. 603.1",
+    "titul": ["603.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.1-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.1",
+    "titul": ["602.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.2-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.2",
+    "titul": ["602.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.3-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.3",
+    "titul": ["602.3"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.4-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.4",
+    "titul": ["602.4"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.5-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.5",
+    "titul": ["602.5"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.6-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.6",
+    "titul": ["602.6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.7-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.7",
+    "titul": ["602.7"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "108.4-I-602.8-АКН.pdf",
+    "title": "КНС производственно - дождевых стоков. Общие данные",
+    "description": "Тит. 602.8",
+    "titul": ["602.8"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/kns/",
+    "file": "привязка шкафов к титулам.pdf",
+    "title": "КНС производственно - дождевых стоков. Шкафы управления",
+    "description": "Привязка шкафов к титулам",
+    "titul": ["5.1","15.1", "15.2", "602.1", "602.2", "602.3", "602.4", "602.5", "602.6", "602.7", "602.8", "603.1", "603.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-I-5.1-АИС.С4.pdf",
+    "title": "Производственная зона .аис",
+    "description": "Тит. 5.1",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-I,II,III-6-АИС.С4.pdf",
+    "title": "Производственная зона .аис",
+    "description": "Тит. 6",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-I-303-АИС.С4.pdf",
+    "title": "Производственная зона .аис",
+    "description": "Тит. 303",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-III-403-АИС.С4.pdf",
+    "title": "Производственная зона .аис",
+    "description": "Тит. 403",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-182.1-2-404-АИС.pdf",
+    "title": "Производственная зона .аис",
+    "description": "Тит. 404",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-III-407-АИС.С4.pdf",
+    "title": "Производственная зона .аис",
+    "description": "Тит. 407",
+    "titul": ["407"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-I-35-АИС.С4.pdf",
+    "title": "Участок погрузки судов .аис",
+    "description": "Тит. 35",
+    "titul": ["35"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-I-41-АИС.С4.pdf",
+    "title": "Участок погрузки судов .аис",
+    "description": "Тит. 41",
+    "titul": ["41"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ais",
+    "urlBase": "../public/scheme/ais/",
+    "file": "47.01.3.626.08-108.5-I-49-АИС.С4.pdf",
+    "title": "Участок погрузки судов .аис",
+    "description": "Тит. 49",
+    "titul": ["49"],
+    "isShow": true
   }
 ]
+
