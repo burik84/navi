@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
       <div className="footer__author">
         <p>Идея проекта,дизайн и реализация burikAV.</p>
         <p>
-          Версия 5.01.01 от 01 июля 2021. <CopyrightIcon color="primary" /> 2014-2021.{' '}
+          Версия 5.01.01 от 01 сентября 2021. <CopyrightIcon color="primary" /> 2014-2021.{' '}
         </p>
       </div>
       <a className="footer__link" href="https://github.com/burik84/navi/tree/navi" target="_blank" rel="noreferrer">

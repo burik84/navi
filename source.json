@@ -4397,6 +4397,466 @@
     "description": "Тит. 407 РТП-3 и аппаратная",
     "titul": ["407"],
     "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "Pakscan-303.pdf",
+    "title": "Pakscan адресация",
+    "description": "Тит. 303 Петля 1, 2, 3, 4, 5, 6",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "Pakscan-403.pdf",
+    "title": "Pakscan адресация",
+    "description": "Тит. 403 Петля 7, 8, 11, 12",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "Pakscan-404.pdf",
+    "title": "Pakscan адресация",
+    "description": "Тит. 404 Петля 14",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "Pakscan-407.pdf",
+    "title": "Pakscan адресация",
+    "description": "Тит. 407 Петля 9, 10",
+    "titul": ["407"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "Pakscan-УПС.pdf",
+    "title": "Pakscan адресация",
+    "description": "УПС Петля 15, 16, 17",
+    "titul": ["35", "41", "49"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "ModBus-УКУ.pdf",
+    "title": "Modbus адресация",
+    "description": "Modbus адресация на узлах коммерческого учета",
+    "titul": ["44.1.1", "44.1.2", "44.2.1", "44.2.2", "44.3"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "108.4-I-84.1-АЭМ_4.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Схема последовательного соединения арматуры в петли Pakscan",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "47.01.3.626.08-108.3-I-48-АТХзадвижки.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "тит. 41, 49",
+    "titul": ["41", "49", "48"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "I-59.1-АТХ_04_ROTORK.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "тит. 59.1",
+    "titul": ["59.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "I-60.1-АТХ_04_ROTORK.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "тит. 60.1",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "I-48-АТХ_5.31.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "тит. 35",
+    "titul": ["35","48"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "47.01.3.626.08-108.5-I,II,III-6-АИС.С4_Z.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит. 15.2, 18, 19.",
+    "titul": ["15.2","18", "19"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "4701362608-1821-2-825-АТХ-04-0.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит. 80.1, 80.5 ИТХ",
+    "titul": ["80.1", "80.5"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "108.4-I-84.1-201.(1-5)-АЭМ_19.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит. 201.1-5",
+    "titul": ["201.1","201.2", "201.3", "201.4", "201.5"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "108.2-I-204.1-АЭМ-07.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит 204.1",
+    "titul": ["204.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "4701362608-1821-2-206-АТХ-07-0.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит 206",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "4701362608-1821-2-2021-АТХ-11-0.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит 202.1",
+    "titul": ["202.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "4701362608-1821-2-2022-АТХ-11-0.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит 202.2",
+    "titul": ["202.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "rotork",
+    "urlBase": "../public/scheme/petli_rotork/",
+    "file": "209.2-АТХ-07-0.pdf",
+    "title": "Pakscan. Схемы соединений",
+    "description": "Тит 209.2",
+    "titul": ["209.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "Адреса_RS485_QT.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Сводная таблица по адресации. Газоанализаторы.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "4701362608-1821-2-2021-АТХ-02-0.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 202.1.",
+    "titul": ["202.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "4701362608-1821-2-2022-АТХ-02-0.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 202.2.",
+    "titul": ["202.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "209.2-АТХ-03-0.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 209.2.",
+    "titul": ["209.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "4701362608-1821-2-206-АТХ-02-0.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 206.",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "СГОЭС_59.1.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 59.1.",
+    "titul": ["59.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "СГОЭС_60.1.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 60.1.",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.3-I-48-АТХ_3.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 36, 43, 44.1.1, 44.3, 47, 48, 51.",
+    "titul": ["36","43","44.1.1","44.3","47","47","51"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "СГОЭС_СИК.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Узлы коммерческого учета тит 44.1, 44.2, 44.3.",
+    "titul": ["44.1", "44.2", "44.3"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-203-атхл20_276.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 203",
+    "titul": ["203"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "СГОЭС_15.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 15",
+    "titul": ["15"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-201.1-атхл04_20.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 201.1, 201.2",
+    "titul": ["201.1", "201.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-201.3-атхл04_20.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 201.3, 201.4",
+    "titul": ["201.3", "201.4"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-201.5-атхл04_20.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 201.5, 201.6",
+    "titul": ["201.5", "201.6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-201.7-атхл04_09.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 201.7",
+    "titul": ["201.7"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-201.8-атхл06_36.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 201.8",
+    "titul": ["201.8"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-204.1-атхл03_52.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 204.1",
+    "titul": ["204.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-204.2-Атхл04_41_Изм1.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 204.2",
+    "titul": ["204.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.2-i-209.1-Атхл04_23.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит 209.1",
+    "titul": ["209.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.4-i-82.1-201.(1-5)-Атхл03_34.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит. 82.1-201.(1-5)",
+    "titul": ["82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.4-i-82.1-201.(6-8)-Атхл03_27.pdf",
+    "title": "Петли по газоанализаторам. Схемы соединений",
+    "description": "Тит. 82.1-201.(6-8)",
+    "titul": ["82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.3-iii-210.(1-5)-атхл04_29_Изм1.pdf",
+    "title": "Петли по газоанализаторам на участке хранения бензинов до реконструкции. Схемы соединений",
+    "description": "Тит. 210(1-5), 82.1",
+    "titul": ["210.(1-5)", "210"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.3-iii-210.6-атхл04_13.pdf",
+    "title": "Петли по газоанализаторам на участке хранения бензинов до реконструкции. Схемы соединений",
+    "description": "Тит. 210.6",
+    "titul": ["210.6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.3-iii-211-атхл05_21.pdf",
+    "title": "Петли по газоанализаторам на участке хранения бензинов до реконструкции. Схемы соединений",
+    "description": "Тит. 211",
+    "titul": ["211"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.3-iii-213-атхл06_18.pdf",
+    "title": "Петли по газоанализаторам на участке хранения бензинов до реконструкции. Схемы соединений",
+    "description": "Тит. 213",
+    "titul": ["213"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "108.4-i-82.1-210-Атхл03_53.pdf",
+    "title": "Петли по газоанализаторам на участке хранения бензинов до реконструкции. Схемы соединений",
+    "description": "Тит. 82.1-210",
+    "titul": ["82.1-210", "210"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sgoes",
+    "urlBase": "../public/scheme/petli_sgoes/",
+    "file": "210_7.pdf",
+    "title": "Петли по газоанализаторам на участке хранения бензинов.",
+    "description": "Р-308. Принципиальная схема сигнализации по загазованности",
+    "titul": ["210.7"],
+    "isShow": true
   }
 ]
 
