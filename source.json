@@ -44,8 +44,18 @@
     "folder": "equipment",
     "urlBase": "../public/info/equipment/",
     "file": "33-24.pdf",
-    "title": "Технологическое оборудование. Инструкции",
-    "description": "Инструкция по эксплуатации газодувки ГД-281/ГД-282.",
+    "title": "Газодувки ГД-281, ГД282. Инструкции",
+    "description": "Инструкция по эксплуатации",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/",
+    "file": "Инструкции_Инженера_АСУТП_ПО_ГД 281_ГД 282.pdf",
+    "title": "Газодувки ГД-281, ГД282. Инструкции",
+    "description": "Инструкция Инженера АСУТП на ПО",
     "titul": ["60.1"],
     "isShow": true
   },
@@ -195,7 +205,17 @@
     "file": "Приказ96.pdf",
     "title": "Статьи",
     "description": "Приказ 96. Общие правила взрывобезопасности для взрывопожароопасных ... производств",
-    "titul": ["208"],
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "artic",
+    "urlBase": "../public/info/artic/",
+    "file": "СПРАВОЧНИК-ПОЗЫВНЫЕ_РАДИОСТАНЦИИ_(ред102019).pdf",
+    "title": "Статьи",
+    "description": "Справочник - позывные радиостанции (от 10.2019)",
+    "titul": [""],
     "isShow": true
   },
   {
@@ -566,6 +586,16 @@
     "title": "Технологическое оборудование. Инструкции",
     "description": "Установки поверочные CALIBRON серий S и O фирмы Honeywell Enraf. МП 49021-12.",
     "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "methodologies",
+    "urlBase": "../public/info/methodologies/",
+    "file": "Методика_калибровки_жд_весов.pdf",
+    "title": "Технологическое оборудование. Инструкции",
+    "description": "Весы вагонные ВВЭ-СД. Методика калибровки.",
+    "titul": ["503", "502.1","502.2", "502.3"],
     "isShow": true
   },
   {
@@ -1472,6 +1502,16 @@
     "name": "asutp",
     "folder": "siemens",
     "urlBase": "../public/asutp/siemens/",
+    "file": "S7-400_Install_battary.pdf",
+    "title": "Контроллеры",
+    "description": "S7-400. Установка буфферной батареи (замена)",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
     "file": "S7_300_400_function_r.pdf",
     "title": "Контроллеры",
     "description": "Системные и стандартные функции для S7-300 и S7-400",
@@ -1555,7 +1595,7 @@
     "file": "IM_33Y05Q23-11R(2)_ADA.pdf",
     "title": "Менеджер ресурсов КИП PRM server. Инструкции",
     "description": "Руководство по инжинирингу для приложения расширенной диагностики PRM",
-    "titul": [""],
+    "titul": ["6"],
     "isShow": true
   },
   {
@@ -1565,7 +1605,7 @@
     "file": "2A1101.pdf",
     "title": "EXA OPC",
     "description": "OPC Interface Package.Guide Manual.",
-    "titul": [""],
+    "titul": ["6"],
     "isShow": true
   },
   {
@@ -1575,7 +1615,17 @@
     "file": "2A1201.pdf",
     "title": "EXA OPC",
     "description": "OPC Interface Package. Installation Manual",
-    "titul": [""],
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "ExaQuantum_Инструкция_для_перезапуска_служб.pdf",
+    "title": "EXA Quantum",
+    "description": "Инструкция для перезапуска служб",
+    "titul": ["6"],
     "isShow": true
   },
   {
@@ -1826,6 +1876,36 @@
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Перечень сигналов СМИС, утвержденные ГИ",
     "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "Сигналы_СМИС_КПСУГ_Утвержденный.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Перечень сигналов СМИС, утвержденные ГИ",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Паспорт_GHU-Pixel.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "Блок управления серии HU-Pixel для вентиляционных установок",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Manual_Pixel_rev3.28.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "Программируемый логический контроллер PIXEL. Руководство по эксплуатации",
+    "titul": [""],
     "isShow": true
   },
   {
@@ -2170,6 +2250,26 @@
   },
   {
     "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "FieldCare_eng.pdf",
+    "title": "Диагностика КИП",
+    "description": "FieldCare/DeviceCare. Getting Started",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "eview2-rukov.pdf",
+    "title": "Диагностика КИП",
+    "description": "Eview 2. HART configuration software. (For Nivelco Easy TREK SP300)",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "REGIN_TTC25_О.pdf",
@@ -2179,13 +2279,33 @@
     "isShow": true
   },
   {
-    "name": "kip",
-    "folder": "other",
-    "urlBase": "../public/kip/other/",
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
     "file": "ОВЕН_ТРМ-12Б_РЭ.pdf",
-    "title": "Не разобрано",
+    "title": "Контроллеры локальные/Блоки управления",
     "description": "ОВЕН ТРМ-12Б. Измеритель ПИД-регулятор микропроцессорный одноканальный.",
     "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "B&R_PowerPanel_MAPP45-RU.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "B&R Power Panel 45. Руководство пользователя.",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "VEZA_avtomatikaSAU.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "ВЕЗА. Система автоматического управления вентиляторных установок",
+    "titul": ["208"],
     "isShow": true
   },
   {
@@ -2262,6 +2382,16 @@
     "name": "kip",
     "folder": "other",
     "urlBase": "../public/kip/other/",
+    "file": "SWA70_BA00061SEN_2118.pdf",
+    "title": "Беспроводные датчики",
+    "description": "Wireless HART adapter SWA70. Operating Instructions",
+    "titul": ["59.1","60.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
     "file": "SWG70_gateway.pdf",
     "title": " ",
     "description": "SWG70. Шлюз. Интеллектуальный шлюз для беспроводных сетей.",
@@ -2285,6 +2415,26 @@
     "file": "VIJMY250_Instr_PCM_MM.pdf",
     "title": "Не разобрано",
     "description": "Модуль мониторинга РСМ ММ. Danfoss",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "РЭ_ВВЭ_№094467.pdf",
+    "title": "Не разобрано",
+    "description": "Весы вагонные ВВЭ. Руководство по эксплуатации",
+    "titul": ["503", "502.1","502.2", "502.3"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "upes40_re.pdf",
+    "title": "Не разобрано",
+    "description": "Устройство пороговое УПЭС-40. Руководство по эксплуатации",
     "titul": [""],
     "isShow": true
   },
@@ -2344,7 +2494,7 @@
     "urlBase": "../public/kip/mod/",
     "file": "tdoct1895b_eng.pdf",
     "title": "Барьеры защитные",
-    "description": "KFD2-xxx.",
+    "description": "KFD2-STC4/STV4/CR4",
     "titul": [""],
     "isShow": true
   },
@@ -2355,6 +2505,16 @@
     "file": "228736_rus.pdf",
     "title": "Барьеры защитные",
     "description": "KFD2-STС4-1",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "kfd2-s0t2_eng.pdf",
+    "title": "Барьеры защитные",
+    "description": "KFD2-SOT2",
     "titul": [""],
     "isShow": true
   },
@@ -2515,7 +2675,17 @@
     "file": "eaton_9130.pdf",
     "title": "Источники бесперебойного питания",
     "description": "Eaton 9130 700-3000ВА",
-    "titul": [""],
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "user_manual_eaton_9sx_0_7_6 _kva.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "Eaton 9SX UPS",
+    "titul": ["208"],
     "isShow": true
   },
   {
@@ -2565,6 +2735,36 @@
     "file": "delta_HR.pdf",
     "title": "Аккумуляторные батареи",
     "description": "DELTA BATTERY серии HR",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "delta_hr_12_9.pdf",
+    "title": "Аккумуляторные батареи",
+    "description": "DELTA HR 12-9",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "delta_hr_12_21_w.pdf",
+    "title": "Аккумуляторные батареи",
+    "description": "DELTA HR 12-21W",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "WBR_HR1221W.pdf",
+    "title": "Аккумуляторные батареи",
+    "description": "WBR HR 12-21W",
     "titul": [""],
     "isShow": true
   },
@@ -2682,6 +2882,16 @@
     "name": "kip",
     "folder": "analyzer",
     "urlBase": "../public/kip/analyzer/",
+    "file": "IGM-13M_RE_v0_46_from_08_11_2019.pdf",
+    "title": "Газоанализаторы",
+    "description": "ИГМ-13М. Газоанализатор стационарный.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
     "file": "SP_secure.pdf",
     "title": "Газосигнализаторы",
     "description": "SP secure",
@@ -2782,6 +2992,16 @@
     "name": "kip",
     "folder": "drive",
     "urlBase": "../public/kip/drive/",
+    "file": "cvl_500.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Серия CVL.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
     "file": "ROTORK_pub021-008-00_1109.pdf",
     "title": "Оборудование фирмы Rotork",
     "description": "Skilmatic Range EH",
@@ -2852,6 +3072,16 @@
     "name": "kip",
     "folder": "drive",
     "urlBase": "../public/kip/drive/",
+    "file": "Pakscan_Cables.pdf",
+    "title": "Оборудование фирмы Rotork. Мастер станция Pakscan",
+    "description": "Pakscan. Cables",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
     "file": "ROTORK_3000-400-07.pdf",
     "title": "Оборудование фирмы Rotork. Схемы",
     "description": "3000-400-07 IQ + MODBUS MODUL",
@@ -2895,6 +3125,16 @@
     "file": "ROTORK_HS.pdf",
     "title": "Оборудование фирмы Rotork. Схемы",
     "description": "EH. Гидравлика.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "Rotork_CVA_c22-10-5.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "CVA.",
     "titul": [""],
     "isShow": true
   },
@@ -3035,6 +3275,16 @@
     "file": "Ф1791_РЭ.pdf",
     "title": "Преобразователи давления",
     "description": "Ф1791. Прибор для измерений давления воздуха",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "РЭ_CROCUS_L_2019.06.19.pdf",
+    "title": "Преобразователи давления",
+    "description": "CROCUS L. Датчик давления",
     "titul": [""],
     "isShow": true
   },
@@ -3230,11 +3480,41 @@
   },
   {
     "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "вибротач_рэ.pdf",
+    "title": "Датчики уровня",
+    "description": "Вибротач S. Сигнализатор уровня",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "sug-m_re-pdf.pdf",
+    "title": "Датчики уровня",
+    "description": "СУГ-М. Сигнализатор уровня жидкости",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
     "folder": "temp",
     "urlBase": "../public/kip/temp/",
     "file": "ДТК2000_РЭ.pdf",
     "title": "Датчики",
     "description": "ДТК2000 Термостат капиллярный.",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "pfannenberg_flz_510.pdf",
+    "title": "Датчики",
+    "description": "FLZ 510. Termostat. Instruction for Use",
     "titul": ["5.1"],
     "isShow": true
   },
@@ -3415,6 +3695,16 @@
     "file": "Элемер_ТСПУ-205Ех_П.pdf",
     "title": "Преобразователи температуры",
     "description": "Элемер ТСМУ-205 ТСПУ-205. Термопреобразователи с унифицированным выходным сигналом.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "Метран_281_286_288.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Метран-281, Метран-286, Метран-288. Преобразователи температуры",
     "titul": [""],
     "isShow": true
   },
@@ -3752,6 +4042,16 @@
     "name": "kip",
     "folder": "rashod",
     "urlBase": "../public/kip/rashod/",
+    "file": "Promass83F_РЭ_замена_плат.pdf",
+    "title": "Массомеры. PROLINE PROMASS 83. Кориолисовая система измерения массового расхода",
+    "description": "Краткая инструкция по замене плат.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
     "file": "KURZ_454FTB_О.pdf",
     "title": "Счетчики-расходомеры.",
     "description": "KURZ 454FTB. Однозонный вставной счетчик-расходомер газа массовый.",
@@ -3944,7 +4244,17 @@
     "urlBase": "../public/scheme/5.1/",
     "file": "108.2-I-5.1-Р-АГСВ.pdf",
     "title": "Тит 5.1 Котельная с водоподготовительной установкой",
-    "description": "Автоматизация газоснабжения внутреннего. Сигнализация загазованности.",
+    "description": "Сигнализация загазованности. Автоматизация газоснабжения внутреннего. ",
+    "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.1/",
+    "file": "АК_стадия_Р.pdf",
+    "title": "Тит 5.1 Котельная с водоподготовительной установкой",
+    "description": "Сигнализация загазованности. Автоматизация комплексная",
     "titul": ["5.1"],
     "isShow": true
   },
@@ -3963,7 +4273,7 @@
     "folder": "other",
     "urlBase": "../public/scheme/5.2/",
     "file": "4_02_YRU_C132660_138880_С1.pdf",
-    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
+    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ, насосная, испарители",
     "description": "Схема структурная комплекса технических средств.",
     "titul": ["5.2", "5.3", "5.4"],
     "isShow": true
@@ -3973,7 +4283,7 @@
     "folder": "other",
     "urlBase": "../public/scheme/5.2/",
     "file": "4_08_YRU_C132660_138880_С6.pdf",
-    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
+    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ, насосная, испарители",
     "description": "Таблица соединений и подключений.",
     "titul": ["5.2", "5.3", "5.4"],
     "isShow": true
@@ -3983,8 +4293,18 @@
     "folder": "other",
     "urlBase": "../public/scheme/5.2/",
     "file": "5_01_YRU_C132660_138880_ПБ.pdf",
-    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ + насосная + испарители",
+    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ, насосная, испарители",
     "description": "Описание алгоритмов.",
+    "titul": ["5.2", "5.3", "5.4"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/5.2/",
+    "file": "27_01-2011-AK.pdf",
+    "title": "Тит 5.2, 5.3, 5.4 Резервуарный парк ПБТ, насосная, испарители",
+    "description": "Схема электрическая принципиальная.",
     "titul": ["5.2", "5.3", "5.4"],
     "isShow": true
   },
@@ -4906,7 +5226,7 @@
     "title": "Спецификации",
     "description": "Тит. 203. Сливная ж/д эстакада СУГ.",
     "titul": ["203"],
-    "isShow": true
+    "isShow": false
   },
   {
     "name": "scheme",
@@ -4916,14 +5236,14 @@
     "title": "Спецификации",
     "description": "Тит. 212. Сливная ж/д эстакада бензинов.",
     "titul": ["212"],
-    "isShow": true
+    "isShow": false
   },
   {
     "name": "scheme",
     "folder": "us",
     "urlBase": "../public/scheme/403/",
     "file": "47.01.3.626.08-108.5-I-403-АСУ.С4.pdf",
-    "title": "Схемы. Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
+    "title": "Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
     "description": "Схема внешних соединений и подключений (I).",
     "titul": ["403", "203"],
     "isShow": true
@@ -4933,7 +5253,7 @@
     "folder": "us",
     "urlBase": "../public/scheme/403/",
     "file": "47.01.3.626.08-108.5-III-403-АСУ.С4.pdf",
-    "title": "Схемы. Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
+    "title": "Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
     "description": "Схема внешних соединений и подключений (III).",
     "titul": ["403", "212"],
     "isShow": true
@@ -4943,7 +5263,7 @@
     "folder": "us",
     "urlBase": "../public/scheme/403/",
     "file": "I-403-АСУ.СБ.pdf",
-    "title": "Схемы. Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
+    "title": "Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
     "description": "403.1ШУ Схемы электрические принципиальные.",
     "titul": ["403"],
     "isShow": true
@@ -4953,7 +5273,7 @@
     "folder": "us",
     "urlBase": "../public/scheme/403/",
     "file": "47.01.3.626.08-108.5-I-403-АСУ.ВО-ИБП1.pdf",
-    "title": "Схемы. Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
+    "title": "Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
     "description": "403ИБП1 Схемы электрические принципиальные.",
     "titul": ["403"],
     "isShow": true
@@ -4963,7 +5283,7 @@
     "folder": "us",
     "urlBase": "../public/scheme/403/",
     "file": "47.01.3.626.08-108.5-I-403-АСУ.СБ-К1.pdf",
-    "title": "Схемы. Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
+    "title": "Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
     "description": "403ШК1 Схемы электрические принципиальные.",
     "titul": ["403"],
     "isShow": true
@@ -5202,7 +5522,7 @@
     "name": "scheme",
     "folder": "uhb",
     "urlBase": "../public/scheme/213/",
-    "file": "108.3-III-213-АТХ.pdf",
+    "file": "108.3-III-213-АТХисп.pdf",
     "title": "Схемы",
     "description": "тит. 213 Насосная слива бензинов",
     "titul": ["213"],
@@ -5296,7 +5616,7 @@
     "title": "Спецификации",
     "description": "тит. 48 Технологические трубопроводы",
     "titul": ["48"],
-    "isShow": true
+    "isShow": false
   },
   {
     "name": "scheme",
@@ -5306,7 +5626,7 @@
     "title": "Спецификации",
     "description": "тит. 59.1 Причал №1",
     "titul": ["59.1"],
-    "isShow": true
+    "isShow": false
   },
   {
     "name": "scheme",
@@ -5316,7 +5636,7 @@
     "title": "Спецификации",
     "description": "тит. 60.1 Причал №2",
     "titul": ["60.1"],
-    "isShow": true
+    "isShow": false
   },
   {
     "name": "scheme",
@@ -5626,6 +5946,1356 @@
     "title": "Тит. 43 Установка рекуперации паров бензина. Проект ИНКОМСИСТЕМ",
     "description": "Программа и методика испытаний",
     "titul": ["43"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/404/",
+    "file": "47.01.3.626.08-182.1-2-404-АСУ.C4.pdf",
+    "title": "Тит.404 Аппаратная парка изотермического хранения",
+    "description": "Схема внешних соединений и подключений.",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/404/",
+    "file": "47.01.3.626.08-182.1-2-404-АСУ.ПД.pdf",
+    "title": "Тит.404 Аппаратная парка изотермического хранения",
+    "description": "Общее описание системы.",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/404/",
+    "file": "47.01.3.626.08-182.1-2-404-АСУ.ПБ.pdf",
+    "title": "Тит.404 Аппаратная парка изотермического хранения",
+    "description": "Алгоритмы обработки данных и управления.",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/404/",
+    "file": "47.01.3.626.08-182.1-2-404-АСУ.ВО.СБ.pdf",
+    "title": "Тит.404 Аппаратная парка изотермического хранения",
+    "description": "Шкафы АСУ ТП.",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/404/",
+    "file": "01-П.17.rev00.pdf",
+    "title": "Тит.404 Аппаратная парка изотермического хранения",
+    "description": "тит. 206.1 Регулирующий клапан 206.1PCV30",
+    "titul": ["206.1", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/404/",
+    "file": "47.01.3.626.08-182.1-2-404-ПС.pdf",
+    "title": "Тит.404 Аппаратная парка изотермического хранения",
+    "description": "Пожарная сигнализация",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "4701362608-1821-2-825-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.5 ИТХ",
+    "titul": ["80.5","80.1","82.5", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "209.2-АТХ.pdf",
+    "title": "Тит. 209.2 Факельное хозяйство низкого давления",
+    "description": "Общие данные",
+    "titul": ["209.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "209.2-ТХАТХ.pdf",
+    "title": "Тит. 209.2 Факельное хозяйство низкого давления",
+    "description": "Технологическая схема и схема автоматизации.",
+    "titul": ["209.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "4701362608-1821-2-2021-АТХ.pdf",
+    "title": "Тит. 202.1 Резервуар Е-7",
+    "description": "Общие данные.",
+    "titul": ["202.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "4701362608-1821-2-2021-ТХАТХ-02-0.pdf",
+    "title": "Тит. 202.1 Резервуар Е-7",
+    "description": "Технологическая схема и схема автоматизации.",
+    "titul": ["202.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "05091-TH36-PID-0000-5011-4.pdf",
+    "title": "Тит. 202.1 Резервуар Е-7",
+    "description": "Технологическая схема.",
+    "titul": ["202.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "182.1-2-202.1-АСЭО.pdf",
+    "title": "Тит. 202.1 Резервуар Е-7",
+    "description": "Автоматизация системы электрообогрева",
+    "titul": ["202.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "4701362608-1821-2-2022-АТХ.pdf",
+    "title": "Тит. 202.2 Резервуар Е-8",
+    "description": "Общие данные.",
+    "titul": ["202.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "4701362608-1821-2-2022-ТХАТХ-02-0.pdf",
+    "title": "Тит. 202.2 Резервуар Е-8",
+    "description": "Технологическая схема и схема автоматизации.",
+    "titul": ["202.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "05091-TH36-PID-0000-5021-4.pdf",
+    "title": "Тит. 202.2 Резервуар Е-8",
+    "description": "Технологическая схема.",
+    "titul": ["202.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/202.x/",
+    "file": "182.1-2-202.2-АСЭО.pdf",
+    "title": "Тит. 202.2 Резервуар Е-8",
+    "description": "Автоматизация системы электрообогрева",
+    "titul": ["202.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "4701362608-1821-2-206-АТХ.pdf",
+    "title": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "description": "Общие данные.",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "4701362608-1821-2-206-АТХ-10-20-0.pdf",
+    "title": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "description": "План расположения оборудования и проводок.",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "4701362608-1821-2-206.ТХ.АТХ.pdf",
+    "title": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "description": "Технологическая схема и схема автоматизации.",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/",
+    "file": "U120_u320_АСУ_Структур.pdf",
+    "title": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "description": "HAFI. Структурная схема. АСУ",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/",
+    "file": "Карты_уставок_К-1_К-4_К-5.pdf",
+    "title": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "description": "HAFI. Карты уставок К-1 К-4 К-5",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "0045.2014-03_140-4-0-206.1-АК_[Изм 3].pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Проект",
+    "titul": ["206.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-2061-ТХАК-2-0(1).pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Технологическая схема и схема автоматизации.",
+    "titul": ["206.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-8311-АСУ-ИЭ-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Инструкция по эксплуатации",
+    "titul": ["206.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-8311-АСУ-ТС-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Перечень входных и выходных сигналов",
+    "titul": ["206.1", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-8311-АСУН-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Общий вид шкафов",
+    "titul": ["206.1", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-8311-АСУ-3-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "CP4. Принципиальная",
+    "titul": ["206.1", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-8311-АСУ-4-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "CP5. Принципиальная",
+    "titul": ["206.1", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-8311-АСУ-5-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Схема внешних проводок",
+    "titul": ["206.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-8311-АСУ-2-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Структурная схема",
+    "titul": ["206.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "00452014-03-831-АСУ-2-0.pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "404ШУ-01, 404ШК-01",
+    "titul": ["206.1", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_Спецификация_КИП.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "Компрессора K-1",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-AC-101_Спецификация.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "AC-101",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-C-101AB_Спецификация.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "C-101AB",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_Спецификация_КИП.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "C-101C",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-C-101D_Спецификация.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "C-101D",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-T-101_Спецификация.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "T-101",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-T-201_Спецификация.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "T-201",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-T-203_Спецификация.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "T-203",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-ECO-102_Спецификация.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "ECO-102",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "RU1004-INL_K4_COMPRESSOR_VMY_256M_NR_RUS.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "K-4A/B",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "RU1004-INL_K5_COMPRESSOR_VMY_156M_NR_RUS.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "K-5A/B",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "RU1004-INL-22_T-301A-V-301A-T-302A_RUS.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "T-301, T-302",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "RU1004-INL-23_AC-301A_V-302A_T-303A_RUS.pdf",
+    "title": "HAFI. Спецификации",
+    "description": "T-303",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-K1_Компрессоры.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "Компрессора K-1",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-AC-101_Конденсаторы.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "AC-101",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-C-101AB-RU1004-PID-05.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "C-101AB",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-C-101C-RU1004-PID-08.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "C-101C",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-C-101D_Дренаж.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "C-101D",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-T-101_Теплообменник.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "T-101",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-T-201-RU1004-PID-04_RUS.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "T-201",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-T-202-RU1004-PID-06_RUS.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "T-202",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-T-203-RU1004-PID-07_RUS.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "T-203",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120-ECO-RU1004-PID-02_RUS.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "ECO-102",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "SIBUR_256M_NR_PID_Rev_2.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "K-4A/B",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "SIBUR_PID_156M_NR_Rev2.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "K-5A/B",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "SIBUR-P&ID-U320-T-301_Rev3_RUS.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "T-301, T-302",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "SIBUR-P&ID-U320-T-303_Rev3_RUS.pdf",
+    "title": "HAFI. Функциональные схемы",
+    "description": "T-303",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_MCC4.pdf",
+    "title": "HAFI. Силовой щит",
+    "description": "MCC4",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_MCC1-1_K-1A.pdf",
+    "title": "HAFI. Силовой щит",
+    "description": "MCC1/1 Компрессора К-1",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_MCC3-1_АС.pdf",
+    "title": "HAFI. Силовой щит",
+    "description": "MCC3-1 Конденсаторы AC-101",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_MCC3-2_АС.pdf",
+    "title": "HAFI. Силовой щит",
+    "description": "MCC3-2 Конденсаторы AC-101",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "U320-MCC2_1_RU-1004-CCP-201.pdf",
+    "title": "HAFI. Силовой щит",
+    "description": "MCC2/1 для компрессора К-4A/B",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "U320_MCC2.2_K-5AB.pdf",
+    "title": "HAFI. Силовой щит",
+    "description": "MCC2/2 для компрессора К-5A/B",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "U320_T-301_MCC5.pdf",
+    "title": "HAFI. Силовой щит",
+    "description": "MCC5 для теплообмеников",
+    "titul": ["206"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_Глав.процесс.pdf",
+    "title": "HAFI. U120. CP1, CP2",
+    "description": "Технологическая схема и схема автоматизации.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_CONTR-SHEMA.pdf",
+    "title": "HAFI. U120. CP1, CP2",
+    "description": "Схема управления.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_UPS.pdf",
+    "title": "HAFI. U120. CP1, CP2",
+    "description": "Щит UPS.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_CP2.pdf",
+    "title": "HAFI. U120. CP1, CP2",
+    "description": "СР2. Щит управления вспомогательных систем.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u120/",
+    "file": "U120_CP1A.pdf",
+    "title": "HAFI. U120. CP1, CP2",
+    "description": "CP1. Щит управления компрессорами К-1А/B/C/D.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/",
+    "file": "Схема_подключения_датчиков_температуры_К1С.pdf",
+    "title": "HAFI. U120. CP1, CP2",
+    "description": "Схема подключения датчиков температуры К1С",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "05091-TH36-PID-0000-3201-4.pdf",
+    "title": "HAFI. U320. CP3, CP4, CP5",
+    "description": "Технологическая схема и схема автоматизации.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "U320_T-301_CP3.pdf",
+    "title": "HAFI. U320. CP3, CP4, CP5",
+    "description": "CP3. Система управления вспомогательными системами.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "U320-CP4A_RU1004-CCP-301.pdf",
+    "title": "HAFI. U320. CP3, CP4, CP5",
+    "description": "СР-4. Щит управления компрессоров К-4А/В",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/hafi/u320/",
+    "file": "CP5A_RU1004-CCP-302_Rev5_RUS.pdf",
+    "title": "HAFI. U320. CP3, CP4, CP5",
+    "description": "СР-5. Щит управления компрессоров К-5А/В.",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/405/",
+    "file": "108.2-I-405-АТТ.pdf",
+    "title": "Тит. 405. Установка приготовления и нагрева теплоносителя",
+    "description": "Проект",
+    "titul": ["405"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/403/",
+    "file": "ПЭ.242-17-АК_изм.0посл..pdf",
+    "title": "Тит. 405. Установка приготовления и нагрева теплоносителя",
+    "description": "Проект. Узел учета тепла тит.405",
+    "titul": ["405", "403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/204/",
+    "file": "108.2-I-204.1-АТХ.pdf",
+    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления.",
+    "description": "Проект.",
+    "titul": ["204.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/204/",
+    "file": "АВОдоработка.pdf",
+    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления.",
+    "description": "Проект. Автоматизация аппаратов воздушного охлаждения",
+    "titul": ["204.1", "403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "108.2-I-209.1-АТХ.pdf",
+    "title": "Тит. 209.1 Факельное хозяйство высокого давления.",
+    "description": "Проект.",
+    "titul": ["209.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "Испарительная_установка_FAS-2000_Паспорт.pdf",
+    "title": "Тит. 209.1 Факельное хозяйство высокого давления.",
+    "description": "Испарительная установка FIS-2000. Паспорт",
+    "titul": ["209.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "ЩПУ_Схема_соединений.pdf",
+    "title": "Тит. 209.1 Факельное хозяйство высокого давления.",
+    "description": "Испарительная установка FIS-2000. Схема соединений",
+    "titul": ["209.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "ЩПУ_Схема_эл_принц.pdf",
+    "title": "Тит. 209.1 Факельное хозяйство высокого давления.",
+    "description": "Испарительная установка FIS-2000. Схема электрическая принципиальная",
+    "titul": ["209.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-201.1-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-201.1",
+    "titul": ["201.1", "82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-201.2-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-201.2",
+    "titul": ["201.2", "82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-201.3-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-201.3",
+    "titul": ["201.3", "82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-201.4-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-201.4",
+    "titul": ["201.4", "82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-201.5-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-201.5",
+    "titul": ["201.5", "82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-201.(6-8)-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-201.6, 82.1-201.7, 82.1-201.8",
+    "titul": ["201.6", "82.1", "201.7", "201.8"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-202, 82.1-203, 82.1-208",
+    "titul": ["202", "82.1", "203", "208"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/8x.x/",
+    "file": "108.4-I-82.1-210-АТХ.pdf",
+    "title": "Инженерные сети. Сети КиА",
+    "description": "Тит. 82.1-210",
+    "titul": ["210", "82.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.1/",
+    "file": "-47.01.3.626.08-108.2-I-201.1-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.1. Емкости Е-101 ... Е-110",
+    "titul": ["201.1"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.2/",
+    "file": "-47.01.3.626.08-108.2-I-201.2-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.2. Емкости Е-111 ... Е-120",
+    "titul": ["201.2"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.3/",
+    "file": "-47.01.3.626.08-108.2-I-201.3-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.3. Емкости Е-121 ... Е-130",
+    "titul": ["201.3"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.4/",
+    "file": "-47.01.3.626.08-108.2-I-201.4-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.4. Емкости Е-131 ... Е-140",
+    "titul": ["201.4"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.5/",
+    "file": "-47.01.3.626.08-108.2-I-201.5-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.5. Емкости Е-141 ... Е-150",
+    "titul": ["201.5"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.6/",
+    "file": "-47.01.3.626.08-108.2-I-201.6-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.6. Аварийные емкости резервуарного парка под давлением. Емкости Е-155, Е-156",
+    "titul": ["201.6"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.7/",
+    "file": "-47.01.3.626.08-108.2-I-201.7-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.7. Дренажные емкости резервуарного парка под давлением. Емкости Е-157, Е-158",
+    "titul": ["201.7"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.8/",
+    "file": "-47.01.3.626.08-108.2-I-201.8-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 201.8. Насосная резервуарного парка под давлением",
+    "titul": ["201.8"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/204/",
+    "file": "108.2-I-204.1-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 204.1. Компрессорная слива СУГ с блоком управления",
+    "titul": ["204.1"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/204/",
+    "file": "108.2-I-204.1-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 204.2. Насосная слива СУГ",
+    "titul": ["204.2"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "108.2-I-208-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 208. Азотная станция",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "209.1-АТХ.С.pdf",
+    "title": "Спецификации",
+    "description": "Тит. 209.1. Факельное хозяйство высокого давления",
+    "titul": ["209.1"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.1/",
+    "file": "108.2-I-201.1-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.1 Емкости Е-101...Е-110.",
+    "titul": ["201.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.2/",
+    "file": "108.2-I-201.2-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.2 Емкости Е-111...Е-120.",
+    "titul": ["201.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.3/",
+    "file": "108.2-I-201.3-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.3 Емкости Е-121...Е-130.",
+    "titul": ["201.3"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.4/",
+    "file": "108.2-I-201.4-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.4 Емкости Е-131...Е-140.",
+    "titul": ["201.4"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.5/",
+    "file": "108.2-I-201.5-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.5 Емкости Е-141...Е-150.",
+    "titul": ["201.5"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.6/",
+    "file": "108.2-I-201.6-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.6 Аварийные емкости резервуарного парка под давлением. Емкости Е-155, Е-156.",
+    "titul": ["201.6"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/201.7/",
+    "file": "108.2-I-201.7-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.7 Дренажные емкости резервуарного парка под давлением. Емкости Е-157, Е-158",
+    "titul": ["201.7"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "108.2-I-201.8-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 201.8 Насосная резервуарного парка под давлением.",
+    "titul": ["201.8"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/204/",
+    "file": "108.2-I-204.2-АТХ.pdf",
+    "title": "Схемы",
+    "description": "Тит. 204.2. Насосная слива СУГ.",
+    "titul": ["204.2"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "47.01.3.626.08-108.3-I-303-АСУ.С4_с_исп.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "Схема внешних соединений и подключений (с исправлениями).",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "108.2-I-303-АК.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "Автоматизация комплексная.",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "47.01.3.626.08-108.5-I-303-АСУ.СБ-К1.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "303ШК-01. Схема электрические принципиальные",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "47.01.3.626.08-108.5-I-303-АСУ.СБ_303ШУ.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "303ШУ. Схема электрические принципиальные",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "47.01.3.626.08-108.5-I-303-АСУ.СБ_ИБП.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "303ИБП-01. Схема электрические принципиальные",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "47.01.3.626.08-108.5-I-303-АСУ.СБ_ИБП.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "303ИБП-01. Схема электрические принципиальные",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "108.2-I-208-АТХ.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Проект.",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "2082_364141_0176_00_7_ТО.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Техническое описание",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "2082_364141_0176_00_7_Э3.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Схема электрическая принципиальная",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "2082_364141_0176_00_7_Э4.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Схема электрических соединений",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "2082_364141_0176_00_7_Э6.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Схема электрическая общая",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "2082_364141_0176_00_7_С3.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Схема пневмогидравлическая принципиальная",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "2082_364141_0176_00_7_РЭ.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Руководство по эксплуатации. Часть 1",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "2082_364141_0176_00_7_РЭ1.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Руководство по эксплуатации. Часть 2. Руководство по эксплуатации СКУ",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/208/",
+    "file": "элсхема_BD100+300+.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Atlas copco BD100-300. Электическая схема",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/info/equipment/",
+    "file": "AtlasCopco_BD100-300_ИЭ.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Atlas copco BD100-300. Осушитель воздуха",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/info/equipment/",
+    "file": "Ingersoll_Rand_UP5_4-11_ИЭ.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Ingersoll Rand UP5 4-11. Компрессор",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/info/equipment/",
+    "file": "Электросхема_компрессора_КАЙЗЕР.pdf",
+    "title": "Тит. 208. Азотная станция.",
+    "description": "Kaeser. Электросхема компрессора",
+    "titul": ["208"],
+    "isShow": false
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "AOC_I2475PXQU_Russian_1_0_(13).pdf",
+    "title": "Мониторы",
+    "description": "AOC I2475PXQU. Руководство пользователя к ЖК-монитору",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "dell-u2412m_user's-guide_ru-rs.pdf",
+    "title": "Мониторы",
+    "description": "Dell U2412M. Руководство пользователя",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "DPFC-200D_ds.pdf",
+    "title": "Мониторы",
+    "description": "DPFC-200D. DisplayPort 1.2. Active Optical Cable.",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "RU_kh1508ai-1516ai.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "KH1508Ai/KH1516Ai. Руководство пользователя",
+    "titul": ["6"],
     "isShow": true
   }
 ]
