@@ -27,7 +27,9 @@ export const Footer: React.FC = () => {
         </li>
       </ul>
       <div className="footer__author">
-        <p>Идея проекта,дизайн и реализация burikAV.</p>
+        <p>
+          Идея проекта, дизайн и реализация <a href="mailto:burikAV@yandex.ru">burikAV</a>
+        </p>
         <p>
           Версия 5.01.01 от 01 сентября 2021. <CopyrightIcon color="primary" /> 2014-2021.{' '}
         </p>

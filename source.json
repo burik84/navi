@@ -33,16 +33,6 @@
     "name": "info",
     "folder": "equipment",
     "urlBase": "../public/info/equipment/",
-    "file": "33-23.pdf",
-    "title": "Технологическое оборудование. Инструкции",
-    "description": "Инструкция по эксплуатации стендеров.",
-    "titul": ["59.1", "60.1"],
-    "isShow": true
-  },
-  {
-    "name": "info",
-    "folder": "equipment",
-    "urlBase": "../public/info/equipment/",
     "file": "33-24.pdf",
     "title": "Газодувки ГД-281, ГД282. Инструкции",
     "description": "Инструкция по эксплуатации",
@@ -142,16 +132,6 @@
     "name": "info",
     "folder": "equipment",
     "urlBase": "../public/info/equipment/",
-    "file": "MAN-07-007_MC-3_Series_Instruction_Manual.pdf",
-    "title": "Технологическое оборудование. Инструкции",
-    "description": "MC-3 CAVOTEC. Инструкция по эксплуатации радио пульта стендера.",
-    "titul": ["59.1", "60.1"],
-    "isShow": true
-  },
-  {
-    "name": "info",
-    "folder": "equipment",
-    "urlBase": "../public/info/equipment/",
     "file": "Гамма100калибровка.pdf",
     "title": "Азотная станция",
     "description": "Гамма-100. Калибровка.",
@@ -166,6 +146,16 @@
     "title": "Технологическое оборудование. Инструкции",
     "description": "Методика расчета норм расхода электрической энергии на технологические процессы",
     "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/",
+    "file": "АРМ2.4-31.1-00-000-С-3200_16К1В _ПС_1_0211.pdf",
+    "title": "Технологическое оборудование. Инструкции",
+    "description": "АРЕОПАГ. Агрегаты электронасосные дозировачные мембранные типа НДМ",
+    "titul": ["21"],
     "isShow": true
   },
   {
@@ -435,6 +425,16 @@
     "file": "pe_zona.pdf",
     "title": "Карта по комплексу",
     "description": "Экспликация зданий и сооружений к схемам.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "map",
+    "urlBase": "../public/info/map/",
+    "file": "ГП_СУГ_12_08_11_ГенПлан+206_1и404_1+Бочка1.pdf",
+    "title": "Карта по комплексу",
+    "description": "Генеральный план",
     "titul": [""],
     "isShow": true
   },
@@ -1852,9 +1852,69 @@
     "name": "asutp",
     "folder": "instruction",
     "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_46_01.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Сервер мониторинга.  Руководство по техническому обслуживанию",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_32_02.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Клиент мониторинга. Руководство системного программиста",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_33_02.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Клиент мониторинга. Руководство программиста",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_33_03.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Клиент мониторинга инженерных конструкций. Руководство программиста",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "RU.58666525.425520-03_32_03.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "АРМ мониторинга. Руководство системного программиста",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
     "file": "RU.58666525.425520-03_34_01.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "АРМ мониторинга. Руководство оператора",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/smis/",
+    "file": "Рук_Пр_Мониторинг.pdf",
+    "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
+    "description": "Программный модуль \"Мониторинг ЛВС\". Руководство программиста",
     "titul": ["6"],
     "isShow": true
   },
@@ -2265,7 +2325,7 @@
     "file": "eview2-rukov.pdf",
     "title": "Диагностика КИП",
     "description": "Eview 2. HART configuration software. (For Nivelco Easy TREK SP300)",
-    "titul": [""],
+    "titul": ["21"],
     "isShow": true
   },
   {
@@ -2562,6 +2622,26 @@
     "name": "kip",
     "folder": "mod",
     "urlBase": "../public/kip/mod/",
+    "file": "rukovodstvo-po-ekspluatacii-bi-007.pdf",
+    "title": "Барьеры защитные",
+    "description": "БИ-007 Барьер искробезопасности",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "rukovodstvo-po-ekspluatacii-lpa-04h.pdf",
+    "title": "Барьеры защитные",
+    "description": "ЛПА-042, ЛПА-043. Барьеры искробезопасности",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
     "file": "MRI-32-24VDC_ПАСПОРТ_280708.pdf",
     "title": "Модули DI",
     "description": "MRI-32-24VDC",
@@ -2616,6 +2696,26 @@
     "title": "Модули AI",
     "description": "X20AI4622. Установлены на КМУ",
     "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "BP15B_D2_323.pdf",
+    "title": "Блоки питания",
+    "description": "БП15Б. Однокальный блоки питания",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "re-lpa_200.pdf",
+    "title": "Блоки питания",
+    "description": "ЛПА-200. Блок питания искробезопасный",
+    "titul": ["21"],
     "isShow": true
   },
   {
@@ -2936,6 +3036,16 @@
     "title": "Газосигнализаторы",
     "description": "СТМ 10.",
     "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "dak_ch4_ibyal_418414_071-126_re1.pdf",
+    "title": "Газосигнализаторы",
+    "description": "ДАК. Датчики - газоанализаторы",
+    "titul": ["21"],
     "isShow": true
   },
   {
@@ -3292,6 +3402,16 @@
     "name": "kip",
     "folder": "pressure",
     "urlBase": "../public/kip/pressure/",
+    "file": "re_pd100_2891.pdf",
+    "title": "Преобразователи давления",
+    "description": "ПД100. Преобразователь давления измерительный",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
     "file": "DPS-N_ТИ.pdf",
     "title": "Датчики. Реле - давления",
     "description": "DPS-N. Дифференциальное реле давления",
@@ -3350,6 +3470,16 @@
   },
   {
     "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "ДМ5007.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "ДМ5007. Датчики давления",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
     "folder": "level",
     "urlBase": "../public/kip/level/",
     "file": "AT200_ИЭ.pdf",
@@ -3386,6 +3516,16 @@
     "title": "Преобразователи уровня",
     "description": "Waterpilot FMX 167. Гидростатический измеритель уровня",
     "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "level",
+    "urlBase": "../public/kip/level/",
+    "file": "rukovodstvo_po_ekspluatacii_easytrek_dlya_zhidkostey.pdf",
+    "title": "Преобразователи уровня",
+    "description": "EasyTREK SP-300 series. 2-х проводный ультразвуковой преобразователь уровня",
+    "titul": ["21"],
     "isShow": true
   },
   {
@@ -3706,6 +3846,26 @@
     "title": "Преобразователи температуры",
     "description": "Метран-281, Метран-286, Метран-288. Преобразователи температуры",
     "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "re_oven_dtp_1-ru-18124-1.15.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Овен ДТП. Преобразователи термоэлектрические",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "rie_dtx-i_exd_2307.pdf",
+    "title": "Преобразователи температуры",
+    "description": "Овен ДТП-И. Термопреобразователи с унифицированным выходным сигналом",
+    "titul": ["21"],
     "isShow": true
   },
   {
@@ -4066,6 +4226,16 @@
     "title": "Счетчики-расходомеры.",
     "description": "ЭМИСС-МАСС 260 Счетчик-расходомер массовый",
     "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "rukovodstvo_rotornyj_schetchik_emis_dio_230.pdf",
+    "title": "Счетчики-расходомеры.",
+    "description": "ЭМИСС-ДИО 230 Счетчики жидкостные роторные",
+    "titul": ["21"],
     "isShow": true
   },
   {
@@ -5911,6 +6081,36 @@
   {
     "name": "scheme",
     "folder": "ups",
+    "urlBase": "../public/scheme/41/",
+    "file": "ТОМ_01_АВТ.19-027-весь_проект.pdf",
+    "title": "Тит. 41. Система контроля загазованности",
+    "description": "Весь проект. Рабочая документация",
+    "titul": ["41","48"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/41/",
+    "file": "Том_02_Часть_1_(с_подписями).pdf",
+    "title": "Тит. 41. Система контроля загазованности",
+    "description": "Общие данные",
+    "titul": ["41","48"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/41/",
+    "file": "Том_02 _Часть_2_(с_подписями).pdf",
+    "title": "Тит. 41. Система контроля загазованности",
+    "description": "Кабельный журнал",
+    "titul": ["41","48"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
     "urlBase": "../public/scheme/43/",
     "file": "306-ПН.СУБ.2014.C6.pdf",
     "title": "Тит. 43 Установка рекуперации паров бензина. Проект ИНКОМСИСТЕМ",
@@ -6265,6 +6465,16 @@
     "file": "00452014-03-831-АСУ-2-0.pdf",
     "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
     "description": "404ШУ-01, 404ШК-01",
+    "titul": ["206.1", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "140-4-0-206_1_1-ЭМ[Изм 1].pdf",
+    "title": "Тит. 206.1 Холодильная станция с установкой термостатирования. Расширение",
+    "description": "Система электрообогрева",
     "titul": ["206.1", "404"],
     "isShow": true
   },
@@ -7296,6 +7506,186 @@
     "title": "Контроллеры локальные/Блоки управления",
     "description": "KH1508Ai/KH1516Ai. Руководство пользователя",
     "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "10_Marine_Loader_Visualization.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "EMCO WHEATON. Руководство по программе визуализации работы морского погрузчика",
+    "titul": ["35"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/",
+    "file": "33-23.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "Инструкция по эксплуатации стендеров.",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "Manual_1211567_RU.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "Руководство по установке, эксплуатации и техническому обслуживанию",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "MAN-99-001-03_Service_manual_for_MC-3000_Rus.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-3000. Руководство по обслуживанию",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "MAN-98-008-04_Operators_manual_MC-3000_Rus.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-3000. Руководство оператора",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "MAN-03-003-03_Manual_for_MC-3000-EX_Rus.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-3000-Ex. Руководство оператора",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "8_Radio_12706.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-3200-Ex. Drawings",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "8_Radio_12705.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-3200-Ex. Instruction manual",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "MAN-07-007_MC-3_Series_Instruction_Manual.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-3 CAVOTEC. Instruction Manual",
+    "titul": ["59.1", "60.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/204/",
+    "file": "04-П_20-АТХ.rev00_с_исправлениями.pdf",
+    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления.",
+    "description": "Техническое перевооружение. Сх. эл.принц. сигнализации состояния кранов поз. РП204, РБ204",
+    "titul": ["204.1", "403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/204/",
+    "file": "04-П_20-АТХ.rev00_с_исправлениями.pdf",
+    "title": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "description": "Техническое перевооружение. Сх. эл.принц. сигнализации состояния кранов поз. РП206, РБ206",
+    "titul": ["206", "404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/21/",
+    "file": "ПЭ.243-17-АК_изм.0 копия.pdf",
+    "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
+    "description": "Автоматизация комплексная",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/21/",
+    "file": "ПЭ.243_17-ТХ_изм.0.pdf",
+    "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
+    "description": "Технология производства",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/21/",
+    "file": "21._Схема_щита_ЩУ-1.pdf",
+    "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
+    "description": "Схема щита ЩУ-1",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/21/",
+    "file": "22._Схема_щита_ЩУ-2.pdf",
+    "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
+    "description": "Схема щита ЩУ-2",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/21/",
+    "file": "АРБУ-00-000-01_Э6.pdf",
+    "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
+    "description": "Блок управления Ареоматик. Схема",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/21/",
+    "file": "АРБУ-00-000-05.К_РЭ.pdf",
+    "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
+    "description": "Блок управления Ареоматик. Руководство по эксплуатации",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "other",
+    "urlBase": "../public/scheme/21/",
+    "file": "АРБУ-00-000-05.К_ПС.pdf",
+    "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
+    "description": "Блок управления Ареоматик. Паспорт",
+    "titul": ["21"],
     "isShow": true
   }
 ]
