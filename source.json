@@ -202,6 +202,16 @@
     "name": "info",
     "folder": "artic",
     "urlBase": "../public/info/artic/",
+    "file": "СП7.13130.2009_Противопожарные_требования.pdf",
+    "title": "Статьи",
+    "description": "Отопление, вентиляция и кондиционирование. Противопожарные требования",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "artic",
+    "urlBase": "../public/info/artic/",
     "file": "СПРАВОЧНИК-ПОЗЫВНЫЕ_РАДИОСТАНЦИИ_(ред102019).pdf",
     "title": "Статьи",
     "description": "Справочник - позывные радиостанции (от 10.2019)",
@@ -325,6 +335,16 @@
     "file": "22-06.pdf",
     "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
     "description": "Инструкция по эксплуатации, обслуживанию и ремонту систем ПАЗ",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "instruction",
+    "urlBase": "../public/info/instruction/",
+    "file": "ИО_10.50.Инструкция_по_безопасной_эксплуатации,обслуживанию_систем_вентиляции.pdf",
+    "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
+    "description": "Инструкция по безопасной экспуатации, обслуживанию и ремонту систем вентиляции",
     "titul": [""],
     "isShow": true
   },
@@ -2359,12 +2379,12 @@
     "isShow": true
   },
   {
-    "name": "asutp",
-    "folder": "instruction",
+    "name": "info",
+    "folder": "equipment",
     "urlBase": "../public/asutp/instruction/",
     "file": "VEZA_avtomatikaSAU.pdf",
-    "title": "Контроллеры локальные/Блоки управления",
-    "description": "ВЕЗА. Система автоматического управления вентиляторных установок",
+    "title": "Технологическое оборудование. Инструкции",
+    "description": "ВЕЗА ШСАУ. Система автоматического управления вентиляторных установок",
     "titul": ["208"],
     "isShow": true
   },
@@ -2479,13 +2499,33 @@
     "isShow": true
   },
   {
-    "name": "kip",
-    "folder": "other",
-    "urlBase": "../public/kip/other/",
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/",
     "file": "РЭ_ВВЭ_№094467.pdf",
-    "title": "Не разобрано",
+    "title": "Технологическое оборудование. Инструкции",
     "description": "Весы вагонные ВВЭ. Руководство по эксплуатации",
     "titul": ["503", "502.1","502.2", "502.3"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/",
+    "file": "ВЕЗА_ШСАУ_РЭ.pdf",
+    "title": "Технологическое оборудование. Инструкции",
+    "description": "ВЕЗА ШСАУ. Шкафы управления системами вентилции и кондиционирования воздуха.",
+    "titul": ["303", "404", "403"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/",
+    "file": "ВЕЗА_Комплект_автоматики_РЭ.pdf",
+    "title": "Технологическое оборудование. Инструкции",
+    "description": "ВЕЗА ШСАУ. Комплект автоматики.",
+    "titul": ["303", "404", "403"],
     "isShow": true
   },
   {
@@ -3480,6 +3520,16 @@
   },
   {
     "name": "kip",
+    "folder": "pressure",
+    "urlBase": "../public/kip/pressure/",
+    "file": "Siemens-QBM81.pdf",
+    "title": "Датчики. Реле - давления",
+    "description": "QBM81-... Датчики перепада давления.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
     "folder": "level",
     "urlBase": "../public/kip/level/",
     "file": "AT200_ИЭ.pdf",
@@ -3656,6 +3706,36 @@
     "title": "Датчики",
     "description": "FLZ 510. Termostat. Instruction for Use",
     "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "QAM2120.pdf",
+    "title": "Датчики",
+    "description": "Siemens QAM21... Датчики температуры в воздуховодах",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "RAK-TW.5000.pdf",
+    "title": "Датчики",
+    "description": "Siemens RAK-TW.5..H. Термостат защиты от замораживания",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "ТАМ123.pdf",
+    "title": "Датчики",
+    "description": "ТАМ123. Датчики-реле температуры.",
+    "titul": [""],
     "isShow": true
   },
   {
@@ -4896,6 +4976,166 @@
     "title": "Производственная зона .аов",
     "description": "Тит. 407 РТП-3 и аппаратная",
     "titul": ["407"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "ШСАУ_тит.20_П1.1,П1.1а.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 20. П1.1, П1.1а",
+    "titul": ["20"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/",
+    "file": "ШСАУ_тит.20_П2.pdf",
+    "title": "Производственная зона .аов",
+    "description": "Тит. 20. П2",
+    "titul": ["20"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "КС-ТО-АВ_303_п1.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 303 П1, П1а",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "КС-ТО-АВ_303_п2.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 303 П2, П2а",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_КС-ТО-АВ_АВР.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 403 П1, П1а",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_К-ТО-АВ.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 403 П2, П2а",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_К-Ф-ТО-В_5,5.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 206 П1, П2",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_В.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 206 В1",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "206_АВ1-3.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 206 АВ 1-3. Схемы ШСАУ В1-В2-В3",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_В_0,107.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 404 В3",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_В_0,25.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 404 В9, В11, В12",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_К-Ф1-Ф2-ТО-ФО-В_3,0.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 404 П1",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_К-Ф-ТО-В_1,5.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 404 П2, П2а, П4,П4а",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_К-Ф-В_0,75.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 404 П5",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_К-Ф-ТО-В_4,0.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 404 П6, П6а",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/shsau/",
+    "file": "ШСАУ_К-Ф-ТО-В_0,75.pdf",
+    "title": "Схемы ШСАУ",
+    "description": "Тит. 404 П8, П8а",
+    "titul": ["404"],
     "isShow": true
   },
   {
@@ -7509,6 +7749,26 @@
     "isShow": true
   },
   {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Danfoss_MCX06D_описание_контроллера.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "Danfoss MCX06D. Описание контроллера.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Siemens_RLU2_ru.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "Siemens RLU2... Универсальные контроллеры. Базовая документация",
+    "titul": [""],
+    "isShow": true
+  },
+  {
     "name": "info",
     "folder": "equipment",
     "urlBase": "../public/info/equipment/emco/",
@@ -7686,6 +7946,16 @@
     "title": "Титул 21. Установка емкости для хранения запасов дизельного топлива, устройства пункта слива-налива емкости  и заправки автотранспорта",
     "description": "Блок управления Ареоматик. Паспорт",
     "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/info/instruction/",
+    "file": "ИО_10.50.Инструкция_по_безопасной_эксплуатации,обслуживанию_систем_вентиляции.pdf",
+    "title": "Инструкции по охране труда, промышленной безопасноcти и т.д",
+    "description": "Инструкция по безопасной экспуатации, обслуживанию и ремонту систем вентиляции",
+    "titul": [""],
     "isShow": true
   }
 ]
