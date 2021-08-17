@@ -1562,6 +1562,46 @@
     "name": "asutp",
     "folder": "siemens",
     "urlBase": "../public/asutp/siemens/",
+    "file": "STEP7.V53_LAD.pdf",
+    "title": "Контроллеры",
+    "description": "Контактный план для S7-300 и S7-400. Программирование",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "CFC_V6_ru.pdf",
+    "title": "Контроллеры",
+    "description": "CFC для s7. Непрерывные функциональные схемы",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "Berger_Step7-STL&SCL_r.pdf",
+    "title": "Книги Бергера",
+    "description": "Автоматизация посредством STEP7  с использованием STL и SCL и программируемых контроллеров SIMATIC S7-300/400",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "Berger_STEP7_LAD_FBD_r.pdf",
+    "title": "Книги Бергера",
+    "description": "Автоматизация c с помощью программ STEP7 LAD и FBD",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
     "file": "Win_CC_Configuration_Manual-1_r.pdf",
     "title": "WinCC",
     "description": "Win CC Руководство по конфигурации. Том 1",
