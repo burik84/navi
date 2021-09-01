@@ -1552,9 +1552,49 @@
     "name": "asutp",
     "folder": "siemens",
     "urlBase": "../public/asutp/siemens/",
+    "file": "step7_in_manual_ru.pdf",
+    "title": "Программирование",
+    "description": "Simatic S7. Введение в STEP 7 Руководство",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
     "file": "STEP7_V53_Programming_r.pdf",
-    "title": "Контроллеры",
+    "title": "Программирование",
     "description": "Программирование с помощью STEP 7 V5.3. Руководство",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "ST-7SERV1.pdf",
+    "title": "Программирование",
+    "description": "ST-7SERV1. Simatic S7 Обучение обслуживающего персонала-1",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "ST-7SERV2.pdf",
+    "title": "Программирование",
+    "description": "ST-7SERV2. Simatic S7 Обучение обслуживающего персонала-2",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "TIA-PRG1.pdf",
+    "title": "Программирование",
+    "description": "TIA-PRG1. SIMATIC S7 TIA-Програмиирование 1",
     "titul": [""],
     "isShow": true
   },
@@ -1586,7 +1626,7 @@
     "title": "Книги Бергера",
     "description": "Автоматизация посредством STEP7  с использованием STL и SCL и программируемых контроллеров SIMATIC S7-300/400",
     "titul": [""],
-    "isShow": true
+    "isShow": false
   },
   {
     "name": "asutp",
@@ -1596,7 +1636,7 @@
     "title": "Книги Бергера",
     "description": "Автоматизация c с помощью программ STEP7 LAD и FBD",
     "titul": [""],
-    "isShow": true
+    "isShow": false
   },
   {
     "name": "asutp",
@@ -1856,6 +1896,26 @@
     "title": "Siemens.",
     "description": "Менеджер горения. LMV 51/52. Полная версия (плохие картинки)",
     "titul": ["5.1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "rs_485_repeater_manual_en-US.pdf",
+    "title": "Siemens.",
+    "description": "Simatic RS485 Repeater",
+    "titul": ["59.1","60.1","35"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Siemens 7_Repeater_r_MN.pdf",
+    "title": "Siemens.",
+    "description": "Simatic RS485 Повторитель",
+    "titul": ["59.1","60.1","35"],
     "isShow": true
   },
   {
@@ -2575,6 +2635,26 @@
     "file": "upes40_re.pdf",
     "title": "Не разобрано",
     "description": "Устройство пороговое УПЭС-40. Руководство по эксплуатации",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "rosemount-751-ru.pdf",
+    "title": "Приборы показывающие измерительные",
+    "description": "Rosemount 751",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "BA00278RRU_0415.pdf",
+    "title": "Приборы показывающие измерительные",
+    "description": "E+H RIA14. Индикатор",
     "titul": [""],
     "isShow": true
   },
@@ -3602,7 +3682,7 @@
     "name": "kip",
     "folder": "level",
     "urlBase": "../public/kip/level/",
-    "file": "Waterpilot_FMX_167_ТО.pdf",
+    "file": "Waterpilot_FMX167.pdf",
     "title": "Преобразователи уровня",
     "description": "Waterpilot FMX 167. Гидростатический измеритель уровня",
     "titul": [""],
@@ -7092,9 +7172,9 @@
     "name": "scheme",
     "folder": "ith",
     "urlBase": "../public/scheme/hafi/u320/",
-    "file": "U320_T-301_MCC5.pdf",
+    "file": "MCC5_Rev3_RU.pdf",
     "title": "HAFI. Силовой щит",
-    "description": "MCC5 для теплообмеников",
+    "description": "MCC5 Щит силового тока для системы U320",
     "titul": ["206"],
     "isShow": false
   },
@@ -7132,9 +7212,9 @@
     "name": "scheme",
     "folder": "ith",
     "urlBase": "../public/scheme/hafi/u120/",
-    "file": "U120_CP2.pdf",
+    "file": "CP2_Rev7_RUS.pdf",
     "title": "HAFI. U120. CP1, CP2",
-    "description": "СР2. Щит управления вспомогательных систем.",
+    "description": "СР2. Щит управления для вспомогательной системы.",
     "titul": ["206", "404"],
     "isShow": true
   },
@@ -7172,9 +7252,9 @@
     "name": "scheme",
     "folder": "ith",
     "urlBase": "../public/scheme/hafi/u320/",
-    "file": "U320_T-301_CP3.pdf",
+    "file": "CP3_Rev5_RU.pdf",
     "title": "HAFI. U320. CP3, CP4, CP5",
-    "description": "CP3. Система управления вспомогательными системами.",
+    "description": "CP3. Щит управления для вспомогательной системы.",
     "titul": ["206", "404"],
     "isShow": true
   },
