@@ -7701,16 +7701,6 @@
   {
     "name": "scheme",
     "folder": "sug",
-    "urlBase": "../public/scheme/303/",
-    "file": "47.01.3.626.08-108.5-I-303-АСУ.СБ_ИБП.pdf",
-    "title": "Тит. 303. Аппаратная парка под давлением",
-    "description": "303ИБП-01. Схема электрические принципиальные",
-    "titul": ["303"],
-    "isShow": true
-  },
-  {
-    "name": "scheme",
-    "folder": "sug",
     "urlBase": "../public/scheme/208/",
     "file": "108.2-I-208-АТХ.pdf",
     "title": "Тит. 208. Азотная станция.",
