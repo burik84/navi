@@ -20,6 +20,7 @@ const info: { [char: string]: string } = {
   stardom: 'stardom',
   hart: 'hart',
   scada: 'scada',
+  enraf: 'enraf',
 };
 
 export const Asutp: React.FC = () => {

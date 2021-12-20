@@ -46,6 +46,7 @@ const asutp = [
   ['/asutp/stardom', 'Stardom'],
   ['/asutp/hart', 'Hart Modbus RS'],
   ['/asutp/scada', 'Scada'],
+  ['/asutp/enraf', 'Enraf'],
 ];
 
 const info = [
