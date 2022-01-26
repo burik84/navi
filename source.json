@@ -1950,8 +1950,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_32_01.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Сервер мониторинга. Руководство системного программиста.",
@@ -1960,8 +1960,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_33_01.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Сервер мониторинга. Руководство программиста",
@@ -1970,8 +1970,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_46_01.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Сервер мониторинга.  Руководство по техническому обслуживанию",
@@ -1980,8 +1980,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_32_02.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Клиент мониторинга. Руководство системного программиста",
@@ -1990,8 +1990,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_33_02.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Клиент мониторинга. Руководство программиста",
@@ -2000,8 +2000,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_33_03.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Клиент мониторинга инженерных конструкций. Руководство программиста",
@@ -2010,8 +2010,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_32_03.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "АРМ мониторинга. Руководство системного программиста",
@@ -2020,8 +2020,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "RU.58666525.425520-03_34_01.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "АРМ мониторинга. Руководство оператора",
@@ -2030,8 +2030,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "Рук_Пр_Мониторинг.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Программный модуль \"Мониторинг ЛВС\". Руководство программиста",
@@ -2040,8 +2040,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "Программа_bcp.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Программа bcp",
@@ -2050,8 +2050,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "Сигналы_СМИС_КПСУГ_Утвержденный.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Перечень сигналов СМИС, утвержденные ГИ",
@@ -2060,8 +2060,8 @@
   },
   {
     "name": "asutp",
-    "folder": "instruction",
-    "urlBase": "../public/asutp/instruction/smis/",
+    "folder": "smis",
+    "urlBase": "../public/asutp/smis/",
     "file": "Сигналы_СМИС_КПСУГ_SMS_рассылки.pdf",
     "title": "СМИС (Структурированная система мониторинга и управления инженерными системами зданий и сооружений)",
     "description": "Перечень сигналов СМИС - рассылка СМС, утвержденные ГИ",
@@ -4632,7 +4632,7 @@
     "name": "scheme",
     "folder": "other",
     "urlBase": "../public/scheme/5.1/",
-    "file": "котельная_схемы_перевод.pdf",
+    "file": "GP400_MI.pdf",
     "title": "Тит 5.1 Котельная с водоподготовительной установкой",
     "description": "Схемы по котлам (с переводом).",
     "titul": ["5.1"],
@@ -7116,7 +7116,7 @@
     "title": "HAFI. Силовой щит",
     "description": "MCC4",
     "titul": ["206"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7126,7 +7126,7 @@
     "title": "HAFI. Силовой щит",
     "description": "MCC1/1 Компрессора К-1",
     "titul": ["206"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7136,7 +7136,7 @@
     "title": "HAFI. Силовой щит",
     "description": "MCC3-1 Конденсаторы AC-101",
     "titul": ["206"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7146,7 +7146,7 @@
     "title": "HAFI. Силовой щит",
     "description": "MCC3-2 Конденсаторы AC-101",
     "titul": ["206"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7156,7 +7156,7 @@
     "title": "HAFI. Силовой щит",
     "description": "MCC2/1 для компрессора К-4A/B",
     "titul": ["206"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7166,7 +7166,7 @@
     "title": "HAFI. Силовой щит",
     "description": "MCC2/2 для компрессора К-5A/B",
     "titul": ["206"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7176,7 +7176,7 @@
     "title": "HAFI. Силовой щит",
     "description": "MCC5 Щит силового тока для системы U320",
     "titul": ["206"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7706,7 +7706,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Проект.",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7716,7 +7716,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Техническое описание",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7726,7 +7726,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Схема электрическая принципиальная",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7736,7 +7736,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Схема электрических соединений",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7746,7 +7746,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Схема электрическая общая",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7756,7 +7756,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Схема пневмогидравлическая принципиальная",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7766,7 +7766,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Руководство по эксплуатации. Часть 1",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7776,7 +7776,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Руководство по эксплуатации. Часть 2. Руководство по эксплуатации СКУ",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7786,7 +7786,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Atlas copco BD100-300. Электическая схема",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7796,7 +7796,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Atlas copco BD100-300. Осушитель воздуха",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7806,7 +7806,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Ingersoll Rand UP5 4-11. Компрессор",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "scheme",
@@ -7816,7 +7816,7 @@
     "title": "Тит. 208. Азотная станция.",
     "description": "Kaeser. Электросхема компрессора",
     "titul": ["208"],
-    "isShow": false
+    "isShow": true
   },
   {
     "name": "asutp",
@@ -8067,6 +8067,206 @@
     "description": "Инструкция по безопасной экспуатации, обслуживанию и ремонту систем вентиляции",
     "titul": [""],
     "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/beckhoff/",
+    "file": "1_Mounting_and_wiring.pdf",
+    "title": "Beckhoff контроллеры",
+    "description": "Монтаж и подключение.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/beckhoff/",
+    "file": "2_First_steps_CX_TwinCAT.pdf",
+    "title": "Beckhoff контроллеры",
+    "description": "TwinCAT Первые шаги в программировании контроллера CX",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/beckhoff/",
+    "file": "9_Modbus_Step-by-step.pdf",
+    "title": "Beckhoff контроллеры",
+    "description": "Протокол передачи данных Modbus",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ith",
+    "urlBase": "../public/scheme/206/",
+    "file": "39-П18–АТХ4v208.11.21-39-.pdf",
+    "title": "Тит. 206 Холодильная станция с установкой термостатирования",
+    "description": "Танк - контейнер для хранения аварийного запаса пропилена",
+    "titul": ["206"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/",
+    "file": "Портэнерго_3-ий_продукт.Технологические решения.pdf",
+    "title": "Технологическое оборудование. Инструкции",
+    "description": "Портэнерго 3-ий продукт. Технологические решения",
+    "titul": ["203", "700"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/700/",
+    "file": "108_20-03-700.1-АТХ_изм.1.pdf",
+    "title": "Схемы",
+    "description": "Тит. 700.1. Насосная слива и налива СУГ и ЛВЖ под давлением. Пентан",
+    "titul": ["700.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/700/",
+    "file": "108_20-03-700.АК.Альбом_2.Автоматизация_комплексная_изм.1.pdf",
+    "title": "Организация перевалки третьего дополнительного продукта. Пентан",
+    "description": "Проект. Автоматизация комплексная. РСУ и ПАЗ",
+    "titul": ["35","41","49","303","403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/35/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.35-у.pdf",
+    "title": "Шкафы АСУТП. Схемы электрические принципиальные",
+    "description": "35ШУ-01, 35ШУ-02, 35ШУ-03 Схема электрическая принципиальная. Пентан",
+    "titul": ["35"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/35/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.35.pdf",
+    "title": "Схемы",
+    "description": "Тит. 35. Пентан",
+    "titul": ["35"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/41/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.41-у.pdf",
+    "title": "Шкафы АСУТП. Схемы электрические принципиальные",
+    "description": "41ШУ-01, 41ШУ-02. Схема электрическая принципиальная. Пентан",
+    "titul": ["41"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/41/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.41.pdf",
+    "title": "Схемы",
+    "description": "Тит. 41. Пентан",
+    "titul": ["41"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/49/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.49-у.pdf",
+    "title": "Шкафы АСУТП. Схемы электрические принципиальные",
+    "description": "49ШУ-01, 49ШУ-02. Чертежи общего вида. Пентан",
+    "titul": ["49"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/49/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.49.pdf",
+    "title": "Схемы",
+    "description": "Тит. 49. Пентан",
+    "titul": ["49"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.303-у.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "303ШК-01, 303ШУ-04, 303ШУ-05, 303ШУ-06. Схема электрическая принципиальная. Пентан",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.303.pdf",
+    "title": "Тит. 303. Аппаратная парка под давлением",
+    "description": "Схема внешних соединений и подключений. Пентан",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "us",
+    "urlBase": "../public/scheme/403/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.403-у.pdf",
+    "title": "Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
+    "description": "403ШК-01. Схема электрическая принципиальная. Пентан",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "us",
+    "urlBase": "../public/scheme/403/",
+    "file": "108_20-03-700.АК. Альбом 2. Автоматизация комплексная_изм.1т.403.pdf",
+    "title": "Титул 403. Аппаратная жд эстакады слива СУГ и бензинов.",
+    "description": "Схема внешних соединений и подключений. Пентан",
+    "titul": ["403"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "us",
+    "urlBase": "../public/scheme/203/",
+    "file": "Extract_108_20-03-203-АТХ_Изм.1.pdf",
+    "title": "Схемы",
+    "description": "Тит. 203. Сливная ж/д эстакада СУГ. Пентан",
+    "titul": ["203"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/700/",
+    "file": "108_20-03-700-АТХ.pdf",
+    "title": "Схемы",
+    "description": "тит. 700. Межцеховые коммуникации. Пентан",
+    "titul": ["700"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/203/",
+    "file": "108_20-03-203-АТХ_Изм.1.pdf",
+    "title": "Организация перевалки третьего дополнительного продукта. Пентан",
+    "description": "Тит. 203. Сливная ж/д эстакада СУГ. Рабочая документация. Пентан",
+    "titul": ["203"],
+    "isShow": false
   }
 ]
 

@@ -135,6 +135,12 @@ export const Map: React.FC = () => {
             <li className="map__item">
               <Link to="/asutp/scada">Scada</Link>
             </li>
+            <li className="map__item">
+              <Link to="/asutp/enraf">Enraf</Link>
+            </li>
+            <li className="map__item">
+              <Link to="/asutp/smis">СМИС</Link>
+            </li>
           </ul>
         </div>
         <div className="lists">

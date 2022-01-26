@@ -21,6 +21,7 @@ const info: { [char: string]: string } = {
   hart: 'hart',
   scada: 'scada',
   enraf: 'enraf',
+  smis: 'smis',
 };
 
 export const Asutp: React.FC = () => {

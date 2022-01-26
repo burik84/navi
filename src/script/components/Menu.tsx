@@ -47,6 +47,7 @@ const asutp = [
   ['/asutp/hart', 'Hart Modbus RS'],
   ['/asutp/scada', 'Scada'],
   ['/asutp/enraf', 'Enraf'],
+  ['/asutp/smis', 'СМИС'],
 ];
 
 const info = [
