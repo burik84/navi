@@ -49,7 +49,7 @@ npm install
 ```cmd
 npm run dev //mode developer
 npm run build //mode production
-npm run server //start server in mode developer
+npm run serve //start watch to files and start live server in mode developer
 ```
 
 Check file from Eslint in folder src before running app

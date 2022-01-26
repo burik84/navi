@@ -4,7 +4,7 @@
   "description": "project navi storage for all information ",
   "main": "./src/index.ts",
   "scripts": {
-    "server": "webpack serve --mode development",
+    "serve": "webpack serve --mode development",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "lint": "eslint --config ./.eslintrc.js",
