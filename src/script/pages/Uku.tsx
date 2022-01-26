@@ -15,6 +15,7 @@ const info: { [char: string]: string } = {
   '44_1': '44.1',
   '44_2': '44.2',
   '44_3': '44.3',
+  '700_3': '700.3',
   ppu: 'ppu',
   instruction: 'instruction',
 };

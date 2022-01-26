@@ -101,6 +101,9 @@ export const Map: React.FC = () => {
               <Link to="/uku/44_3">44.3</Link>
             </li>
             <li className="map__item">
+              <Link to="/uku/700_3">700.3</Link>
+            </li>
+            <li className="map__item">
               <Link to="/uku/ppu">ППУ</Link>
             </li>
             <li className="map__item">
