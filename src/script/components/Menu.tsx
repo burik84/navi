@@ -57,6 +57,7 @@ const info = [
   ['/info/methodologies', 'Методики проверки'],
   ['/info/map', 'Схемы технологические, карта площадки'],
   ['/info/artic', 'Статьи'],
+  ['/info/reglament', 'Регламенты'],
 ];
 
 const getCurrentRoute = () => {

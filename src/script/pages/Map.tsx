@@ -164,6 +164,9 @@ export const Map: React.FC = () => {
             <li className="map__item">
               <Link to="/info/artic">Статьи</Link>
             </li>
+            <li className="map__item">
+              <Link to="/info/reglament">Регламенты</Link>
+            </li>
           </ul>
         </div>
       </main>

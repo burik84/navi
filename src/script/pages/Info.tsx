@@ -17,6 +17,7 @@ const info: { [char: string]: string } = {
   methodologies: 'methodologies',
   map: 'map',
   artic: 'artic',
+  reglament: 'reglament',
 };
 
 export const Info: React.FC = () => {
