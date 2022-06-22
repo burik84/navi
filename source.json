@@ -615,7 +615,7 @@
     "file": "Методика_калибровки_жд_весов.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Весы вагонные ВВЭ-СД. Методика калибровки.",
-    "titul": ["503", "502.1","502.2", "502.3"],
+    "titul": ["503", "502.1", "502.2", "502.3"],
     "isShow": true
   },
   {
@@ -1875,7 +1875,7 @@
     "file": "Siemens_OP_177B.pdf",
     "title": "Siemens.",
     "description": "Панель управления компрессорами HAFI. OP 177B",
-    "titul": ["403","404"],
+    "titul": ["403", "404"],
     "isShow": true
   },
   {
@@ -1905,7 +1905,7 @@
     "file": "rs_485_repeater_manual_en-US.pdf",
     "title": "Siemens.",
     "description": "Simatic RS485 Repeater",
-    "titul": ["59.1","60.1","35"],
+    "titul": ["59.1", "60.1", "35"],
     "isShow": true
   },
   {
@@ -1915,7 +1915,7 @@
     "file": "Siemens 7_Repeater_r_MN.pdf",
     "title": "Siemens.",
     "description": "Simatic RS485 Повторитель",
-    "titul": ["59.1","60.1","35"],
+    "titul": ["59.1", "60.1", "35"],
     "isShow": true
   },
   {
@@ -2450,6 +2450,16 @@
   },
   {
     "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "Handler_PACTware.pdf",
+    "title": "Диагностика КИП",
+    "description": "PACTware/DTM Collection. Установка и первые шаги",
+    "titul": ["21"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "REGIN_TTC25_О.pdf",
@@ -2545,7 +2555,7 @@
     "file": "DYTRAN_3190A6.pdf",
     "title": "Не разобрано",
     "description": "DYTRAN 3190A6. Акселерометр - измерение ускорения (виброускорение)",
-    "titul": ["202.1","202.2"],
+    "titul": ["202.1", "202.2"],
     "isShow": true
   },
   {
@@ -2555,7 +2565,7 @@
     "file": "SWA70_adapter.pdf",
     "title": "Беспроводные датчики",
     "description": "SWA70. Адаптер. Интеллектуальный беспроводной модем с возможностью подачи питания на полевые приборы.",
-    "titul": ["59.1","60.1"],
+    "titul": ["59.1", "60.1"],
     "isShow": true
   },
   {
@@ -2565,7 +2575,7 @@
     "file": "SWA70_BA00061SEN_2118.pdf",
     "title": "Беспроводные датчики",
     "description": "Wireless HART adapter SWA70. Operating Instructions",
-    "titul": ["59.1","60.1"],
+    "titul": ["59.1", "60.1"],
     "isShow": true
   },
   {
@@ -2575,7 +2585,7 @@
     "file": "SWG70_gateway.pdf",
     "title": " ",
     "description": "SWG70. Шлюз. Интеллектуальный шлюз для беспроводных сетей.",
-    "titul": ["59.1","60.1"],
+    "titul": ["59.1", "60.1"],
     "isShow": true
   },
   {
@@ -2605,7 +2615,7 @@
     "file": "РЭ_ВВЭ_№094467.pdf",
     "title": "Технологическое оборудование. Инструкции",
     "description": "Весы вагонные ВВЭ. Руководство по эксплуатации",
-    "titul": ["503", "502.1","502.2", "502.3"],
+    "titul": ["503", "502.1", "502.2", "502.3"],
     "isShow": true
   },
   {
@@ -2835,6 +2845,16 @@
     "file": "mro-32-24vdc-220vac_паспорт_201010.pdf",
     "title": "Модули DO",
     "description": "MRO-32 24vdc 220vac",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "MROC-32-24VDC-230VAC-DPS.pdf",
+    "title": "Модули DO",
+    "description": "MROC-32/24VDC-230VAC/DPS",
     "titul": [""],
     "isShow": true
   },
@@ -3275,6 +3295,16 @@
     "file": "ROTORK_pub021-008-00_1109.pdf",
     "title": "Оборудование фирмы Rotork",
     "description": "Skilmatic Range EH",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "pub021-034-08_0512.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "EH Pro",
     "titul": [""],
     "isShow": true
   },
@@ -4735,7 +4765,7 @@
     "file": "АЭП40-025-54К-22УС_R1.01_01.10.12_УХЛ1_исправлено.pdf",
     "title": "КНС производственно - дождевых стоков. Шкафы управления",
     "description": "Тит. 602.1, 602.7, 602.8",
-    "titul": ["602.1","602.7","602.8"],
+    "titul": ["602.1", "602.7", "602.8"],
     "isShow": true
   },
   {
@@ -4845,7 +4875,21 @@
     "file": "привязка шкафов к титулам.pdf",
     "title": "КНС производственно - дождевых стоков. Шкафы управления",
     "description": "Привязка шкафов к титулам",
-    "titul": ["5.1","15.1", "15.2", "602.1", "602.2", "602.3", "602.4", "602.5", "602.6", "602.7", "602.8", "603.1", "603.2"],
+    "titul": [
+      "5.1",
+      "15.1",
+      "15.2",
+      "602.1",
+      "602.2",
+      "602.3",
+      "602.4",
+      "602.5",
+      "602.6",
+      "602.7",
+      "602.8",
+      "603.1",
+      "603.2"
+    ],
     "isShow": true
   },
   {
@@ -5365,7 +5409,7 @@
     "file": "I-48-АТХ_5.31.pdf",
     "title": "Pakscan. Схемы соединений",
     "description": "тит. 35",
-    "titul": ["35","48"],
+    "titul": ["35", "48"],
     "isShow": true
   },
   {
@@ -5375,7 +5419,7 @@
     "file": "47.01.3.626.08-108.5-I,II,III-6-АИС.С4_Z.pdf",
     "title": "Pakscan. Схемы соединений",
     "description": "Тит. 15.2, 18, 19.",
-    "titul": ["15.2","18", "19"],
+    "titul": ["15.2", "18", "19"],
     "isShow": true
   },
   {
@@ -5395,7 +5439,7 @@
     "file": "108.4-I-84.1-201.(1-5)-АЭМ_19.pdf",
     "title": "Pakscan. Схемы соединений",
     "description": "Тит. 201.1-5",
-    "titul": ["201.1","201.2", "201.3", "201.4", "201.5"],
+    "titul": ["201.1", "201.2", "201.3", "201.4", "201.5"],
     "isShow": true
   },
   {
@@ -5525,7 +5569,7 @@
     "file": "108.3-I-48-АТХ_3.pdf",
     "title": "Петли по газоанализаторам. Схемы соединений",
     "description": "Тит 36, 43, 44.1.1, 44.3, 47, 48, 51.",
-    "titul": ["36","43","44.1.1","44.3","47","47","51"],
+    "titul": ["36", "43", "44.1.1", "44.3", "47", "47", "51"],
     "isShow": true
   },
   {
@@ -5845,7 +5889,7 @@
     "file": "8311_АСУ.pdf",
     "title": "Реконструкция резервуарного парка бензинов. Схемы",
     "description": "Проект",
-    "titul": ["210.6","210.7","35","41","49"],
+    "titul": ["210.6", "210.7", "35", "41", "49"],
     "isShow": true
   },
   {
@@ -5875,7 +5919,7 @@
     "file": "00722015-03-8311-АСУ-ТС-0.pdf",
     "title": "Реконструкция резервуарного парка бензинов. Схемы",
     "description": "Перечень входных/выходных сигналов и данных",
-    "titul": ["403","407","35", "41","49"],
+    "titul": ["403", "407", "35", "41", "49"],
     "isShow": true
   },
   {
@@ -6032,6 +6076,26 @@
     "name": "scheme",
     "folder": "uhb",
     "urlBase": "../public/scheme/210/",
+    "file": "00722015-03-2108-TXAK-3_0.pdf",
+    "title": "Тит. 210.8 Установка очистки подтоварной воды",
+    "description": "Технологическая схема и схема автоматизации",
+    "titul": ["210.8"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "uhb",
+    "urlBase": "../public/scheme/210/",
+    "file": "00722015-03-2108-АК.pdf",
+    "title": "Схемы",
+    "description": "Тит. 210.8 Установка очистки подтоварной воды",
+    "titul": ["210.8"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "uhb",
+    "urlBase": "../public/scheme/210/",
     "file": "108.3-III-210.(1-5)-АТХ.pdf",
     "title": "Схемы",
     "description": "тит. 210.1-5 Резервуарный парк бензинов",
@@ -6085,7 +6149,7 @@
     "file": "00722015-03-8311-АСУ-3-1.pdf",
     "title": "Реконструкция резервуарного парка бензинов. Схемы",
     "description": "35ШУ-05 Схема электрическая принципиальная.",
-    "titul": ["35","48","60.1","43","51","36"],
+    "titul": ["35", "48", "60.1", "43", "51", "36"],
     "isShow": true
   },
   {
@@ -6095,7 +6159,7 @@
     "file": "00722015-03-8311-АСУ-10-0.pdf",
     "title": "Реконструкция резервуарного парка бензинов. Схемы",
     "description": "35ШУ-05 Схема подключения внешних проводок",
-    "titul": ["35","48","60.1","43","51","36"],
+    "titul": ["35", "48", "60.1", "43", "51", "36"],
     "isShow": true
   },
   {
@@ -6105,7 +6169,7 @@
     "file": "00722015-03-8311-АСУ-6-0.pdf",
     "title": "Реконструкция резервуарного парка бензинов. Схемы",
     "description": "41ШУ-02 Схема электрическая принципиальная. Доработка",
-    "titul": ["41","48"],
+    "titul": ["41", "48"],
     "isShow": true
   },
   {
@@ -6115,7 +6179,7 @@
     "file": "00722015-03-8311-АСУ-13-0.pdf",
     "title": "Реконструкция резервуарного парка бензинов. Схемы",
     "description": "41ШУ-02 Схема подключения внешних проводок. Доработка",
-    "titul": ["41","48"],
+    "titul": ["41", "48"],
     "isShow": true
   },
   {
@@ -6445,7 +6509,7 @@
     "file": "ТОМ_01_АВТ.19-027-весь_проект.pdf",
     "title": "Тит. 41. Система контроля загазованности",
     "description": "Весь проект. Рабочая документация",
-    "titul": ["41","48"],
+    "titul": ["41", "48"],
     "isShow": true
   },
   {
@@ -6455,7 +6519,7 @@
     "file": "Том_02_Часть_1_(с_подписями).pdf",
     "title": "Тит. 41. Система контроля загазованности",
     "description": "Общие данные",
-    "titul": ["41","48"],
+    "titul": ["41", "48"],
     "isShow": true
   },
   {
@@ -6465,7 +6529,7 @@
     "file": "Том_02 _Часть_2_(с_подписями).pdf",
     "title": "Тит. 41. Система контроля загазованности",
     "description": "Кабельный журнал",
-    "titul": ["41","48"],
+    "titul": ["41", "48"],
     "isShow": true
   },
   {
@@ -6575,7 +6639,7 @@
     "file": "4701362608-1821-2-825-АТХ.pdf",
     "title": "Инженерные сети. Сети КиА",
     "description": "Тит. 82.5 ИТХ",
-    "titul": ["80.5","80.1","82.5", "404"],
+    "titul": ["80.5", "80.1", "82.5", "404"],
     "isShow": true
   },
   {
@@ -7969,6 +8033,36 @@
     "isShow": true
   },
   {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "ID12706_500132L1A.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "REMOTE CONTROL MC-3200. I/O Description Remote Control",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "500132L1A-1-1_ID12706_new.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-Link CAN mini",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/info/equipment/emco/",
+    "file": "MC-LINK-CAN-MINI_Indication.pdf",
+    "title": "Корабельные стендера EMCO WHEATON",
+    "description": "MC-Link CAN mini. Индикация",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
     "name": "scheme",
     "folder": "sug",
     "urlBase": "../public/scheme/204/",
@@ -8135,7 +8229,7 @@
     "file": "108_20-03-700.АК.Альбом_2.Автоматизация_комплексная_изм.1.pdf",
     "title": "Организация перевалки третьего дополнительного продукта. Пентан",
     "description": "Проект. Автоматизация комплексная. РСУ и ПАЗ",
-    "titul": ["35","41","49","303","403"],
+    "titul": ["35", "41", "49", "303", "403"],
     "isShow": true
   },
   {
@@ -8467,6 +8561,155 @@
     "description": "Описание алгоритмов",
     "titul": [""],
     "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ias/",
+    "file": "ИАС_Руководство_администратора_(краткая_версия).pdf",
+    "title": "ИАС",
+    "description": "Руководство администратора (краткая версия)",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/tula/",
+    "file": "ТУЛАЭЛЕКТРОПРИВОД.pdf",
+    "title": "Оборудование фирмы Тулаэлектропривод",
+    "description": "Руководство по эксплуатации",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/tula/",
+    "file": "краткая_инструкция_тула_привод.pdf",
+    "title": "Оборудование фирмы Тулаэлектропривод",
+    "description": "Краткая инструкция",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "SHIEBEL.pdf",
+    "title": "Оборудование фирмы SHIEBEL",
+    "description": "Электрическая схема подключения",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Rittal_3114200_Руководство_3_6523.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "Rittal. Цифровой индикатор и регулятор внетренней температуры шкафа",
+    "titul": ["49", "35"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "re-gazkontrol-04-v-2-3.pdf",
+    "title": "Газоанализаторы",
+    "description": "Газконтроль-04. Стационарный Газоанализатор.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "DEHN_connect.pdf",
+    "title": "Не разобрано",
+    "description": "DEHNconnect RK",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "ROTORK_6000-200-02.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "6000-200-02 IQT + PAKSCAN",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/hafi/GB/",
+    "file": "GM15_CP1_rev6.pdf",
+    "title": "Схемы",
+    "description": "Газодувки. Шкаф управления CP1",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/hafi/GB/",
+    "file": "Gm15_MCC_rev4.pdf",
+    "title": "Схемы",
+    "description": "Газодувки. Шкаф силовой MCC",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/43/",
+    "file": "306-ПН.СУБ.2014.ВО.pdf",
+    "title": "Тит. 43 Установка рекуперации паров бензина. Проект ИНКОМСИСТЕМ",
+    "description": "Чертех общего вида",
+    "titul": ["43"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/43/",
+    "file": "306-ПН.СУБ.2014.СБ.pdf",
+    "title": "Тит. 43 Установка рекуперации паров бензина. Проект ИНКОМСИСТЕМ",
+    "description": "Схема электрическая принципиальная",
+    "titul": ["43"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "reglament",
+    "urlBase": "../public/info/reglament/",
+    "file": "ТР1_том_2_18.01.2022.pdf",
+    "title": "Технологический регламент",
+    "description": "ТР.1 Система приема, хранения и отгрузки СУГ под давлением",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "reglament",
+    "urlBase": "../public/info/reglament/",
+    "file": "ТР2_03.02.2021.pdf",
+    "title": "Технологический регламент",
+    "description": "ТР.2 Система приема, хранения и отгрузки бензинов",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "reglament",
+    "urlBase": "../public/info/reglament/",
+    "file": "ТР.3_том_1_06.02.2017.pdf",
+    "title": "Технологический регламент",
+    "description": "ТР.3 Система приема, хранения и отгрузки СУГ охлажденных",
+    "titul": [""],
+    "isShow": true
   }
 ]
-
