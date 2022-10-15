@@ -1603,7 +1603,7 @@
     "folder": "siemens",
     "urlBase": "../public/asutp/siemens/",
     "file": "STEP7.V53_LAD.pdf",
-    "title": "Контроллеры",
+    "title": "Программирование",
     "description": "Контактный план для S7-300 и S7-400. Программирование",
     "titul": [""],
     "isShow": true
@@ -1613,7 +1613,7 @@
     "folder": "siemens",
     "urlBase": "../public/asutp/siemens/",
     "file": "CFC_V6_ru.pdf",
-    "title": "Контроллеры",
+    "title": "Программирование",
     "description": "CFC для s7. Непрерывные функциональные схемы",
     "titul": [""],
     "isShow": true
@@ -2463,7 +2463,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "REGIN_TTC25_О.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "REGIN TTC25. Симисторный регулятор мощности для электрических обогревателей.",
     "titul": [" "],
     "isShow": true
@@ -2503,7 +2503,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "Manual_Position_Sensor_RUS.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "Датчик положения SA96DX, SLCD-M1(eng).",
     "titul": [" "],
     "isShow": true
@@ -2513,7 +2513,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "CEMB_TR26_ТО.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "CEMB TR26. Датчик вибрации",
     "titul": [" "],
     "isShow": true
@@ -2523,7 +2523,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "1125-1129.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "Сигнальная колонна на светодиодах. Rittal",
     "titul": ["208"],
     "isShow": true
@@ -2543,7 +2543,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "SET-61pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "SET-61. Используется с датчиком сухого хода на котлах",
     "titul": ["5.1"],
     "isShow": true
@@ -2553,7 +2553,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "DYTRAN_3190A6.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "DYTRAN 3190A6. Акселерометр - измерение ускорения (виброускорение)",
     "titul": ["202.1", "202.2"],
     "isShow": true
@@ -2603,7 +2603,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "VIJMY250_Instr_PCM_MM.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "Модуль мониторинга РСМ ММ. Danfoss",
     "titul": [""],
     "isShow": true
@@ -2643,7 +2643,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "upes40_re.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "Устройство пороговое УПЭС-40. Руководство по эксплуатации",
     "titul": [""],
     "isShow": true
@@ -7375,16 +7375,6 @@
   {
     "name": "scheme",
     "folder": "sug",
-    "urlBase": "../public/scheme/204/",
-    "file": "АВОдоработка.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления.",
-    "description": "Проект. Автоматизация аппаратов воздушного охлаждения",
-    "titul": ["204.1", "403"],
-    "isShow": true
-  },
-  {
-    "name": "scheme",
-    "folder": "sug",
     "urlBase": "../public/scheme/209.x/",
     "file": "108.2-I-209.1-АТХ.pdf",
     "title": "Тит. 209.1 Факельное хозяйство высокого давления.",
@@ -8627,7 +8617,7 @@
     "folder": "other",
     "urlBase": "../public/kip/other/",
     "file": "DEHN_connect.pdf",
-    "title": "Не разобрано",
+    "title": "Разное",
     "description": "DEHNconnect RK",
     "titul": [""],
     "isShow": true
@@ -8710,6 +8700,316 @@
     "title": "Технологический регламент",
     "description": "ТР.3 Система приема, хранения и отгрузки СУГ охлажденных",
     "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "Adam4561eng.pdf",
+    "title": "Диагностика КИП",
+    "description": "Adam 4561. User manual",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "flh-t_instruction.pdf",
+    "title": "Разное",
+    "description": "FLH-T instruction. Нагреватель с вентилятором и встроенным термостатом",
+    "titul": ["602.1", "602.2", "602.3", "602.5", "602.6", "602.7", "602.8", "15.1", "603.1", "603.2"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "methodologies",
+    "urlBase": "../public/info/methodologies/",
+    "file": "Honeywell_Enraf_SYNCROTRAK.pdf",
+    "title": "Технологическое оборудование. Инструкции",
+    "description": "Honeywell Enraf.Small Volume Prover. Operation & Service Manual",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "server",
+    "urlBase": "../public/asutp/server/",
+    "file": "STN0119_Очистка_пространства.pdf",
+    "title": "EXA Quantum",
+    "description": "STN0119. Очистка пространства",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "SIMATIC_MODBUS.pdf",
+    "title": "Контроллеры",
+    "description": "SIMATIC MODBUS",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "SIMATIC_STEP7&WinCC_Engineering_V15.1.pdf",
+    "title": "Программирование",
+    "description": "SIMATIC. STEP 7 and WinCC Engineering. System manual.pdf",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "Step7_v5_References_STL_r.pdf",
+    "title": "Программирование",
+    "description": "SIMATIC. STL для  S7-300 и S7-400, программирование",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "Quint_DC_UPS_20A.pdf",
+    "title": "Источники бесперебойного питания",
+    "description": "Quint DCUPS 20A",
+    "titul": ["6", "49", "35"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ModBus/",
+    "file": "Fuckel_DOCUMENTATION.pdf",
+    "title": "ModBus",
+    "description": "Узлы учета топливного газа. Fuckel DOCUMENTATION. Карта modbus",
+    "titul": ["209.1", "209.2"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ModBus/",
+    "file": "modbus_MK26.pdf",
+    "title": "ModBus",
+    "description": "Метеостанция.Описание и карта modbus",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ModBus/",
+    "file": "Modbus_ARP_2Arm.pdf",
+    "title": "ModBus",
+    "description": "Modbus for ARP 2Arm",
+    "titul": ["59.1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ModBus/",
+    "file": "Modbus_ARP_4Arm",
+    "title": "ModBus",
+    "description": "Modbus for ARP 4Arm",
+    "titul": ["60.1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ModBus/",
+    "file": "H57880_NGCUIT_Modbus_Register_Map.pdf",
+    "title": "ModBus",
+    "description": "Обогрев. Карта Modbus для одной цепи обогрева.",
+    "titul": ["42"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ModBus/",
+    "file": "H57880_NGCUIT_Modbus_Man_0508.pdf",
+    "title": "ModBus",
+    "description": "Обогрев. NGCUIT Modbus.",
+    "titul": ["42"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "artic",
+    "urlBase": "../public/info/artic/",
+    "file": "ModbusTips.pdf",
+    "title": "О modbus.",
+    "description": "Заметки о Modbus",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "artic",
+    "urlBase": "../public/info/artic/",
+    "file": "Modbus_Rus.pdf",
+    "title": "О modbus.",
+    "description": "Описание Modbus",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/cisco/",
+    "file": "ie3000cr.pdf",
+    "title": "Cisco",
+    "description": "Cisco IE3000 Switch. Command Reference.",
+    "titul": ["6", "49", "35"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/cisco/",
+    "file": "scg_ie3000.pdf",
+    "title": "Cisco",
+    "description": "Cisco IE3000 Switch. Software Configuration Guide.",
+    "titul": ["6", "49", "35"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/cisco/",
+    "file": "ie3000_ru.pdf",
+    "title": "Cisco",
+    "description": "Cisco IE3000 Switch. Руководство по установке аппаратного обеспечения",
+    "titul": ["6", "49", "35"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "990-3402a-ru.pdf",
+    "title": "Плата сетевого управления APC Smart UPS.",
+    "description": "Руководство пользователя",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "990-3404a-ru.pdf",
+    "title": "Плата сетевого управления APC Smart UPS.",
+    "description": "Руководство по установке.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "Anybus_PROFIBUS_Slave_Step7_2.1.pdf",
+    "title": "Контроллеры локальные/Блоки управления",
+    "description": "Anybus. Configure Profibus Slave module with Siemens STEP 7 PLC.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/cisco/",
+    "file": "процедура_конфигурации_сетевых_коммутаторов.pdf",
+    "title": "Cisco",
+    "description": "Процедура конфигурации сетевых коммутаторов",
+    "titul": [" "],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/204/",
+    "file": "ЭК 711.000.322-403.1.-АСУ.С4 _АВО_204.1.pdf",
+    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления.",
+    "description": "Проект. Автоматизация аппаратов воздушного охлаждения",
+    "titul": ["204.1", "403"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ias/",
+    "file": "Руководство_администратора_ИАС_(редакция_5).pdf",
+    "title": "ИАС",
+    "description": "Руководство администратора ИАС (редакция 5)",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ias/",
+    "file": "Руководство_пользователя_ИАС_(редакция_5).pdf",
+    "title": "ИАС",
+    "description": "Руководство пользователя ИАС (редакция 5)",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ias/",
+    "file": "Инструкция_по_резервному_копирования_бд_Master_SCADA.pdf",
+    "title": "ИАС",
+    "description": "Краткая инструкция по выполнению резервного копирования базы данных Master SCADA",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ias/",
+    "file": "Чек-лист_ИАС.pdf",
+    "title": "ИАС",
+    "description": "Чек-лист при проблемах с ИАС. Что проверять. Последовательность",
+    "titul": ["6"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "re_tsrm_033_doc2_17.pdf",
+    "title": "Счетчики-расходомеры. Взлет",
+    "description": "ТСР-033. Взлет ТСР-М. Теплосчетчик-регистратор",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "Том_1_АВТГ.21-040.АТХ_ИЗМ1.pdf",
+    "title": "Система контроля загазованности. Реконструкция",
+    "description": "Том 1. Автоматизация технологических процессов.",
+    "titul": ["201.1", "201.2", "201.3", "201.4", "201.5","201.6","201.7","201.8","204.1","204.2","209.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/303/",
+    "file": "Том_2_АВТГ.21-040.АСУ_ИЗМ.pdf",
+    "title": "Система контроля загазованности. Реконструкция",
+    "description": "Том 2. Автоматизированные системы управления технологическими процессами",
+    "titul": ["201.1", "201.2", "201.3", "201.4", "201.5","201.6","201.7","201.8","204.1","204.2","209.1"],
     "isShow": true
   }
 ]

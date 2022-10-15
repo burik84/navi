@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
           Идея проекта, дизайн и реализация <a href="mailto:burikAV@yandex.ru">burikAV</a>
         </p>
         <p>
-          Версия 5.01.02 от 26 января 2022. <CopyrightIcon color="primary" /> 2014-2022.{' '}
+          Версия 5.01.03 от 15 октября 2022. <CopyrightIcon color="primary" /> 2014-2022.{' '}
         </p>
       </div>
       <a className="footer__link" href="https://github.com/burik84/navi/tree/navi" target="_blank" rel="noreferrer">
