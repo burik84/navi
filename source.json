@@ -8816,7 +8816,7 @@
     "name": "asutp",
     "folder": "instruction",
     "urlBase": "../public/asutp/instruction/ModBus/",
-    "file": "Modbus_ARP_4Arm",
+    "file": "Modbus_ARP_4Arm.pdf",
     "title": "ModBus",
     "description": "Modbus for ARP 4Arm",
     "titul": ["60.1"],
