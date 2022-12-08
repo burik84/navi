@@ -9017,7 +9017,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/",
     "file": "Карта_уставок_К101-К104.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "Карты уставок К-101 - К104",
     "titul": ["204.1"],
     "isShow": true
@@ -9027,7 +9027,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/k101/",
     "file": "PLC-SIG-SIBUR_RAIL_TANVK-1_Модули.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "К101 - К103. Модули",
     "titul": ["204.1"],
     "isShow": true
@@ -9037,7 +9037,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/k104/",
     "file": "PLC-SIG-SIBUR_RAIL_TANVK_630_kW-1_Модули.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "К104. Модули",
     "titul": ["204.1"],
     "isShow": true
@@ -9047,7 +9047,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/k101/",
     "file": "RU1004-PID-30_Описание_работы.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "К101 - К103. Описание работы управления",
     "titul": ["204.1"],
     "isShow": true
@@ -9057,7 +9057,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/k104/",
     "file": "RU1004-PID-31_Описание_работы.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "К104. Описание работы управления",
     "titul": ["204.1"],
     "isShow": true
@@ -9067,7 +9067,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/k101/",
     "file": "ru1004-pid-30_Функциональная.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "К101 - К103. Функциональная",
     "titul": ["204.1"],
     "isShow": true
@@ -9077,7 +9077,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/k104/",
     "file": "ru1004-pid-31_Функциональная.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "К104. Функциональная",
     "titul": ["204.1"],
     "isShow": true
@@ -9087,7 +9087,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/cp/",
     "file": "1CP1_перевод.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "CP1. Щит управления",
     "titul": ["204.1"],
     "isShow": true
@@ -9097,7 +9097,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/cp/",
     "file": "1FCP1.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "1FCP1. Щит системы пожаротушения",
     "titul": ["204.1"],
     "isShow": true
@@ -9107,7 +9107,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/cp/",
     "file": "CP2.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "HMI. Сервисная станция",
     "titul": ["204.1"],
     "isShow": true
@@ -9117,7 +9117,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/cp/",
     "file": "MCC1_Rev5.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "MCC1. К101, К103. Шкаф силовой",
     "titul": ["204.1"],
     "isShow": true
@@ -9127,7 +9127,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/cp/",
     "file": "MCC2.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "MCC2. К102, К104. Шкаф силовой",
     "titul": ["204.1"],
     "isShow": true
@@ -9137,7 +9137,7 @@
     "folder": "sug",
     "urlBase": "../public/scheme/hafi/cp/",
     "file": "UPS.pdf",
-    "title": "Тит. 204.1. Компрессорная слива СУГ с блоком управления. HAFI.",
+    "title": "HAFI. Титул 204.1. К101 - К104.",
     "description": "UPS. Щит UPS",
     "titul": ["204.1"],
     "isShow": true
