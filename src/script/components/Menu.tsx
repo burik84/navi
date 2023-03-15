@@ -49,6 +49,7 @@ const asutp = [
   ['/asutp/scada', 'Scada'],
   ['/asutp/enraf', 'Enraf'],
   ['/asutp/smis', 'СМИС'],
+  ['/asutp/basis', 'Базис'],
 ];
 
 const info = [

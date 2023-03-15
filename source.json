@@ -2491,9 +2491,9 @@
   {
     "name": "info",
     "folder": "equipment",
-    "urlBase": "../public/asutp/instruction/",
+    "urlBase": "../public/asutp/instruction/aov/",
     "file": "VEZA_avtomatikaSAU.pdf",
-    "title": "Технологическое оборудование. Инструкции",
+    "title": "Системы управления вентиляцией. Инструкции",
     "description": "ВЕЗА ШСАУ. Система автоматического управления вентиляторных установок",
     "titul": ["208"],
     "isShow": true
@@ -2623,7 +2623,7 @@
     "folder": "equipment",
     "urlBase": "../public/info/equipment/",
     "file": "ВЕЗА_ШСАУ_РЭ.pdf",
-    "title": "Технологическое оборудование. Инструкции",
+    "title": "Системы управления вентиляцией. Инструкции",
     "description": "ВЕЗА ШСАУ. Шкафы управления системами вентиляции и кондиционирования воздуха.",
     "titul": ["303", "404", "403"],
     "isShow": true
@@ -2633,7 +2633,7 @@
     "folder": "equipment",
     "urlBase": "../public/info/equipment/",
     "file": "ВЕЗА_Комплект_автоматики_РЭ.pdf",
-    "title": "Технологическое оборудование. Инструкции",
+    "title": "Системы управления вентиляцией. Инструкции",
     "description": "ВЕЗА ШСАУ. Комплект автоматики.",
     "titul": ["303", "404", "403"],
     "isShow": true
@@ -3094,8 +3094,8 @@
     "urlBase": "../public/kip/analyzer/",
     "file": "DRAGER_Polytron_IR_334&340.pdf",
     "title": "Газоанализаторы",
-    "description": "DRAGER Polytron IR",
-    "titul": ["208"],
+    "description": "DRAGER Polytron IR - тип 334 и 340",
+    "titul": [""],
     "isShow": true
   },
   {
@@ -5147,7 +5147,7 @@
     "folder": "aov",
     "urlBase": "../public/scheme/aov/",
     "file": "ШСАУ_тит.20_П1.1,П1.1а.pdf",
-    "title": "Производственная зона .аов",
+    "title": "Административно-хозяйственная зона .аов",
     "description": "Тит. 20. П1.1, П1.1а",
     "titul": ["20"],
     "isShow": true
@@ -5157,7 +5157,7 @@
     "folder": "aov",
     "urlBase": "../public/scheme/aov/",
     "file": "ШСАУ_тит.20_П2.pdf",
-    "title": "Производственная зона .аов",
+    "title": "Административно-хозяйственная зона .аов",
     "description": "Тит. 20. П2",
     "titul": ["20"],
     "isShow": true
@@ -8686,7 +8686,7 @@
     "name": "info",
     "folder": "reglament",
     "urlBase": "../public/info/reglament/",
-    "file": "ТР2_03.02.2021.pdf",
+    "file": "ТР2_(редакция_4).pdf",
     "title": "Технологический регламент",
     "description": "ТР.2 Система приема, хранения и отгрузки бензинов",
     "titul": [""],
@@ -8696,7 +8696,7 @@
     "name": "info",
     "folder": "reglament",
     "urlBase": "../public/info/reglament/",
-    "file": "ТР.3_том_1_06.02.2017.pdf",
+    "file": "ТР3_Том_1_редакция_3.pdf",
     "title": "Технологический регламент",
     "description": "ТР.3 Система приема, хранения и отгрузки СУГ охлажденных",
     "titul": [""],
@@ -8917,9 +8917,9 @@
     "folder": "instruction",
     "urlBase": "../public/asutp/instruction/",
     "file": "Anybus_PROFIBUS_Slave_Step7_2.1.pdf",
-    "title": "Контроллеры локальные/Блоки управления",
+    "title": "Profibus/Modbus Gateway",
     "description": "Anybus. Configure Profibus Slave module with Siemens STEP 7 PLC.",
-    "titul": [""],
+    "titul": ["59.1", "60.1"],
     "isShow": true
   },
   {
@@ -9010,6 +9010,266 @@
     "title": "Система контроля загазованности. Реконструкция",
     "description": "Том 2. Автоматизированные системы управления технологическими процессами",
     "titul": ["201.1", "201.2", "201.3", "201.4", "201.5","201.6","201.7","201.8","204.1","204.2","209.1"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "sug",
+    "urlBase": "../public/scheme/209.x/",
+    "file": "Шкаф_розжига_209_1.pdf",
+    "title": "Тит. 209.1 Факельное хозяйство высокого давления.",
+    "description": "Шкаф управления розжигом",
+    "titul": ["209.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "x-am_2500_teh_rukovodstvo.pdf",
+    "title": "Газоанализаторы",
+    "description": "DRAGER X-am 2500",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "other",
+    "urlBase": "../public/kip/other/",
+    "file": "TYA-110-3.pdf",
+    "title": "Разное",
+    "description": "JUMO TIY-110. Тиристорный блок с аналоговым управлением",
+    "titul": ["208"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "temp",
+    "urlBase": "../public/kip/temp/",
+    "file": "tpu-0304-m2-n.pdf",
+    "title": "Преобразователи температуры",
+    "description": "ТПУ 0304. Термопреобразователи универсальные",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "ups",
+    "urlBase": "../public/kip/ups/",
+    "file": "SL-360_S_T_P_PR_PT.pdf",
+    "title": "Аккумуляторные батареи",
+    "description": "SL360. Используются в Siemens",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "SIMATIC_Panel_PC_677B_Operating_Instructions.pdf",
+    "title": "Siemens.",
+    "description": "SIMATIC Panel PC 677B. Operating Instructions.pdf",
+    "titul": ["404"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "equip",
+    "urlBase": "../public/kip/equip/",
+    "file": "Kalibrator-e`lektricheskih-signalov-CA51-71.pdf",
+    "title": "Диагностика КИП",
+    "description": "YOKOGAWA. Калибратор электрических сигналов CA51/71",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "ACT20M-CI-CO-S.pdf",
+    "title": "Барьеры защитные",
+    "description": "Преобразователь сигнала с гальванической развязкой ACT20M-CI-CO-S",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "map",
+    "urlBase": "../public/info/map/",
+    "file": "2016.01.15_ТР_Система_Бензинов_ТХ_редакция_4-Model.pdf",
+    "title": "Схемы технологические",
+    "description": "Технологическая схема. Парк бензинов.",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "ups",
+    "urlBase": "../public/scheme/700/",
+    "file": "109_20-03-700.3-АТХ_изм.1.pdf",
+    "title": "Схемы",
+    "description": "Тит. 700.3",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/7/",
+    "file": "(REMAK) ШСАУ №5035158.pdf",
+    "title": "Административно-хозяйственная зона .аов",
+    "description": "Тит. 7 Установка 01 правая. Ситсема управления VCS. Документация",
+    "titul": ["7"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/7/",
+    "file": "(REMAK) ШСАУ №5035159.pdf",
+    "title": "Административно-хозяйственная зона .аов",
+    "description": "Тит. 7 Установка 02 левая. Ситсема управления VCS. Документация",
+    "titul": ["7"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "aov",
+    "urlBase": "../public/scheme/aov/7/",
+    "file": "(REMAK) ШСАУ №5035160.pdf",
+    "title": "Административно-хозяйственная зона .аов",
+    "description": "Тит. 7 Установка 03 левая. Ситсема управления VCS. Документация",
+    "titul": ["7"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/asutp/instruction/aov/",
+    "file": "manual_vcb_2.pdf",
+    "title": "Системы управления вентиляцией. Инструкции",
+    "description": "REMAK. Блоки управления VCB",
+    "titul": ["7", "6", "1"],
+    "isShow": true
+  },
+  {
+    "name": "info",
+    "folder": "equipment",
+    "urlBase": "../public/asutp/instruction/aov/",
+    "file": "ru_vcs_manual_2019-10-31.pdf",
+    "title": "Системы управления вентиляцией. Инструкции",
+    "description": "REMAK. Блоки управления VCS",
+    "titul": ["7", "6", "1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "basis",
+    "urlBase": "../public/asutp/basis/",
+    "file": "Базис-100.pdf",
+    "title": "БАЗИС-100 контроллер модульный противоаварийной защиты, регисрации и управления (ПЛК)",
+    "description": "Описание контроллера",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "basis",
+    "urlBase": "../public/asutp/basis/",
+    "file": "Базис-100_modbus.pdf",
+    "title": "БАЗИС-100 контроллер модульный противоаварийной защиты, регисрации и управления (ПЛК)",
+    "description": "Описание адресов протокола ModBus",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "basis",
+    "urlBase": "../public/asutp/basis/",
+    "file": "Базис-100_РЭ.pdf",
+    "title": "БАЗИС-100 контроллер модульный противоаварийной защиты, регисрации и управления (ПЛК)",
+    "description": "Общие сведения",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "basis",
+    "urlBase": "../public/asutp/basis/",
+    "file": "Базис-100_РЭ-2.pdf",
+    "title": "БАЗИС-100 контроллер модульный противоаварийной защиты, регисрации и управления (ПЛК)",
+    "description": "Функционирование контроллера. Принципы функционирования контроллера",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "basis",
+    "urlBase": "../public/asutp/basis/",
+    "file": "Базис-100_РЭ-3.pdf",
+    "title": "БАЗИС-100 контроллер модульный противоаварийной защиты, регисрации и управления (ПЛК)",
+    "description": "Функционирование контроллера. Функционирование модулей ПУ1 и ПУ2",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "basis",
+    "urlBase": "../public/asutp/basis/",
+    "file": "Базис-100_РЭ-4.pdf",
+    "title": "БАЗИС-100 контроллер модульный противоаварийной защиты, регисрации и управления (ПЛК)",
+    "description": "Функционирование контроллера. Функционирование модуля ПУ4",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "basis",
+    "urlBase": "../public/asutp/basis/",
+    "file": "Базис-100_РЭ-5.pdf",
+    "title": "БАЗИС-100 контроллер модульный противоаварийной защиты, регисрации и управления (ПЛК)",
+    "description": "Инструкция по пусконаладке",
+    "titul": ["303"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "siemens",
+    "urlBase": "../public/asutp/siemens/",
+    "file": "siemens_s7-1200_modbus_universal.pdf",
+    "title": "Программирование",
+    "description": "Siemens S7-1200 Подключение контроллера по протоколу ModBus TCP",
+    "titul": ["209.2"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/ModBus/",
+    "file": "MU_MasterOPC_Server_API_UG.pdf",
+    "title": "ModBus",
+    "description": "Modbus Universal MasterOPC сервер",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "GW-7552 quickstart-en.pdf",
+    "title": "Profibus/Modbus Gateway",
+    "description": "GW-7552. Quick start user guide",
+    "titul": ["59.1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/",
+    "file": "GW-7552 user manual-en.pdf",
+    "title": "Profibus/Modbus Gateway",
+    "description": "GW-7552. User's Manual",
+    "titul": ["59.1"],
     "isShow": true
   }
 ]
