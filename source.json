@@ -9088,7 +9088,7 @@
     "urlBase": "../public/kip/mod/",
     "file": "ACT20M-CI-CO-S.pdf",
     "title": "Барьеры защитные",
-    "description": "Преобразователь сигнала с гальванической развязкой ACT20M-CI-CO-S",
+    "description": "ACT20M-CI-CO-S Дубликатор/Изолятор сигнала",
     "titul": ["700.3"],
     "isShow": true
   },
@@ -9270,6 +9270,106 @@
     "title": "Profibus/Modbus Gateway",
     "description": "GW-7552. User's Manual",
     "titul": ["59.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "КТМ100_Руководство.pdf",
+    "title": "Счетчики-расходомеры.",
+    "description": "КТМ100 Счетчик газа. Руководство по эксплуатации",
+    "titul": ["209.2", "209.1"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "rashod",
+    "urlBase": "../public/kip/rashod/",
+    "file": "КТМ100РУС_СЧЕТЧИК_ГАЗА.pdf",
+    "title": "Счетчики-расходомеры.",
+    "description": "КТМ100 Счетчик газа. Руководство по эксплуатации",
+    "titul": ["209.2", "209.1"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/abak/",
+    "file": "rp_ptkabak.pdf",
+    "title": "Котроллеры программируемые логические АБАК ПЛК",
+    "description": "ПТК АБАК. Руководство пользователя.",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/abak/",
+    "file": "rnp_abakplc.pdf",
+    "title": "Котроллеры программируемые логические АБАК ПЛК",
+    "description": "АБАК ПЛК. Руководство по настройке и программированию.",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/abak/",
+    "file": "re_abak3.pdf",
+    "title": "Котроллеры программируемые логические АБАК ПЛК",
+    "description": "АБАК+. Руководство по эксплуатации.",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/abak/",
+    "file": "re_abakplc2.pdf",
+    "title": "Котроллеры программируемые логические АБАК ПЛК",
+    "description": "АБАК ПЛК. Исполнение К2. Руководство по эксплуатации.",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "asutp",
+    "folder": "instruction",
+    "urlBase": "../public/asutp/instruction/abak/",
+    "file": "re_abakplc3.pdf",
+    "title": "Котроллеры программируемые логические АБАК ПЛК",
+    "description": "АБАК ПЛК. Исполнение К3. Руководство по эксплуатации.",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "analyzer",
+    "urlBase": "../public/kip/analyzer/",
+    "file": "binar-xx-xxx-x-re.pdf",
+    "title": "Газоанализаторы",
+    "description": "Бинар",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "1176020000-act20m-ai-2ao-s-ru.pdf",
+    "title": "Барьеры защитные",
+    "description": "ACT20M-AI-2AO-S Дубликатор/изолятор сигнала.",
+    "titul": ["700.3"],
+    "isShow": true
+  },
+  {
+    "name": "scheme",
+    "folder": "us",
+    "urlBase": "../public/scheme/212/",
+    "file": "43-П_21-АТХ.ПП 28.03.23.pdf",
+    "title": "Схемы",
+    "description": "Тит. 212. Перечень параметров.",
+    "titul": ["212"],
     "isShow": true
   }
 ]
