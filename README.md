@@ -4,6 +4,7 @@
 | ------ | ------ |------ |
 | current | 01.10.2018 | v4.18.12 |
 | update | 01.08.2021 | v5.00.01 |
+| update | 04.04.2023 | v5.01.04 |
 
 ## Support
 
@@ -15,6 +16,7 @@
   - assets // files and folder for compilation
   - script // files scripts .tsx
   - styles // files styles .scss
+- source.json //file with all links and very important for navi!!!
 
 ### Plugins
 
