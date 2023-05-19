@@ -3254,7 +3254,17 @@
     "urlBase": "../public/kip/drive/",
     "file": "ROTORK_SIPro.pdf",
     "title": "Оборудование фирмы Rotork",
-    "description": "Серия SIPro.",
+    "description": "Серия SI Pro. Руководство по установке и эксплуатации",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "SI ProTraining Manual - daft  Rotork (30-03-12) word.pdf",
+    "title": "Оборудование фирмы Rotork",
+    "description": "Серия SI Pro.",
     "titul": [""],
     "isShow": true
   },
@@ -9500,6 +9510,26 @@
     "title": "Схемы",
     "description": "Тит. 212. Перечень параметров.",
     "titul": ["212"],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "mod",
+    "urlBase": "../public/kip/mod/",
+    "file": "QUINT-PS-100-240AC24DC10.pdf",
+    "title": "Блоки питания",
+    "description": "Quint Power QUINT-PS-100-240AC/24DC/10",
+    "titul": [""],
+    "isShow": true
+  },
+  {
+    "name": "kip",
+    "folder": "drive",
+    "urlBase": "../public/kip/drive/",
+    "file": "smw-si-001.pdf",
+    "title": "Оборудование фирмы Rotork. Схемы",
+    "description": "Rotork Skilmatic ",
+    "titul": [""],
     "isShow": true
   }
 ]
